@@ -3,11 +3,11 @@
 
 # TEAM
 
-  <name> -- <role> -- <twitter>
+  Nathan Contino -- Developer -- https://www.linkedin.com/in/natecontino
 
 # THANKS
 
-  <name>
+  for all the fish
 
 # TECHNOLOGY COLOPHON
 
