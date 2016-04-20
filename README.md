@@ -1,4 +1,3 @@
-# Nathan Contino's Personal Webpage
+# Stylish Portolio template for Jekyll
 
-
-My personal Webpage. Based off of the Naringu Jekyll theme created by Rizky Ariestiyansyah.
+A Jekyll implementation of the [Stylish Portfolio](http://startbootstrap.com/template-overviews/stylish-portfolio/) template by [Start Bootstrap](http://startbootstrap.com/).
