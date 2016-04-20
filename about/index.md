@@ -4,7 +4,7 @@ author: ncontino
 layout: page
 ---
 
-  <img alt="" src="http://en.gravatar.com/userimage/24637430/bd861150ece04c59dff2ca785562b354?size=200" width="200" height="200" />
+  <img alt="" src="{{ site.baseurl }}images/head.jpeg" width="200" height="200" />
 
 Hola, my name is __Nathan Contino__ and I’m a __Computer Scientist__ with equal parts interest in coding and writing.
 
