@@ -1,10 +1,8 @@
 # Site settings
-title: Stylish Portfolio
-email: your-email@domain.com
+title: Nathan Contino
+email: ncontino@u.rochester.edu
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Nathan Contino's personal website.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 
@@ -15,11 +13,11 @@ facebook_username: example
 twitter_username: example
 github_username: example
 address:
-  - line: 3481 Melrose Hill St
-  - line: "Los Angeles, CA 90029"
+  - line: 500 Joseph C Wilson Blvd
+  - line: "Rochester, NY 14627"
   # Feel free to add more lines here 
 telephone: (123) 456-7890
-copyright: Your Site
+copyright: 2016
 
 # API settings
 google_api_key: AIzaSyA8H0jVz_6Hc273rqNYKQ6AAiBvQfVKmYQ
