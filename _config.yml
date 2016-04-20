@@ -11,26 +11,24 @@ gems: [jekyll-paginate]
 permalink:           pretty
 
 # Setup
-title:               Naringu
-tagline:             'A Hacker like jekyll theme'
-description:         'oonlab is crafted with <3 by ariestiyansyah.'
-url:                 http://naringu.oonlab.com
+title:               Nathan Contino's Personal Website
+tagline:             'A dark-as-my-soul jekyll theme'
+description:         'Created by Nathan Contino'
+url:                 nathan-contino.github.io
 baseurl:             /
 paginate:            7
 
 # About/contact
 author:
-  name:              Rizky Ariestiyansyah
-  url:               https://twitter.com/ariestiyansyah
-  email:             ariestiyansyah.rizky@gmail.com
+  name:              Nathan Contino
+  url:               nathan-contino.github.io
+  email:             ncontino(at)u.rochester.edu
 
 # Custom vars
 version:             2.0
 
 # Social Media
-github:				http://github.com/ariestiyansyah
-twitter:			http://twitter.com/ariestiyansyah
-disqus:             testnaringu
+github:				http://github.com/nathan-contino
 
 # Theme Author (Please don't edit this line cause of MIT LICENSE rules)
 theme:
