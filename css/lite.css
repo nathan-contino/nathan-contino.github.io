@@ -1,10 +1,10 @@
 BODY {
-  font-size: 12pt;
+  font-size: 11pt;
   color: white;
   background-color: #4A525A;
-  padding-left: 50px;
-  padding-right:50px;
-  padding-bottom:100px;}
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;}
 
 a:link {color: #CCC;}
 a:visited {color: #00bbbb;}
@@ -14,11 +14,13 @@ a:link.external {color: #dd4814;}
 a:visited.external {color: #ff4814;}
 a:active.external {color: lime;}
 
-H1 {font-family: serif; color: #dd4814;}
-H2 {font-family: serif; color: #dd4814;}
-H3 {font-family: serif; color: #dd4814;}
+H1 {color: #dd4814;}
+H2 {color: #dd4814;}
+H3 {color: #dd4814;}
 
 P {max-width: 100ex;}
+
+div {font-size: 11px;}
 
 LI {margin: 16px 0px 16px 0px; max-width: 90ex;}
 
@@ -50,4 +52,18 @@ lambda {
     font-size:80px;
     color: #dd4814;
     font-weight:bold;
+}
+
+footer {
+	font-size:8px;
+	font-style:italic;
+	color:#CCC;
+}
+
+HTML {
+	font-family: Verdana, "Bitstream Vera Sans", sans-serif;
+}
+
+#pdfdisplay {
+	height: 70vh;
 }
