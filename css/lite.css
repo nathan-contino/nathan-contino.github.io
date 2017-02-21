@@ -1,0 +1,53 @@
+BODY {
+  font-size: 12pt;
+  color: white;
+  background-color: #4A525A;
+  padding-left: 50px;
+  padding-right:50px;
+  padding-bottom:100px;}
+
+a:link {color: #CCC;}
+a:visited {color: #00bbbb;}
+a:active {color: lime;}
+
+a:link.external {color: #dd4814;}
+a:visited.external {color: #ff4814;}
+a:active.external {color: lime;}
+
+H1 {font-family: serif; color: #dd4814;}
+H2 {font-family: serif; color: #dd4814;}
+H3 {font-family: serif; color: #dd4814;}
+
+P {max-width: 100ex;}
+
+LI {margin: 16px 0px 16px 0px; max-width: 90ex;}
+
+PRE {color: #202080;}
+
+EM {color: #602020;}
+STRONG {color: #602020;}
+DFN {color: #602020;}
+VAR {color: #602020;}
+
+SAMP {color: #202080}
+TT {color: #202080;}
+CODE {color: #202080; white-space: pre;}
+
+rw {font-style: italic; color: #602020;}
+eqn {font-style: italic; color: 202080;}
+
+DIV.equation {font-style: italic; color: #202080; margin: 16px 0px 16px 0px;}
+DIV.equation EM {color: red;}
+
+SPAN.equation {font-style: italic; color: #202080;}
+SPAN.equation EM {color: red;}
+
+SPAN.program {font-family: monospace;}
+SPAN.rw {font-family: monospace; font-style: italic;}
+
+lambda {
+    font-family: "Courier New";
+    font-size:80px;
+    color: #dd4814;
+    font-weight:bold;
+}
