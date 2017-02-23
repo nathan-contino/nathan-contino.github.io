@@ -20,7 +20,10 @@ H3 {color: #dd4814;}
 
 P {max-width: 100ex;}
 
-div {font-size: 11px;}
+div {
+	font-size: 11px;
+	line-height: 1.8em;
+}
 
 LI {margin: 16px 0px 16px 0px; max-width: 90ex;}
 
@@ -49,6 +52,12 @@ SPAN.rw {font-family: monospace; font-style: italic;}
 
 lambda {
     font-family: "Courier New";
+    color: #dd4814;
+    font-weight:bold;
+}
+
+biglambda {
+    font-family: "Courier New";
     font-size:80px;
     color: #dd4814;
     font-weight:bold;
@@ -58,6 +67,12 @@ footer {
 	font-size:8px;
 	font-style:italic;
 	color:#CCC;
+}
+
+sidebar {
+	font-family: "Gill Sans MT","Gill Sans","Gill Sans Std",Verdana,"Bitstream Vera Sans",sans-serif;
+	letter-spacing: 2px;
+	font-size:11px;
 }
 
 HTML {
