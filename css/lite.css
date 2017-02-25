@@ -36,7 +36,7 @@ VAR {color: #602020;}
 
 SAMP {color: #202080}
 TT {color: #202080;}
-CODE {color: #202080; white-space: pre;}
+CODE {font-size: 14px; color: #AAA; white-space: pre;}
 
 rw {font-style: italic; color: #602020;}
 eqn {font-style: italic; color: 202080;}
