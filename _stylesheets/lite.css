@@ -51,13 +51,13 @@ SPAN.program {font-family: monospace;}
 SPAN.rw {font-family: monospace; font-style: italic;}
 
 lambda {
-    font-family: "Courier New", "FreeMono";
+    font-family: "FreeMono", "Courier New";
     color: #dd4814;
     font-weight:bold;
 }
 
 biglambda {
-    font-family: "Courier New", "FreeMono";
+    font-family: "FreeMono", "Courier New";
     font-size:80px;
     color: #dd4814;
     font-weight:bold;
