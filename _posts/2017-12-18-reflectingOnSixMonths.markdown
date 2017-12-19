@@ -1,5 +1,5 @@
 ---
-title:  "Reflecting on Six Months at Bloomberg""
+title:  "Reflecting on Six Months at Bloomberg"
 date:   2017-12-18 18:14:22 -0500
 layout: default
 categories: Bloomberg career retrospective milestone
