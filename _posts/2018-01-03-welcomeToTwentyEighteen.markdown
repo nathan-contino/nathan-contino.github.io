@@ -1,6 +1,6 @@
 ---
 title:  "Looking Forward to 2018"
-date:   2017-01-03 18:14:22 -0500
+date:   2018-01-03 18:14:22 -0500
 layout: default
 categories: Bloomberg career NewYear start
 ---
