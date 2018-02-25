@@ -52,14 +52,18 @@ SPAN.rw {font-family: monospace; font-style: italic;}
 
 lambda {
     font-family: "FreeMono", "Courier New", monospace;
-    color: #dd4814;
-    font-weight:bold;
+    color: #d24d15;
 }
 
 biglambda {
     font-family: "FreeMono", "Courier New", monospace;
     font-size:80px;
-    color: #dd4814;
+    color: #d24d15;
+}
+
+h1 {
+    font-family: "FreeMono", "Courier New", monospace;
+    color: #d24d15
 }
 
 footer {
