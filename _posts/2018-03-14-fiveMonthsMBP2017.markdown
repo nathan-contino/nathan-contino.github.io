@@ -1,5 +1,5 @@
 ---
-title:  "Five Months with the 2017 MacBook Pro (15")"
+title:  "Five Months with the 2017 MacBook Pro (15``)"
 date:   2018-03-14 18:14:22 -0500
 layout: default
 categories: rants
