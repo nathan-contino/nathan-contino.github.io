@@ -8,7 +8,7 @@ BODY {
 
 a:link {color: #CCC;}
 a:visited {color: #00bbbb;}
-a:active {color: lime;}
+a:active {color: #4A525A;}
 
 a:link.external {color: #77216F; text-decoration: none;}
 a:visited.external {color: #5E2750; text-decoration: none;}
