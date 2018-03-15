@@ -7,12 +7,12 @@ BODY {
   padding-bottom: 5%;}
 
 a:link {color: #CCC;}
-a:visited {color: #dd4814;}
-a:active {color: #dd4814;}
+a:visited {color: #f37320;}
+a:active {color: #f37320;}
 
 a:link.external {color: #77216F; text-decoration: none;}
-a:visited.external {color: #dd4814; text-decoration: none;}
-a:active.external {color: #dd4814; text-decoration: none;}
+a:visited.external {color: #f37320; text-decoration: none;}
+a:active.external {color: #f37320; text-decoration: none;}
 
 H1 {color: #dd4814;}
 H2 {color: #dd4814;}
