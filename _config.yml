@@ -20,6 +20,9 @@ description: > # greater_than means to ignore newlines until "baseurl:"
 baseurl: /
 url: "http://nathan-contino.github.io"
 
+# timezone shenanigans
+future: true
+
 # Build settings
 markdown: kramdown
 theme: minima
