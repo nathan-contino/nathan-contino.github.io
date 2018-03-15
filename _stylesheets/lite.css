@@ -12,7 +12,7 @@ a:active {color: #4A525A;}
 
 a:link.external {color: #77216F; text-decoration: none;}
 a:visited.external {color: #5E2750; text-decoration: none;}
-a:active.external {color: lime; text-decoration: none;}
+a:active.external {color: #4A525A; text-decoration: none;}
 
 H1 {color: #dd4814;}
 H2 {color: #dd4814;}
