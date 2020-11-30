@@ -25,22 +25,10 @@ div {
 	line-height: 1.8em;
 }
 
-LI {margin: 16px 0px 16px 0px; max-width: 90ex;}
-
-PRE {color: #202080;}
-
-EM {color: #222;}
-STRONG {color: #222;}
-DFN {color: #222;}
-VAR {color: #222;}
-
-SAMP {color: #202080}
-TT {color: #202080;}
 code,
 .code,
 pre {
   font-family: "FreeMono", "Courier New", monospace;
-  color: #d24d15;
   font-weight: bold;
   font-size: 14px;
   max-width: 94ex;
@@ -48,7 +36,7 @@ pre {
 }
 
 rw {font-style: italic; color: #602020;}
-eqn {font-style: italic; color: 202080;}
+eqn {font-style: italic; color: #202080;}
 
 DIV.equation {font-style: italic; color: #202080; margin: 16px 0px 16px 0px;}
 DIV.equation EM {color: red;}
