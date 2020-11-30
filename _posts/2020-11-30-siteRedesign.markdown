@@ -19,7 +19,7 @@ However, as the years have passed on, I've noticed a few weaknesses of
 the site:
 
 - I originally "borrowed" a lot of CSS cues from the
-[Daring Fireball](daringfireball.net) website. And by
+[Daring Fireball](www.daringfireball.net) website. And by
 borrowed, I mean that I pretty much copied the styling
 because it meshed well with my minimalistic website
 preferences. 
