@@ -8,22 +8,27 @@ Since I created this site, I've received many questions about the name. As a res
 
 Now that you're familiar with the tip of the lambda iceberg, you're probably wondering: just what the hell is lambda calculus anyway? The wikipedia page is not particularly good at teaching the basics, so you probably expect me to demonstrate something. As it turns out, you're in luck. Behold: a lambda calculus example:
 
-	λparameter.(function parameter parameter) input
+~~~ bash
+λparameter.(function parameter parameter) input
+~~~
 
 Which is equivalent to this function in C:
 
+~~~ c
+int lambda(int parameter){
+	function(parameter, parameter);
+}
 
-	int lambda(int parameter){
-		function(parameter, parameter);
-	}
-
-	int main(){
-		lambda(input);
-	}
+int main(){
+	lambda(input);
+}
+~~~
 
 That's pretty basic, but it shows you the way that lambda functions work: the lambda function pulls in an input item and replaces "parameter" in its body with the value of input. Now I can show you something a lot cooler:
 
-	λg.(λx.g (x x)) (λx.g (x x))
+~~~ bash
+λg.(λx.g (x x)) (λx.g (x x))
+~~~
 
 Above is a \*magical\* function the lambda calculus calls a fixed-point combinator. Basically, it's a recursive function that repeatedly applies itself. Of course this is probably all pretty nonsensical because you've probably never seen or heard, much less played with, the lambda calculus before you saw this blog post. So now I'll get back to my story about why this page is called &#955; Lovers.
 

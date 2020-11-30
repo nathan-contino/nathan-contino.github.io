@@ -36,7 +36,16 @@ VAR {color: #222;}
 
 SAMP {color: #202080}
 TT {color: #202080;}
-CODE {font-size: 14px; color: #AAA; white-space: pre;}
+code,
+.code,
+pre {
+  font-family: "FreeMono", "Courier New", monospace;
+  color: #d24d15;
+  font-weight: bold;
+  font-size: 14px;
+  max-width: 94ex;
+  padding: 10px 0px 10px 10px;
+}
 
 rw {font-style: italic; color: #602020;}
 eqn {font-style: italic; color: 202080;}
