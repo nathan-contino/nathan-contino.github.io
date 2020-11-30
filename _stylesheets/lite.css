@@ -1,18 +1,18 @@
 BODY {
   font-size: 11pt;
-  color: white;
-  background-color: #4A525A;
+  color: black;
+  background-color: #ccff99;
   padding-left: 5%;
   padding-right: 5%;
   padding-bottom: 5%;}
 
-a:link {color: #CCC;}
-a:visited {color: #f37320;}
-a:active {color: #f37320;}
+a:link {color: #f37320;}
+a:visited {color: #111;}
+a:active {color: #11C;}
 
-a:link.external {color: #77216F; text-decoration: none;}
-a:visited.external {color: #f37320; text-decoration: none;}
-a:active.external {color: #f37320; text-decoration: none;}
+a:link.external {color: #f37320; text-decoration: none;}
+a:visited.external {color: #111; text-decoration: none;}
+a:active.external {color: #11C; text-decoration: none;}
 
 H1 {color: #dd4814;}
 H2 {color: #dd4814;}
