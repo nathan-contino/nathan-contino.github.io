@@ -15,37 +15,37 @@ After reading *Flash Boys: Not So Fast*, I had a lot of unanswered questions abo
 
 I have a lot of questions. Fortunately, after some independent research and a lot of staring at my ceiling trying to fall asleep, I came up with a few answers.
 
-1) How do HFTs make their money? 
+## How do HFTs make their money? 
 
-    - Probably a combination of mostly ethically sound ultra-efficient
-    computationally driven market making (~60% of HFTs) and 40% of
-    god-knows-what ethically-filthy front-running,
-    dark-pool-information-harvesting somethingorother.
+Probably a combination of mostly ethically sound ultra-efficient
+computationally driven market making (~60% of HFTs) and 40% of
+god-knows-what ethically-filthy front-running,
+dark-pool-information-harvesting somethingorother.
 
-2) Why is HFT legal?
+## Why is HFT legal?
 
-    - Because market making is actually important for liquidity and stable
-    markets, so somebody has to do it. It seems like HFTs largely just
-    displaced overpaid Wall Street fat cats with computers, algorithms, and
-    programmers who could do the same job at larger scales and lower price
-    points. But some HFTs seem to be caught up in shady Wall Street
-    exploitation of clients and data, and it seems like front-running (which
-    Kovak explains is "impossible" rather unconvincingly) actually does happen
-    at some scale, whether between markets or in dark pools or whatever. Like
-    most businesses, HFT is a mix of useful and bad practices with a lot of
-    grey area. To make matters worse, financial markets are a pretty complex
-    thing (both because finance is complex and because people try to make it
-    more complex to bamboozle customers (*cough cough* CDS)). Basically it's a
-    tough nut to crack, legally speaking.
+Because market making is actually important for liquidity and stable
+markets, so somebody has to do it. It seems like HFTs largely just
+displaced overpaid Wall Street fat cats with computers, algorithms, and
+programmers who could do the same job at larger scales and lower price
+points. But some HFTs seem to be caught up in shady Wall Street
+exploitation of clients and data, and it seems like front-running (which
+Kovak explains is "impossible" rather unconvincingly) actually does happen
+at some scale, whether between markets or in dark pools or whatever. Like
+most businesses, HFT is a mix of useful and bad practices with a lot of
+grey area. To make matters worse, financial markets are a pretty complex
+thing (both because finance is complex and because people try to make it
+more complex to bamboozle customers (*cough cough* CDS)). Basically it's a
+tough nut to crack, legally speaking.
 
-3) Why does Michael Lewis feel such a strong need to attack HFTs?
+## Why does Michael Lewis feel such a strong need to attack HFTs?
     
-    - This is probably the thing I'm most curious about when it comes to *Flash Boys*. As one of my favorite finance/tech writers (and, technically, my coworker) Matt Levine says: 
+This is probably the thing I'm most curious about when it comes to *Flash Boys*. As one of my favorite finance/tech writers (and, technically, my coworker) Matt Levine says: 
 
-    > In my alternative Michael Lewis story, the smart young whippersnappers
-    > build high-frequency trading firms that undercut big banks'
-    > gut-instinct-driven market making with tighter spreads and
-    > cheaper trading costs.
+> In my alternative Michael Lewis story, the smart young whippersnappers
+> build high-frequency trading firms that undercut big banks'
+> gut-instinct-driven market making with tighter spreads and
+> cheaper trading costs.
 
 That is, Michael Lewis has made his career -- *Moneyball*, *The Big Short*, *Liar's Poker*, etc. -- by, for the most part, writing focus pieces on individuals who rise above the alpha jock status quo of an industry using brains, math, and statistics. His protagonists tend to use these advantages to disrupt industries much like HFTs disrupted stock exchanges and market makers in the naughties. So why doesn't Michael Lewis write a story glorifying HFTs? As far as I can tell, nobody knows. Maybe Lewis got tired of writing underdog stories. Or maybe he really hates computers. Maybe one of those "bad" HFTs was caught messing with some of his investments. My head-canon on the subject is that Lewis tried to write the story behind HFTs, but they were all so busy writing code and disrupting markets that none of them would talk to him. Then Lewis got upset, grumbled "nobody ignores Michael Lewis!" and wrote Flash Boys over a weekend while angrily guzzling scotch. At least, that would make most of the issues in *Flash Boys* make a lot more sense.
 
