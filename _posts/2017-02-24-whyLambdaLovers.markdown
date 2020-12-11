@@ -17,11 +17,11 @@ Which is equivalent to this function in C:
 ~~~ c
 int lambda(int parameter){
 	function(parameter, parameter);
- }
+}
 
- int main(){
-	lambda(input);
- }
+int main(){
+    lambda(input);
+}
 ~~~
 
 That's pretty basic, but it shows you the way that lambda functions work: the lambda function pulls in an input item and replaces "parameter" in its body with the value of input. Now I can show you something a lot cooler:
