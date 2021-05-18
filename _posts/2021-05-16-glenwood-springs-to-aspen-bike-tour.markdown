@@ -410,7 +410,7 @@ Casey taproom and see their (very cute) setup.
 I also saw Lauren Boebert on the street in Glenwood Springs,
 which was... well, I guess it's nice to see representatives of
 Congress on the street, talking to people. That's all I can
-really say. And yes, she was carrying.
+really say. And yes, she was carrying. I think.
 
 As a final stop of our journey, Meg and I swung by
 [Westbound & Down](https://westboundanddown.com/), who've made
