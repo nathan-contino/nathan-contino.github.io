@@ -224,7 +224,7 @@ Who doesn't love gorges, multimillion dollar homes, and
 watching planes take off? After a brief break, we
 hopped on an optional "soft surface" section of the trail
 to test our mettle on gravel, and while we did see a lot
-cut small animals, I mostly just missed out on views of
+of cute small animals, I mostly just missed out on views of
 the gorge. We eventually made our way back to the paved
 section of trail, which transitioned into non-optional
 gravel about 100 feet later. Luckily there were good
