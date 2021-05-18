@@ -103,7 +103,7 @@ it lightly, absolutely bomb. They:
 - paired Meg's french toast (made with homemade bread,
   of course) with a raspberry compote topping that
   made me reconsider my decision to ever waste my time
-  on jam again.
+  on jam again
 
 ![french toast]({{ site.url }}/_images/may_21_bike_trip/french_toast.jpg){:width="100%"}
 *the best french toast Meg has ever had 10/10*
