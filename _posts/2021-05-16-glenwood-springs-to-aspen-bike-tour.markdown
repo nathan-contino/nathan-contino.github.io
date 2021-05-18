@@ -2,7 +2,6 @@
 title:  "Bikepacking from Glenwood Springs to Aspen (and back)"
 date:   2021-05-16 14:14:22 -0700
 layout: default
-categories: blog
 ---
 
 This weekend, I tried something new. I took a bike ride down the Rio
