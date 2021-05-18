@@ -46,7 +46,7 @@ we arrived in Glenwood Springs.
 
 # Glenwood Springs
 
-![fresh bikes]({{ site.url }}/_images/may_21_bike_trip/near_aspen.jpg){:width="100%"}
+![fresh bikes]({{ site.url }}/_images/may_21_bike_trip/the_journey_really_begins.jpg){:width="100%"}
 *the bikes looking fresh while Clem gets left behind in the RFTA parking lot*
 
 By 9 AM, we'd finished our
