@@ -242,6 +242,15 @@ of a beer and a burger).
 
 # Aspen
 
+Our time in Aspen started off strong. Instead of a beer
+and burger, we grabbed a pizza and some beers at a local
+brewery. And then a quinoa bowl, because we were hungry.
+And then a couple more beers, because we were still hungry.
+Honestly, by the end of it they didn't seem like they
+wanted to feed us any more, so I guess we must have eaten
+a horrifying amount of food or something. The pizza and
+beer was pretty solid, though.
+
 ![aspen]({{ site.url }}/_images/may_21_bike_trip/aspen_slopes.jpg){:width="100%"}
 *wandering around aspen left a strange desire to walk away from the people and up the mountain*
 
