@@ -139,7 +139,7 @@ of brown grass in the Denver metro area, I finally started
 to appreciate the whole "hills are alive" bit from The
 Sound of Music.
 
-![baby cow]({{ site.url }}/_images/may_21_bike_trip/baby_cow.jpg){:width="100%"}
+![baby cows]({{ site.url }}/_images/may_21_bike_trip/baby_cows.jpg){:width="100%"}
 *this baby cow's cuteness level was off the charts*
 
 At 12:05, we passed yet another lovely green farm, this
