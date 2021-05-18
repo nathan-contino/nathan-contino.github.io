@@ -367,9 +367,9 @@ By 11, we were back at SILO, enjoying a fantastic:
 - burger (all I can say is that it's the best burger I've had
   in Colorado, and even gave the burger at
   [Tørst](http://www.torstnyc.com/) a run for its money)
-- turkey club (blueberry saba is a bold choice, but it
-  panned out for sure. And the bread was a texture I've
-  never had before -- almost biscuity)
+- turkey club (blueberry [saba](https://www.sabajamsf.com/)
+  is a bold choice, but it went really well with the bacon.
+  And the bread was a texture I've never had before -- almost biscuity)
 - hashbrowns with green chiles and red onions (crispy bois)
 
 ![truss]({{ site.url }}/_images/may_21_bike_trip/truss.jpg){:width="100%"}
