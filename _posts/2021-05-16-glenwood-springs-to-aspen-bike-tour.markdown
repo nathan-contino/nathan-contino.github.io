@@ -76,7 +76,7 @@ Thirty minutes of slightly nervewracking riding down a
 *very* pretty section of bike path later, we arrived at
 Carbondale. One wrong turn in Carbondale brought us
 directly to a very friendly
-(bike shop)[http://www.basaltbikeandski.com/] where I
+[bike shop](http://www.basaltbikeandski.com/) where I
 quickly got my rack sorted out pro-bono. To the employee
 that helped me out: I hope your first house lease works
 out well!
