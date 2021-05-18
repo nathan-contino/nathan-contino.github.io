@@ -326,7 +326,9 @@ turkey on our walks around Denver.
 We ended up eating breakfast at a cute cafe in downtown
 Basalt around 8:45. The coffee wasn't the best, but the
 breakfast burrito and breakfast sandwich were magnificent.
-They could use some pointers on steaming milk.
+They could use some pointers on steaming milk, but maybe
+they just prefer to focus their talents on
+[steaming eggs](https://www.youtube.com/watch?v=vnfxk_slKIk).
 
 ![old basalt trail]({{ site.url }}/_images/may_21_bike_trip/old_basalt_trail.jpg){:width="100%"}
 *sully & mandarb ready to take on basalt*
