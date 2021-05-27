@@ -67,7 +67,7 @@ We ended up driving up to town in the car. Then we:
 
 # Sleeping Giant Loop
 
-![steamboat map]({{ site.url }}/_images/may_26_bike_trip/steamboat_map.jpg){:width="100%"}
+![steamboat map]({{ site.url }}/_images/may_26_bike_trip/steamboat_map.png){:width="100%"}
 *an artist's impression of steamboat springs, colorado*
 
 The town of Steamboat Springs sits in the middle of a big ol' valley.
@@ -171,8 +171,7 @@ a female elk. Given that we were riding around Elk Mountain, I like
 to think that it was *the* elk for which the mountain is named. Cute
 fella.
 
-![elk friend]({{ site.url }}/_images/may_26_bike_trip/elk_friend.jpg){:width="50%"}
-![elk friend horizon]({{ site.url }}/_images/may_26_bike_trip/elk_friend_horizon.jpg){:width="50%"}
+![elk friend]({{ site.url }}/_images/may_26_bike_trip/elk_friend.jpg){:width="50%"} ![elk friend horizon]({{ site.url }}/_images/may_26_bike_trip/elk_friend_horizon.jpg){:width="50%"}
 *THE elk of elk mountain / elk friend watches us watch him climb a hill*
 
 After that, it was hard to look in any direction without spotting
@@ -201,8 +200,7 @@ if that meant taking hundreds of close-up photos of the
 caterpillar... well, nobody's perfect. And I suspect that he
 enjoyed the photoshoot.
 
-![caterpillar]({{ site.url }}/_images/may_26_bike_trip/caterpillar.jpg){:width="50%"}
-![meg with caterpillar]({{ site.url }}/_images/may_26_bike_trip/meg_with_caterpillar.jpg){:width="50%"}
+![caterpillar]({{ site.url }}/_images/may_26_bike_trip/caterpillar.jpg){:width="50%"} ![meg with caterpillar]({{ site.url }}/_images/may_26_bike_trip/meg_with_caterpillar.jpg){:width="50%"}
 *lil fuzzy boi / meg watching over lil fuzzy boi's travels*
 
 At 11, we enjoyed lunch at a beautiful spot at the top of a
