@@ -168,7 +168,7 @@ a female elk. Given that we were riding around Elk Mountain, I like
 to think that it was *the* elk for which the mountain is named. Cute
 fella.
 
-![elk friend]({{ site.url }}/_images/may_26_bike_trip/elk_friend.jpg){:width="100%"} | ![elk friend horizon]({{ site.url }}/_images/may_26_bike_trip/elk_friend_horizon.jpg){:width="100%"}
+![elk friend]({{ site.url }}/_images/may_26_bike_trip/elk_friend.jpg){:width="350"} | ![elk friend horizon]({{ site.url }}/_images/may_26_bike_trip/elk_friend_horizon.jpg){:width="350"}
 --- | --- 
 *THE elk of elk mountain* | *elk friend watches us watch him climb a hill*
 
@@ -198,7 +198,7 @@ if that meant taking hundreds of close-up photos of the
 caterpillar... well, nobody's perfect. And I suspect that he
 enjoyed the photoshoot.
 
-![caterpillar]({{ site.url }}/_images/may_26_bike_trip/caterpillar.jpg){:width="100%"} | ![meg with caterpillar]({{ site.url }}/_images/may_26_bike_trip/meg_with_caterpillar.jpg){:width="100%"}
+![caterpillar]({{ site.url }}/_images/may_26_bike_trip/caterpillar.jpg){:width="350"} | ![meg with caterpillar]({{ site.url }}/_images/may_26_bike_trip/meg_with_caterpillar.jpg){:width="350"}
 --- | --- 
 *lil fuzzy boi* | *meg watching over lil fuzzy boi's travels*
 
