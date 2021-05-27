@@ -10,6 +10,9 @@ bicycle trip. No, we didn't take the bikes on water -- we decided to
 give the [rural dirt and gravel roads in Steamboat Springs](https://www.steamboatchamber.com/activities/biking/gravel-biking/)
 a try.
 
+![dirt road mountains]({{ site.url }}/_images/may_26_bike_trip/dirt_road_mountains.jpg){:width="100%"}
+*reason 1,789,563 springtime is a gem in CO*
+
 I've been riding a modernized steel 90s mountain bike ever since Meg
 and I moved to Colorado last year. Ever since we found a sick deal on
 a [Surly Disc Trucker](https://www.cyclingabout.com/surly-long-haul-trucker-the-best-all-round-touring-bike/)
@@ -161,9 +164,6 @@ worrying about other vehicles on the road.
 
 ![meg bushes]({{ site.url }}/_images/may_26_bike_trip/meg_bushes.jpg){:width="100%"}
 *finding pee spots in ranch land was not easy*
-
-![dirt road mountains]({{ site.url }}/_images/may_26_bike_trip/dirt_road_mountains.jpg){:width="100%"}
-*reason 1,789,563 springtime is a gem in CO*
 
 Around 9:40, we spotted our first non-domesticated large animal (NDLA) of
 the ride, a creature that I suspect was either a very large deer or
