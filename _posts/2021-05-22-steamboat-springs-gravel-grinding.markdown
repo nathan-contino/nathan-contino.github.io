@@ -128,9 +128,6 @@ very lowest "granny gear" of Mandarb and Sully to crank out the
 hill at a slow but steady speed. We passed with flying colors,
 and moved on ready to crush whatever hills challenged us next.
 
-![a good place to be a duck]({{ site.url }}/_images/may_26_bike_trip/a_good_place_to_be_a_duck.jpg){:width="100%"}
-*a good place to be a duck*
-
 After a couple more miles, the poorly maintained pavement dissolved
 into dirt at a suspiciously photogenic "pavement ends" sign. Meg
 and I finally got our first taste of biking on a totally dirt road,
@@ -212,11 +209,14 @@ of hard kombucha and appreciated the fact that we packed
 a picnic of salami sandwiches and brownies instead of trying
 to make the maximum possible mile time.
 
+![lunch]({{ site.url }}/_images/may_26_bike_trip/lunch.jpg){:width="100%"}
+*salami sammies and kombuch with a view*
+
 ![nate lunch]({{ site.url }}/_images/may_26_bike_trip/nate_lunch.jpg){:width="100%"}
 *nate claimed this to be "very comfy", meg is still sus*
 
-![lunch]({{ site.url }}/_images/may_26_bike_trip/lunch.jpg){:width="100%"}
-*salami sammies and kombuch with a view*
+![a good place to be a duck]({{ site.url }}/_images/may_26_bike_trip/a_good_place_to_be_a_duck.jpg){:width="100%"}
+*a good place to be a duck*
 
 Around 12:15, we reached a very tiny old cemetery with a
 breaktaking view. If you're looking to bury anybody, this is
@@ -247,7 +247,6 @@ entire ride, but from a slowly evolving angle.
 
 ![green valley]({{ site.url }}/_images/may_26_bike_trip/green_valley.jpg){:width="100%"}
 *letting the dirt bikes pass as we take in the views*
-
 
 ![horses]({{ site.url }}/_images/may_26_bike_trip/horses.jpg){:width="100%"}
 *some say neigh, the others say bah*
@@ -308,6 +307,9 @@ beer in the pool under the stars.
 
 # Green Giant Loop
 
+![road wet]({{ site.url }}/_images/may_26_bike_trip/road_wet.jpg){:width="100%"}
+*luckily it was not wet*
+
 Our second day, Meg and I decided to map out a custom
 20-30 mile route to take it a little easier, since we
 had a 3 hour drive back to Denver after the ride. We
@@ -316,9 +318,6 @@ just west of town. Since people in Steamboat just make
 up nicknames for mountains, I decided on the nickname
 "Green Giant" for Emerald Mountain, since it's... green.
 And large.
-
-![road wet]({{ site.url }}/_images/may_26_bike_trip/road_wet.jpg){:width="100%"}
-*luckily it was not wet*
 
 We started off the day with some suspiciously good
 bagels for 7,000 feet. Kudos to
