@@ -6,6 +6,11 @@ BODY {
   padding-right: 5%;
   padding-bottom: 5%;}
 
+th, td {
+  font-size: 11pt;
+  color: white;
+}
+
 a:link {color: #f37320;}
 a:visited {color: #111;}
 a:active {color: #11C;}
