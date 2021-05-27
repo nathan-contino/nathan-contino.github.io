@@ -14,7 +14,7 @@ a try.
 *reason 1,789,563 springtime is a gem in CO*
 
 I've been riding a modernized steel 90s mountain bike ever since Meg
-and I moved to Colorado last year. Ever since we found a sick deal on
+and I moved to Colorado last year. Once we found a sick deal on
 a [Surly Disc Trucker](https://www.cyclingabout.com/surly-long-haul-trucker-the-best-all-round-touring-bike/)
 for Meg, we've both been itching for a chance to take the bikes out
 on some dirt and gravel. You might know that Steamboat Springs is world-renowned for mountain biking and skiing, but it also happens
