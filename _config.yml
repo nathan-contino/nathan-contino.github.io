@@ -34,7 +34,7 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
-plugins:
+plugins_dir:
   - jekyll-compress-images
 
 include:
