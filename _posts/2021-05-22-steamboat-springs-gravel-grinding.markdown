@@ -364,7 +364,7 @@ should totally respect the privacy of. Totally.
 *we won't post the pics of us trespassing*
 
 The first hill on this route was a slog, but the second
-route was the steepest I've ever climbed on a bike. Still,
+was the steepest I've ever climbed on a bike. Still,
 the beautiful views, perfect temperatures, lack of
 traffic, and low-resistance "granny gear" all worked
 together to keep us moving all the way to the top without
