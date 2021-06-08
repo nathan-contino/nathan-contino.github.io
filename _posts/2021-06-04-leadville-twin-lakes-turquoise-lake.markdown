@@ -180,10 +180,10 @@ A short climb after the golf course, we reached
 [Sugar Loaf Dam](https://en.wikipedia.org/wiki/Sugar_Loaf_Dam). Damn, it was
 beautiful. (sorry)
 
-![sully and mandarb]({{ site.url }}/_images/june_04_bike_trip/13_sully_and_mandarb.jpg){:width="100%"}
+![sully and mandarb]({{ site.url }}/_images/june_04_bike_trip/14_sully_and_mandarb.jpg){:width="100%"}
 *sully & mandarb after climb 1/3 around turquoise lake*
 
-![point to camp]({{ site.url }}/_images/june_04_bike_trip/13_point_to_camp.jpg){:width="100%"}
+![point to camp]({{ site.url }}/_images/june_04_bike_trip/15_point_to_camp.jpg){:width="100%"}
 *camp and clem are somewhere around there*
 
 After a brief photoshoot and water break (hey, Colorado is hot and dry!), we
@@ -194,12 +194,9 @@ four times as fast as cross country skiing, but there was something special
 about the pure peace and quiet of snowbound Turqoise lake in winter. At least
 until the snowmobiles show up.
 
-![meg climbs]({{ site.url }}/_images/june_04_bike_trip/15_meg_climbs.jpg){:width="350"} | ![nate skis]({{ site.url }}/_images/may_26_bike_trip/18_nate_skis.jpg){:width="350"}
+![meg climbs]({{ site.url }}/_images/june_04_bike_trip/17_meg_climbs.jpg){:width="350"} | ![nate skis]({{ site.url }}/_images/june_04_bike_trip/18_nate_skis.jpg){:width="350"}
 --- | --- 
 *the road around turquoise lake just keeps going up* | *hard to believe nate is skiing a similar incline*
-
-![meg climbs]({{ site.url }}/_images/june_04_bike_trip/15_meg_climbs.jpg){:width="100%"}
-*the road around turquoise lake just keeps going up*
 
 We rode up and down quite a few hills and Turquoise Lake, and at the very
 summit of the last uphill segment, we took the opportunity for lunch at
@@ -208,7 +205,7 @@ lunched when we cross country skiied, though we had a better view this
 time since we weren't able to deviate much from the groomed trail in
 February.
 
-![thirsty gril]({{ site.url }}/_images/june_04_bike_trip/14_thirsty_gril.jpg){:width="100%"}
+![thirsty gril]({{ site.url }}/_images/june_04_bike_trip/16_thirsty_gril.jpg){:width="100%"}
 *meg hydrating*
 
 ![lunch]({{ site.url }}/_images/june_04_bike_trip/19_lunch.jpg){:width="100%"}
