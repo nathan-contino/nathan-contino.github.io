@@ -124,7 +124,7 @@ amount of time on the bikes on Saturday.
 
 # The Saturday Loop
 
-6:30 AM: We got up, made a quick double batach of camp oatmeal and aeropress
+6:30 AM: We got up, made a quick double batch of camp oatmeal and aeropress
 coffee, and headed out on the first section of our ride: biking from Twin
 Lakes to Turquoise Lake.
 
