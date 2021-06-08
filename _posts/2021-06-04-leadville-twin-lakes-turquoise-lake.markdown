@@ -219,7 +219,7 @@ honestly just lower altitude versions of Shimmering Point with slightly
 worse views and some moderately fun gravel paths to bike on.
 
 ![meg in trees]({{ site.url }}/_images/june_04_bike_trip/20_meg_in_trees.jpg){:width="100%"}
-*channeling some “cycling about” vibes*
+*channeling some [cycling about](https://www.youtube.com/c/Cyclingabout/videos) vibes*
 
 The downhill ride from our lunch spot brought us almost all the way to
 Leadville, where I found a nice gravel path along the side of the road
