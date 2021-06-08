@@ -190,7 +190,7 @@ beautiful. (sorry)
 After a brief photoshoot and water break (hey, Colorado is hot and dry!), we
 started on the loop on routes 9, 4 & 9C around the lake. This was actually
 our second time around the loop -- we did the same trip on cross country skis
-back in February! The summer views are just as good, and biking is at *least*
+back in March! The summer views are just as good, and biking is at *least*
 four times as fast as cross country skiing, but there was something special
 about the pure peace and quiet of snowbound Turqoise lake in winter. At least
 until the snowmobiles show up.
@@ -204,7 +204,7 @@ summit of the last uphill segment, we took the opportunity for lunch at
 [Shimmering Point Overlook](https://www.gjhikes.com/2020/11/shimmering-point.html). This was actually the exact same spot where we
 lunched when we cross country skiied, though we had a better view this
 time since we weren't able to deviate much from the groomed trail in
-February.
+March.
 
 ![thirsty gril]({{ site.url }}/_images/june_04_bike_trip/16_thirsty_gril.jpg){:width="100%"}
 *meg hydrating*
