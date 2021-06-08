@@ -310,7 +310,7 @@ We reached a main-ish paved road around 8:45 and hit our next obstacle:
 a closed paddock gate. Even though we *definitely* didn't pass through any
 gates on our way there.
 
-![dirt mountain]({{ site.url }}/_images/june_04_bike_trip/32_dirt_mountain.jpg){:width="100%"}
+![dirt mountain]({{ site.url }}/_images/june_04_bike_trip/32_dirt_mountains.jpg){:width="100%"}
 *you know the view is good when you are racing the darkness of the night but stop for the pic anyways*
 
 But fortunately the gate wasn't locked: it was just chained up. So we didn't
@@ -335,6 +335,9 @@ the cute cows for the third time. And we found ourselves, as darkness fell,
 riding 1.2 miles down the shoulder of a wet 65 MPH highway. I don't think I've
 ever ridden faster.
 
+![mines and leadville]({{ site.url }}/_images/june_04_bike_trip/road_10.png){:width="100%"}
+*this guy*
+
 We made it down the highway with no real issues, and started back down the
 desolate paved ranch roads and the gravel mining road. That's when "dark"
 turned to "pitch black" and I realized that the moon was nowhere to be
@@ -344,7 +347,7 @@ obnoxiously reflective.
 
 By the time we made it back, it was truly dark night, our bikes were totally
 covered in mud, and all I wanted was to curl up in my sleeping bag. Of course,
-we still had to set up the tend (it gets windy in Colorado, so I wasn't going
+we still had to set up the tent (it gets windy in Colorado, so I wasn't going
 to leave it out all day), wash the mud off of ourselves, lock up the bikes, and
 make dinner. But after 60 miles and 6,000 vertical feet, that just didn't
 seem like much work in comparison.
