@@ -210,7 +210,7 @@ March.
 *meg hydrating*
 
 ![lunch]({{ site.url }}/_images/june_04_bike_trip/19_lunch.jpg){:width="100%"}
-*just two sandal wearing adventure bikers drinking kombucha and eating salami sammies*
+*just two sandal wearing adventure bikers drinking hard kombucha and eating salami sammies*
 
 Some hard kombucha, salami sandwiches, and cheddar
 bunnies (the store was out of [pink goldfish](https://www.thrillist.com/eat/nation/best-goldfish-flavors-ranked), in my defense) later, we were on
