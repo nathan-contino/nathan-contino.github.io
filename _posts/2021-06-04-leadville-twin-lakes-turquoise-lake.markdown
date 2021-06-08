@@ -335,7 +335,7 @@ the cute cows for the third time. And we found ourselves, as darkness fell,
 riding 1.2 miles down the shoulder of a wet 65 MPH highway. I don't think I've
 ever ridden faster.
 
-![mines and leadville]({{ site.url }}/_images/june_04_bike_trip/road_10.png){:width="100%"}
+![jerk and gate]({{ site.url }}/_images/june_04_bike_trip/road_10.png){:width="100%"}
 *this guy*
 
 We made it down the highway with no real issues, and started back down the
