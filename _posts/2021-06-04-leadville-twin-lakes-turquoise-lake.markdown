@@ -265,7 +265,7 @@ We began with a ride up out of town toward the
 people decided to leave around a ton of old mining equipment when a mine
 stopped being profitable.
 
-![mines and leadville]({{ site.url }}/_images/june_04_bike_trip/24_mines_and_leadville.jpg){:width="100%"}
+![mines and leadville]({{ site.url }}/_images/june_04_bike_trip/25_mines_and_leadville.jpg){:width="100%"}
 *not a bad view to have when working a life threatening job at the mines*
 
 From the mine, we hopped on Leadville's
