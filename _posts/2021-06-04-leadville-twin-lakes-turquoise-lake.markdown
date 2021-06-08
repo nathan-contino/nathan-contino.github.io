@@ -11,13 +11,13 @@ past bike trips. I learned:
 - some valuable lessons about charging your bike lights
 
 - that Mandarb (my 1990s steel mountain bike) can handle just about
-  any terrain I can throw at him.
+  any terrain I can throw at him
 
 - that a 13% grade is just about the steepest hill I can climb on
   rocky, muddy terrain
 
 - even if Colorado is *usually* sunny... that thunderstorms can still take
-  several hours to blow over.
+  several hours to blow over
 
 Even so, I had an absolute blast. It felt good to complete my most difficult
 bike ride ever (with both natural and personal-stupidity imposed obstacles)
@@ -84,7 +84,7 @@ weekend of maskless festivities. We parked, set up the tent at a beautiful overl
 damn good, so we tossed the laptops in the car and took the bikes out for a
 sunset spin.
 
-![meg karate]({{ site.url }}/_images/june_04_bike_trip/2_meg_karate.jpg){:width="350"} | ![nate karate]({{ site.url }}/_images/may_26_bike_trip/3_nate_karate.jpg){:width="350"}
+![meg karate]({{ site.url }}/_images/june_04_bike_trip/2_meg_karate.jpg){:width="350"} | ![nate karate]({{ site.url }}/_images/june_04_bike_trip/3_nate_karate.jpg){:width="350"}
 --- | --- 
 *it’s called fashion* | *camp karate fashion*
 
@@ -118,7 +118,7 @@ complain. We got back to the campsite, whipped up some camp macaroni and
 cheese on our stove, and called it a night early so we could get the maximum
 amount of time on the bikes on Saturday.
 
-![twin lakes sunset]({{ site.url }}/_images/june_04_bike_trip/4_twin_lakes_sunset.jpg){:width="350"} | ![twin lakes doodle]({{ site.url }}/_images/may_26_bike_trip/doodle.png){:width="350"}
+![twin lakes sunset]({{ site.url }}/_images/june_04_bike_trip/4_twin_lakes_sunset.jpg){:width="350"} | ![twin lakes doodle]({{ site.url }}/_images/june_04_bike_trip/doodle.png){:width="350"}
 --- | --- 
 *twin lakes sunset* | *meg’s rendition*
 
