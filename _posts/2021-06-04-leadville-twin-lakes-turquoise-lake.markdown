@@ -199,7 +199,7 @@ until the snowmobiles show up.
 --- | --- 
 *the road around turquoise lake just keeps going up* | *hard to believe nate is skiing a similar incline*
 
-We rode up and down quite a few hills and Turquoise Lake, and at the very
+We rode up and down quite a few hills at Turquoise Lake, and at the very
 summit of the last uphill segment, we took the opportunity for lunch at
 [Shimmering Point Overlook](https://www.gjhikes.com/2020/11/shimmering-point.html). This was actually the exact same spot where we
 lunched when we cross country skiied, though we had a better view this
