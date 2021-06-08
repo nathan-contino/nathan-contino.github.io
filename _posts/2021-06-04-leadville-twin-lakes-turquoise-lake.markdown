@@ -97,7 +97,7 @@ steel mountain bike from the 1990s with no suspension at all. Meg's bike, Sully,
 is basically a modern equivalent with better brakes. They've got chonky tires,
 but that's about it for mitigating bumps and rocks. Our bikes are awesome
 for pavement, dirt roads, gravel, and even some light
-[singletrack](https://en.wikipedia.org/wiki/Single_track_(mountain_biking).
+[singletrack](https://en.wikipedia.org/wiki/Single_track_%28mountain_biking%29).
 But they aren't exactly optimal for challenging mountain bike terrain
 like you'll find at ski resorts during the summer these days.
 
