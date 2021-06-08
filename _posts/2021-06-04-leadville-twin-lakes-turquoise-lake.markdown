@@ -166,7 +166,8 @@ side of the valley. All we saw of humanity the entire time was one or two dirt b
 
 But the lazy dirt roads can't last forever. The last section of our trek to
 Turquoise Lake brought us back to paved ranch roads and past
-Mount Massive Golf Course, allegedly the highest altitude golf course in the
+[Mount Massive Golf Course](https://www.mtmassivegolf.com/),
+allegedly the highest altitude golf course in the
 US. A few more cars here, but not too many, and everyone passed us at a safe
 distance and speed.
 
@@ -181,7 +182,7 @@ A short climb after the golf course, we reached
 beautiful. (sorry)
 
 ![sully and mandarb]({{ site.url }}/_images/june_04_bike_trip/14_sully_and_mandarb.jpg){:width="100%"}
-*sully & mandarb after climb 1/3 around turquoise lake*
+*sully & mandarb after climb 1 of 3 around turquoise lake*
 
 ![point to camp]({{ site.url }}/_images/june_04_bike_trip/15_point_to_camp.jpg){:width="100%"}
 *camp and clem are somewhere around there*
@@ -275,7 +276,7 @@ historical facts. After the trail, we switched over to mountain roads
 in the foothills. That's where things got interesting.
 
 ![wildflowers]({{ site.url }}/_images/june_04_bike_trip/28_wildflowers.jpg){:width="100%"}
-*more flowers for our girl flowersbywhit*
+*more flowers for our girl [flowersbywhit](https://www.facebook.com/flowersbywhit/)*
 
 The mountain roads of **The Meat Grinder** started off nice enough:
 next to no cars (perhaps two the whole paved segment), nice sealed
