@@ -231,7 +231,7 @@ gridded.
 ![railroad]({{ site.url }}/_images/june_04_bike_trip/22_railroad.jpg){:width="100%"}
 *the railroad was a useful indicator of getting closer to leadville*
 
-![cemetery]({{ site.url }}/_images/june_04_bike_trip/22_cemetery.jpg){:width="100%"}
+![cemetery]({{ site.url }}/_images/june_04_bike_trip/23_cemetery.jpg){:width="100%"}
 *cemetery exploration never lets us down*
 
 After that quick stop, we headed over to the best brewery in
@@ -243,7 +243,7 @@ we engaged in a modest amount of touristing and stopped by
 [Melanzana](https://melanzana.com/) to nab some only-available-in-leadville
 hoodies.
 
-![leadville]({{ site.url }}/_images/june_04_bike_trip/23_leadville.jpg){:width="100%"}
+![leadville]({{ site.url }}/_images/june_04_bike_trip/24_leadville.jpeg){:width="100%"}
 *cute leadville pics taken by nate while meg is in melanzana*
 
 After that, we were ready for the final segment of the ride, which
