@@ -66,7 +66,7 @@ of pleasant riding goes by really quickly.
 ![lentils]({{ site.url }}/_images/june_20_trip/lentils.jpg){:width="100%"}
 *I have never in my life eaten so many lentils*
 
-Mount Hope is the second almost-14er (that's "not quite 14,000 feet
+Mount Hope is the third almost-14er (that's "not quite 14,000 feet
 tall" for those of you who aren't familiar with Colorado slang) that
 Meg and I have summited. We specifically picked out this hike because
 it's near a huge selection of dispersed camping sites, it involves a
