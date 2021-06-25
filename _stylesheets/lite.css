@@ -21,7 +21,13 @@ a:active.external {color: #11C; text-decoration: none;}
 
 H1 {color: #dd4814;}
 H2 {color: #dd4814;}
-H3 {color: #dd4814;}
+H3 {
+    color: #dd4814;
+    letter-spacing: .15em;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 1.05em;
+}
 
 P {max-width: 100ex;}
 
