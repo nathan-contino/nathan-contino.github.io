@@ -10,6 +10,8 @@ bicycle trip. No, we didn't take the bikes on water -- we decided to
 give the [rural dirt and gravel roads in Steamboat Springs](https://www.steamboatchamber.com/activities/biking/gravel-biking/)
 a try.
 
+<!-- readmore -->
+
 ![dirt road mountains]({{ site.url }}/_images/may_26_bike_trip/dirt_road_mountains.jpg){:width="100%"}
 *reason 1,789,563 springtime is a gem in CO*
 

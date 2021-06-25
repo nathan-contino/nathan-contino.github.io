@@ -7,6 +7,8 @@ categories: Bloomberg career retrospective milestone
 
 I'm an adult now -- at least, that's what they tell me. I've been working as a ssoftware developer here at Bloomberg for almost 6 months now - I started June 19th, so it's actually 5 months 29 days today. Since it's the end of the day and programmers start counting at zero, let's just call it 6 months and be done with it.
 
+<!-- readmore -->
+
 Or 26 weeks, or 182 days, or 130 weekdays minus Thanksgiving/Labour Day/July 4th. But the important part of the measure is that to somebody who was born in 1995, who graduated college in May 2017, and who started his first full-time job in June 2017, that feels like an awfully long time.
 
 I've now reached the average length of all of my previous jobs, which includes:

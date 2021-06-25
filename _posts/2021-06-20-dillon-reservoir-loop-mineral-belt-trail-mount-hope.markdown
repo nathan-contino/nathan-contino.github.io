@@ -8,6 +8,8 @@ categories: blog
 This weekend, Meg and I mixed hiking and biking instead of just
 biking everywhere.
 
+<!-- readmore -->
+
 ![reservoir hill]({{ site.url }}/_images/june_20_trip/reservoir_hill.jpg){:width="100%"}
 *The view and feeling at the top of the hill above Dillon Reservoir*
 

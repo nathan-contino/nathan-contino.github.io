@@ -16,6 +16,8 @@ broken glass in streets, constantly have to navigate around tourists
 on electric scooters, and *always* have to lock our
 bikes up if we so much as glance away from them.
 
+<!-- readmore -->
+
 ![Bikepacking]({{ site.url }}/_images/may_21_bike_trip/mandarb_and_sully.jpg){:width="100%"}
 
 The Rio Grande trail provides the benefits of tax-dollar-supported

@@ -11,6 +11,8 @@ and I thought it would be fun to write a few blog posts. So I threw
 together a few basic styles with GitHub's static site generator, broke
 Jekyll a few times, and eventually figured out how to get things working!
 
+<!-- readmore -->
+
 Since then, this site has served me well. It's a great place to point
 recruiters or job applications, and blogging has provided a nice outlet
 for writing more creative than what I usually do at my day job.

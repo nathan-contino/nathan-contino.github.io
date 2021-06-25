@@ -6,6 +6,8 @@ categories: lambda lovers calculus
 ---
 Since I created this site, I've received many questions about the name. As a result, I've created this blog post to try to address the issue. In short, the name of this site stems from Alonzo Church's Lambda Calculus. Lambda Calculus was a highly influential mode of computation invented in the 1930s that eventually influenced a great deal of programming. This is most obvious in the form of the Lisp family of languages, where lambda functions have been present from day one, and where the very structure of code is based off of lambda calculus. However, the Lambda Calculus has now managed to seep into other programming styles-- most famously, C++ and Java have variants of lambda functions.
 
+<!-- readmore -->
+
 Now that you're familiar with the tip of the lambda iceberg, you're probably wondering: just what the hell is lambda calculus anyway? The wikipedia page is not particularly good at teaching the basics, so you probably expect me to demonstrate something. As it turns out, you're in luck. Behold: a lambda calculus example:
 
 ~~~ bash

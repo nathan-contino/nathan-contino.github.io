@@ -17,6 +17,8 @@ clever, chemex, v60, and more among them) to achieve the perfect cup.
 The exceptionally crazy of those exceptionally crazy get into an even more
 complex habit: espresso.
 
+<!-- readmore -->
+
 You've probably had espresso at least once or twice in your life. Maybe
 somebody prepared an Americano (usually a double shot of espresso dilited
 with water to make it "american" sized) for you instead of a normal cup
