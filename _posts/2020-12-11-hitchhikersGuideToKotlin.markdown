@@ -13,6 +13,8 @@ Below, I hope I'll (attempt) to tell you a little bit about my
 experience with Kotlin, and describe what I liked about Kotlin and
 what I didn't like.
 
+<!-- readmore -->
+
 Firstly, you should know Kotlin is a JVM (Java Virtual Machine) language,
 which means that like Java, Scala, and Clojure, Kotlin (usually)
 compiles to Java bytecode. That means that Kotlin is compatible with
