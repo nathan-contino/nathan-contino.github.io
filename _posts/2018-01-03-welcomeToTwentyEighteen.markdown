@@ -5,7 +5,9 @@ layout: default
 categories: Bloomberg career NewYear start
 ---
 
-It is now 2018, and I've been thinking about what I intend to accomplish this year. I've never been one to embrace New Years resolutions or anything like that, but I do appreciate the value of outlining some goals for the year, however inconsequential. Here goes:
+It is now 2018, and I've been thinking about what I intend to accomplish this year. I've never been one to embrace New Years resolutions or anything like that, but I do appreciate the value of outlining some goals for the year, however inconsequential.
+
+Here goes:
 
 1) **Own something.** I don't care if it's a (probably computer) language, a hobby, a product at work, or some nontrivial responsibility-- I just want to own something. During my time at the University of Rochester, I learned a lot of lessons and made a lot of good friends through TAing and workshop leading. The sense of responsibility made a great deal of difference: I saw homework, assignments, and grading from the other side of the table, and that really helped me understand how college worked and how to extract the most value from my education. Sure, I screwed up sometimes-- as a head workshop leader, I probably missed hiring a few good candidates and hired a few bad candidates. I wasn't perfect, but I constantly tried to improve, and in retrospect I think I really *did* improve, and I learned a lot about teaching, delegating, and learning along the way. As much as I enjoy my job (I can't believe how lucky I am to work here), I want that sense of responsibility back. I don't know if that means becoming a team lead, working hard to get involved in the recruiting and interviewing process, mentoring, or just trying to become the best technical worker I can be, but I know that it's something I want -- no, *need*. If I don't accomplish anything else in 2018, I hope I manage to embrace ownership somewhere, somehow.
 
