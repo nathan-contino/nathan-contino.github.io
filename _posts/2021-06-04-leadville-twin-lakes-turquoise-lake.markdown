@@ -19,6 +19,8 @@ past bike trips. I learned:
 - even if Colorado is *usually* sunny... that thunderstorms can still take
   several hours to blow over
 
+<!-- readmore -->
+
 Even so, I had an absolute blast. It felt good to complete my most difficult
 bike ride ever (with both natural and personal-stupidity imposed obstacles)
 and come out safe and sound on the other side. After this weekend, I'm finally
