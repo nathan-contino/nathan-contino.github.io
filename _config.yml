@@ -43,5 +43,5 @@ include:
 - _images
 - _resources
 
-plugins:
+plugins_dir:
   - jekyll-feed
