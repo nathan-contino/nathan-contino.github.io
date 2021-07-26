@@ -41,7 +41,7 @@ Los Angeles for a couple of weeks with no update from UPS.
 
 # Four Noses
 
-![food and beers]({{ site.url }}/_images/july_25_broomfield/food.jpg){:width="100%"}
+![food and beers]({{ site.url }}/_images/july_25_broomfield/food.jpeg){:width="100%"}
 *a well earned sandwich, burger, and brews*
 
 After the ride, Meg and I stopped by the nearby [4 Noses](https://www.4nosesbrewing.com/) brewery for a drink, food, and some to-go cans.
