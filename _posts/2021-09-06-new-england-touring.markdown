@@ -31,7 +31,7 @@ we arrived at our first destination: [Ranch Camp](https://ranchcampvt.com/).
 (In case this link ever breaks, their slogan is "Bikes. Beers. Burritos.")
 After a craft beer from New England and a burrito with maple verde salsa, we
 were ready for the last leg of our journey: less than an hour of beautiful
-driving through northern vermont.
+driving through northern Vermont.
 
 ![ranch camp]({{ site.url }}/_images/sep_06_new_england/2_nate_burrito.jpeg){:width="100%"}
 *savoring that maple verde*
