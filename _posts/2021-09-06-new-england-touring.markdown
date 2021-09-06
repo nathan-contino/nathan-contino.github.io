@@ -29,7 +29,7 @@ our many hours of highway driving on the CO -> VA -> NY route. Many
 deer sightings, farm stands, cute diners, and slow drivers later,
 we arrived at our first destination: [Ranch Camp](https://ranchcampvt.com/).
 (In case this link ever breaks, their slogan is "Bikes. Beers. Burritos.")
-After a craft beer from New England and a burito with maple verde salsa, we
+After a craft beer from New England and a burrito with maple verde salsa, we
 were ready for the last leg of our journey: less than an hour of beautiful
 driving through northern vermont.
 
