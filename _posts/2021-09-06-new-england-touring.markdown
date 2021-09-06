@@ -1,6 +1,6 @@
 ---
 title:  "The Great New England Adventure"
-date:   2021-08-06 14:14:22 -0700
+date:   2021-09-06 14:14:22 -0700
 layout: default
 categories: blog
 ---
