@@ -203,7 +203,7 @@ The day started off well, with a quick mile descent on the dirt road to a
 gas station. We nabbed a lemon poppyseed muffin and some water, hit the
 bathroom, and headed on our way down another paved road to the next stage of
 the ride, a long hill ascent to
-[Jefferson Notch](https://en.wikipedia.org/wiki/Mount_Jefferson_(New_Hampshire),
+[Jefferson Notch](https://trailsnh.com/reports/Forest-Roads-Gates.php?road=jefferson-notch-road),
 the highest point along any public road in New Hampshire.
 
 ![land of many uses]({{ site.url }}/_images/sep_06_new_england/20_land_of_many_uses.jpg){:width="100%"}
