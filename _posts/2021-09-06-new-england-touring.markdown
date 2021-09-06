@@ -188,16 +188,10 @@ I didn't hear any telltale fireworks noises, so my only conclusion is that
 somebody illegally used the national forest as their personal shooting range.
 Such is life in the US, I guess.
 
-![land of many uses]({{ site.url }}/_images/sep_06_new_england/20_land_of_many_uses.jpg){:width="100%"}
-*our use is trekking along on some bicycles*
-
 We were also woken up around 10PM by somebody shining a flashlight around our
 campsite to see if it was occupied, which leads to yet more questions. Who is
 still looking for a campsite at 10PM when the sun sets at 7:15? How am I supposed to signal that my campsite is occupied when I don't have a vehicle
 to park outside of it? The world may never know.
-
-![shroomies]({{ site.url }}/_images/sep_06_new_england/21_shroomies.jpg){:width="100%"}
-*land of many shroomies*
 
 After the flashlight, F150, and explosions, the night was uneventful. Meg and I
 woke up in the morning, made some coffee and oatmeal, and packed up the gear.
@@ -212,14 +206,20 @@ the ride, a long hill ascent to
 [Jefferson Notch](https://en.wikipedia.org/wiki/Mount_Jefferson_(New_Hampshire),
 the highest point along any public road in New Hampshire.
 
+![land of many uses]({{ site.url }}/_images/sep_06_new_england/20_land_of_many_uses.jpg){:width="100%"}
+*our use is trekking along on some bicycles*
+
+![shroomies]({{ site.url }}/_images/sep_06_new_england/21_shroomies.jpg){:width="100%"}
+*land of many shroomies*
+
 ![jefferson notch]({{ site.url }}/_images/sep_06_new_england/22_nate_notch.jpg){:width="100%"}
 *getting high*
 
-This hill climb was
-long, but a lot easier than the climb to our campsite the previous day due to
-the rolling nature of the hills and the fact that we hadn't already spent hours slowly pedaling uphill along a rail trail. After the hill climb, we were
-rewarded with an exhilarating 6 mile downhill ride back to the rail trail, which
-took us right back to Gorham. A quick stop for some poutine in Littleton later,
+This hill climb was long, but a lot easier than the climb to our
+campsite the previous day due to the rolling nature of the hills and the
+fact that we hadn't already spent hours slowly pedaling uphill along a rail
+trail. After the hill climb, we were rewarded with an exhilarating 6 mile downhill ride back to the rail trail, which took us right back to Gorham.
+A quick stop for some poutine in Littleton later,
 we headed back to New York State, overcast skies, and rain.
 
 # Conclusion
