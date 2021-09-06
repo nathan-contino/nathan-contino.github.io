@@ -18,7 +18,7 @@ of just-us vacation. Also known as the gravel grind.
 
 <!-- readmore -->
 
-![vermont]({{ site.url }}/_images/sep_6_new_england/1_bridge_to_vt.jpeg){:width="100%"}
+![vermont]({{ site.url }}/_images/sep_06_new_england/1_bridge_to_vt.jpeg){:width="100%"}
 *lumpy land here we come!*
 
 # Lumpy Country
@@ -33,7 +33,7 @@ After a craft beer from New England and a burito with maple verde salsa, we
 were ready for the last leg of our journey: less than an hour of beautiful
 driving through northern vermont.
 
-![ranch camp]({{ site.url }}/_images/sep_6_new_england/2_nate_burrito.jpeg){:width="100%"}
+![ranch camp]({{ site.url }}/_images/sep_06_new_england/2_nate_burrito.jpeg){:width="100%"}
 *savoring that maple verde*
 
 For a second stop, we chose
@@ -47,7 +47,7 @@ Everything is well executed, even styles of beer that you don't like are
 worth tasting, and it's beautiful to boot. If you can pull off an IPA aged
 in white wine barrels, you can pull off damn near anything.
 
-![hill_farmstead]({{ site.url }}/_images/sep_6_new_england/4_hill_farmstead.jpeg){:width="100%"}
+![hill_farmstead]({{ site.url }}/_images/sep_06_new_england/4_hill_farmstead.jpeg){:width="100%"}
 *enjoying the best of brews*
 
 After Hill Farmstead, our campsite was a very, very short drive away. Special
@@ -60,7 +60,7 @@ I swapped out my awful Onyx brake pads for some aftermarket
 [Kool-Stop](http://www.koolstop.com/) upgrades,
 and we set off on the bikes in search of dinner.
 
-![goats]({{ site.url }}/_images/sep_6_new_england/3_goats.jpeg){:width="100%"}
+![goats]({{ site.url }}/_images/sep_06_new_england/3_goats.jpeg){:width="100%"}
 *carol's goats living it up*
 
 Our bike ride to dinner turned out amazing. Turns out that unlike other
@@ -83,16 +83,16 @@ Made it back to the campsite just before sunset, and shared a couple
 of Hill Farmstead beers as we watched the sun set and the stars came
 out.
 
-![rainbow]({{ site.url }}/_images/sep_6_new_england/5_rainbow.jpeg){:width="100%"}
+![rainbow]({{ site.url }}/_images/sep_06_new_england/5_rainbow.jpeg){:width="100%"}
 *finally, the end of the rainbow*
 
-![rainy meg]({{ site.url }}/_images/sep_6_new_england/6_meg_rain.jpeg){:width="100%"}
+![rainy meg]({{ site.url }}/_images/sep_06_new_england/6_meg_rain.jpeg){:width="100%"}
 *the northeast has trees to hide out under*
 
-![cemetary nate]({{ site.url }}/_images/sep_6_new_england/7_nate_cemetary.jpeg){:width="100%"}
+![cemetary nate]({{ site.url }}/_images/sep_06_new_england/7_nate_cemetary.jpeg){:width="100%"}
 *nate in his natural habitat*
 
-![dirt road vt]({{ site.url }}/_images/sep_6_new_england/8_dirt_vt.jpeg){:width="100%"}
+![dirt road vt]({{ site.url }}/_images/sep_06_new_england/8_dirt_vt.jpeg){:width="100%"}
 *gotta love those vt dirt roads*
 
 # Pointy Country
@@ -119,10 +119,10 @@ listened to his thoughts on life and compliments of our orange shirt
 choices and car. Then we headed out as quickly as we could to avoid
 another 40-minute lecture.
 
-![9_nh]({{ site.url }}/_images/sep_6_new_england/9_nh.jpg){:width="100%"}
+![9_nh]({{ site.url }}/_images/sep_06_new_england/9_nh.jpg){:width="100%"}
 *cya l8r clem*
 
-![rail trail]({{ site.url }}/_images/sep_6_new_england/10_meg_rail_trail.jpg){:width="100%"}
+![rail trail]({{ site.url }}/_images/sep_06_new_england/10_meg_rail_trail.jpg){:width="100%"}
 *all rail trail, all bikes, all good times*
 
 After our first impressions of Gorham, we were really afraid that
@@ -136,25 +136,25 @@ creeks, cute former-rail bridges, bald mountain views, a
 at least a dozen e-bikes, mostly rentals. I guess New Hampshirians find
 pedaling a bicycle challenging enough to need assistance most of the time.
 
-![nate creek]({{ site.url }}/_images/sep_6_new_england/11_nate_creek.jpeg){:width="100%"}
+![nate creek]({{ site.url }}/_images/sep_06_new_england/11_nate_creek.jpeg){:width="100%"}
 *happy boi in the creek*
 
-![snack time]({{ site.url }}/_images/sep_6_new_england/12_meg_bridge.jpeg){:width="100%"}
+![snack time]({{ site.url }}/_images/sep_06_new_england/12_meg_bridge.jpeg){:width="100%"}
 *hard core snackin*
 
-![susan]({{ site.url }}/_images/sep_6_new_england/13_susan.jpg){:width="100%"}
+![susan]({{ site.url }}/_images/sep_06_new_england/13_susan.jpg){:width="100%"}
 *thanks hill farmstead for the goods*
 
-![wasp]({{ site.url }}/_images/sep_6_new_england/14_bridge_wasp.jpg){:width="100%"}
+![wasp]({{ site.url }}/_images/sep_06_new_england/14_bridge_wasp.jpg){:width="100%"}
 *the worst part of snacking in a dangerous spot*
 
-![mountains]({{ site.url }}/_images/sep_6_new_england/15_flowers_mountains.jpg){:width="100%"}
+![mountains]({{ site.url }}/_images/sep_06_new_england/15_flowers_mountains.jpg){:width="100%"}
 *pleasantly surprised by the white mountains mountaineyness*
 
-![honey bee]({{ site.url }}/_images/sep_6_new_england/16_honey_bee.jpg){:width="100%"}
+![honey bee]({{ site.url }}/_images/sep_06_new_england/16_honey_bee.jpg){:width="100%"}
 *cute lil bee butts hard at work*
 
-![wildlife]({{ site.url }}/_images/sep_6_new_england/17_wildlife_preserve.jpg){:width="100%"}
+![wildlife]({{ site.url }}/_images/sep_06_new_england/17_wildlife_preserve.jpg){:width="100%"}
 *sully & mandarb photo op at the wildlife preserve outlook*
 
 After riding the entire length of the rail trail, we set out on some rural
@@ -163,7 +163,7 @@ ascent of a poorly maintained paved road, continued with a speedy hill descent d
 leading into
 [White Mountain National Forest](https://www.fs.usda.gov/whitemountain).
 
-![white mountains]({{ site.url }}/_images/sep_6_new_england/18_meg_hill_forest.jpeg){:width="100%"}
+![white mountains]({{ site.url }}/_images/sep_06_new_england/18_meg_hill_forest.jpeg){:width="100%"}
 *meg climbing her way into the white mountains*
 
 Our search for dispersed camping at 4 PM on Saturday of Labor Day weekend
@@ -178,7 +178,7 @@ stopped by to pick up the truck around 8:30 PM, well after dark. Which just
 makes me more curious why anybody would leave their truck parked in a national
 forest next to a campsite they don't intend to use. But on the plus side, we got a campsite!
 
-![campsite]({{ site.url }}/_images/sep_6_new_england/19_meg_camp.jpeg){:width="100%"}
+![campsite]({{ site.url }}/_images/sep_06_new_england/19_meg_camp.jpeg){:width="100%"}
 *we got a campsite on labor day!*
 
 The campsite was largely uneventful, except for one thing: at 9PM, for a good
@@ -188,7 +188,7 @@ I didn't hear any telltale fireworks noises, so my only conclusion is that
 somebody illegally used the national forest as their personal shooting range.
 Such is life in the US, I guess.
 
-![land of many uses]({{ site.url }}/_images/sep_6_new_england/20_land_of_many_uses.jpg){:width="100%"}
+![land of many uses]({{ site.url }}/_images/sep_06_new_england/20_land_of_many_uses.jpg){:width="100%"}
 *our use is trekking along on some bicycles*
 
 We were also woken up around 10PM by somebody shining a flashlight around our
@@ -196,7 +196,7 @@ campsite to see if it was occupied, which leads to yet more questions. Who is
 still looking for a campsite at 10PM when the sun sets at 7:15? How am I supposed to signal that my campsite is occupied when I don't have a vehicle
 to park outside of it? The world may never know.
 
-![shroomies]({{ site.url }}/_images/sep_6_new_england/21_shroomies.jpg){:width="100%"}
+![shroomies]({{ site.url }}/_images/sep_06_new_england/21_shroomies.jpg){:width="100%"}
 *land of many shroomies*
 
 After the flashlight, F150, and explosions, the night was uneventful. Meg and I
@@ -212,7 +212,7 @@ the ride, a long hill ascent to
 [Jefferson Notch](https://en.wikipedia.org/wiki/Mount_Jefferson_(New_Hampshire),
 the highest point along any public road in New Hampshire.
 
-![jefferson notch]({{ site.url }}/_images/sep_6_new_england/22_nate_notch.jpg){:width="100%"}
+![jefferson notch]({{ site.url }}/_images/sep_06_new_england/22_nate_notch.jpg){:width="100%"}
 *getting high*
 
 This hill climb was
