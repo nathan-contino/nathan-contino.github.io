@@ -205,7 +205,7 @@ trails, ever. Ithaca has good coffee and good beer.
 
 # Dedication
 
-![vinny]({{ site.url }}/_images/sep_12_finger_lakes/0_vinny.jpeg){:width="100%"}
+![vinny]({{ site.url }}/_images/sep_12_finger_lakes/0_vinny.jpg){:width="100%"}
 *Vinnie, Nate, and Meg at Smith Mountain Lake*
 
 This post is dedicated in memory of Vincent Ostermeier, my grandfather, who very
