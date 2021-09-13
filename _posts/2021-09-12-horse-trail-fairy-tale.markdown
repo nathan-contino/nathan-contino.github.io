@@ -213,5 +213,5 @@ recently passed away. May you find good books, fast boats, fine wine, and good
 company wherever you are now. Special thanks to Meg for giving me the push
 I needed to include a stop at Smith Mountain Lake on our drive from Colorado
 to the East Coast. It wasn't exactly on the way, but I'm so very glad we spent
-a weekend there with Vinnie.
+a weekend there with Vin.
 
