@@ -37,15 +37,24 @@ div {
 	line-height: 1.8em;
 }
 
-code,
-.code,
 pre {
+  font-family: "FreeMono", "Courier New", monospace;
+  font-weight: bold;
+}
+
+code,
+.code {
   font-family: "FreeMono", "Courier New", monospace;
   font-weight: bold;
   font-size: 14px;
   max-width: 94ex;
   background-color: #aa7744;
   border-radius: 7px;
+}
+
+img {
+    width: 100%;
+    border-radius: 7px;
 }
 
 rw {font-style: italic; color: #602020;}
