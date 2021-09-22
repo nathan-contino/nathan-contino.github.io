@@ -110,7 +110,9 @@ best practices:
 ```kotlin
 import java.awt.Color
 
-data class Dog(var name: String, var age: Int, var color: Color)
+data class Dog(var name: String,
+               var age: Int,
+               var color: Color)
 ```
 
 Woof. As you can see, the Kotlin class is a lot, lot, lot shorter.
@@ -134,7 +136,8 @@ of the `+` operator for operations involving two `Dog` objects:
 
 ```kotlin
     operator fun plus(dog : Dog) : Dog {
-        return Dog(dog.name + this.name, dog.age + this.age, dog.color + this.color)
+        return Dog(dog.name + this.name, dog.age
+            + this.age, dog.color + this.color)
     }
 ```
 
@@ -147,7 +150,8 @@ class using something called
 
 ```kotlin
 operator fun Color.plus(color: Color) : Color {
-    return Color(color.red + this.red, color.blue + this.blue, color.green + this.green)
+    return Color(color.red + this.red, color.blue + this.blue,
+        color.green + this.green)
 }
 ```
 
