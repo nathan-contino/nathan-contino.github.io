@@ -4,7 +4,8 @@ BODY {
   background-color: #5f4f43;
   padding-left: 5%;
   padding-right: 5%;
-  padding-bottom: 5%;}
+  padding-bottom: 5%;
+}
 
 th, td {
   font-size: 8pt;
@@ -12,12 +13,12 @@ th, td {
 }
 
 a:link {color: #f37320;}
-a:visited {color: #111;}
-a:active {color: #11C;}
+a:visited {color: #77216F;}
+a:active {color: #BBB;}
 
 a:link.external {color: #f37320; text-decoration: none;}
-a:visited.external {color: #561f84; text-decoration: none;}
-a:active.external {color: #11C; text-decoration: none;}
+a:visited.external {color: #77216F; text-decoration: none;}
+a:active.external {color: #BBB; text-decoration: none;}
 
 H1 {color: #dd4814;}
 H2 {color: #dd4814;}
@@ -43,7 +44,8 @@ pre {
   font-weight: bold;
   font-size: 14px;
   max-width: 94ex;
-  padding: 10px 0px 10px 0px;
+  background-color: #aa7744;
+  border-radius: 7px;
 }
 
 rw {font-style: italic; color: #602020;}
@@ -81,13 +83,13 @@ footer {
 }
 
 sidebar {
-	font-family: "Gill Sans MT","Gill Sans","Gill Sans Std",Verdana,"Bitstream Vera Sans",sans-serif;
+	font-family: Gill Sans MT, Gill Sans, Gill Sans Std, Verdana, Bitstream Vera Sans,sans-serif;
 	letter-spacing: 2px;
 	font-size:11px;
 }
 
 HTML {
-	font-family: Verdana, "Bitstream Vera Sans", sans-serif;
+	font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
 }
 
 #pdfdisplay {
