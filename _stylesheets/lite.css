@@ -1,5 +1,8 @@
+/* syntax highlighting import */
+@import url(fruity.css);
+
 BODY {
-  font-size: 11pt;
+  font-size: 13pt;
   color: white;
   background-color: #5f4f43;
   padding-left: 5%;
@@ -30,6 +33,18 @@ H3 {
     font-size: 1.05em;
 }
 
+code,
+.code,
+pre {
+  font-family: "FreeMono", "Courier New", monospace;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 0.5em;
+  max-width: 112ex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 P {max-width: 100ex;}
 
 div {
@@ -37,18 +52,9 @@ div {
 	line-height: 1.8em;
 }
 
-pre {
-  font-family: "FreeMono", "Courier New", monospace;
-  font-weight: bold;
-}
-
-code,
-.code {
-  font-family: "FreeMono", "Courier New", monospace;
-  font-weight: bold;
-  font-size: 14px;
-  max-width: 94ex;
-  border-radius: 7px;
+img {
+    width: 100%;
+    border-radius: 7px;
 }
 
 rw {font-style: italic; color: #602020;}

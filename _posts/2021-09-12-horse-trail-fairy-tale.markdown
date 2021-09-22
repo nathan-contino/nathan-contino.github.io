@@ -51,13 +51,13 @@ though taking pictures was a little difficult since there are a LOT of bugs in
 the Finger Lakes, and they swarm you the minute that you stop your bike. But
 the weather was a very comfy 65-70 degrees, there was a mild breeze in the air, and the views, when we weren't surrounded by forest, were spectacular.
 
-![leaving clem]({{ site.url }}/_images/sep_12_finger_lakes/1_start_pic.jpg){:width="100%"}
+![leaving clem]({{ site.url }}/_images/sep_12_finger_lakes/1_start_pic.jpg)
 *leaving clem in the forest*
 
-![meg bugs]({{ site.url }}/_images/sep_12_finger_lakes/2_bugs.jpg){:width="100%"}
+![meg bugs]({{ site.url }}/_images/sep_12_finger_lakes/2_bugs.jpg)
 *meg starting to battle the mosquitos*
 
-![nate and view]({{ site.url }}/_images/sep_12_finger_lakes/3_view_nate.jpg){:width="100%"}
+![nate and view]({{ site.url }}/_images/sep_12_finger_lakes/3_view_nate.jpg)
 *nate and the finger lakes views*
 
 
@@ -68,13 +68,13 @@ trail. There were some large rocks and roots, some mud, some weeds in our way,
 and some steep hills, but overall the terrain was good enough to ride on 95% of
 the time.
 
-![meg creek]({{ site.url }}/_images/sep_12_finger_lakes/4_meg_creek.jpg){:width="100%"}
+![meg creek]({{ site.url }}/_images/sep_12_finger_lakes/4_meg_creek.jpg)
 *and the hike-a-bike begins*
 
-![nate creek]({{ site.url }}/_images/sep_12_finger_lakes/5_nate_creek_crossing.jpg){:width="100%"}
+![nate creek]({{ site.url }}/_images/sep_12_finger_lakes/5_nate_creek_crossing.jpg)
 *and nate perseveres*
 
-![horse path]({{ site.url }}/_images/sep_12_finger_lakes/6_almost_horse_path.jpg){:width="100%"}
+![horse path]({{ site.url }}/_images/sep_12_finger_lakes/6_almost_horse_path.jpg)
 *horse path hike-a-bike begins*
 
 Then we came to a corner where our horse trail met another road, and turned into
@@ -130,10 +130,10 @@ trail passed right through. Unusual though it may be, we passed through the gate
 approving "moo"), and proceeded through the paddock, dodging cow pies all the
 way.
 
-![cows]({{ site.url }}/_images/sep_12_finger_lakes/7_cows.jpg){:width="100%"}
+![cows]({{ site.url }}/_images/sep_12_finger_lakes/7_cows.jpg)
 *COWS!*
 
-![post cows]({{ site.url }}/_images/sep_12_finger_lakes/8_post_cows.jpg){:width="100%"}
+![post cows]({{ site.url }}/_images/sep_12_finger_lakes/8_post_cows.jpg)
 *cow pasture cruisin*
 
 Our final descent to the winery took us down a mile at least of steep downhill overlooking Seneca Lake. We cut through a winery's vineyard, locked up the
@@ -146,7 +146,7 @@ and soon we were on our way with a bottle of bubbly for the road.
 
 # The Broken Bridge
 
-![no bridge]({{ site.url }}/_images/sep_12_finger_lakes/9_no_bridge.jpg){:width="100%"}
+![no bridge]({{ site.url }}/_images/sep_12_finger_lakes/9_no_bridge.jpg)
 *never trust g-maps to be up to date*
 
 Fortunately for our legs, our return journey didn't take us up that same mile+
@@ -158,10 +158,10 @@ I assume that if we were trespassing it wasn't egregious enough to get us shot.
 
 # Ice Cream Sandwiches and Cucumbers
 
-![meg ice cream]({{ site.url }}/_images/sep_12_finger_lakes/10_meg_ice_cream.jpg){:width="100%"}
+![meg ice cream]({{ site.url }}/_images/sep_12_finger_lakes/10_meg_ice_cream.jpg)
 *ice cream sammies for the win*
 
-![stand]({{ site.url }}/_images/sep_12_finger_lakes/11_stand.jpg){:width="100%"}
+![stand]({{ site.url }}/_images/sep_12_finger_lakes/11_stand.jpg)
 *cucumbers also for the win*
 
 The rest of our route took us down mostly-paved roads on our way back to the
@@ -181,7 +181,7 @@ Just after the farm stand, a herd of cows decided to run alongside us as we
 biked down the road. It's the little things in life that make you appreciate
 the world around you.
 
-![stampede]({{ site.url }}/_images/sep_12_finger_lakes/12_cows.jpg){:width="100%"}
+![stampede]({{ site.url }}/_images/sep_12_finger_lakes/12_cows.jpg)
 *STAMPEDE!*
 
 From the farm stand, it was only a few more miles of mostly quiet, mostly paved
@@ -205,7 +205,7 @@ trails, ever. Ithaca has good coffee and good beer.
 
 # Dedication
 
-![vinny]({{ site.url }}/_images/sep_12_finger_lakes/0_vinny.jpg){:width="100%"}
+![vinny]({{ site.url }}/_images/sep_12_finger_lakes/0_vinny.jpg)
 *Vin, Nate, and Meg at Smith Mountain Lake*
 
 This post is dedicated in memory of Vincent Ostermeier, my grandfather, who very
