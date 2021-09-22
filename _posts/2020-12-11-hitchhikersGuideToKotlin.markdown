@@ -135,10 +135,10 @@ decide to get fancy by
 of the `+` operator for operations involving two `Dog` objects:
 
 ```kotlin
-    operator fun plus(dog : Dog) : Dog {
-        return Dog(dog.name + this.name, dog.age
-            + this.age, dog.color + this.color)
-    }
+operator fun plus(dog : Dog) : Dog {
+    return Dog(dog.name + this.name, dog.age
+           + this.age, dog.color + this.color)
+}
 ```
 
 But you've hit a snag. The `String` and `Int` classes define behavior
@@ -164,9 +164,9 @@ Thanks to your fancy coding skills, you can add two dogs together
 like so:
 
 ```kotlin
-    val dog1 : Dog = Dog("henry", 3, Color.RED)
-    var dog2 = Dog("indiana", 7, Color.GREEN)
-    val dog3 = dog1 + dog2
+val dog1 : Dog = Dog("henry", 3, Color.RED)
+var dog2 = Dog("indiana", 7, Color.GREEN)
+val dog3 = dog1 + dog2
 ```
 
 What else does Kotlin offer? Well, anybody familiar with Java has

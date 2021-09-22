@@ -12,7 +12,7 @@ a try.
 
 <!-- readmore -->
 
-![dirt road mountains]({{ site.url }}/_images/may_26_bike_trip/dirt_road_mountains.jpg){:width="100%"}
+![dirt road mountains]({{ site.url }}/_images/may_26_bike_trip/dirt_road_mountains.jpg)
 *reason 1,789,563 springtime is a gem in CO*
 
 I've been riding a modernized steel 90s mountain bike ever since Meg
@@ -23,7 +23,7 @@ on some dirt and gravel. You might know that Steamboat Springs is world-renowned
 to have one of the greatest gravel biking communities in the world.
 This was our chance to see what that's all about.
 
-![nate biking]({{ site.url }}/_images/may_26_bike_trip/nate_biking.jpg){:width="100%"}
+![nate biking]({{ site.url }}/_images/may_26_bike_trip/nate_biking.jpg)
 *awyeah, finally caught in action*
 
 # Travel to Steamboat
@@ -38,7 +38,7 @@ most of the restaurants in town close down at 9 PM or so, which
 actually means that most kitchens stop serving food at around
 8 PM.
 
-![steamboat hotel]({{ site.url }}/_images/may_26_bike_trip/steamboat_hotel.jpg){:width="100%"}
+![steamboat hotel]({{ site.url }}/_images/may_26_bike_trip/steamboat_hotel.jpg)
 *65.00 is a god damn steal*
 
 Sadly, it's also snowmelt season at Steamboat right now,
@@ -72,7 +72,7 @@ We ended up driving up to town in the car. Then we:
 
 # Sleeping Giant Loop
 
-![steamboat map]({{ site.url }}/_images/may_26_bike_trip/steamboat_map.png){:width="100%"}
+![steamboat map]({{ site.url }}/_images/may_26_bike_trip/steamboat_map.png)
 *an artist's impression of steamboat springs, colorado*
 
 The town of Steamboat Springs sits in the middle of a big ol' valley.
@@ -92,7 +92,7 @@ mountain?" tends to be "Uh, I guess elk live there, so maybe
 [original](https://en.wikipedia.org/wiki/Sleeping_Giant_%28band%29)
 [either](https://en.wikipedia.org/wiki/Cribarth).
 
-![elk mountain]({{ site.url }}/_images/may_26_bike_trip/elk_mountain.jpg){:width="100%"}
+![elk mountain]({{ site.url }}/_images/may_26_bike_trip/elk_mountain.jpg)
 *elk mountain in all it's glory*
 
 Anyway, on Saturday we looped around Elk Mountain on a bunch of
@@ -106,10 +106,10 @@ burrito smothered in green chili -- my favorite local burrito place
 in Denver contains plenty of green chili already, so the thought
 didn't even occur to me.
 
-![seedz]({{ site.url }}/_images/may_26_bike_trip/seedz.jpg){:width="100%"}
+![seedz]({{ site.url }}/_images/may_26_bike_trip/seedz.jpg)
 *fueling up before the big ride*
 
-![meg brekky]({{ site.url }}/_images/may_26_bike_trip/meg_brekky.jpg){:width="100%"}
+![meg brekky]({{ site.url }}/_images/may_26_bike_trip/meg_brekky.jpg)
 *okay, maybe meg's breakfast wasn't exactly healthy*
 
 Once we were fueled for the day, it was time to hop on our actual
@@ -120,7 +120,7 @@ didn't last long, and we were quickly dumped out on a side road
 with poorly maintained pavement and the promise of cows in the
 distance.
 
-![dirt road biking]({{ site.url }}/_images/may_26_bike_trip/dirt_road_biking.jpg){:width="100%"}
+![dirt road biking]({{ site.url }}/_images/may_26_bike_trip/dirt_road_biking.jpg)
 *the first uphill climb of the day*
 
 Soon after getting off the main road, we summited a (at the time)
@@ -136,7 +136,7 @@ and I finally got our first taste of biking on a totally dirt road,
 though personally I'd say that the constant roadwork, resurfacing,
 and potholes in Denver have already treated us to plenty of that.
 
-![pavement ends]({{ site.url }}/_images/may_26_bike_trip/pavement_ends.jpg){:width="100%"}
+![pavement ends]({{ site.url }}/_images/may_26_bike_trip/pavement_ends.jpg)
 *time to grrrrnnd some grrrvvvlllll*
 
 Once we hit the dirt roads, we barely worried about cars any more.
@@ -151,7 +151,7 @@ full of developments, vacation homes, and mansions. But once the
 pavement disappears, all you see is ranches and beautiful country
 homes.
 
-![cute house]({{ site.url }}/_images/may_26_bike_trip/cute_house.jpg){:width="100%"}
+![cute house]({{ site.url }}/_images/may_26_bike_trip/cute_house.jpg)
 *one of the many very cute houses north of steamboat*
 
 Meg and I sometimes ride side by side on empty bike
@@ -161,7 +161,7 @@ on dirt was a huge step up in conversation for us since we were
 able to ride side-by-side on very wide roads (for a bicycle) without
 worrying about other vehicles on the road.
 
-![meg bushes]({{ site.url }}/_images/may_26_bike_trip/meg_bushes.jpg){:width="100%"}
+![meg bushes]({{ site.url }}/_images/may_26_bike_trip/meg_bushes.jpg)
 *finding pee spots in ranch land was not easy*
 
 Around 9:40, we spotted our first non-domesticated large animal (NDLA) of
@@ -179,10 +179,10 @@ a prairie dog nestled among the wildflowers. Seriously, there were
 so many of them. We also spotted a group of what might have been
 actual deer (or baby elk?) on a nearby ridge.
 
-![flowers]({{ site.url }}/_images/may_26_bike_trip/flowers.jpg){:width="100%"}
+![flowers]({{ site.url }}/_images/may_26_bike_trip/flowers.jpg)
 *flora pics at the request of whitney*
 
-![deer me]({{ site.url }}/_images/may_26_bike_trip/deer_me.jpg){:width="100%"}
+![deer me]({{ site.url }}/_images/may_26_bike_trip/deer_me.jpg)
 *potentially more elk friends?*
 
 We tried to get some action shots of both Meg and myself riding
@@ -213,13 +213,13 @@ of hard kombucha and appreciated the fact that we packed
 a picnic of salami sandwiches and brownies instead of trying
 to make the maximum possible mile time.
 
-![lunch]({{ site.url }}/_images/may_26_bike_trip/lunch.jpg){:width="100%"}
+![lunch]({{ site.url }}/_images/may_26_bike_trip/lunch.jpg)
 *salami sammies and kombuch with a view*
 
-![nate lunch]({{ site.url }}/_images/may_26_bike_trip/nate_lunch.jpg){:width="100%"}
+![nate lunch]({{ site.url }}/_images/may_26_bike_trip/nate_lunch.jpg)
 *nate claimed this to be "very comfy", meg is still sus*
 
-![a good place to be a duck]({{ site.url }}/_images/may_26_bike_trip/a_good_place_to_be_a_duck.jpg){:width="100%"}
+![a good place to be a duck]({{ site.url }}/_images/may_26_bike_trip/a_good_place_to_be_a_duck.jpg)
 *a good place to be a duck*
 
 Around 12:15, we reached a very tiny old cemetery with a
@@ -228,10 +228,10 @@ a pretty solid location -- you can just take in the mountains
 while you mourn! Cemeteries ought to be beautiful, and this
 is among the best I've seen.
 
-![cemetery]({{ site.url }}/_images/may_26_bike_trip/cemetery.jpg){:width="100%"}
+![cemetery]({{ site.url }}/_images/may_26_bike_trip/cemetery.jpg)
 *a nice place to bury a body*
 
-![nate notes]({{ site.url }}/_images/may_26_bike_trip/nate_notes.jpg){:width="100%"}
+![nate notes]({{ site.url }}/_images/may_26_bike_trip/nate_notes.jpg)
 *nate jotting down the coordinates of the best place to bury a body*
 
 The rest of our trek routed us through even rougher dirt roads,
@@ -240,19 +240,19 @@ cows. It was awfully satisfying to benchmark our progress by
 our view of Elk Mountain, which was visible throughout the
 entire ride, but from a slowly evolving angle.
 
-![rough dirt road]({{ site.url }}/_images/may_26_bike_trip/rough_dirt_road.jpg){:width="100%"}
+![rough dirt road]({{ site.url }}/_images/may_26_bike_trip/rough_dirt_road.jpg)
 *claggy, unmaintained dirt roads switched up the terrain a bit*
 
-![cow]({{ site.url }}/_images/may_26_bike_trip/cow.jpg){:width="100%"}
+![cow]({{ site.url }}/_images/may_26_bike_trip/cow.jpg)
 *the cows were irresistable*
 
-![nate and cows]({{ site.url }}/_images/may_26_bike_trip/nate_and_cows.jpg){:width="100%"}
+![nate and cows]({{ site.url }}/_images/may_26_bike_trip/nate_and_cows.jpg)
 *behind the scenes of the cow pics*
 
-![green valley]({{ site.url }}/_images/may_26_bike_trip/green_valley.jpg){:width="100%"}
+![green valley]({{ site.url }}/_images/may_26_bike_trip/green_valley.jpg)
 *letting the dirt bikes pass as we take in the views*
 
-![horses]({{ site.url }}/_images/may_26_bike_trip/horses.jpg){:width="100%"}
+![horses]({{ site.url }}/_images/may_26_bike_trip/horses.jpg)
 *some say neigh, the others say bah*
 
 The very last half hour of our ride was slightly spoiled by
@@ -264,7 +264,7 @@ soldiered our way through and made it to our first planned
 stop of the route:
 [Butcherknife Brewery](https://www.butcherknifebrewing.com/).
 
-![meg downhill]({{ site.url }}/_images/may_26_bike_trip/meg_downhill.jpg){:width="100%"}
+![meg downhill]({{ site.url }}/_images/may_26_bike_trip/meg_downhill.jpg)
 *a happy meg cruisin'*
 
 Sadly, Butcherknife was closed the day of our Sleeping
@@ -280,7 +280,7 @@ for putting damn near the maximum amount of pulled pork
 possible on their sandwiches -- at the end of the ride,
 we'd very much earned it.
 
-![beer]({{ site.url }}/_images/may_26_bike_trip/beer.jpg){:width="100%"}
+![beer]({{ site.url }}/_images/may_26_bike_trip/beer.jpg)
 *a post-bike pils is always a good choice -meg*
 
 The brewery was right at the north end of town, so we
@@ -311,7 +311,7 @@ beer in the pool under the stars.
 
 # Green Giant Loop
 
-![road wet]({{ site.url }}/_images/may_26_bike_trip/road_wet.jpg){:width="100%"}
+![road wet]({{ site.url }}/_images/may_26_bike_trip/road_wet.jpg)
 *luckily it was not wet*
 
 Our second day, Meg and I decided to map out a custom
@@ -336,7 +336,7 @@ fleet of [portable toilets](https://en.wikipedia.org/wiki/Portable_toilet)
 on popular routes around town, presumably for photos like
 you're about to see.
 
-![portable toilet]({{ site.url }}/_images/may_26_bike_trip/portable_toilet.jpg){:width="100%"}
+![portable toilet]({{ site.url }}/_images/may_26_bike_trip/portable_toilet.jpg)
 *meg peeing again*
 
 After the portable toilet, we were having a blast.
@@ -352,7 +352,7 @@ satellite view of the road is wrong somehow) and turned
 our morning into the Extended Green Giant Loop instead.
 We could use the extra exercise anyway.
 
-![mailboxes]({{ site.url }}/_images/may_26_bike_trip/mailboxes.jpg){:width="100%"}
+![mailboxes]({{ site.url }}/_images/may_26_bike_trip/mailboxes.jpg)
 *it's so private, even the USPS isn't allowed*
 
 A few miles of sweeping pavement roads later, we reached
@@ -362,7 +362,7 @@ actually a private residence that you definitely should
 not take silly photos next to and whose residents you
 should totally respect the privacy of. Totally.
 
-![schoolhouse]({{ site.url }}/_images/may_26_bike_trip/schoolhouse.jpg){:width="100%"}
+![schoolhouse]({{ site.url }}/_images/may_26_bike_trip/schoolhouse.jpg)
 *we won't post the pics of us trespassing*
 
 The first hill on this route was a slog, but the second
@@ -373,13 +373,13 @@ together to keep us moving all the way to the top without
 walking the bikes at all. And the views at the top of Elk
 Mountain in the distance made it all worthwhile.
 
-![meg uphill]({{ site.url }}/_images/may_26_bike_trip/meg_uphill.jpg){:width="100%"}
+![meg uphill]({{ site.url }}/_images/may_26_bike_trip/meg_uphill.jpg)
 *its the climb -miley cyrus*
 
-![distant mountains]({{ site.url }}/_images/may_26_bike_trip/distant_mountains.jpg){:width="100%"}
+![distant mountains]({{ site.url }}/_images/may_26_bike_trip/distant_mountains.jpg)
 *climbs that lead to mountain views are always worth*
 
-![nate and mandarb]({{ site.url }}/_images/may_26_bike_trip/nate_and_mandarb.jpg){:width="100%"}
+![nate and mandarb]({{ site.url }}/_images/may_26_bike_trip/nate_and_mandarb.jpg)
 *single pannier life making sure we wouldn't be stranded if we got a flat*
 
 After a well-earned hill descent, we ended up on another
@@ -394,10 +394,10 @@ of the road, where we learned that our bikes are even
 more capable than we thought. Not planning on taking on
 any singletrack any time soon, but in a pinch...
 
-![trees]({{ site.url }}/_images/may_26_bike_trip/trees.jpg){:width="100%"}
+![trees]({{ site.url }}/_images/may_26_bike_trip/trees.jpg)
 *into the trees!*
 
-![how now brown cows]({{ site.url }}/_images/may_26_bike_trip/how_now_brown_cows.jpg){:width="100%"}
+![how now brown cows]({{ site.url }}/_images/may_26_bike_trip/how_now_brown_cows.jpg)
 *cow staring contest*
 
 Anyway, once we departed Cow Creek, the ride finished

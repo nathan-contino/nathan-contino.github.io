@@ -18,7 +18,7 @@ bikes up if we so much as glance away from them.
 
 <!-- readmore -->
 
-![Bikepacking]({{ site.url }}/_images/may_21_bike_trip/mandarb_and_sully.jpg){:width="100%"}
+![Bikepacking]({{ site.url }}/_images/may_21_bike_trip/mandarb_and_sully.jpg)
 
 The Rio Grande trail provides the benefits of tax-dollar-supported
 paved paths with the beauty of not being surrounded by cookie cutter
@@ -48,7 +48,7 @@ we arrived in Glenwood Springs.
 
 # Glenwood Springs
 
-![fresh bikes]({{ site.url }}/_images/may_21_bike_trip/the_journey_really_begins.jpg){:width="100%"}
+![fresh bikes]({{ site.url }}/_images/may_21_bike_trip/the_journey_really_begins.jpg)
 *the bikes looking fresh while Clem gets left behind in the RFTA parking lot*
 
 By 9 AM, we'd finished our
@@ -56,7 +56,7 @@ last-minute bathroom break at a nearby Starbucks, and I
 encountered my first Bike Problem. My rear rack, which I
 had just put on the night before, fell... backwards.
 
-![starbs]({{ site.url }}/_images/may_21_bike_trip/the_journey_begins.jpg){:width="100%"}
+![starbs]({{ site.url }}/_images/may_21_bike_trip/the_journey_begins.jpg)
 *probably should have noticed the angle of the rack while taking this photo*
 
 Not really off the bike, but dragging behind the bike.
@@ -67,11 +67,11 @@ the southern side of Glenwood Springs doesn't have a bike
 shop, so we decided to persevere to Carbondale to seek out
 a tiny torque wrench.
 
-![rack probs]({{ site.url }}/_images/may_21_bike_trip/rack_problems.png){:width="100%"}
+![rack probs]({{ site.url }}/_images/may_21_bike_trip/rack_problems.png)
 
 # Carbondale
 
-![sopris]({{ site.url }}/_images/may_21_bike_trip/sopris.jpg){:width="100%"}
+![sopris]({{ site.url }}/_images/may_21_bike_trip/sopris.jpg)
 *biking south towards the majestic mount sopris*
 
 Thirty minutes of slightly nervewracking riding down a
@@ -83,7 +83,7 @@ quickly got my rack sorted out pro-bono. To the employee
 that helped me out: I hope your first house lease works
 out well!
 
-![basalt bike and ski]({{ site.url }}/_images/may_21_bike_trip/thanks_bike_shop.jpg){:width="100%"}
+![basalt bike and ski]({{ site.url }}/_images/may_21_bike_trip/thanks_bike_shop.jpg)
 *basalt bike & ski to the rescue!*
 
 After wrapping up the bicycle repairs, Meg and I headed
@@ -107,15 +107,15 @@ it lightly, absolutely bomb. They:
   made me reconsider my decision to ever waste my time
   on jam again
 
-![french toast]({{ site.url }}/_images/may_21_bike_trip/french_toast.jpg){:width="100%"}
+![french toast]({{ site.url }}/_images/may_21_bike_trip/french_toast.jpg)
 *the best french toast Meg has ever had 10/10*
 
-![burrito]({{ site.url }}/_images/may_21_bike_trip/burrito.jpg){:width="100%"}
+![burrito]({{ site.url }}/_images/may_21_bike_trip/burrito.jpg)
 *one helluva delicious breakfast burrito 9.7/10*
 
 Nicely done, SILO. We'll be back.
 
-![art path]({{ site.url }}/_images/may_21_bike_trip/art_path.jpg){:width="100%"}
+![art path]({{ site.url }}/_images/may_21_bike_trip/art_path.jpg)
 *art path through carbondale*
 
 By 11:15, Meg and I were back on the Rio Grande trail
@@ -128,7 +128,7 @@ space that provides a full bike repair station, a
 small singletrack bike trail, a gravel bike trail,
 a paved bike trail, and public parks with picnic benches.
 
-![riding out of carbondale]({{ site.url }}/_images/may_21_bike_trip/riding_out_of_carbondale.jpg){:width="100%"}
+![riding out of carbondale]({{ site.url }}/_images/may_21_bike_trip/riding_out_of_carbondale.jpg)
 *bikey boi*
 
 Once we made our way out of Carbondale with
@@ -141,7 +141,7 @@ of brown grass in the Denver metro area, I finally started
 to appreciate the whole "hills are alive" bit from The
 Sound of Music.
 
-![baby cows]({{ site.url }}/_images/may_21_bike_trip/baby_cows.jpg){:width="100%"}
+![baby cows]({{ site.url }}/_images/may_21_bike_trip/baby_cows.jpg)
 *this baby cow's cuteness level was off the charts*
 
 At 12:05, we passed yet another lovely green farm, this
@@ -158,12 +158,12 @@ a schoolhouse and a couple of brick walkups that must
 have lost their residents when the road they were built
 on transitioned into a major highway.
 
-![meg in the valley]({{ site.url }}/_images/may_21_bike_trip/meg_in_the_valley.jpg){:width="100%"}
+![meg in the valley]({{ site.url }}/_images/may_21_bike_trip/meg_in_the_valley.jpg)
 *meg's enthusiasm for farms knows no bounds*
 
 # Basalt
 
-![horse bridge]({{ site.url }}/_images/may_21_bike_trip/horse_priority_bridge.jpg){:width="100%"}
+![horse bridge]({{ site.url }}/_images/may_21_bike_trip/horse_priority_bridge.jpg)
 *honestly pretty disappointed with the lack of horses on the trail*
 
 By 1, we reached the town of Basalt. Everyone waved at
@@ -171,7 +171,7 @@ us as we biked through town, including the cops. With
 a track meet and a baseball game going on, the world
 actually felt pretty normal for the days of COVID.
 
-![beer rest]({{ site.url }}/_images/may_21_bike_trip/beer_and_rest.jpg){:width="100%"}
+![beer rest]({{ site.url }}/_images/may_21_bike_trip/beer_and_rest.jpg)
 *enjoying a brew on the river*
 
 At 1:45, Meg and I stopped for a beer and a break at
@@ -182,7 +182,7 @@ out of the fridge. Thank goodness they distribute
 to some beer stores in Denver -- they're based in
 Portland, Oregon.
 
-![harmony]({{ site.url }}/_images/may_21_bike_trip/harmony.jpg){:width="100%"}
+![harmony]({{ site.url }}/_images/may_21_bike_trip/harmony.jpg)
 *donkeys, goats, sheep, horses, and cows all living in harmony*
 
 At 2:05, another animal-based distraction yanked Meg
@@ -190,7 +190,7 @@ off her bike. Donkeys, goats, cows, sheep, AND horses
 all grazing together in the same field. Maybe there is
 hope for the future after all!
 
-![train house]({{ site.url }}/_images/may_21_bike_trip/train_house.jpg){:width="100%"}
+![train house]({{ site.url }}/_images/may_21_bike_trip/train_house.jpg)
 *nate, mandarb, & pullman - name a better trio, I dare you*
 
 At 2:20, we passed some trains that now appear to
@@ -199,7 +199,7 @@ roll over the railroad that
 [used to be where the Rio Grande trail is now](https://www.rfta.com/trail-information/), so... sorry trains, for taking
 over your territory.
 
-![aspen view]({{ site.url }}/_images/may_21_bike_trip/aspen_first_glance.jpg){:width="100%"}
+![aspen view]({{ site.url }}/_images/may_21_bike_trip/aspen_first_glance.jpg)
 *so many shades of green and the first glimpse of aspen snowmass*
 
 2:30 granted us our first view of the Aspen/Snowmass
@@ -211,7 +211,7 @@ Fortunately, we didn't
 but with the number of prairie dogs we see in this
 state, it's only a matter of time.
 
-![prairie dog]({{ site.url }}/_images/may_21_bike_trip/prairie_dog.jpg){:width="100%"}
+![prairie dog]({{ site.url }}/_images/may_21_bike_trip/prairie_dog.jpg)
 *one of the hundreds of prairie dogs we spotted. sneaky lil bois*
 
 At 3, a triple whammy:
@@ -253,7 +253,7 @@ wanted to feed us any more, so I guess we must have eaten
 a horrifying amount of food or something. The pizza and
 beer was pretty solid, though.
 
-![aspen]({{ site.url }}/_images/may_21_bike_trip/aspen_slopes.jpg){:width="100%"}
+![aspen]({{ site.url }}/_images/may_21_bike_trip/aspen_slopes.jpg)
 *wandering around aspen left a strange desire to walk away from the people and up the mountain*
 
 Aspen is possibly the stranges town I have ever visited.
@@ -281,7 +281,7 @@ Who doesn't love the life of luxury in a fancy town?
 
 # The Ride Back
 
-![downhill]({{ site.url }}/_images/may_21_bike_trip/near_aspen.jpg){:width="100%"}
+![downhill]({{ site.url }}/_images/may_21_bike_trip/near_aspen.jpg)
 *realizing that the entire trip on day 2 would be downhill*
 
 Meg and I woke up at 6 AM and lollygagged until almost 7
@@ -289,12 +289,12 @@ before hopping back on the trail. After our afternoon
 experience in town, we decided not to stick around for
 complimentary breakfast.
 
-![praise the sun]({{ site.url }}/_images/may_21_bike_trip/praise_the_sun.jpg){:width="100%"}
+![praise the sun]({{ site.url }}/_images/may_21_bike_trip/praise_the_sun.jpg)
 *the sunlight starts right on the outskirts of aspen. coincidence? i think not. praise the sun. praise ra.*
 
 We were treated to an absolutely gorgeous crisp morning.
 
-![prairie dog paradise]({{ site.url }}/_images/may_21_bike_trip/prairie_dog_paradise.png){:width="100%"}
+![prairie dog paradise]({{ site.url }}/_images/may_21_bike_trip/prairie_dog_paradise.png)
 
 Blue skies, prairie dogs, and nary a human to be seen
 on the bike trail once we made our way out of Aspen proper.
@@ -310,7 +310,7 @@ Those happen to be the three best kinds of dog, so I'm
 going to go out on a limb and say that folks in Basalt
 have great taste in dogs.
 
-![turkey]({{ site.url }}/_images/may_21_bike_trip/turkey.jpg){:width="100%"}
+![turkey]({{ site.url }}/_images/may_21_bike_trip/turkey.jpg)
 *birb in a field, birb in a field, i am just a birb in a field*
 
 We also saw a cluster of wild turkeys wandering across
@@ -319,10 +319,10 @@ into perspective. It would have been even more
 impressive if we didn't regularly see a neighbor's pet
 turkey on our walks around Denver.
 
-![aspen view]({{ site.url }}/_images/may_21_bike_trip/aspen_view.jpg){:width="100%"}
+![aspen view]({{ site.url }}/_images/may_21_bike_trip/aspen_view.jpg)
 *looking back at aspen snowmass and wishing it didn't cost extra on the IKON pass*
 
-![church]({{ site.url }}/_images/may_21_bike_trip/church.jpg){:width="100%"}
+![church]({{ site.url }}/_images/may_21_bike_trip/church.jpg)
 *church-house conversion in basalt*
 
 We ended up eating breakfast at a cute cafe in downtown
@@ -332,7 +332,7 @@ They could use some pointers on steaming milk, but maybe
 they just prefer to focus their talents on
 [steaming eggs](https://www.youtube.com/watch?v=vnfxk_slKIk).
 
-![old basalt trail]({{ site.url }}/_images/may_21_bike_trip/old_basalt_trail.jpg){:width="100%"}
+![old basalt trail]({{ site.url }}/_images/may_21_bike_trip/old_basalt_trail.jpg)
 *sully & mandarb ready to take on basalt*
 
 On our ride back, we mostly stuck to the Rio Grande trail,
@@ -344,7 +344,7 @@ solid bike infrastructure *everywhere*. Even the secondary
 trail had a tunnel under the highway in an adapted
 drainage tunnel!
 
-![bridge]({{ site.url }}/_images/may_21_bike_trip/bridge.jpg){:width="100%"}
+![bridge]({{ site.url }}/_images/may_21_bike_trip/bridge.jpg)
 *cute bridge on the old snowmass/basalt trail*
 
 On our way back to Carbondale, we also took the opportunity
@@ -356,7 +356,7 @@ feel just as great on dirt as they feel on pavement.
 Especially in Colorado, it opens up a ton of touring
 opportunities!
 
-![lizard]({{ site.url }}/_images/may_21_bike_trip/lizard.jpg){:width="100%"}
+![lizard]({{ site.url }}/_images/may_21_bike_trip/lizard.jpg)
 *artway lizard in carbondale*
 
 At 10:50, we got back to Carbondale and admired a fantastic
@@ -374,7 +374,7 @@ By 11, we were back at SILO, enjoying a fantastic:
   And the bread was a texture I've never had before -- almost biscuity)
 - hashbrowns with green chiles and red onions (crispy bois)
 
-![truss]({{ site.url }}/_images/may_21_bike_trip/truss.jpg){:width="100%"}
+![truss]({{ site.url }}/_images/may_21_bike_trip/truss.jpg)
 *nice little beach area between carbondale and glenwood springs*
 
 At 12, we enjoyed a quick pit stop at Colorado's
@@ -384,7 +384,7 @@ some clouds, I definitely would have dipped into those
 chilly waters for the memories -- maybe I'll wait for
 June, though.
 
-![hills]({{ site.url }}/_images/may_21_bike_trip/white_and_red_and_green.jpg){:width="100%"}
+![hills]({{ site.url }}/_images/may_21_bike_trip/white_and_red_and_green.jpg)
 *"it's like they ran out of red paint and just had to switch to white"*
 
 At 12:53 PM, we finally got back to Clem, our obnoxiously
@@ -395,12 +395,12 @@ and gravel routes in the Glenwood Springs area. Some friendly
 folks on the trail even recommended some routes to us at a
 stop!
 
-![glenwood canyon]({{ site.url }}/_images/may_21_bike_trip/glenwood_canyon.jpg){:width="100%"}
+![glenwood canyon]({{ site.url }}/_images/may_21_bike_trip/glenwood_canyon.jpg)
 *i-70 between vail and glenwood springs is absolutely wild*
 
 # Epilogue
 
-![fin]({{ site.url }}/_images/may_21_bike_trip/fin.jpg){:width="100%"}
+![fin]({{ site.url }}/_images/may_21_bike_trip/fin.jpg)
 *a happy meg knowing that casey brewing is just minutes away*
 
 After our journey, we enjoyed another well-earned beer at
