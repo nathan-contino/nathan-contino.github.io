@@ -86,9 +86,13 @@ h1 {
 }
 
 footer {
-	font-size:8px;
-	font-style:italic;
-	color:#555;
+    font-size: 8px;
+    font-style:italic;
+    color: #D2B48C;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    padding-bottom: 1em;
 }
 
 sidebar {

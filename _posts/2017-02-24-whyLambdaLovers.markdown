@@ -1,5 +1,5 @@
 ---
-title:  "Why \"λ Lovers?\""
+title:  "Why \"Lambda Lovers?\""
 date:   2017-02-24 19:26:53 -0500
 layout: default
 categories: lambda lovers calculus
