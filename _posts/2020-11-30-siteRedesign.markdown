@@ -43,7 +43,7 @@ As a result, I've made a few changes to the site:
 - While I still like "my" (well, Gruber's) old styling, I've
 now decided to pursue a slightly different (and undoubtedly
 worse) styling whose colors carry a bit more personal
-signficance.
+significance.
 
 - I've decided to rename the site to "Lambda Latitudinarians". Note that
 this site title does *not* have any connection to 17th-century Anglican
