@@ -43,6 +43,7 @@ pre {
   max-width: 112ex;
   padding-top: 10px;
   padding-bottom: 10px;
+  white-space: pre-wrap;
 }
 
 P {max-width: 100ex;}
