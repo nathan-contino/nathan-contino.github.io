@@ -94,11 +94,12 @@ footer {
 sidebar {
 	font-family: Gill Sans MT, Gill Sans, Gill Sans Std, Verdana, Bitstream Vera Sans,sans-serif;
 	letter-spacing: 2px;
-	font-size: 1.2em;
+	font-size: 1.2rem;
 }
 
 HTML {
 	font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+    font-size: 100%;
 }
 
 #pdfdisplay {
