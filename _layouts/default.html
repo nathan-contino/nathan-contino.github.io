@@ -9,52 +9,32 @@
 <META http-equiv="pragma" content="no-cache" >
   <LINK rel=stylesheet type="text/css"
         href="/_stylesheets/lite.css" >
-
-<!-- Google site verification -->
- <meta name="google-site-verification" content="ZgicrgY81BYDMfQgFNZaXuJMnQhM3vgtZ8-3LeqqqEY" />
-
 </head>
 
 <body style="margin: 0px;">
 
 <table width="100%" cellpadding="2%" cellspacing="0" border="0">
 <tr>
-
-<!-- ============ HEADER SECTION ============== -->
-<td colspan="2" valign="bottom" style=" padding-left:10%; padding-top:4%;" >
-<h1>
-  <biglambda>
-      &#955; Latitudinarians
-  </biglambda>
-
-</h1>
-</td></tr>
-
+  {% include header.html %}
+</tr>
 <tr>
-<!-- ============ LEFT COLUMN (MENU) ============== -->
-<td width="20%" valign="top" style="text-align:right; padding-right:3%" >
-<sidebar>
-<br>
-By NATHAN CONTINO<br><br><br>
-<a href="/index.html" style="cursor: pointer; cursor: hand; color: #f37320; text-decoration: none;">ABOUT</a><br><br>
-<a href="/_pages/blog.html" style="cursor: pointer; cursor: hand; color: #f37320; text-decoration: none;">BLOG</a><br><br>
-<a href="/_pages/writing.html" style="cursor: pointer; cursor: hand; color: #f37320; text-decoration: none;">WRITING</a><br><br>
-<a href="/_pages/resume.html" style="cursor: pointer; cursor: hand; color: #f37320; text-decoration: none;">RESUME</a><br><br>
-<a href="/_pages/projects.html" style="cursor: pointer; cursor: hand; color: #f37320; text-decoration: none;">PROJECTS</a><br><br>
-<a class="btn btn-rss" href="/feed.xml" style="cursor: pointer; cursor: hand; color: #f37320; text-decoration: none;" target="_blank">RSS</a>
-</sidebar>
-</td>
+  {% include sidebar.html %}
 
 <!-- ============ RIGHT COLUMN (CONTENT) ============== -->
 <td width="80%" valign="top">
 
 <!-- used to load all actual content (about page, blog, resume, etc) -->
 <div class="content container">
-	<H1>{{ page.title}}</H1>
+	{% if page.title == "Lambda Latitudinarians by Nathan Contino" %}
+    <!-- no title display! -->
+  {% else %}
+    <H1>{{ page.title}}</H1>
+  {% endif %}
   	{{ content }}
 </div>
 
-</td></tr></table>
+</td></tr>
+</table>
 <center>
 <footer valign="bottom">- Nathan Contino</footer></center>
 </body>
