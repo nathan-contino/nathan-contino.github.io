@@ -83,8 +83,7 @@ table > thead > tr > th > img {
 table > tbody > tr > td > em {
     font-size: 1em;
     color: #f37320;
-    width: 100%;
-    max-width: -moz-available;
+    width: 350px;
     display: table-caption;
     text-align: center;
     border-radius: 0px 0px 7px 7px;
