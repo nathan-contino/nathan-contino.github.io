@@ -62,7 +62,6 @@ img + em {
     font-size: .8em;
     color: #f37320;
     width: 100%;
-    max-width: -moz-available;
     display: table-caption;
     text-align: center;
     border-radius: 0px 0px 7px 7px;
