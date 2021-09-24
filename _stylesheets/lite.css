@@ -54,15 +54,63 @@ div {
 
 img {
     width: 100%;
-    border-radius: 7px;
-    border: solid 0.2em #f37320;
+    border-radius: 7px 7px 0px 0px;
+    border: solid 0.2em #d24d15;
 }
 
 img + em {
     font-size: .8em;
-    color: #d6785e;
+    color: #f37320;
+    width: 100%;
+    display: block;
+    text-align: center;
+    border-radius: 0px 0px 7px 7px;
+    border: solid 0.25em #d24d15;
+    border-top: 0;
+    background-color: #222;
+}
+
+table > thead > tr > th > img {
+    font-size: .8em;
+    color: #d24d15;
     align: center;
-    background-color: #7f6e62;
+    width: 350px;
+    display: block;
+    text-align: center;
+}
+
+table > tbody > tr > td > em {
+    font-size: 1em;
+    color: #f37320;
+    width: inherit;
+    display: block;
+    text-align: center;
+    border-radius: 0px 0px 7px 7px;
+    border: solid 0.15em #d24d15;
+    border-top: 0;
+    background-color: #222;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0px;
+  padding: 0px;
+}
+
+th {
+  border-top: 0px;
+  border-bottom: 0px;
+  border-spacing: 0;
+  padding: 0px;
+  padding-right: 5px;
+}
+
+td {
+  border-top: 0px;
+  border-bottom: 0px;
+  border-spacing: 0;
+  padding: 0px;
+  padding-right: 5px;
 }
 
 rw {font-style: italic; color: #602020;}
