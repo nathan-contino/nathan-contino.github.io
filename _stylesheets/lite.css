@@ -82,7 +82,8 @@ biglambda {
 
 h1 {
     font-family: "FreeMono", "Courier New", "Rockwell", monospace;
-    color: #d24d15
+    color: #d24d15;
+    font-weight: lighter;
 }
 
 #page-container {
