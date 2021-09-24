@@ -67,7 +67,7 @@ img + em {
     border-radius: 0px 0px 7px 7px;
     border: solid 0.15em #d24d15;
     border-top: 0;
-    background-color: #222;
+    background-color: #5C4033;
 }
 
 table > thead > tr > th > img {
@@ -89,7 +89,7 @@ table > tbody > tr > td > em {
     border-radius: 0px 0px 7px 7px;
     border: solid 0.15em #d24d15;
     border-top: 0;
-    background-color: #222;
+    background-color: #5C4033;
 }
 
 table {
