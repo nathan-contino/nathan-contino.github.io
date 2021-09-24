@@ -70,18 +70,18 @@ SPAN.program {font-family: monospace;}
 SPAN.rw {font-family: monospace; font-style: italic;}
 
 lambda {
-    font-family: "FreeMono", "Courier New", monospace;
+    font-family: "FreeMono", "Courier New", "Rockwell", monospace;
     color: #d24d15;
 }
 
 biglambda {
-    font-family: "FreeMono", "Courier New", monospace;
+    font-family: "FreeMono", "Courier New", "Rockwell", monospace;
     font-size:80px;
     color: #d24d15;
 }
 
 h1 {
-    font-family: "FreeMono", "Courier New", monospace;
+    font-family: "FreeMono", "Courier New", "Rockwell", monospace;
     color: #d24d15
 }
 
