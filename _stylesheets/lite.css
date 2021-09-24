@@ -63,7 +63,7 @@ img + em {
     color: #f37320;
     width: 100%;
     max-width: -moz-available;
-    display: block;
+    display: table-caption;
     text-align: center;
     border-radius: 0px 0px 7px 7px;
     border: solid 0.25em #d24d15;
@@ -85,7 +85,7 @@ table > tbody > tr > td > em {
     color: #f37320;
     width: 100%;
     max-width: -moz-available;
-    display: block;
+    display: table-caption;
     text-align: center;
     border-radius: 0px 0px 7px 7px;
     border: solid 0.15em #d24d15;
