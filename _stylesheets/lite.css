@@ -55,6 +55,7 @@ div {
 img {
     width: 100%;
     border-radius: 7px;
+    border: solid 0.2em #f37320;
 }
 
 rw {font-style: italic; color: #602020;}
