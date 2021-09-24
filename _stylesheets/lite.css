@@ -55,17 +55,17 @@ div {
 img {
     width: 100%;
     border-radius: 7px 7px 0px 0px;
-    border: solid 0.2em #d24d15;
+    border: solid 0.15em #d24d15;
 }
 
 img + em {
     font-size: .8em;
     color: #f37320;
     width: 100%;
-    display: table-caption;
+    display: block;
     text-align: center;
     border-radius: 0px 0px 7px 7px;
-    border: solid 0.25em #d24d15;
+    border: solid 0.15em #d24d15;
     border-top: 0;
     background-color: #222;
 }
@@ -77,6 +77,7 @@ table > thead > tr > th > img {
     width: 350px;
     display: block;
     text-align: center;
+    border: solid 0.2em #d24d15;
 }
 
 table > tbody > tr > td > em {
@@ -104,6 +105,7 @@ th {
   border-spacing: 0;
   padding: 0px;
   padding-right: 5px;
+  vertical-align: bottom;
 }
 
 td {
