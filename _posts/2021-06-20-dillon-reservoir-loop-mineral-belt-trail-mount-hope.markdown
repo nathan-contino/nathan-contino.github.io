@@ -10,12 +10,12 @@ biking everywhere.
 
 <!-- readmore -->
 
-![reservoir hill]({{ site.url }}/_images/june_20_trip/reservoir_hill.jpg)
+![reservoir hill](/../_images/june_20_trip/reservoir_hill.jpg)
 *The view and feeling at the top of the hill above Dillon Reservoir*
 
 # Dillon Reservoir Loop
 
-![map]({{ site.url }}/_images/june_20_trip/map.jpg)
+![map](/../_images/june_20_trip/map.jpg)
 *Dillon, Frisco, Silverthorne, and UNNAMED_MUNICIPALITY*
 
 Our first stop was the [Dillon Reservoir](https://en.wikipedia.org/wiki/Dillon_Reservoir),
@@ -37,12 +37,12 @@ it's a beautiful trail. It's well-maintained. The views around the
 reservoir are breathtaking. And it's mostly quiet and car-free. So
 I'd recommend it only on weekdays and early weekend mornings.
 
-![viewz]({{ site.url }}/_images/june_20_trip/viewz.jpg)
+![viewz](/../_images/june_20_trip/viewz.jpg)
 *as I said... solid mountain views*
 
 # Mineral Belt Trail
 
-![different_viewz]({{ site.url }}/_images/june_20_trip/different_viewz.jpg)
+![different_viewz](/../_images/june_20_trip/different_viewz.jpg)
 *as I said... different solid mountain views*
 
 The Mineral Belt Trail is an 11.4 mile loop that starts in Leadville,
@@ -61,11 +61,11 @@ of pleasant riding goes by really quickly.
 
 # Mount Hope
 
-![campsite chillin]({{ site.url }}/_images/june_20_trip/campsite_chillin.jpg){:width="350"} | ![campsite]({{ site.url }}/_images/june_20_trip/campsite.jpg){:width="350"}
+![campsite chillin](/../_images/june_20_trip/campsite_chillin.jpg){:width="350"} | ![campsite](/../_images/june_20_trip/campsite.jpg){:width="350"}
 --- | --- 
 *earned beers after a day of biking* | *the campsite*
 
-![lentils]({{ site.url }}/_images/june_20_trip/lentils.jpg)
+![lentils](/../_images/june_20_trip/lentils.jpg)
 *I have never in my life eaten so many lentils*
 
 Mount Hope is the third almost-14er (that's "not quite 14,000 feet
@@ -76,10 +76,10 @@ rocky ridge hike with lots of scrambling opportunities, and it's not
 a very popular hike, so we can actually enjoy nature instead of dealing
 with people.
 
-![flower]({{ site.url }}/_images/june_20_trip/flower.jpg)
+![flower](/../_images/june_20_trip/flower.jpg)
 *one of many wildflowers that [flowersbywhit](https://www.facebook.com/flowersbywhit/) would appreciate*
 
-![flowers]({{ site.url }}/_images/june_20_trip/flowers.jpg)
+![flowers](/../_images/june_20_trip/flowers.jpg)
 *June hiking in Colorado means a lot of wildflowers*
 
 The initial portion of the hike was
@@ -88,33 +88,33 @@ but took us from ~10,000 feet all the way to ~14,000 feet!), but really
 unique in Colorado thanks to some VERY green and very wet forest at
 the base of the mountain.
 
-![aspy bois]({{ site.url }}/_images/june_20_trip/aspy_bois.jpg)
+![aspy bois](/../_images/june_20_trip/aspy_bois.jpg)
 *some extremely green forest, by Colorado standards*
 
-![mountain views]({{ site.url }}/_images/june_20_trip/mountain_viewz.jpg)
+![mountain views](/../_images/june_20_trip/mountain_viewz.jpg)
 *Mount Hope, at 13,960 feet, constantly intimidated by the many nearby 14ers*
 
-![high mountain views]({{ site.url }}/_images/june_20_trip/high_mountain_viewz.jpg)
+![high mountain views](/../_images/june_20_trip/high_mountain_viewz.jpg)
 *You hit treeline pretty quick when you start your hike at 10,000 feet*
 
 Our hard work paid off as we passed the treeline
 around the midpoint of the hike, and we were treated to some spectacular
 views of the many 14ers nearby.
 
-![up]({{ site.url }}/_images/june_20_trip/up.jpg)
+![up](/../_images/june_20_trip/up.jpg)
 *Mount Hope involved a lot of up -- about 4000 feet in 3.7 miles*
 
-![summit]({{ site.url }}/_images/june_20_trip/summit.jpg)
+![summit](/../_images/june_20_trip/summit.jpg)
 *Just before the ridge, the view up the ridge to the summit*
 
 Once we hit the ridge, the view opened up even more, and we could see
 Leadville, Twin Lakes, Turquoise Lake, and basically the entire loop that we
 biked a couple of weeks ago.
 
-![leadville valley views]({{ site.url }}/_images/june_20_trip/leadville_valley_views.jpg)
+![leadville valley views](/../_images/june_20_trip/leadville_valley_views.jpg)
 *pictured: almost our entire bike route from 2 weeks ago*
 
-![ridge]({{ site.url }}/_images/june_20_trip/ridge.jpg)
+![ridge](/../_images/june_20_trip/ridge.jpg)
 *a very rocky scrambly ridge*
 
 The ridge itself was some serious rock scrambling, with almost no path
@@ -122,10 +122,10 @@ whatsoever. After a few tricky spots and quite a few water breaks, we reached
 the top, where we finally got to see 360-degree views of the surrounding
 landscape.
 
-![actual summit]({{ site.url }}/_images/june_20_trip/actual_summit.jpg)
+![actual summit](/../_images/june_20_trip/actual_summit.jpg)
 *additional 14ers lurk to the west of the summit, hiding from us until we peaked*
 
-![windy]({{ site.url }}/_images/june_20_trip/windy.jpg)
+![windy](/../_images/june_20_trip/windy.jpg)
 *windy conditions forced us to snap a quick cute pic and then head down to actually eat*
 
 The hike down the ridge was the trickiest part of the hike, but we managed
@@ -134,7 +134,7 @@ by keeping our pace slow and taking our time, we managed it. Special shoutout
 to the spiders who occasionally set up their webs in the PERFECT spots to
 descend, forcing me to reroute.
 
-![down]({{ site.url }}/_images/june_20_trip/down.jpg)
+![down](/../_images/june_20_trip/down.jpg)
 *a hike that involves a lot of up also eventually involves a lot of (harder) down*
 
 # Conclusion
@@ -145,6 +145,6 @@ that we're currently experiencing in Colorado. It was nice to get back into
 hiking, even if it turns out that 4 miles of hiking is more stressful on your
 muscles than 60 miles of biking.
 
-![back to treeline]({{ site.url }}/_images/june_20_trip/back_to_treeline.jpg)
+![back to treeline](/../_images/june_20_trip/back_to_treeline.jpg)
 *when you get back to treeline and know that the car is only a mile away*
 
