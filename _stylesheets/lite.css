@@ -58,6 +58,13 @@ img {
     border: solid 0.2em #f37320;
 }
 
+img + em {
+    font-size: .8em;
+    color: #d6785e;
+    align: center;
+    background-color: #7f6e62;
+}
+
 rw {font-style: italic; color: #602020;}
 eqn {font-style: italic; color: #202080;}
 
