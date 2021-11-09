@@ -1,6 +1,6 @@
 ---
 title:  "FoCo Yeah, Howling Cows"
-date:   2021-09-12 14:14:22 -0700
+date:   2021-11-08 14:14:22 -0700
 layout: default
 categories: blog
 ---
