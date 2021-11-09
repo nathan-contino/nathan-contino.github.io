@@ -215,7 +215,7 @@ mountain bikes to dodge.
 *in all fairness, mandarb's top tube literally says "singletrack"*
 
 Meg was (reasonably) skeptical at first, but eventually gave into the temptation
-of adventure. The trail turned out to be chock full of rocks. And hairpin turns. And more rocks. And more dogs and bikes than I expected. And frankly, it
+of adventure. The trail turned out to be chock full of rocks. And hairpin turns. And more rocks. And more dogs and bikes than I expected. Frankly, it
 was a bit much with a [pannier](https://en.wikipedia.org/wiki/Pannier) full of
 water, snacks, bicycle repair equipment, and layers mounted on Mandarb. But we
 took it slow, let faster travelers pass us, and in the end we had an absolutely
