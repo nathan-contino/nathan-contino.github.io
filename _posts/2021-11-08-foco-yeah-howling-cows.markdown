@@ -229,15 +229,15 @@ into the bike lanes of town.
 
 From the mountain bike adventure, Meg and I decided to tour a bit around town.
 We really wanted to check out CSU and Fort Collins' supposed best-in-country
-bike infrastructure. And while Fort Collins isn't exactly Amsterdam, it's
+bike infrastructure. While Fort Collins isn't exactly Amsterdam, it's
 a step above anything I've ever experienced in the US for bicycling. It's so
 freeing and carefree to ride around town, because you don't have to *think*
 about which roads are built to accommodate your bike. They pretty much all are.
-And because there are so many bikes around, cars seem to have a natural (and
+Because there are so many bikes around, cars seem to have a natural (and
 healthy) respect for cyclists, instead of zooming past you just to wait for
-you when they have to turn in a block. And on the CSU campus, the signage is
+you when they have to turn in a block. On the CSU campus, the signage is
 awesome: there's dedicated lanes for bikes, separate from the dedicated lanes
-for pedestrians. And even better: in the densest parts of campus, there just
+for pedestrians. Even better: in the densest parts of campus, there just
 isn't a dedicated lane for cars at all. Take that, car-industrial complex.
 
 ![not a car lane](/../_images/nov_08_foco/thats_not_a_car_lane.jpg)
