@@ -103,7 +103,7 @@ made for a fun ride around the lake. The only company we had was fishermen, and
 the obligatory fisherman companion: lazy, medium-large dogs.
 
 We reached the north end of the park, and I was slightly disappointed to
-discover that our destination, Pleasant Valley Farms, maintained a rather tall and intimidating fence between their land in the park. We would have to take
+discover that our destination, Pleasant Valley Farms, maintained a rather tall and intimidating fence between their land and the park. We would have to take
 the longer, car-trafficked way around. Oh well. We opted to finish our loop around the park, exploring the other half of the park across the lake from where we'd already ridden. But it wasn't long before we reached... another
 impassible fence. And somehow we were on the "no trespassing" side of it.
 Curious, when you haven't hopped any fences to get there.
@@ -179,7 +179,7 @@ Fortunately, it comes with a
 built-in rest stop: the road at the top of the dam, halfway up the hill (the
 rest of the road continues up, up and away into the ridge between the reservoir and town). We gritted our teeth, and tackled the hill. By the time we made it
 to the top of the dam, I was happy to shed a layer of jacket and sip some
-water. But I didn't expect the view: a breathtaking vista of rocky ridge, reservoir, and just the faint outlines of high peaks poking their tips behind
+water. But I didn't expect the view: a breathtaking vista of rocky ridge, reservoir, and just the faint outlines of high peaks peeking from behind
 the foothills.
 
 ![dam](/../_images/nov_08_foco/dam.jpg)
@@ -202,7 +202,7 @@ inches. But after a few miles, I was content with the view, and ready to get off
 
 As I've mentioned in previous posts, Meg rides a relatively new steel touring
 bike, and I ride a 1990s steel mountain bike that's been (semi-professionally)
-converted into a touring bike. In this episode, Meg and I try to take Mandard
+converted into a touring bike. In this episode, Meg and I try to take Mandarb
 and Sully (those are the names of our bikes) on some mountain bike trails.
 
 As we rode down the ridgeline roadway, I noticed that there were a fair number
