@@ -30,6 +30,8 @@ markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
+  typographic_symbols: { hellip: ... , mdash: --- , ndash: -- , laquo: "<<" , raquo: ">>" , laquo_space: "<< " , raquo_space: " >>" }
+  smart_quotes: apos,apos,quot,quot
 theme: minima
 gems:
   - jekyll-feed
