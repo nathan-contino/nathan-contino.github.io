@@ -2,7 +2,7 @@
 title:  "Five Months with the 15-inch 2017 MacBook Pro"
 date:   2018-03-14 18:14:22 -0500
 layout: default
-categories: rants
+categories: techblog
 ---
 
 I have now spent about five months with a work-supplied Macbook Pro 2017, complete with discrete GPU and the infamous TouchBar.

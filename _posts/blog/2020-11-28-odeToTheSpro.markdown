@@ -2,7 +2,7 @@
 title:  "Ode to the `Spro"
 date:   2020-11-28 18:14:22 -0700
 layout: default
-categories: rants, coffee, espresso, reliability
+categories: blog
 ---
 
 Most people don't know a whole lot about espresso. That's OK -- like car

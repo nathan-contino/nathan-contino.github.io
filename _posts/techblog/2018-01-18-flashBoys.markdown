@@ -2,7 +2,7 @@
 title:  "Michael Lewis' *Flash Boys*"
 date:   2018-01-18 11:26:53 -0500
 layout: default
-categories: flashboys
+categories: techblog
 ---
 
 Just last week, I finished reading *Flash Boys*, written by Michael Lewis. This book can be summarized pretty easily by a single statement: "High Frequency Trading".
