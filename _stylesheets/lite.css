@@ -10,6 +10,10 @@ BODY {
   padding-bottom: 5%;
 }
 
+li {
+  max-width: 90ex;
+}
+
 th, td {
   font-size: 8pt;
   color: white;

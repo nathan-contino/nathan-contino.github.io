@@ -2,7 +2,7 @@
 title:  "Why \"Lambda Lovers?\""
 date:   2017-02-24 19:26:53 -0500
 layout: default
-categories: lambda lovers calculus
+categories: techblog
 ---
 Since I created this site, I've received many questions about the name. As a result, I've created this blog post to try to address the issue. In short, the name of this site stems from Alonzo Church's Lambda Calculus. Lambda Calculus was a highly influential mode of computation invented in the 1930s that eventually influenced a great deal of programming. This is most obvious in the form of the Lisp family of languages, where lambda functions have been present from day one, and where the very structure of code is based off of lambda calculus. However, the Lambda Calculus has now managed to seep into other programming styles-- most famously, C++ and Java have variants of lambda functions.
 

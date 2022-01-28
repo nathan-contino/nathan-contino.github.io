@@ -2,7 +2,7 @@
 title:  "Looking Forward to 2018"
 date:   2018-01-03 18:14:22 -0500
 layout: default
-categories: Bloomberg career NewYear start
+categories: techblog
 ---
 
 It is now 2018, and I've been thinking about what I intend to accomplish this year. I've never been one to embrace New Years resolutions or anything like that, but I do appreciate the value of outlining some goals for the year, however inconsequential.

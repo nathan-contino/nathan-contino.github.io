@@ -2,7 +2,7 @@
 title:  "Reflecting on Six Months at Bloomberg"
 date:   2017-12-18 13:14:22 -0500
 layout: default
-categories: Bloomberg career retrospective milestone
+categories: techblog
 ---
 
 I'm an adult now -- at least, that's what they tell me. I've been working as a ssoftware developer here at Bloomberg for almost 6 months now - I started June 19th, so it's actually 5 months 29 days today. Since it's the end of the day and programmers start counting at zero, let's just call it 6 months and be done with it.

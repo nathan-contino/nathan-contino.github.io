@@ -2,7 +2,7 @@
 title:  "Peter Kovak' *Flash Boys: Not So Fast*"
 date:   2018-01-24 11:42:53 -0500
 layout: default
-categories: flashboys not so fast
+categories: techblog
 ---
 
 Last week, I read Michael Lewis' *Flash Boys*. I was unimpressed. I had quite a few complaints, all of which you can read about in my post from last week. If you're looking for a summary, however, it boils down to this: *Flash Boys* was bad enough that I decided to read a book that is literally just a rebuttal to *Flash Boys* from the perspective of a former high frequency trader -- one of the many that Michael Lewis didn't bother to interview for his book.

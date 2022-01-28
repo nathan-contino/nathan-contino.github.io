@@ -2,7 +2,7 @@
 title:  "Site Redesign!"
 date:   2020-11-30 14:14:22 -0700
 layout: default
-categories: site, name, colors, web
+categories: techblog
 ---
 
 When I originally created this site, I had no clue what I was doing.

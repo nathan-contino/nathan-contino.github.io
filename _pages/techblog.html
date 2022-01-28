@@ -1,11 +1,11 @@
 ---
 layout: default
-title: λ Blog
+title: λ Tech Blog
 ---
 <div class="container">
   <div class="blog-posts">
     {% for post in site.posts %}
-      {% if post.categories contains "blog" %}
+      {% if post.categories contains "techblog" %}
         <div class="blog-post spacing">
           <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
           <p class="summary">
