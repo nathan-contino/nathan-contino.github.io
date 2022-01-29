@@ -1,6 +1,6 @@
 ---
 title:  "Make a Bootable USB in macOS"
-date:   2021-11-08 14:14:22 -0700
+date:   2022-01-28 14:14:22 -0700
 layout: default
 categories: techblog
 ---
