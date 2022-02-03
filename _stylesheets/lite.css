@@ -72,6 +72,11 @@ img + em {
     border: solid 0.15em #d24d15;
     border-top: 0;
     background-color: #5C4033;
+    height: 1em;
+    line-height: .8em;
+    margin-top:-.7em;
+    padding-top: .4em;
+    padding-bottom: .2em;
 }
 
 table > thead > tr > th > img {
