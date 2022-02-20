@@ -201,7 +201,8 @@ cooldown after days of thigh-and-calf-aching powder surfing.
 After our couple of hours on the slopes, Meg and I had one final stop in
 Steamboat: [Yampa Valley Kitchen](https://www.yampavalleykitchen.com/). Our
 meal was just as delicious as our [previous meal]({% post_url /blog/2021-05-22-steamboat-springs-gravel-grinding %}), and Meg is happy to report
-that her Cinnamon Toast Crunch Latte was just as she remembered it. After our
+that her Cinnamon Toast Crunch Latte was just as she remembered it. (She *can*,
+in fact, see why kids love it) After our
 brunch, we headed straight back home to Denver over Rabbit Ears Pass, excited
 to be back in our apartment after many days of skiing.
 
