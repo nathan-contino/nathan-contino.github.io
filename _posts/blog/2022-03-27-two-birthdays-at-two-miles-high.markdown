@@ -57,8 +57,8 @@ Note: it turns out there was a significant avalanche on Loveland pass
 right after we drove through to get to A Basin. That isn't surprising,
 given the fact that it was warm, super windy, and they were actively
 avalanche blasting at A Basin throughout our day of skiing. But it's
-pretty crazy to think about how narrowly we missed getting blocked --
-or caught! -- in an avalanche.
+pretty crazy to think about how narrowly we missed getting blocked by --
+or caught in! -- an avalanche.
 
 # Day 2: Ski Cooper
 
