@@ -53,7 +53,7 @@ night and prepare an elaborate meal of chicken and pasta.
 ![dillon](/../_images/mar_2022_leadville/02_dillon.jpg)
 *shoutout to whitney's car photography skills*
 
-Note: it turns out there was a significant avalanche on Loveland pass
+Note: it turns out there was a [significant avalanche on Loveland pass](https://www.9news.com/article/news/local/avalanche-us-6-loveland-pass/73-0c332d9a-2f9e-4422-8fa3-524f833d28bd)
 right after we drove through to get to A Basin. That isn't surprising,
 given the fact that it was warm, super windy, and they were actively
 avalanche blasting at A Basin throughout our day of skiing. But it's
