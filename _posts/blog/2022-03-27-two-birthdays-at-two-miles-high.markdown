@@ -40,7 +40,7 @@ anyway. We spent the morning exploring all of the trails we usually
 ignore on the frontside, zooming through trees and moguls and anything
 else we could find.
 
-After a quick pit stop for beers, bloody maries, and chicken fingers,
+After a quick pit stop for beers, Bloody Marys, and chicken fingers,
 the wind started to ease up. It wasn't long before they opened the
 Montezuma bowl up, and we tired ourselves out completely riding the
 untouched bowls and glades until closing time. Nothing makes
