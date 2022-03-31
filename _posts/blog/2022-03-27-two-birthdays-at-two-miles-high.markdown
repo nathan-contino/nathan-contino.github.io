@@ -200,7 +200,7 @@ As I mentioned in the intro of this post, Meg and I won't be here
 in Denver for long. We originally wanted to move to the mountains
 of Colorado... but all it takes is a couple of soul-crushing months
 looking for a reasonable rental to shut down that idea. In the end,
-we decided to give New Hampshire a shot. It'll give us easy access
+we decided to give New Hampshire a shot. It'll give us easy access to
 friends, family, outdoor activities, world-class gravel biking,
 Montreal, Boston, Burlington, Portland, New York... and offices for
 our now-permanent remote work arrangements. We'll be moving to
