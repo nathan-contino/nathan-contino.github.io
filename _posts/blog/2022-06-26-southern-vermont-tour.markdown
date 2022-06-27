@@ -363,3 +363,5 @@ ensured that we could navigate with or without cell service.
 
 I could absolutely live off of my bicycle for weeks at a time. So could Meg.
 Maybe we will sometime. I'm gunning for a grand European bike tour next spring.
+
+If you're interested in our route, check it out at [ridewithgps](https://ridewithgps.com/routes/39968488?privacy_code=EDY0Ejut4cOVRQjv).
