@@ -224,14 +224,14 @@ some Focal Banger, and Meg grabbed a quick chocolate/vanilla twist at
 [Honeypie](https://www.orderathoneypie.com/)
 because we apparently cannot go a single day without ice cream.
 
-![cows](/../_images/june_26_vt/27_cows.jpg)
-*happy cows*
-
 ![bahn mi](/../_images/june_26_vt/24_bahn_mi.jpg)
 *a delectable bahn mi*
 
 ![nate poke](/../_images/june_26_vt/25_nate_poke.jpg)
 *some tasty poke*
+
+![cows](/../_images/june_26_vt/27_cows.jpg)
+*happy cows*
 
 ![green mountains](/../_images/june_26_vt/26_green_mountains.jpg)
 *thanks to all of these darn trees in VT these are some of our only green mountain views*
@@ -244,7 +244,7 @@ right along the side of the river. We followed that for a few miles,
 and eventually burst out of the woods in the middle of the Winhall
 Brook Campground, where we surprised a random person by asking where we
 could register for our campsite. Considering you have to pass the office
-just to get into the campsite, this random person was very confused...
+just to get into the campsite by car, this random person was very confused...
 but eventually directed us up the (grueling) hill to the office, where
 we checked in and got a campground map. It was still pretty early, so we
 enjoyed some beers and waded in the river before we turned in for the
@@ -311,8 +311,7 @@ touring is the weight limitation.
 ![close up lilies](/../_images/june_26_vt/37_close_up_lilies.jpg)
 *close up lilies*
 
-
-After grafton, we continued down the road to a snacking spot by the river,
+After Grafton, we continued down the road to a snacking spot by the river,
 and eventually came to a crossroads: we could either take a cool dirt
 road detour up a very large hill, or stay on the (not very busy) main road
 and check out a farm stand that sells locally made ice cream. I'm sure
@@ -357,7 +356,7 @@ and camping supplies on our bikes every step of the way. Not showering is
 not that big a problem when you're always outside, and swim once or twice
 a day. My dynamo setup provided us with light and power to recharge our
 phones for navigation, and [ridewithgps](https://ridewithgps.com/?lang=en)
-ensured that we could navigate with our without cell service.
+ensured that we could navigate with or without cell service.
 
 ![butterfly](/../_images/june_26_vt/42_butterfly.jpg)
 *many butterflies*
