@@ -156,10 +156,10 @@ very long time.
 *vt bog viewz*
 
 ![forest road signs](/../_images/june_26_vt/11_forest_road_signs.jpg)
-*quality forest road signage*
+*forest road signage that could have been more helpful but was cool to look at nonetheless*
 
 ![double track](/../_images/june_26_vt/12_double_track.jpg)
-*starting day 2 with some quality double track*
+*starting day 2 with some double track*
 
 After that awkward experience, we were happy to head over to some
 technical doubletrack roads that giant RVs couldn't possibly traverse.
