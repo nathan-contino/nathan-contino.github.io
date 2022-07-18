@@ -19,13 +19,18 @@ th, td {
   color: white;
 }
 
-a:link {color: #f37320;}
-a:visited {color: #300A24;}
-a:active {color: #BBB;}
+a {
+  cursor: pointer;
+  cursor: hand;
+  color: #f37320;
+  text-decoration: none;
+  border-bottom: 1px solid;
+}
 
-a:link.external {color: #f37320; text-decoration: none;}
-a:visited.external {color: #300A24; text-decoration: none;}
-a:active.external {color: #BBB; text-decoration: none;}
+a:hover {
+  background-color: #300A24;
+  color: #BBB;
+}
 
 H1 {color: #dd4814;}
 H2 {color: #dd4814;}
@@ -145,9 +150,15 @@ lambda {
 
 biglambda {
     font-family: "FreeMono", "Courier New", "Rockwell", monospace;
-    font-size:80px;
+    font-size:38px;
     color: #d24d15;
     font-weight: lighter;
+}
+
+.container {
+  max-width:  70rem;
+  margin:  0 auto;
+  padding-top: 1rem;
 }
 
 h1 {
