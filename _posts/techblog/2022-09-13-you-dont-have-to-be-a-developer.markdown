@@ -104,7 +104,7 @@ change the calculus:
 - pay isn't everything (but it's still good)
 - you have to find the right compromises for satisfying work
 
-> *Note: Here ends my original writing. What follows is a reflection by
+*Note: Here ends my original writing. What follows is a reflection by
 my slightly-older-hopefully-wiser 2022 self.*
 
 Wow. I had a pretty good read on this career over two years ago.

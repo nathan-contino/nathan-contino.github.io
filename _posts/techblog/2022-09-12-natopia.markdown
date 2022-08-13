@@ -44,9 +44,9 @@ all with the support of a small investment in hardware, electricity, and
 personal time. I call my open source confederation of services **Natopia**,
 because, well, narcissism.
 
-> *NOTE: Literally all of this is a work in progress. Open source projects
-> continually develop. Standards change. This all works right now, but there
-> are many pieces I'd like to improve. Expect updates to this page over time.*
+*NOTE: Literally all of this is a work in progress. Open source projects
+continually develop. Standards change. This all works right now, but there
+are many pieces I'd like to improve. Expect updates to this page over time.*
 
 <!-- readmore -->
 
@@ -64,7 +64,7 @@ Sometimes I run a Minecraft server, too.
 I hope to eventually add a Calibre server to manage my book library, but it's
 just not enough of a benefit yet for me to bother.
 
-> *Note: the VPN is a prerequisite for any of these other services to work when you're not at home.*
+*Note: the VPN is a prerequisite for any of these other services to work when you're not at home.*
 
 ## Hardware
 
@@ -117,7 +117,7 @@ I combine this with fancy looking hostnames in my home server `/etc/hosts` file
 (such as "pig-gradlephant-laptop" and "heart-of-gold") so that my Pi-Hole UI
 shows readable device names, instead of hard to remember IP addresses.
 
-Note: devices that leave the home, like my laptop and my phone, end up with
+Devices that leave the home, like my laptop and my phone, end up with
 *two* IP addresses & fancy hostnames pairs because they show up as a different
 IP address in the VPN DHCP range. I'm not sure if this is totally necessary
 (is it even possible to let my router know the MAC address of a phone that's
