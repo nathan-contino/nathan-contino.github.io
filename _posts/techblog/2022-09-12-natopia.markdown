@@ -369,34 +369,15 @@ Think the installation took a long time? It takes longer to find a list of
 feeds you'd like to follow. Here's my own list of feeds that you can shamelessly
 sift through as a starting point (or laugh at, if that's more your speed):
 
-- 99% Invisible
-- Aaron Gustafson
-- Anna Dodson
-- Astral Codex Ten
-- Climate Town Videos
-- Continuing Ed (Snowden)
-- cosmosurfer's blog
-- CyclingAbout Videos
-- Docs for Developers
-- FreshRSS releases
-- Granola Shotgun
-- James Hoffmann Videos
-- Jamie Tanna
-- Jay Foreman Videos
-- Julia Evans
-- Noah Caldwell-Gervais Videos
-- Not Just Bikes Videos
-- RedLetterMedia Videos
-- Rivendell Blahg
-- Rolling Existence
-- Rolling Existence Videos
-- Steve Gattuso
-- Stratechery
-- The Desolation of Blog
-- The Velo ORANGE Blog
-- Wild Girl Writing
-- XKCD
-- λ Latitudinarians
+<a href="/_resources/nates-subscriptions.opml">Nate's RSS Subscriptions [7KB]</a>
+
+I'm providing this as an [OPML file](https://en.wikipedia.org/wiki/OPML). It's
+basically just a piece of XML that you can import into most RSS clients. If you
+don't want to go through the process of setting up FreshRSS, I highly recommend
+[FeedBro](https://addons.mozilla.org/en-US/firefox/addon/feedbroreader/), which
+runs as a Firefox add-on. Unlike FreshRSS, you can't share your subscriptions
+and read state across devices, but if you mostly use one device to read RSS
+that might not be a big deal.
 
 Just search the feed name and as long as you use a civil browser like Firefox,
 you'll see a little RSS icon on the right side of the URL bar. If you click on
