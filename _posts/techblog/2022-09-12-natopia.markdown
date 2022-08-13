@@ -257,6 +257,32 @@ Docker a bit too computationally expensive on my Raspberry Pi, so I run
 Jellyfin on server startup via [Systemd](https://jellyfin.org/docs/general/administration/installing.html#managing-via-systemd).
 The official documentation covers things quite well.
 
+I organize my files just like I did in the 00's with iTunes:
+
+```
+Music
+  Artist
+    AlbumA
+      Song1
+      Song2
+      cover.jpg
+    AlbumB
+      Song1
+      Song2
+      cover.jpg
+```
+
+Jellyfin lets you edit metadata in the files directly, but only some of
+it, like song names, artist names, album names, etc. It can be difficult
+*merge* artists, if they somehow get separated -- I'm still not sure if
+there's a good way to do this in the UI.
+
+I need to investigate volume normalization. My Rush albums, for instance,
+are super high quality vinyl-ripped lossless FLACs, upwards of 3000 kbps
+quality. But they're quiet compared to the rest of my songs. From what
+I've read, I should be able to edit the volume gain directly in the file.
+But I haven't experimented with it yet.
+
 I did experience one issue early on with my Jellyfin setup: the account
 running my Jellyfin server didn't have write access to my music library.
 This meant that I couldn't edit song metadata or delete songs from the UI.
@@ -388,6 +414,68 @@ swear by other clients like Reeder. Some folks just prefer the FreshRSS web UI.
 Figure out what makes you happy -- I like the native iOS and macOS styling of
 NetNewsWire, so I'm sticking with it for now. I might make my own theme sometime
 soon and share it here.
+
+## Network File Shares
+
+I use Samba to expose files on my home server to other devices on my network --
+mostly Macbooks. I followed [this guide](https://kremalicious.com/raspberry-pi-file-and-screen-sharing-macos-ios#file-sharing-with-samba),
+but in short:
+
+1. Install Samba on the raspberry pi:
+
+   ```
+   sudo apt update && sudo apt upgrade
+   sudo apt install samba samba-common-bin
+   ```
+2. Set a dedicated Samba password for the account you'd like to use for
+   file sharing (I stuck with pi; that's probably not the most secure
+   way to go):
+
+   ```
+   sudo smbpasswd -a pi
+   ```
+
+3. In `/etc/samba/smb.conf`, in the `[homes]` section, set `read only = no`
+   to make shared home folders writable.
+
+4. (Optional) Set a fancy icon for the raspberry pi in Finder by creating a
+   `/etc/avahi/services/smb.service` file (use `sudo`) and entering
+   the following contents:
+
+   ```
+    <?xml version="1.0" standalone='no'?>
+    <!DOCTYPE service-group SYSTEM "avahi-service.dtd">
+    <service-group>
+      <name replace-wildcards="yes">%h</name>
+      <service>
+        <type>_smb._tcp</type>
+        <port>445</port>
+      </service>
+      <service>
+        <type>_device-info._tcp</type>
+        <port>0</port>
+        <txt-record>model=MacProCylinder</txt-record>
+      </service>
+    </service-group>
+   ```
+
+   If you want any other icon, run `open /System/Library/CoreServices/CoreTypes.bundle/Contents/Resources/` in your mac, and pick your favorite
+   icon.
+
+5. Restart the Samba service to make these changes effective:
+
+   ```
+   sudo service smbd restart
+   ```
+
+   And restart the Avahi service to make the icon changes effective:
+
+   ```
+   sudo service avahi-daemon restart
+   ```
+
+If you don't see the server or icons, try `killall Finder` to restart the
+Finder process on your Mac.
 
 ## Backups
 
