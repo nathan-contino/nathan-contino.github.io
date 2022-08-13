@@ -1,0 +1,417 @@
+---
+title:  "Natopia"
+date:   2022-09-12 14:14:22 -0700
+layout: default
+categories: techblog
+---
+
+Over the past few years, I've slowly tried to reduce my dependence on
+big tech. I know this is popular in some circles right now, and I've made
+all the standard moves:
+
+- remove myself from Facebook and Instagram
+- migrate my personal email from Gmail to Protonmail
+- reduce subscriptions to music and video streaming services across the board
+- start a blog where I can shamelessly rant and rave about cool things I've done
+
+But why did I do this? Not (just) because I love to chase the latest technocrat
+trends. Honestly it's mostly because I hate feeling dirty when I use these
+services:
+
+- When I used Spotify, I was constantly frustrated by regressions and
+  podcasts shoved in my face (despite the fact that I cannot stand Spotify's
+  approach to podcasts, where they buy up exclusive distribution rights to a
+  family of podcasts and turn them into... Spodcasts, which aren't really
+  podcasts because they aren't distributed the way all other podcasts circulate:
+  RSS). And their offline playback support is laughable.
+
+- Google services constantly misbehave when you use Firefox or Librewolf,
+  my browsers of choice.
+
+- Newsletters constantly send spam mail, and are often much harder to
+  fully unsubscribe from than an RSS feed.
+
+- iOS still doesn't support ad blocking anywhere near the level of uBlock
+  Origin, or allow me to use real add-ons in a browser... prompting me to
+  find alternative methods to block ads on my phone.
+
+And every tech company I've ever bought any product from seems to abuse dark
+patterns to manipulate users out the wazoo. All in the name of getting you to
+buy one more thing, or look at one more not-really-notification. Weak.
+
+This post talks about how I freed myself from a myriad of big tech services,
+all with the support of a small investment in hardware, electricity, and
+personal time. I call my open source confederation of services **Natopia**,
+because, well, narcissism.
+
+> *NOTE: Literally all of this is a work in progress. Open source projects
+> continually develop. Standards change. This all works right now, but there
+> are many pieces I'd like to improve. Expect updates to this page over time.*
+
+<!-- readmore -->
+
+## Overview
+
+My home server runs:
+
+- a VPN to stay connected to my home server's services even when I'm traveling
+- ad blocking across my entire network and phone
+- music and video streaming of my personal library
+- an RSS aggregator so I can stay up to date on blogs and newsletters
+
+Sometimes I run a Minecraft server, too.
+
+I hope to eventually add a Calibre server to manage my book library, but it's
+just not enough of a benefit yet for me to bother.
+
+> *Note: the VPN is a prerequisite for any of these other services to work when you're not at home.*
+
+## Hardware
+
+You don't need that much hardware to run a basic "home server". I do it
+all on a fanless [Raspberry Pi](https://en.wikipedia.org/wiki/Raspberry_Pi)
+that sips barely any power and store all of my data on an external USB SSD.
+Here's my setup:
+
+- Raspberry Pi 4 Model B (8GB RAM)
+- FLIRC Raspberry Pi 4 case
+- Samsung T5 portable SSD (USB 3.1) (2TB)
+- SanDisk 256GB Ultra microSDXC SD card
+
+Raspberry Pis used to basically require an SD card for system storage.
+These days, I think you can even do the initial OS install on an SSD right from
+the first boot. I've been using 64-bit piOS for around 2 years now, since I
+have an 8GB Pi, and it's been solid the whole time, except for some minor
+wireguard issues I experienced back in 2020. I highly recommend it.
+
+Most of these items were specially requested birthday and Christmas gifts.
+(thanks Mom, even if you don't know what a "raspberry pi" is) Even with
+SSD prices inflating recently, you should be able to put together a similar setup for somewhere between $100 and $300, depending on your home server and
+SSD choices. You could even run this on an old laptop if you have one lying
+around: that was actually my first home server, until the fan annoyed me
+enough to get a raspberry pi!
+
+## Router & WiFi
+
+I use an Apple AirPort Time Capsule 802.11ac as my router. It has 3TB of
+internal storage that's perfectly capable of backing up my personal and work
+laptops. I back up my phone to my personal laptop instead of iCloud,
+since iCloud backups
+[grant Apple and their friends](https://www.reuters.com/article/us-apple-fbi-icloud-exclusive/exclusive-apple-dropped-plan-for-encrypting-backups-after-fbi-complained-sources-idUSKBN1ZK1CT)
+access to your personal encryption keys). Thus the Time Capsule also grants me
+transitive backups of my phone, all with practically no work on my end.
+
+Airport routers might be a little old, but even on a gigabit internet connection, AC WiFi doesn't slow things down much. I get around 750mbps down, 50mbps up on my current connection; on my Google Fiber connection at
+my last apartment, I used to get 750 up and down. This router is reliable and provides easy backups. I've tried [openwrt](https://openwrt.org/) in the past,
+and software routing and crappy CPUs caused too much buffer bloat and video
+latency for my comfort. Better to use a reliable hardware routing solution in my anecdotal experience. I refuse to use a router with an online management
+portal, so most mesh solutions are not feasible for my use case.
+
+I use DHCP reservations for specific IP addresses on my network based on
+device MAC addresses. This isn't technically required, but it can be helpful
+to ensure that your home server doesn't change IP address after a power outage
+or a router reboot. I also do this for all of the other devices on my network --
+game consoles, laptops, phones, tablets, TVs, etc. -- so that when I look at
+my network query log, each device always uses the same IP address over time.
+I combine this with fancy looking hostnames in my home server `/etc/hosts` file
+(such as "pig-gradlephant-laptop" and "heart-of-gold") so that my Pi-Hole UI
+shows readable device names, instead of hard to remember IP addresses.
+
+Note: devices that leave the home, like my laptop and my phone, end up with
+*two* IP addresses & fancy hostnames pairs because they show up as a different
+IP address in the VPN DHCP range. I'm not sure if this is totally necessary
+(is it even possible to let my router know the MAC address of a phone that's
+only connected to the network via VPN?), but it's fine by me -- easier to
+figure out when something weird happens with the VPN.
+
+## VPN
+
+I was a happy [OpenVPN](https://openvpn.net/) user for my first year of
+self-hosting. It is a very solid VPN solution, and at the time, it was the
+only VPN that worked on 64-bit piOS without compiling your VPN server yourself.
+
+These days, I use [PiVPN](https://pivpn.io/) to manage a local
+[WireGuard](https://www.wireguard.com/) server. PiVPN makes it quite easy to
+set up your VPN server, and adding a new client is as easy as `pivpn -a`.
+I'm happy to report that the rumors of WireGuard's performance optimizations
+are indeed true: OpenVPN used to chug about 9% of my phone battery life, but
+WireGuard only uses 2-4%. WireGuard also has the *massively* useful feature
+of automatically switching on and off based on wifi network SSID exclusions,
+so my phone and laptop connect to my VPN whenever I'm *not* on my home wifi.
+
+Once you've set up the server, you'll need to set up port forwarding from your
+router to your raspberry pi for the VPN port. Don't freak out if your client
+doesn't immediately work -- in my experience, network configurations usually
+need a few dozen swear words, a couple of reboots, a cup of coffee, and a nice
+walk before they start working with the exact same config you originally set up.
+For reference, I use the following settings on my Airport router:
+
+```
+Description: wireguard
+Public UDP Ports: 51820
+Public TCP Ports:
+Private IP Address: 192.168.1.3
+Private UDP Ports: 51820
+Private TCP Ports: 
+```
+
+Your "Private IP Address" field will vary depending on your home server's
+IP address.
+
+When you connect to your VPN server from a client app, you'll need your home's
+public IP address. There are many ways to find this, but one easy way is to
+[search 'what is my ip' in a decent search engine](https://duckduckgo.com/?q=what+is+my+ip&ia=answer). Look right under the search bar on the page, above the filter settings.
+
+You can add a VPN client profile with the following command:
+
+```
+pivpn wg -a
+```
+
+This will generate a file containing a client profile. I find it convenient to
+use `cat` to print the file contents to the terminal, then copy/paste those
+contents into a `.conf` file that I share from my personal laptop to the client
+device, like my phone or work laptop. When you load the configuration in the
+WireGuard application, don't forget to replace the endpoint IP address with your
+home's public IP! I also like to set up SSID exclusions so my phone and laptop
+disconnect from the VPN when I'm on my home wifi network, but connect on any
+other network and cellular. Viola! You've now got ad blocking on your devices
+wherever you go. And any other services you run on your server.
+
+The VPN is essential to use any of these other services when you're away from home. It's also comforting to use unsecure wifi networks at hotels, coffee shops, and libraries with the knowledge that my VPN protects my traffic from
+prying wireless eyes.
+
+## Ad Blocker
+
+I use a [Pi-Hole](https://pi-hole.net/) to block ads on my entire network at
+the DNS level. This means that a most ads never make it to my device:
+the request doesn't even leave my network! It also helpfully blocks many ads
+from my "smart" TV, my Playstation 4 Pro, my e-ink Android tablet, and my
+iPhone, which all have locked-down operating systems that prevent me from
+blocking ads on the device itself.
+
+A word of warning: depending on the blacklists you employ, a Pi-Hole can and
+will break some particularly spammy websites. Referral and tracker links
+frequently break -- a particularly annoying situation when I'm trying to
+*unsubscribe* from a mailing list or service. I see this as a red flag that
+only reinforces my hatred for these privacy violating services, but Meg tells
+me that I might be a dangerous antisocial madman who doesn't acknowledge the
+real world utility of Instagram ads. Who's to say who's right? At least you're
+aware now.
+
+Once you've got your Pi-Hole set up, you need to configure it as the DNS
+provider for your network. I can't help you with that configuration -- it
+depends on your router. In the Airport UI, this is particularly annoying.
+Here's my current configuration:
+
+> In the "Internet" tab, set both "DNS Servers" inputs to the IP address of
+  your Pi-Hole. Leave the "IPv6 DNS Servers" inputs and the "Domain name"
+  input empty. On my Airport router, those empty inputs show greyed-out
+  ghost numbers, and (amusingly) `main.rr.com`, despite the fact that I
+  live in New Hampshire. I don't know if this is totally correct, but it
+  works alright for me.
+
+Airport routers only have one set of inputs for DNS settings. If you set
+up a DNS server in your personal network DHCP range, computers connected
+to your guest network will try to connect to that DNS server... and fail.
+Because they're in a separate network. For this reason, I don't recommend
+using a guest network on an Airport router with a Pi-Hole.
+
+On OpenWRT it was pretty easy to set up a custom DNS provider,
+but also pretty easy to screw up. I seem to remember an awful lot of
+text entry and writing newlines by hand because there weren't any input
+boxes. There's one major thing you should understand when setting up your
+Pi-Hole: it should be the *only* DNS for your network. Don't add a second
+"backup" DNS in case it fails -- if you do that, every time you block an
+ad with the Pi-Hole, your devices will go straight to the second DNS and
+fetch the ad successfully. Stick with just the one.
+
+Some devices come with DNS addresses hardcoded into them. If your router
+allows it, block outbound requests from your network entirely for every
+device except the server running the Pi-Hole. That way, nobody can send
+rogue requests to DNS servers other than the Pi-Hole.
+
+## Music
+
+My music hosting is deceptively simple. I use:
+
+- [Jellyfin](https://jellyfin.org/) to host music and videos on my local network
+- [FinAmp](https://github.com/UnicornsOnLSD/finamp) to stream my whole music
+  library from my phone, and download albums for offline listening.
+- [Sonixd](https://github.com/jeffvli/sonixd) to stream my whole music library
+  from my work and personal laptops.
+
+FinAmp and Sonixd are easy to install on your client devices. Once you've
+installed them, you just have to point them to your Jellyfin server. I use my
+Pi-Hole to make easy-to-remember DNS entries like "music.box" instead of
+"192.168.1.3" for services like Jellyfin. Note that FinAmp and Sonixd are both fairly picky about including the "http://" prefix at the beginning of your URL.
+If you create a fun DNS entry, you'll enter a URL like this:
+
+```
+http://music.box:8096
+```
+
+Setting up Jellyfin isn't too hard, once you've got a place to store all of
+your legitimate DRM-free music files ripped from CDs in the 00's. I find
+Docker a bit too computationally expensive on my Raspberry Pi, so I run
+Jellyfin on server startup via [Systemd](https://jellyfin.org/docs/general/administration/installing.html#managing-via-systemd).
+The official documentation covers things quite well.
+
+I did experience one issue early on with my Jellyfin setup: the account
+running my Jellyfin server didn't have write access to my music library.
+This meant that I couldn't edit song metadata or delete songs from the UI.
+I worked around this by simply running Jellyfin as my admin `pi` account
+on my home server. That's probably not the best solution, but since it's
+only accessible on my home network and via VPN, it's... probably OK. You
+could definitely work around the issue by granting another jellyfin-specific
+user write access to the music library.
+
+I originally spent a fair bit of time setting up Jellyfin to use Google Drive
+as a network storage engine. Surprisingly, it worked! Then, the next day,
+Google announced massive cutbacks to previously "unlimited storage for life"
+university Google accounts. Coincidence? I think not. There was some noticeable
+latency anyway, and 2TB USB SSDs are cheap enough that you're unlikely to
+need more storage for a long time.
+
+## A News Feed
+
+I use [FreshRSS](https://www.freshrss.org/) to keep up to date with blog posts
+and non-evil newsletters from companies I respect. It's been working great for
+about a month so far. If you don't know what RSS is:
+
+- It's a technology for decentralized notifications. Instead of "pushing"
+  updates from a central server, your RSS aggregator just checks for new
+  entries in a feed file.
+- Rumors of its death are greatly exaggerated.
+- It's the backbone of podcasts.
+- [Read up on it](https://en.wikipedia.org/wiki/RSS).
+
+Initial installation didn't take long (despite the long list of steps below --
+they go quick, and it's all basic Unix-isms instead of modern container voodoo.
+I followed [this guide](https://cosmosurferblog.wordpress.com/2021/01/30/freshrss-on-raspberry-pi/), but in case that blog ever disappears, here's the
+steps I followed:
+
+1. Update your system:
+
+   ```
+   sudo apt-get update && sudo apt-get dist-upgrade
+   ```
+2. Fetch dependencies:
+
+   ```
+   sudo apt install php php-curl php-gmp php-intl php-mbstring php-sqlite3 php-xml php-zip
+   ```
+
+3. Clone the master branch of FreshRSS into a directory on your server. In
+   this case, `/srv/` (I used `/home/pi/Documents/FreshRSS/`):
+
+   ```
+   cd /srv/ && sudo git clone https://github.com/FreshRSS/FreshRSS.git
+   ```
+
+4. Add the following to `/etc/lighttpd/external.conf` to run FreshRSS on port
+   2000 with your existing lighttpd service (used to host your Pi-Hole):
+
+   ```
+   # FreshRSS config
+
+   $SERVER["socket"] == ":2000" {
+       server.document-root     = "/var/www/html/freshrss/p"
+   }
+   ```
+
+5. Link `<FreshRSS director>/p` to the web server folder:
+
+   ```
+   sudo ln -s /srv/FreshRSS/p /var/www/html/freshrss
+   ```
+   In my case, I replaced "/srv/FreshRSS/p" above with "/home/pi/Documents/FreshRSS/p".
+   To run FreshRSS, this folder must be public. This makes it so.
+
+6. Grant the web server user account (`www-data`) access to read the FreshRSS
+   folder and write to the `data` subfolder:
+
+   ```
+   cd /srv/FreshRSS
+   ```
+   ```
+   sudo chown -R www-data:www-data .
+   ```
+   ```
+   sudo cmod -R g+r .
+   ```
+   ```
+   sudo cmod -R g+w ./data
+   ```
+
+7. Next, configure your cron tab to update the feeds automatically.
+   Open the crontab:
+   ```
+   sudo crontab -e
+   ```
+   Paste the following to run FreshRSS's `actualize_script` every 15 minutes
+   and write any output to a log in `/tmp/`:
+   ```
+   */15 * * * * sudo -u www-data php -f /srv/FreshRSS/app/actualize_script.php > /tmp/FreshRSS.log 2>&1
+   ```
+   As before, replace "/srv/" above with "/home/pi/Documents/FreshRSS/" or
+   whatever location you chose for your installation in step 3.
+8. Restart lighttpd:
+   ```
+   sudo /etc/init.d/lghttpd restart
+   ```
+9. Breathe a sigh of relief and visit http://<home server address>:2000. Within
+   a minute or so you should see the FreshRSS UI.
+
+*Special thanks to **cosmosurfer** for this non-containerized RSS aggregator setup.*
+
+Think the installation took a long time? It takes longer to find a list of
+feeds you'd like to follow. Here's my own list of feeds that you can shamelessly
+sift through as a starting point (or laugh at, if that's more your speed):
+
+- 99% Invisible
+- Aaron Gustafson
+- Anna Dodson
+- Astral Codex Ten
+- Climate Town Videos
+- Continuing Ed (Snowden)
+- cosmosurfer's blog
+- CyclingAbout Videos
+- Docs for Developers
+- FreshRSS releases
+- Granola Shotgun
+- James Hoffmann Videos
+- Jamie Tanna
+- Jay Foreman Videos
+- Julia Evans
+- Noah Caldwell-Gervais Videos
+- Not Just Bikes Videos
+- RedLetterMedia Videos
+- Rivendell Blahg
+- Rolling Existence
+- Rolling Existence Videos
+- Steve Gattuso
+- Stratechery
+- The Desolation of Blog
+- The Velo ORANGE Blog
+- Wild Girl Writing
+- XKCD
+- λ Latitudinarians
+
+Just search the feed name and as long as you use a civil browser like Firefox,
+you'll see a little RSS icon on the right side of the URL bar. If you click on
+that, you'll end up at the feed URL, which you can copy & paste into FreshRSS.
+
+I use [NetNewsWire](https://netnewswire.com/) to read my feed. A lot of people
+swear by other clients like Reeder. Some folks just prefer the FreshRSS web UI.
+Figure out what makes you happy -- I like the native iOS and macOS styling of
+NetNewsWire, so I'm sticking with it for now. I might make my own theme sometime
+soon and share it here.
+
+## Backups
+
+I just use Time Machine for now. I'd eventually like to offload my backups
+to an offsite storage medium, in case of a flood or a fire or a Vogon
+constructor fleet. For now, this is the best backup solution I've ever had,
+and I'm basking in that glory until I get worried enough to improve it.
+
