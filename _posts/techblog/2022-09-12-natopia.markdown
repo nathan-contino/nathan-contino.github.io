@@ -207,7 +207,7 @@ Here's my current configuration:
 > In the "Internet" tab, set both "DNS Servers" inputs to the IP address of
   your Pi-Hole. Leave the "IPv6 DNS Servers" inputs and the "Domain name"
   input empty. On my Airport router, those empty inputs show greyed-out
-  ghost numbers, and (amusingly) `main.rr.com`, despite the fact that I
+  ghost numbers, and (amusingly) `maine.rr.com`, despite the fact that I
   live in New Hampshire. I don't know if this is totally correct, but it
   works alright for me.
 
