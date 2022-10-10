@@ -19,7 +19,7 @@ strawberry. You end up seeing an area
 
 <!-- readmore -->
 
-![mandarb & sully](/../_images/june_26_vt/00_dual_bikes.jpg)
+![mandarb & sully]({{ site.images }}june_26_vt/00_dual_bikes.jpg)
 *mandarb and sully, at it again*
 
 # Day 0: Littleton->Brattleboro (by car)
@@ -42,7 +42,7 @@ a park-and-ride by a covered bridge in Dummerston and set off over the
 covered bridge on our first dirt road of the trip. First destination:
 Brattleboro, a supremely touristy and surprisingly large Vermont town.
 
-![meg start](/../_images/june_26_vt/01_meg_car.jpg)
+![meg start]({{ site.images }}june_26_vt/01_meg_car.jpg)
 *ready to roll*
 
 # Day 1: Brattleboro->Wilmington->Somerset Airfield
@@ -55,10 +55,10 @@ tourists and backs up traffic for blocks and blocks. Fortunately when
 you're riding a bike you can just hop off it and walk down the sidewalk.
 Take that, car industrial complex!
 
-![meg climb](/../_images/june_26_vt/02_meg_climb.jpg)
+![meg climb]({{ site.images }}june_26_vt/02_meg_climb.jpg)
 *it's the climb -miley cyrus*
 
-![meg_park](/../_images/june_26_vt/03_meg_park.jpg)
+![meg_park]({{ site.images }}june_26_vt/03_meg_park.jpg)
 *apple break time*
 
 
@@ -75,7 +75,7 @@ and still feature ice-cold sweet potato chunks. I can say that our bagel
 tasted kind of like the free leftover bagel you'd get after a board meeting
 at an insurance company.
 
-![brattleboro](/../_images/june_26_vt/04_brattleboro.jpg)
+![brattleboro]({{ site.images }}june_26_vt/04_brattleboro.jpg)
 *should have just gone to a brewery... never again "the works"*
 
 All I'll say is this... I do not recommend "The Works" in Brattleboro.
@@ -90,17 +90,17 @@ cemetary on the route, and de-stressing from the pains of 9-5 life. There
 were so many stunning overlooks and cute houses on this section of the
 route, you should probably just look at the pictures.
 
-![salamander](/../_images/june_26_vt/05_salamander.jpg)
+![salamander]({{ site.images }}june_26_vt/05_salamander.jpg)
 *lil salamander friend*
 
-![nate dirt](/../_images/june_26_vt/07_nate_dirt.jpg)
+![nate dirt]({{ site.images }}june_26_vt/07_nate_dirt.jpg)
 *nate gravel grindin' on some quality vt dirt*
 
 We stopped at a school in West Halifax to split an apple and
 refill our water bottles. And a nearby cemetary to finish the aforementioned
 insurance company board meeting bagel.
 
-![bagel bridge](/../_images/june_26_vt/06_bagel_bridge.jpg)
+![bagel bridge]({{ site.images }}june_26_vt/06_bagel_bridge.jpg)
 *a great stop for a bagel*
 
 A short time later, our route took us on VT 9 and VT 100, which eventually
@@ -113,7 +113,7 @@ stopped by after a "long day" for two to-go cups of vodka mixed with red
 wine. I've had some long days myself, but... if you ever see me order
 vodka mixed with red wine, call a doctor. Please.
 
-![nate burger](/../_images/june_26_vt/08_nate_burger.jpg)
+![nate burger]({{ site.images }}june_26_vt/08_nate_burger.jpg)
 *a well earned burger*
 
 We headed out from our burger-and-beer dinner with full stomachs and a
@@ -122,7 +122,7 @@ But our campsite was still miles away, and with bikes and dirt roads, it's
 hard to say if you'll average 10 miles an hour or 2. So we donned our
 raincoats and headed out.
 
-![rainy bridge](/../_images/june_26_vt/09_rainy_bridge.jpg)
+![rainy bridge]({{ site.images }}june_26_vt/09_rainy_bridge.jpg)
 *high spirits despite the rain*
 
 Sure enough, within just a few minutes we were biking down the side of
@@ -133,12 +133,12 @@ condition, and rode along the river and past a cool bridge on our way
 to the campsite at Somerset Airfield. We enjoyed a refreshing Heady Topper
 as we set up the campsite and turned in for the night.
 
-![nate bridge](/../_images/june_26_vt/10_nate_bridge.jpg)
+![nate bridge]({{ site.images }}june_26_vt/10_nate_bridge.jpg)
 *disappointedly too cold and rainy for a swim*
 
 # Day 2: Somerset Airfield->Winhall Brook Campground
 
-![camp day 1](/../_images/june_26_vt/14_camp_day_1.jpg)
+![camp day 1]({{ site.images }}june_26_vt/14_camp_day_1.jpg)
 *camp #1*
 
 It rained on and off throughout the night, so Meg and I slept in a bit
@@ -152,13 +152,13 @@ as we packed up our panniers. That's probably the fastest I've ever packed
 up our tent and panniers, but it somehow still felt like a very, very,
 very long time.
 
-![vermont bog](/../_images/june_26_vt/15_vt_bog.jpg)
+![vermont bog]({{ site.images }}june_26_vt/15_vt_bog.jpg)
 *vt bog viewz*
 
-![forest road signs](/../_images/june_26_vt/11_forest_road_signs.jpg)
+![forest road signs]({{ site.images }}june_26_vt/11_forest_road_signs.jpg)
 *forest road signage that could have been more helpful but was cool to look at nonetheless*
 
-![double track](/../_images/june_26_vt/12_double_track.jpg)
+![double track]({{ site.images }}june_26_vt/12_double_track.jpg)
 *starting day 2 with some double track*
 
 After that awkward experience, we were happy to head over to some
@@ -180,13 +180,13 @@ was the worst riding experience of our whole trip. Thankfully it was just
 a few miles, and mostly through very pretty forest. It did make us
 appreciate all the other roads a lot more through contrast, I guess.
 
-![strawberry](/../_images/june_26_vt/17_strawberry.jpg)
+![strawberry]({{ site.images }}june_26_vt/17_strawberry.jpg)
 *unfortunately a little before berry season*
 
-![meg dirt](/../_images/june_26_vt/16_meg_dirt.jpg)
+![meg dirt]({{ site.images }}june_26_vt/16_meg_dirt.jpg)
 *meg riding that quality vt dirt*
 
-![bus](/../_images/june_26_vt/13_bus.jpg)
+![bus]({{ site.images }}june_26_vt/13_bus.jpg)
 *luckily we took the long detour to see this sweet bus*
 
 After a quick lunch break from the awful resurfaced road, we quickly
@@ -198,19 +198,19 @@ Technically challenging enough to remain interesting, never so brutally
 uphill to stop us completely, and with a long rewarding downhill stretch
 at the end that took us nearly all the way to lunch.
 
-![meg doubletrack](/../_images/june_26_vt/18_meg_doubletrack.jpg)
+![meg doubletrack]({{ site.images }}june_26_vt/18_meg_doubletrack.jpg)
 *we truly earned the beers we drank*
 
-![vt swamp](/../_images/june_26_vt/19_vt_swamp.jpg)
+![vt swamp]({{ site.images }}june_26_vt/19_vt_swamp.jpg)
 *even the swamps in vt are pretty beautiful*
 
-![meg_singletrack](/../_images/june_26_vt/20_meg_singletrack.jpg)
+![meg_singletrack]({{ site.images }}june_26_vt/20_meg_singletrack.jpg)
 *downhill singletrack for miles - putting the mtb skills to good use*
 
-![nate_ damera](/../_images/june_26_vt/21_nate_camera.jpg)
+![nate_ damera]({{ site.images }}june_26_vt/21_nate_camera.jpg)
 *nate the camera man hard at work*
 
-![nate river](/../_images/june_26_vt/22_nate_river.jpg)
+![nate river]({{ site.images }}june_26_vt/22_nate_river.jpg)
 *cleanin' off the feetsies*
 
 For linner, we stopped in Winhall (or Rawsonville, or Jamaica?
@@ -224,16 +224,16 @@ some Focal Banger, and Meg grabbed a quick chocolate/vanilla twist at
 [Honeypie](https://www.orderathoneypie.com/)
 because we apparently cannot go a single day without ice cream.
 
-![bahn mi](/../_images/june_26_vt/24_bahn_mi.jpg)
+![bahn mi]({{ site.images }}june_26_vt/24_bahn_mi.jpg)
 *a delectable bahn mi*
 
-![nate poke](/../_images/june_26_vt/25_nate_poke.jpg)
+![nate poke]({{ site.images }}june_26_vt/25_nate_poke.jpg)
 *some tasty poke*
 
-![cows](/../_images/june_26_vt/27_cows.jpg)
+![cows]({{ site.images }}june_26_vt/27_cows.jpg)
 *happy cows*
 
-![green mountains](/../_images/june_26_vt/26_green_mountains.jpg)
+![green mountains]({{ site.images }}june_26_vt/26_green_mountains.jpg)
 *thanks to all of these darn trees in VT these are some of our only green mountain views*
 
 Then, we headed off to our campsite. Our route took us along a dirt road
@@ -251,13 +251,13 @@ enjoyed some beers and waded in the river before we turned in for the
 night. It was a great campsite except for the fact that we were woken
 up by 30 minutes of loud, drunken Kelly Clarkson karaoke at midnight.
 
-![creek](/../_images/june_26_vt/28_creek.jpg)
+![creek]({{ site.images }}june_26_vt/28_creek.jpg)
 *biking along a beautiful creek*
 
-![nate meg creek](/../_images/june_26_vt/29_nate_megcreek.jpg)
+![nate meg creek]({{ site.images }}june_26_vt/29_nate_megcreek.jpg)
 *happened to be the same creek next to our campground*
 
-![camp 2](/../_images/june_26_vt/23_camp_2.jpg)
+![camp 2]({{ site.images }}june_26_vt/23_camp_2.jpg)
 *big perk of organized campgrounds is the picnic table*
 
 # Day 3: Winhall->Londonderry->Grafton->Brattleboro
@@ -279,13 +279,13 @@ Vermont-y eavesdropping to be had as various locals stopped in, ordered
 their almond milk cold brews, and talked about the yard and personal farm
 work they wanted to do. 10 out of 10 experience.
 
-![breakfast](/../_images/june_26_vt/30_breakfast.jpg)
+![breakfast]({{ site.images }}june_26_vt/30_breakfast.jpg)
 *shoutout to the corner market deli*
 
-![pavement ends](/../_images/june_26_vt/31_pavement_ends.jpg)
+![pavement ends]({{ site.images }}june_26_vt/31_pavement_ends.jpg)
 *always a delight when you expect a busy road and it ends up being dirt*
 
-![meg bridge](/../_images/june_26_vt/32_meg_bridge.jpg)
+![meg bridge]({{ site.images }}june_26_vt/32_meg_bridge.jpg)
 *one of many, many cute bridges*
 
 After our quick stop in Londonderry, we headed down the many miles of
@@ -299,16 +299,16 @@ because I'm sure I would have bought pounds of cheese that would have
 weighed my panniers down even more. One of the biggest downsides of bike
 touring is the weight limitation.
 
-![grafton](/../_images/june_26_vt/33_grafton.jpg)
+![grafton]({{ site.images }}june_26_vt/33_grafton.jpg)
 *so much time to stop at all of the amazing local vt markets on our mostly downhill day*
 
-![whoa](/../_images/june_26_vt/35_whoa.jpg)
+![whoa]({{ site.images }}june_26_vt/35_whoa.jpg)
 *whoa*
 
-![lily pond](/../_images/june_26_vt/36_lily_pond.jpg)
+![lily pond]({{ site.images }}june_26_vt/36_lily_pond.jpg)
 *so many lilies*
 
-![close up lilies](/../_images/june_26_vt/37_close_up_lilies.jpg)
+![close up lilies]({{ site.images }}june_26_vt/37_close_up_lilies.jpg)
 *close up lilies*
 
 After Grafton, we continued down the road to a snacking spot by the river,
@@ -319,13 +319,13 @@ you've already guessed that we stayed on the main road and had some ice
 cream. We even saw one of the cows that produces milk for the ice cream.
 It was fantastic and absolutely worth it.
 
-![picnic table](/../_images/june_26_vt/34_picnic_table.jpg)
+![picnic table]({{ site.images }}june_26_vt/34_picnic_table.jpg)
 *public parks in unexpected places are the best*
 
-![ice cream barn](/../_images/june_26_vt/38_ice_cream_barn.jpg)
+![ice cream barn]({{ site.images }}june_26_vt/38_ice_cream_barn.jpg)
 *the cows make the ice cream themselves*
 
-![ice cream break](/../_images/june_26_vt/39_ice_cream_break.jpg)
+![ice cream break]({{ site.images }}june_26_vt/39_ice_cream_break.jpg)
 *successfully ate ice cream all 3 days*
 
 After ice cream, it was literally all downhill. We met another cyclist who
@@ -337,15 +337,15 @@ the parking lot was literally completely full of Massachusetts plates, and
 the river was chock full of Massachusites. And then when we headed back to
 Meg's parents, the roads and towns were full of Massachusites...
 
-![meg nate river](/../_images/june_26_vt/39_meg_nate_river.jpg)
+![meg nate river]({{ site.images }}june_26_vt/39_meg_nate_river.jpg)
 *a well deserved swim/bath*
 
-![nate swim bridge](/../_images/june_26_vt/40_nate_swim_bridge.jpg)
+![nate swim bridge]({{ site.images }}june_26_vt/40_nate_swim_bridge.jpg)
 *confusing everyone else at the swimming hole with our mode of transport*
 
 Anyway, it was a great ride. I'm glad we started it on a Thursday.
 
-![meg cars](/../_images/june_26_vt/41_meg_cars.jpg)
+![meg cars]({{ site.images }}june_26_vt/41_meg_cars.jpg)
 *and... done!*
 
 # Summary
@@ -358,7 +358,7 @@ a day. My dynamo setup provided us with light and power to recharge our
 phones for navigation, and [ridewithgps](https://ridewithgps.com/?lang=en)
 ensured that we could navigate with or without cell service.
 
-![butterfly](/../_images/june_26_vt/42_butterfly.jpg)
+![butterfly]({{ site.images }}june_26_vt/42_butterfly.jpg)
 *many butterflies*
 
 I could absolutely live off of my bicycle for weeks at a time. So could Meg.

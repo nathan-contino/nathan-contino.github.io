@@ -16,7 +16,7 @@ peak.
 
 # Mount Elbert
 
-![flowers](/../_images/july_04_happy_bday_america/elbert_flowers_1.jpg){:width="350"} | ![more flowers](/../_images/july_04_happy_bday_america/elbert_flowers_2.jpg){:width="350"}
+![flowers]({{ site.images }}july_04_happy_bday_america/elbert_flowers_1.jpg){:width="350"} | ![more flowers]({{ site.images }}july_04_happy_bday_america/elbert_flowers_2.jpg){:width="350"}
 --- | --- 
 *flowers* | *with a view*
 
@@ -26,7 +26,7 @@ one right on a paved road,
 and one at the very end of a 2ish mile ORV road. Fortunately we camped right
 on that ORV road, so we trimmed a half mile or so off of each end of the hike.
 
-![elbert start](/../_images/july_04_happy_bday_america/elbert_start.jpg)
+![elbert start]({{ site.images }}july_04_happy_bday_america/elbert_start.jpg)
 *the trail started strong, right from our campsite*
 
 On the positive side, I can say that the south trailhead seems to be less busy
@@ -44,16 +44,16 @@ terrain at all, though I have to hand it to the trail maintainers: that's one
 of the nicest trails I've hiked on in Colorado. But the trail was actually so
 nice that it took away from some of the challenge of the ascent.
 
-![elbert peak sucks](/../_images/july_04_happy_bday_america/elbert_peak_sucks.jpg)
+![elbert peak sucks]({{ site.images }}july_04_happy_bday_america/elbert_peak_sucks.jpg)
 *the summit had a lot in common with new york street fairs*
 
-![elbert descent](/../_images/july_04_happy_bday_america/elbert_descent.jpg)
+![elbert descent]({{ site.images }}july_04_happy_bday_america/elbert_descent.jpg)
 *on our way down after having enough of the summit*
 
 
 # Paddleboarding
 
-![four fellas paddleboard](/../_images/july_04_happy_bday_america/four_fellas_paddleboard.jpg)
+![four fellas paddleboard]({{ site.images }}july_04_happy_bday_america/four_fellas_paddleboard.jpg)
 *just four fellas hanging out on a fiesta*
 
 Paddleboarding on Twin Lakes is actually an activity that I've done before --
@@ -67,7 +67,7 @@ your vehicle than four separate paddleboards, and a lot of fun to be able to
 hop into the water and trust that other people will remain on the paddleboard
 so it won't blow away into the distance.
 
-![paddleboard views](/../_images/july_04_happy_bday_america/paddleboard_views.jpg)
+![paddleboard views]({{ site.images }}july_04_happy_bday_america/paddleboard_views.jpg)
 *paddleboarding views from twin lakes*
 
 My only nitpick: I wish we'd been able
@@ -76,7 +76,7 @@ apparently against the rules. It was still an absolute blast though.
 
 # Mount Sopris
 
-![mount sopris](/../_images/july_04_happy_bday_america/sopris.jpg)
+![mount sopris]({{ site.images }}july_04_happy_bday_america/sopris.jpg)
 *sopris from a mile or two into the hike. hard to tell here, but it really looms*
 
 This was my favorite hike of the trip.
@@ -85,10 +85,10 @@ high, but since it rises over 6,000 feet above the surrounding landscape and
 Carbondale, it looks damn impressive from a distance and when you reach (either)
 peak.
 
-![sopris start](/../_images/july_04_happy_bday_america/sopris_start.jpg)
+![sopris start]({{ site.images }}july_04_happy_bday_america/sopris_start.jpg)
 *lots of wildflowers at the beginning of the hike, before the large pile of rocks*
 
-![sopris view ridge](/../_images/july_04_happy_bday_america/sopris_view_ridge.jpg)
+![sopris view ridge]({{ site.images }}july_04_happy_bday_america/sopris_view_ridge.jpg)
 *meg climbs the aforementioned large pile of rocks*
 
 We enjoyed a pretty gradual hike from the trailhead until we reached
@@ -101,16 +101,16 @@ kept us in good spirits. I'm sure you could also see Elbert from the top, but
 honestly I just didn't care to look for it and it probably wouldn't have stood
 out much compared to all of the other similar peaks nearby anyway.
 
-![carbondale views](/../_images/july_04_happy_bday_america/carbondale_views.jpg)
+![carbondale views]({{ site.images }}july_04_happy_bday_america/carbondale_views.jpg)
 *sopris is way higher than everything nearby, so the views are pretty crazy*
 
-![pile of rocks](/../_images/july_04_happy_bday_america/sopris_pile_of_rocks.jpg)
+![pile of rocks]({{ site.images }}july_04_happy_bday_america/sopris_pile_of_rocks.jpg)
 *turns out, mountains are just large piles of rocks*
 
-![nathan adventurer](/../_images/july_04_happy_bday_america/nathan_adventurer.jpg)
+![nathan adventurer]({{ site.images }}july_04_happy_bday_america/nathan_adventurer.jpg)
 *sometimes i got ahead of the group, but i always waited for them to catch up*
 
-![summit salami sandwiches](/../_images/july_04_happy_bday_america/summit_salami_sandwiches.jpg)
+![summit salami sandwiches]({{ site.images }}july_04_happy_bday_america/summit_salami_sandwiches.jpg)
 *what's better at the summit than a salami sandwich (and a beer)?*
 
 While my
@@ -122,18 +122,18 @@ exactly the same height, but the West peak is so narrow it doesn't really feel
 that way. Still, it felt good to summit the entire mountain after such a long
 hike.
 
-![meg watches nate climb](/../_images/july_04_happy_bday_america/meg_watches_nate_climb.jpg){:width="350"} | ![half mile ascent](/../_images/july_04_happy_bday_america/half_mile_ascent.jpg){:width="350"}
+![meg watches nate climb]({{ site.images }}july_04_happy_bday_america/meg_watches_nate_climb.jpg){:width="350"} | ![half mile ascent]({{ site.images }}july_04_happy_bday_america/half_mile_ascent.jpg){:width="350"}
 --- | --- 
 *meg watches nate climb from the east summit with a beer* | *nate climbs, probably*
 
-![ready to swim](/../_images/july_04_happy_bday_america/ready_to_swim.jpg)
+![ready to swim]({{ site.images }}july_04_happy_bday_america/ready_to_swim.jpg)
 *by early afternoon, we were all pretty ready for a swim despite the gorgeous views*
 
 On our way down, we took the opportunity for a quick swim in Thomas Lakes. It
 was definitely a bit chilly, but after miles of hiking and scrambling and
 some pretty intense sunlight, I enjoyed every bit of it.
 
-![thomas lakes](/../_images/july_04_happy_bday_america/thomas_lakes.jpg)
+![thomas lakes]({{ site.images }}july_04_happy_bday_america/thomas_lakes.jpg)
 *chilly but oh so worthwhile*
 
 # Conclusion

@@ -29,7 +29,7 @@ English is silly.*
 
 # Day 1: Arapahoe Basin
 
-![abasin](/../_images/mar_2022_leadville/01_abasin.jpg)
+![abasin]({{ site.images }}mar_2022_leadville/01_abasin.jpg)
 *windy morning at the basin*
 
 As usual, we started our trip with a visit to A Basin, the coolest
@@ -50,7 +50,7 @@ the frontside all morning.
 After our day of skiing, we headed over to Leadville to stay for the
 night and prepare an elaborate meal of chicken and pasta.
 
-![dillon](/../_images/mar_2022_leadville/02_dillon.jpg)
+![dillon]({{ site.images }}mar_2022_leadville/02_dillon.jpg)
 *shoutout to whitney's car photography skills*
 
 Note: it turns out there was a [significant avalanche on Loveland pass](https://www.9news.com/article/news/local/avalanche-us-6-loveland-pass/73-0c332d9a-2f9e-4422-8fa3-524f833d28bd)
@@ -62,7 +62,7 @@ or caught in! -- an avalanche.
 
 # Day 2: Ski Cooper
 
-![cabin morning](/../_images/mar_2022_leadville/03_cabin_morning.jpg)
+![cabin morning]({{ site.images }}mar_2022_leadville/03_cabin_morning.jpg)
 *frosty morning before coop*
 
 After our warmup day at a world-renowned ski resort, we were ready
@@ -77,7 +77,7 @@ of traffic at Ikon resorts (not even mentioning Epic resorts, which
 are even busier) tends to scrape damn near all of that powder off of
 the mountain within a day or two of each snowfall.
 
-![cabin morning](/../_images/mar_2022_leadville/04_coop.jpg)
+![cabin morning]({{ site.images }}mar_2022_leadville/04_coop.jpg)
 *ski cooper is the best ski hill in CO - don't tell your friends*
 
 I absolutely love every trail at Ski Cooper. The groomers are firm,
@@ -122,10 +122,10 @@ Once we tired ourselves out with two days of skiing, the obvious next
 move was... another day of skiing. But this time on (relatively) flat
 terrain.
 
-![nate deep](/../_images/mar_2022_leadville/05_nate_deep.jpg)
+![nate deep]({{ site.images }}mar_2022_leadville/05_nate_deep.jpg)
 *deep in it now*
 
-![meg](/../_images/mar_2022_leadville/06_meg.jpg)
+![meg]({{ site.images }}mar_2022_leadville/06_meg.jpg)
 *enjoying the leadville views*
 
 Meg and I have biked and walked the Mineral Belt Trail before, and even
@@ -135,13 +135,13 @@ a smidge shorter than our previous trip skiing the 14 mile Turquoise Lake Loop.
 But this trip really gave us an appreciation for what blue skies, warm
 weather, and grooming can do for cross country skiing.
 
-![eddy fall](/../_images/mar_2022_leadville/07_eddy_fall.jpg)
+![eddy fall]({{ site.images }}mar_2022_leadville/07_eddy_fall.jpg)
 *andddd he's down*
 
-![ski view](/../_images/mar_2022_leadville/08_ski_view.jpg)
+![ski view]({{ site.images }}mar_2022_leadville/08_ski_view.jpg)
 *shoutout to whit again for staying behind and taking these sweet pics*
 
-![rocky mountain high](/../_images/mar_2022_leadville/09_you_high_bruh.jpg)
+![rocky mountain high]({{ site.images }}mar_2022_leadville/09_you_high_bruh.jpg)
 *rocky mountain high*
 
 The Turquoise Lake Loop took us nearly 7 hours to complete, including a
@@ -151,13 +151,13 @@ total, including a long stop for lunch. It was completely groomed,
 sunny enough to give us all a nasty sunburn through sunblock, and
 only gradually hilly.
 
-![salami sandwich selfie](/../_images/mar_2022_leadville/11_sammies.jpg)
+![salami sandwich selfie]({{ site.images }}mar_2022_leadville/11_sammies.jpg)
 *salami sandwich selfie*
 
-![pano ski](/../_images/mar_2022_leadville/10_pano_ski.jpg)
+![pano ski]({{ site.images }}mar_2022_leadville/10_pano_ski.jpg)
 *cruisin our way back into town*
 
-![cabin apres](/../_images/mar_2022_leadville/12_cabin_apres.jpg)
+![cabin apres]({{ site.images }}mar_2022_leadville/12_cabin_apres.jpg)
 *really earned the apres after our 11 mile jaunt*
 
 It was a great time. We got some awesome views of Leadville, learned some
@@ -166,7 +166,7 @@ sandwiches.
 
 # Day 4: Interlude
 
-![leadville](/../_images/mar_2022_leadville/13_leadville.jpg)
+![leadville]({{ site.images }}mar_2022_leadville/13_leadville.jpg)
 *classic leadville lookin cute as always*
 
 Not much to say about our trip back to Denver. The weather was great,
@@ -179,7 +179,7 @@ Happy belated birthday, Whitney!
 
 # Day 5: Bikes, Beers, Bocce, and Ninja Ramen
 
-![ninja ramen](/../_images/mar_2022_leadville/14_ninja_ramen.jpg)
+![ninja ramen]({{ site.images }}mar_2022_leadville/14_ninja_ramen.jpg)
 *mmm ninja ramen*
 
 Our last day, we followed the classic Meg & Nate Denver formula: we
@@ -191,7 +191,7 @@ carved out a nice spot for a game and had a wonderful time hanging
 out in the park. Add in Meg's birthday ice cream cake when we got
 home, and Sundays don't get much better.
 
-![bday gals](/../_images/mar_2022_leadville/15_bday_gals.jpg)
+![bday gals]({{ site.images }}mar_2022_leadville/15_bday_gals.jpg)
 *27 == ice cream cake and a kalimba*
 
 # Eulogy for Denver

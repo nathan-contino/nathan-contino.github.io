@@ -26,7 +26,7 @@ and a peak that's over 13,000 feet.
 
 It's my very favorite mountain on the I70 corridor.
 
-![montezuma](/../_images/feb_2022_steamboat/01_montezuma.jpg)
+![montezuma]({{ site.images }}feb_2022_steamboat/01_montezuma.jpg)
 *montezuma bowl, more like monte-zoom-a bowl amirite?*
 
 Monday was a perfect blue-sky Colorado day. Light wind, barely a cloud in
@@ -36,7 +36,7 @@ where all the moguls and groomers were comfy to ride down. We ventured
 into the glades just once, but it was so icy it just wasn't worth the
 risk to life, limb, and our already-dull edges.
 
-![abasin](/../_images/feb_2022_steamboat/02_front_bowl_abasin.jpg)
+![abasin]({{ site.images }}feb_2022_steamboat/02_front_bowl_abasin.jpg)
 *a basin has the worst crowds*
 
 I forgot to mention one of my favorite parts of A Basin: the food. For
@@ -44,10 +44,10 @@ a non-crazy price, Meg and I split an entire (very large) tray of chicken
 fingers, waffle fries, and a bowl of chili to dip them in. If you haven't
 tried dipping chicken fingers in chili, you're missing out. It's best on a mountain.
 
-![chili](/../_images/feb_2022_steamboat/03_chili.jpg)
+![chili]({{ site.images }}feb_2022_steamboat/03_chili.jpg)
 *what dip would you like with your tendies? a bowl of chili plz*
 
-![mary](/../_images/feb_2022_steamboat/04_mary.jpg)
+![mary]({{ site.images }}feb_2022_steamboat/04_mary.jpg)
 *meg refuses to go to abasin without getting a bloody mary*
 
 We wrapped up our day in the early afternoon, and cruised over to
@@ -71,10 +71,10 @@ use breakfasty names like "Cheesy Grits", "Wake Up Call", "Biscuits",
 and "Huevos". As the snow softened up, the glades became more and more fun,
 but also more and more busy. We didn't end up catching the last lift or anything, but I'd say we got a pretty solid day of skiing on the mountain.
 
-![abasin smiles](/../_images/feb_2022_steamboat/05_bluebird_smiles.jpg)
+![abasin smiles]({{ site.images }}feb_2022_steamboat/05_bluebird_smiles.jpg)
 *embarrassed by our matching outfits from the chest up*
 
-![steamboat view](/../_images/feb_2022_steamboat/06_steamboat_clear_skies.jpg)
+![steamboat view]({{ site.images }}feb_2022_steamboat/06_steamboat_clear_skies.jpg)
 *checking out the view for the only day we'd be able to see it*
 
 The day ended with a modest amount of snowflakes, hinting that we might
@@ -93,10 +93,10 @@ Maybe 50 feet of visibility, inches of powder on the groomers, and
 the glades in Morningside were chock full of fluffy, fluffy snow. It was
 nothing short of spectacular.
 
-![pow](/../_images/feb_2022_steamboat/07_pow_smiles.jpg)
+![pow]({{ site.images }}feb_2022_steamboat/07_pow_smiles.jpg)
 *snow!*
 
-![cheesy grits](/../_images/feb_2022_steamboat/12_cheesy_grits.jpg)
+![cheesy grits]({{ site.images }}feb_2022_steamboat/12_cheesy_grits.jpg)
 *damn those grits were cheesy*
 
 We circuited Morningside for a couple of
@@ -105,20 +105,20 @@ then started to explore the glades on the middle-front side, where the
 lifts had essentially no lines. I couldn't believe it, but those glades
 were even *better*, and had less traffic to boot.
 
-![meg_pow](/../_images/feb_2022_steamboat/09_meg_pow.jpg)
+![meg_pow]({{ site.images }}feb_2022_steamboat/09_meg_pow.jpg)
 *pow is even more enjoyable when you don't have to worry about driving home*
 
-![bar ue](/../_images/feb_2022_steamboat/10_bar_ue.jpg)
+![bar ue]({{ site.images }}feb_2022_steamboat/10_bar_ue.jpg)
 *bar ue is 4 lvrs*
 
-![pow trees](/../_images/feb_2022_steamboat/13_pow_trees.jpg)
+![pow trees]({{ site.images }}feb_2022_steamboat/13_pow_trees.jpg)
 *trees and pow and pow and trees*
 
 Fresh tracks every time we headed down the mountain, even
 when repeating the same glade back-to-back, and my first experience
 skiing aspen glades. We even spotted an ermine (a sure sign of good luck)!
 
-![ermine](/../_images/feb_2022_steamboat/08_ermine_friend.jpg)
+![ermine]({{ site.images }}feb_2022_steamboat/08_ermine_friend.jpg)
 *hello friend!*
 
 We skiied the absolute hell out of Wednesday, and drained just about every
@@ -129,13 +129,13 @@ well, it was kind of like shitty upstate NY pizza with honey for dipping
 the crust. But it tasted damn good after a hard day of skiing through inches
 and inches of powder.
 
-![aluminium](/../_images/feb_2022_steamboat/11_aluminium.jpg)
+![aluminium]({{ site.images }}feb_2022_steamboat/11_aluminium.jpg)
 *beer is also more enjoyable when you don't have to worry about driving home*
 
-![meg tub](/../_images/feb_2022_steamboat/14_meg_tub.jpg)
+![meg tub]({{ site.images }}feb_2022_steamboat/14_meg_tub.jpg)
 *hot tubs are a requirement after riding in deep snow for 8 hours straight*
 
-![pizza](/../_images/feb_2022_steamboat/15_pizza.jpg)
+![pizza]({{ site.images }}feb_2022_steamboat/15_pizza.jpg)
 *is colorado style pizza "colorado" b/c of the extra carbs required after a day of strenuous physical activity?*
 
 # Day 4: ... Still A Steamboat Pow Day
@@ -147,7 +147,7 @@ a single hardpack scrape. We once again explored the many many glades of
 Morningside until things got busy, then switched to the frontside glades, which
 were as amazing as they were the previous day.
 
-![elk mountain](/../_images/feb_2022_steamboat/16_elk_mountain.jpg)
+![elk mountain]({{ site.images }}feb_2022_steamboat/16_elk_mountain.jpg)
 *elk mountain peeking out from behind the clouds*
 
 The only issue? By our third day at Steamboat, it became very, very clear
@@ -165,7 +165,7 @@ some secret lodge on that side of Steamboat with adequate bathroom space
 and big tables to warm up and sip a hot cocoa at without a waiter... let
 me know. But that was probably my biggest beef with Steamboat.
 
-![tangerine](/../_images/feb_2022_steamboat/17_tangerine_cream.jpg)
+![tangerine]({{ site.images }}feb_2022_steamboat/17_tangerine_cream.jpg)
 *thank you random stranger for insisting to take this photo of us*
 
 The crowds started to clog up the groomers and lift lines by early
@@ -179,7 +179,7 @@ of nachos later, we headed (slightly stealthily) back uphill to our rental
 on the side of a green run, since the local shuttle service apparently
 doesn't extend to our condo. A beautiful walk, and a great workout besides.
 
-![night time](/../_images/feb_2022_steamboat/18_night_time.jpg)
+![night time]({{ site.images }}feb_2022_steamboat/18_night_time.jpg)
 *happy, sweaty, sleepy bois after the hike back up to our access path*
 
 # Day 5: Steamboat Pow Morning, Donut Afternoon
@@ -192,10 +192,10 @@ run down the mountain from nearly the top of Storm Peak all the way to
 Thunderhead was very much the long way down, but ended up being pleasant
 cooldown after days of thigh-and-calf-aching powder surfing.
 
-![morningside](/../_images/feb_2022_steamboat/19_morningside.jpg)
+![morningside]({{ site.images }}feb_2022_steamboat/19_morningside.jpg)
 *morningside laps made for an amazing final morning*
 
-![nate_christmas](/../_images/feb_2022_steamboat/20_nate_christmas.jpg)
+![nate_christmas]({{ site.images }}feb_2022_steamboat/20_nate_christmas.jpg)
 *nate on the edge of an invisible, powdery cliff*
 
 After our couple of hours on the slopes, Meg and I had one final stop in
@@ -221,7 +221,7 @@ recommended that we pull off *immediately*. Mountain passes might seem like
 a shitty place to get a flat, but I have to admit: there are few places in
 the country with as many pull-offs as Colorado mountain passes.
 
-![meg unaware](/../_images/feb_2022_steamboat/21_meg_unaware.jpg)
+![meg unaware]({{ site.images }}feb_2022_steamboat/21_meg_unaware.jpg)
 *meg is only happy because she doesn't know about the flat we will get in 20 minutes*
 
 So we pulled off into a backcountry skiing parking lot and I opened my door
@@ -242,7 +242,7 @@ If you don't know, [please](https://www.youtube.com/watch?v=QjZ5ohr7sGA)
 [video](https://www.youtube.com/watch?v=INMUrGdA_RA)
 or [at least read an article](https://www.goauto.ca/blog/how-to-change-a-tire-its-easier-than-you-think). Thanks Craig!
 
-![flat](/../_images/feb_2022_steamboat/22_flat.jpg)
+![flat]({{ site.images }}feb_2022_steamboat/22_flat.jpg)
 *between meg removing the tire and nate working the jack, we made a pretty incredible pit crew*
 
 Did you know that you're not supposed to exceed 50 miles per hour on a spare tire? It seems most Colorado residents don't. Even with our best efforts to
