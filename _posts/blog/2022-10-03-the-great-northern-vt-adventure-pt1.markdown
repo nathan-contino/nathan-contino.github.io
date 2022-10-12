@@ -8,6 +8,9 @@ categories: blog
 Meg and I once again completed our longest self-supported bike tour yet: seven
 days of dirt roads, singletrack, surprisingly nice Vermont corner stores,
 and Heady Topper. I'm dividing this journey into seven posts, one for each day.
+
+<!-- readmore -->
+
 Through the power of internet magic, I'm posting all seven links at the top of
 each post. Each link will start working once I actually write the post for that
 day. But until then, enjoy my absurd 404 page.
