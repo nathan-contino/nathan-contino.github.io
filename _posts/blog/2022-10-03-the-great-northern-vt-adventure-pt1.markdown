@@ -1,6 +1,6 @@
 ---
 title:  "Great North VT Adventure: Part 1 (Littleton to Marshfield)"
-date:   2022-10-03 14:14:22 -0700
+date:   2022-10-01 14:14:22 -0700
 layout: default
 categories: blog
 ---
