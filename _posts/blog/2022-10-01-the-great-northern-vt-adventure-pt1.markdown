@@ -12,8 +12,7 @@ and Heady Topper. I'm dividing this journey into seven posts, one for each day.
 <!-- readmore -->
 
 Through the power of internet magic, I'm posting all seven links at the top of
-each post. Each link will start working once I actually write the post for that
-day. But until then, enjoy my absurd 404 page.
+this first post. Each link will start working once I actually write the post for that day. But until then, enjoy my absurd 404 page.
 
 - [Day 1 (Littleton to Marshfield)](/blog/2022/10/01/the-great-northern-vt-adventure-pt1.html)
 - [Day 2 (Marshfield to the Lincoln Gap)](/blog/2022/10/02/the-great-northern-vt-adventure-pt2.html)
@@ -22,7 +21,6 @@ day. But until then, enjoy my absurd 404 page.
 - [Day 5 (Little River/Stowe to Morrisville)](/blog/2022/10/05/the-great-northern-vt-adventure-pt5.html)
 - [Day 6 (Morrisville to Greensboro)](/blog/2022/10/06/the-great-northern-vt-adventure-pt6.html)
 - [Day 7 (Greensboro to Littleton)](/blog/2022/10/07/the-great-northern-vt-adventure-pt7.html)
-
 
 ![vt postcard]({{ site.images }}2022_10_01/14_vt_postcard.jpg)
 *the whole trip was beautiful but this view probably takes the cake*
