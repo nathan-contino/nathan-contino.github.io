@@ -86,9 +86,8 @@ weekend of maskless festivities. We parked, set up the tent at a beautiful overl
 damn good, so we tossed the laptops in the car and took the bikes out for a
 sunset spin.
 
-![meg karate]({{ site.images }}june_04_bike_trip/2_meg_karate.jpg){:width="350"} | ![nate karate]({{ site.images }}june_04_bike_trip/3_nate_karate.jpg){:width="350"}
---- | ---
-*it’s called fashion* | *camp karate fashion*
+{% include figure.html url="june_04_bike_trip/2_meg_karate.jpg" description="it’s called fashion" %}
+{% include figure.html url="june_04_bike_trip/3_nate_karate.jpg" description="camp karate fashion" %}
 
 I've said this before, but let me remind you: Meg and I don't ride mountain
 bikes. Well, we don't ride *modern* mountain bikes, which come with dual
@@ -119,9 +118,8 @@ complain. We got back to the campsite, whipped up some camp macaroni and
 cheese on our stove, and called it a night early so we could get the maximum
 amount of time on the bikes on Saturday.
 
-![twin lakes sunset]({{ site.images }}june_04_bike_trip/4_twin_lakes_sunset.jpg){:width="350"} | ![twin lakes doodle]({{ site.images }}june_04_bike_trip/doodle.png){:width="350"}
---- | ---
-*twin lakes sunset* | *meg’s rendition*
+{% include figure.html url="june_04_bike_trip/4_twin_lakes_sunset.jpg" description="twin lakes sunset" %}
+{% include figure.html url="june_04_bike_trip/doodle.png" description="meg’s rendition" %}
 
 # The Saturday Loop
 
@@ -186,9 +184,8 @@ four times as fast as cross country skiing, but there was something special
 about the pure peace and quiet of snowbound Turqoise lake in winter. At least
 until the snowmobiles show up.
 
-![meg climbs]({{ site.images }}june_04_bike_trip/17_meg_climbs.jpg){:width="350"} | ![nate skis]({{ site.images }}june_04_bike_trip/18_nate_skis.jpg){:width="350"}
---- | ---
-*the road around turquoise lake just keeps going up* | *hard to believe nate is skiing a similar incline*
+{% include figure.html url="june_04_bike_trip/17_meg_climbs.jpg" description="the road around turquoise lake just keeps going up" %}
+{% include figure.html url="june_04_bike_trip/18_nate_skis.jpg" description="hard to believe nate is skiing a similar incline" %}
 
 We rode up and down quite a few hills at Turquoise Lake, and at the very
 summit of the last uphill segment, we took the opportunity for lunch at
@@ -208,7 +205,7 @@ record speed. We checked out the other overlook points, but they were
 honestly just lower altitude versions of Shimmering Point with slightly
 worse views and some moderately fun gravel paths to bike on.
 
-{% include figure.html url="june_04_bike_trip/20_meg_in_trees.jpg" description="channeling some [cycling about](https://www.youtube.com/c/Cyclingabout/videos) vibes" %}
+{% include figure.html url="june_04_bike_trip/20_meg_in_trees.jpg" description="channeling some cycling about vibes" %}
 
 The downhill ride from our lunch spot brought us almost all the way to
 Leadville, where I found a nice gravel path along the side of the road
@@ -258,7 +255,7 @@ Very nicely paved, with great views, and almost too many plaques and
 historical facts. After the trail, we switched over to mountain roads
 in the foothills. That's where things got interesting.
 
-{% include figure.html url="june_04_bike_trip/28_wildflowers.jpg" description="more flowers for our girl [flowersbywhit](https://www.facebook.com/flowersbywhit/)" %}
+{% include figure.html url="june_04_bike_trip/28_wildflowers.jpg" description="more flowers for our girl flowersbywhit" %}
 
 The mountain roads of **The Meat Grinder** started off nice enough:
 next to no cars (perhaps two the whole paved segment), nice sealed

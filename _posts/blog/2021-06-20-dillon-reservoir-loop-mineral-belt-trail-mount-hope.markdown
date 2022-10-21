@@ -57,9 +57,8 @@ of pleasant riding goes by really quickly.
 
 # Mount Hope
 
-![campsite chillin]({{ site.images }}june_20_trip/campsite_chillin.jpg){:width="350"} | ![campsite]({{ site.images }}june_20_trip/campsite.jpg){:width="350"}
---- | ---
-*earned beers after a day of biking* | *the campsite*
+{% include figure.html url="june_20_trip/campsite_chillin.jpg" description="earned beers after a day of biking" %}
+{% include figure.html url="june_20_trip/campsite.jpg" description="the campsite" %}
 
 {% include figure.html url="june_20_trip/lentils.jpg" description="I have never in my life eaten so many lentils" %}
 
