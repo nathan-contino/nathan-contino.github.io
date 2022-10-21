@@ -35,3 +35,4 @@ plugins_dir:
 
 # image hosting setup
 images: https://raw.githubusercontent.com/nathan-contino/images/main/images/
+thumbnails: https://raw.githubusercontent.com/nathan-contino/images/main/.thumbnails/images/

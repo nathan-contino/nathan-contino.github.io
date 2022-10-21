@@ -29,8 +29,7 @@ English is silly.*
 
 # Day 1: Arapahoe Basin
 
-![abasin]({{ site.images }}mar_2022_leadville/01_abasin.jpg)
-*windy morning at the basin*
+{% include figure.html url="mar_2022_leadville/01_abasin.jpg" description="windy morning at the basin" %}
 
 As usual, we started our trip with a visit to A Basin, the coolest
 mountain on the I70 corridor. The day started out windy as hell --
@@ -50,8 +49,7 @@ the frontside all morning.
 After our day of skiing, we headed over to Leadville to stay for the
 night and prepare an elaborate meal of chicken and pasta.
 
-![dillon]({{ site.images }}mar_2022_leadville/02_dillon.jpg)
-*shoutout to whitney's car photography skills*
+{% include figure.html url="mar_2022_leadville/02_dillon.jpg" description="shoutout to whitney's car photography skills" %}
 
 Note: it turns out there was a [significant avalanche on Loveland pass](https://www.9news.com/article/news/local/avalanche-us-6-loveland-pass/73-0c332d9a-2f9e-4422-8fa3-524f833d28bd)
 right after we drove through to get to A Basin. That isn't surprising,
@@ -62,8 +60,7 @@ or caught in! -- an avalanche.
 
 # Day 2: Ski Cooper
 
-![cabin morning]({{ site.images }}mar_2022_leadville/03_cabin_morning.jpg)
-*frosty morning before coop*
+{% include figure.html url="mar_2022_leadville/03_cabin_morning.jpg" description="frosty morning before coop" %}
 
 After our warmup day at a world-renowned ski resort, we were ready
 to shred the gnar at Ski Cooper, a cute, locally-owned family-friendly
@@ -77,8 +74,7 @@ of traffic at Ikon resorts (not even mentioning Epic resorts, which
 are even busier) tends to scrape damn near all of that powder off of
 the mountain within a day or two of each snowfall.
 
-![cabin morning]({{ site.images }}mar_2022_leadville/04_coop.jpg)
-*ski cooper is the best ski hill in CO - don't tell your friends*
+{% include figure.html url="mar_2022_leadville/04_coop.jpg" description="ski cooper is the best ski hill in CO - don't tell your friends" %}
 
 I absolutely love every trail at Ski Cooper. The groomers are firm,
 but soft enough to easily carve; the glades start out slick, but soften
@@ -122,11 +118,9 @@ Once we tired ourselves out with two days of skiing, the obvious next
 move was... another day of skiing. But this time on (relatively) flat
 terrain.
 
-![nate deep]({{ site.images }}mar_2022_leadville/05_nate_deep.jpg)
-*deep in it now*
+{% include figure.html url="mar_2022_leadville/05_nate_deep.jpg" description="deep in it now" %}
 
-![meg]({{ site.images }}mar_2022_leadville/06_meg.jpg)
-*enjoying the leadville views*
+{% include figure.html url="mar_2022_leadville/06_meg.jpg" description="enjoying the leadville views" %}
 
 Meg and I have biked and walked the Mineral Belt Trail before, and even
 cross country skied small sections in town at night. This was our first
@@ -135,14 +129,11 @@ a smidge shorter than our previous trip skiing the 14 mile Turquoise Lake Loop.
 But this trip really gave us an appreciation for what blue skies, warm
 weather, and grooming can do for cross country skiing.
 
-![eddy fall]({{ site.images }}mar_2022_leadville/07_eddy_fall.jpg)
-*andddd he's down*
+{% include figure.html url="mar_2022_leadville/07_eddy_fall.jpg" description="andddd he's down" %}
 
-![ski view]({{ site.images }}mar_2022_leadville/08_ski_view.jpg)
-*shoutout to whit again for staying behind and taking these sweet pics*
+{% include figure.html url="mar_2022_leadville/08_ski_view.jpg" description="shoutout to whit again for staying behind and taking these sweet pics" %}
 
-![rocky mountain high]({{ site.images }}mar_2022_leadville/09_you_high_bruh.jpg)
-*rocky mountain high*
+{% include figure.html url="mar_2022_leadville/09_you_high_bruh.jpg" description="rocky mountain high" %}
 
 The Turquoise Lake Loop took us nearly 7 hours to complete, including a
 brief stop for lunch. It was almost completely ungroomed, actively
@@ -151,14 +142,11 @@ total, including a long stop for lunch. It was completely groomed,
 sunny enough to give us all a nasty sunburn through sunblock, and
 only gradually hilly.
 
-![salami sandwich selfie]({{ site.images }}mar_2022_leadville/11_sammies.jpg)
-*salami sandwich selfie*
+{% include figure.html url="mar_2022_leadville/11_sammies.jpg" description="salami sandwich selfie" %}
 
-![pano ski]({{ site.images }}mar_2022_leadville/10_pano_ski.jpg)
-*cruisin our way back into town*
+{% include figure.html url="mar_2022_leadville/10_pano_ski.jpg" description="cruisin our way back into town" %}
 
-![cabin apres]({{ site.images }}mar_2022_leadville/12_cabin_apres.jpg)
-*really earned the apres after our 11 mile jaunt*
+{% include figure.html url="mar_2022_leadville/12_cabin_apres.jpg" description="really earned the apres after our 11 mile jaunt" %}
 
 It was a great time. We got some awesome views of Leadville, learned some
 fun historical facts, drank some tasty beers, and ate some solid salami
@@ -166,8 +154,7 @@ sandwiches.
 
 # Day 4: Interlude
 
-![leadville]({{ site.images }}mar_2022_leadville/13_leadville.jpg)
-*classic leadville lookin cute as always*
+{% include figure.html url="mar_2022_leadville/13_leadville.jpg" description="classic leadville lookin cute as always" %}
 
 Not much to say about our trip back to Denver. The weather was great,
 the fish burritos were as filling and delicious as ever, and the aloe
@@ -179,8 +166,7 @@ Happy belated birthday, Whitney!
 
 # Day 5: Bikes, Beers, Bocce, and Ninja Ramen
 
-![ninja ramen]({{ site.images }}mar_2022_leadville/14_ninja_ramen.jpg)
-*mmm ninja ramen*
+{% include figure.html url="mar_2022_leadville/14_ninja_ramen.jpg" description="mmm ninja ramen" %}
 
 Our last day, we followed the classic Meg & Nate Denver formula: we
 hopped on our bikes, drank tasty beer and ate tasty food truck food
@@ -191,8 +177,7 @@ carved out a nice spot for a game and had a wonderful time hanging
 out in the park. Add in Meg's birthday ice cream cake when we got
 home, and Sundays don't get much better.
 
-![bday gals]({{ site.images }}mar_2022_leadville/15_bday_gals.jpg)
-*27 == ice cream cake and a kalimba*
+{% include figure.html url="mar_2022_leadville/15_bday_gals.jpg" description="27 == ice cream cake and a kalimba" %}
 
 # Eulogy for Denver
 
@@ -206,3 +191,4 @@ Montreal, Boston, Burlington, Portland, New York... and offices for
 our now-permanent remote work arrangements. We'll be moving to
 Littleton in mid-April, so stay tuned for an update on our cross
 country drive. I hope it'll be interesting, but not *too* interesting.
+

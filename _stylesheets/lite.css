@@ -24,10 +24,11 @@ a {
   cursor: hand;
   color: #f37320;
   text-decoration: none;
-  border-bottom: 1px solid;
+  target: _blank;
+  rel: "noopener noreferrer";
 }
 
-a:hover {
+a:not(.nohover):hover {
   background-color: #300A24;
   color: #BBB;
 }
@@ -54,8 +55,6 @@ pre {
   white-space: pre-wrap;
 }
 
-P {max-width: 100ex;}
-
 div {
 	font-size: 13px;
 	line-height: 1.8em;
@@ -67,7 +66,7 @@ img {
     border: solid 0.15em #d24d15;
 }
 
-img + em {
+figcaption {
     font-size: .8em;
     color: #f37320;
     width: 100%;
@@ -150,13 +149,13 @@ lambda {
 
 biglambda {
     font-family: "FreeMono", "Courier New", "Rockwell", monospace;
-    font-size:38px;
+    font-size:32px;
     color: #d24d15;
     font-weight: lighter;
 }
 
 .container {
-  max-width:  70rem;
+  max-width:  60rem;
   margin:  0 auto;
   padding-top: 1rem;
 }

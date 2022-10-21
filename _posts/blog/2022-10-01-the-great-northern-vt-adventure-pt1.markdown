@@ -22,51 +22,41 @@ this first post. Each link will start working once I actually write the post for
 - [Day 6 (Morrisville to Greensboro)](/blog/2022/10/06/the-great-northern-vt-adventure-pt6.html)
 - [Day 7 (Greensboro to Littleton)](/blog/2022/10/07/the-great-northern-vt-adventure-pt7.html)
 
-![vt postcard]({{ site.images }}2022_10_01/14_vt_postcard.jpg)
-*the whole trip was beautiful but this view probably takes the cake*
+{% include figure.html url="2022_10_01/14_vt_postcard.jpg" description="the whole trip was beautiful but this view probably takes the cake" %}
 
 # Shipping Out
 
-![gear]({{ site.images }}2022_10_01/01_gear.jpg)
-*most of the gear & clothes*
+{% include figure.html url="2022_10_01/01_gear.jpg" description="most of the gear & clothes" %}
 
 Meg and I wake up at 6am for an espresso & an english muffin. This fuels our ride down the [Ammonoosuc Rail Trail](https://www.traillink.com/trail/ammonoosuc-rail-trail/).
 
-![littleton]({{ site.images }}2022_10_01/02_littleton.jpg)
-*gotta stop for a foggy littleton pic, 3 minutes on the road*
+{% include figure.html url="2022_10_01/02_littleton.jpg" description="gotta stop for a foggy littleton pic, 3 minutes on the road" %}
 
 The trail ride starts with some rough going: lots of [baby heads](https://www.denverpost.com/2009/01/30/baby-heads-thorny-ocotillos-toughen-up-mountain-bikers/) and soft, sandy surface. Our tires sink into the soil. We hopscotch rocks and mud puddles. But thanks to striking fall foliage, the excitement of a full week's bike vacation, and a shared affection for fog, we push south to Lisbon, where the trail improves.
 
-![first cows]({{ site.images }}2022_10_01/04_first_cows.jpg)
-*nate won the bet on when we'd see the first cows*
+{% include figure.html url="2022_10_01/04_first_cows.jpg" description="nate won the bet on when we'd see the first cows" %}
 
-![nate bikey boi]({{ site.images }}2022_10_01/05_nate_bikey_boi.jpg)
-*the rail trail crosses mostly small side roads which is nice*
+{% include figure.html url="2022_10_01/05_nate_bikey_boi.jpg" description="the rail trail crosses mostly small side roads which is nice" %}
 
-![corn]({{ site.images }}2022_10_01/06_corn_rail_trail.jpg)
-*foggy corn*
+{% include figure.html url="2022_10_01/06_corn_rail_trail.jpg" description="foggy corn" %}
 
 This is the first time we've biked the entire length of the trail to the VT border. It's really neat! Like most rail trails, the Ammonoosuc features a number of old rail bridges. My favorite looms high above a sandy beach just down the trail from Bath. We'll return next summer for a swim -- for now, the water is a tad cold for a dip.
 
-![big bridge]({{ site.images }}2022_10_01/07_bridge_rail_trail.jpg)
-*massive rail trail bridge about 200 feet above the river*
+{% include figure.html url="2022_10_01/07_bridge_rail_trail.jpg" description="massive rail trail bridge about 200 feet above the river" %}
 
 Shortly after the high bridge, a [rafter](https://sandcreekfarm.net/what-is-a-group-of-turkeys-called/) of turkeys appears in the path. We creep up for a photo op, but they, uh... *fly away* down the trail. For a sizable distance. Huh. Earlier in the day, we followed a fawn down the trail for a while, but "flying turkeys" are my favorite memory.
 
 On the subject of "cool stuff you don't see from a car": Bath, NH is home to a very long, very pretty, covered bridge that you can only view properly from the rail trail. It's a great spot to consider eating a donut, but decide against it because you're saving stomach space for a breakfast sandwich.
 
-![bath waterfall]({{ site.images }}2022_10_01/03_bath_waterfall.jpg)
-*you don't get this view from the highway*
+{% include figure.html url="2022_10_01/03_bath_waterfall.jpg" description="you don't get this view from the highway" %}
 
 # Second Breakfast
 
-![vt]({{ site.images }}2022_10_01/08_vt.jpg)
-*thankful that nate begrudgingly stopped for a pic on the side of the busy road*
+{% include figure.html url="2022_10_01/08_vt.jpg" description="thankful that nate begrudgingly stopped for a pic on the side of the busy road" %}
 
 After a brief spooky road ride across the VT border to Wells River, we reach our second breakfast destination: [The Hatchbox](https://www.tripadvisor.com/Restaurant_Review-g57443-d24088542-Reviews-The_Hatchbox-Wells_River_Vermont.html), a very small towable trailer transformed into a breakfast sandwich kitchen. But they're unexpectedly closed "for the weekend". Sigh -- VT small businesses strike again! So we settle for a stop at the nearby diner, Tuttle's, instead.
 
-![tuttles]({{ site.images }}2022_10_01/09_tuttles.jpg)
-*tuttles is the true wells river experience*
+{% include figure.html url="2022_10_01/09_tuttles.jpg" description="tuttles is the true wells river experience" %}
 
 # Not a Mistake
 
@@ -76,8 +66,7 @@ Fortunately, I was completely wrong.
 
 Heading out from breakfast, the road is a smidge busy. But Meg reminds me that the XVT repeatedly diverts onto side roads and trails to keep bicycles off 302 as much as possible. We soon follow the XVT signage off the road onto a stretch of doubletrack. It leads through a quiet, peaceful, mushroom-filled chunk of forest completely separated from the road. We pass under the highway and the highway off ramps. A picnic bench presents an opportunity for a cider donut within spitting distance of the highway. Because somehow Vermont managed to make a park near a highway a pleasant place to be. Who knew?
 
-![xvt]({{ site.images }}2022_10_01/20_xvt_offshoot.jpg)
-*xvt trail looking suprisingly cute right after hopping off 302*
+{% include figure.html url="2022_10_01/20_xvt_offshoot.jpg" description="xvt trail looking suprisingly cute right after hopping off 302" %}
 
 # Mouse and Moose
 
@@ -89,30 +78,24 @@ Post mouse-surprise, we spot a large, dark, long-legged animal on the trail ahea
 
 We soon rejoin the road, where the XVT signs (or lack thereof) immediately stymie us. They aren't ideal -- we frequently hit intersections with no indication of how to stick to the XVT. But thanks to [Ride With GPS](https://ridewithgps.com/) and [Osmand](https://osmand.net/), we (roughly) figure it out. Eventually. None of the roads are busy, the weather is beautiful, and the foliage just keeps getting better. Neither of us minds getting a little lost.
 
-![dirt]({{ site.images }}2022_10_01/10_dirt_baby.jpg)
-*back on that classic VT dirt*
+{% include figure.html url="2022_10_01/10_dirt_baby.jpg" description="back on that classic VT dirt" %}
 
 Eventually, we end up on "Old Railroad Bed," a proto-rail trail through Groton State Forest. This trail has it all: lakes, brilliant autumn oranges, reds, and yellows, massive boulders, easy grades, friendly people, vintage bikes, knives, lollipops -- exactly what you'd expect on a bike ride through the Vermont woods this time of year. And we spot our first [sugar bush](https://en.wikipedia.org/wiki/Sugar_bush) (of many), complete with a massive network of blueish sap piping.
 
-![lakes]({{ site.images }}2022_10_01/11_lakes.jpg)
-*groton state forest hitting us with the views*
+{% include figure.html url="2022_10_01/11_lakes.jpg" description="groton state forest hitting us with the views" %}
 
-![rock thoughts]({{ site.images }}2022_10_01/12_rock_thoughts.jpg)
-*snack break rock thoughts*
+{% include figure.html url="2022_10_01/12_rock_thoughts.jpg" description="snack break rock thoughts" %}
 
-![more dirt]({{ site.images }}2022_10_01/13_more_dirt.jpg)
-*the route through the state forest had a mix of state forest roads and rail trail - aka perfection*
+{% include figure.html url="2022_10_01/13_more_dirt.jpg" description="the route through the state forest had a mix of state forest roads and rail trail - aka perfection" %}
 
 
 # Resentment and (Non)Forgiveness
 
 With time, the XVT diverts from the "Old Railroad Bed" to dirt roads, plummeting towards Marshfield. Meg still resents me for making her climb a steep uphill around here because I saw a really cool waterfall. Some things, you just can't forgive. But it was a really cool waterfall.
 
-![hill]({{ site.images }}2022_10_01/15_hill.jpg)
-*"meg, there's a waterfall up this massive hill that we don't need to go up" - nate*
+{% include figure.html url="2022_10_01/15_hill.jpg" description="'meg, there's a waterfall up this massive hill that we don't need to go up' - nate" %}
 
-![waterfall]({{ site.images }}2022_10_01/16_the_waterfall.jpg)
-*"sick, totally worth it. i'm sure we won't see any other waterfalls this trip" - meg*
+{% include figure.html url="2022_10_01/16_the_waterfall.jpg" description="'sick, totally worth it. i'm sure we won't see any other waterfalls this trip' - meg" %}
 
 # The Hot, Instagrammable, FOMO, Zoomer, Calzone
 
@@ -125,8 +108,7 @@ Our course briefly separates from the XVT for a visit to the Marshfield Village 
 - puzzle at the background music -- early 2000s rap in the deli and beer section, 1990s pop in the store
 - just cannot understand the instagramming leaf peeping zoomers who ventured upstate from Massachusetts to avoid Autumn FOMO
 
-![pizza wings]({{ site.images }}2022_10_01/17_pizza_wings.jpg)
-*who knew general store calzones are pure bike fuel?*
+{% include figure.html url="2022_10_01/17_pizza_wings.jpg" description="who knew general store calzones are pure bike fuel?" %}
 
 # Actually a Mistake
 
@@ -134,14 +116,13 @@ Now we make our first major mistake of the journey: we diverge from the old rail
 
 After a few harrowing miles on 2, we reach Onion River campground. The owners are incredibly friendly, and even deliver firewood to our campsite. Special thanks to Onion River for accommodating us despite a massive group reservation consuming most of their sites. We called ahead well in advance to make sure it was OK, but it was still kind of them.
 
-![shroom king]({{ site.images }}2022_10_01/18_shroom_king.jpg)
-*mushroom friends at the campsite*
+{% include figure.html url="2022_10_01/18_shroom_king.jpg" description="mushroom friends at the campsite" %}
 
 A couple of heady toppers, [2-human Gin Rummy](https://en.wikipedia.org/wiki/Gin_rummy), a campfire, and a sub later at our riverside campsite, we lay our tired, smoky, smelly bones down in the tent. Life is good.
 
-![camp]({{ site.images }}2022_10_01/19_camp.jpg)
-*camp #1 - onion river campgrounds*
+{% include figure.html url="2022_10_01/19_camp.jpg" description="camp #1 - onion river campgrounds" %}
 
 # The Saga Continues
 
 Check out part 2 (whenever I finish writing it -- maybe I already have?) at [Day 2 (Marshfield to the Lincoln Gap)](/blog/2022/10/02/the-great-northern-vt-adventure-pt2.html).
+
