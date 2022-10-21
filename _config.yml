@@ -34,4 +34,4 @@ plugins_dir:
   - jekyll-feed
 
 # image hosting setup
-images: https://raw.githubusercontent.com/nathan-contino/images/main/
+images: https://raw.githubusercontent.com/nathan-contino/images/main/images/
