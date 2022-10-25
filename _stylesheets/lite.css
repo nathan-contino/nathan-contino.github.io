@@ -77,10 +77,12 @@ figcaption {
     border-top: 0;
     background-color: #5C4033;
     height: 1em;
-    line-height: .8em;
+    line-height: 1em;
+    font-style: italic;
     margin-top:-.7em;
     padding-top: .4em;
     padding-bottom: .2em;
+    height: 100%;
 }
 
 table > thead > tr > th > img {
@@ -147,11 +149,34 @@ lambda {
     font-weight: lighter;
 }
 
-biglambda {
-    font-family: "FreeMono", "Courier New", "Rockwell", monospace;
-    font-size:32px;
-    color: #d24d15;
-    font-weight: lighter;
+.biglambda {
+  display: flex;
+  width: 100%;
+  line-height: 1em; !important
+}
+
+.biglambdacontent {
+  font-family: "FreeMono", "Courier New", "Rockwell", monospace;
+  font-size:32px;
+  background-color: #d24d15;
+  color: black;
+  font-weight: lighter;
+  display: flex;
+  flex: 1;
+  line-height: 1em; !important
+}
+
+.biglambdacontent::after {
+  content: ' ';
+  background-image: repeating-linear-gradient(90deg, #5f4f43, #5f4f43 5px, transparent 0, transparent 16px);
+  display: block;
+  width: 100%;
+  box-sizing: inherit;
+  flex: 1;
+}
+
+*, ::before, ::after {
+  box-sizing: inherit;
 }
 
 .content {
@@ -164,12 +189,11 @@ biglambda {
   flex-direction: column;
   padding: 40px;
   max-width: 864px;
-  min-height: 100vh;
 }
 
 h1 {
-    font-family: "FreeMono", "Courier New", "Rockwell", monospace;
-    color: #d24d15;
+  font-family: "FreeMono", "Courier New", "Rockwell", monospace;
+  color: #d24d15;
 }
 
 #page-container {
