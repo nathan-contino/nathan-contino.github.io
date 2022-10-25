@@ -14,11 +14,6 @@ li {
   max-width: 90ex;
 }
 
-th, td {
-  font-size: 8pt;
-  color: white;
-}
-
 a {
   cursor: pointer;
   cursor: hand;
@@ -33,15 +28,9 @@ a:not(.nohover):hover {
   color: #BBB;
 }
 
-H1 {color: #dd4814;}
-H2 {color: #dd4814;}
-H3 {
-    color: #dd4814;
-    letter-spacing: .15em;
-    text-transform: uppercase;
-    font-weight: normal;
-    font-size: 1.05em;
-}
+H1 {color: #dd4814; font-family: "FreeMono", "Courier New", "Rockwell", monospace;}
+H2 {color: #dd4814; font-family: "FreeMono", "Courier New", "Rockwell", monospace;}
+H3 {color: #dd4814; font-family: "FreeMono", "Courier New", "Rockwell", monospace;}
 
 code,
 .code,
@@ -187,7 +176,6 @@ lambda {
   margin:  0 auto;
   padding-top: 1rem;
   flex-direction: column;
-  padding: 40px;
   max-width: 864px;
 }
 
@@ -224,7 +212,7 @@ sidebar {
 
 HTML {
 	font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
-    font-size: 100%;
+  font-size: 100%;
 }
 
 #pdfdisplay {
