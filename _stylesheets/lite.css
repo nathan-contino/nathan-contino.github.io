@@ -157,7 +157,18 @@ lambda {
 
 .biglambdacontent::after {
   content: ' ';
-  background-image: repeating-linear-gradient(90deg, #5f4f43, #5f4f43 5px, transparent 0, transparent 16px);
+  background-image: linear-gradient(60deg,
+    #d24d15 10% 90%,
+    /* hsl(60, 100%, 50%) 10% 20%, STRIPEY RAINBOW
+    hsl(120, 100%, 50%) 20% 30%,
+    hsl(180, 100%, 50%) 30% 40%,
+    hsl(210, 100%, 50%) 40% 50%,
+    hsl(240, 100%, 50%) 50% 60%,
+    hsl(270, 100%, 50%) 60% 70%,
+    hsl(300, 100%, 50%) 70% 80%,
+    hsl(360, 100%, 50%) 80% 90%, */
+    #5f4f43 90% 100%
+  );
   display: block;
   width: 100%;
   box-sizing: inherit;
