@@ -7,7 +7,7 @@ title: Tech Blog
     {% for post in site.posts %}
       {% if post.categories contains "techblog" %}
         <div class="blog-post spacing">
-          <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+          <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
           <p class="summary">
             {{ post.category }}
             <span class="date">

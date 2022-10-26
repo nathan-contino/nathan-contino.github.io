@@ -1,5 +1,5 @@
 ---
-title:  "Optimizing a Jekyll Blog With Lots of Images"
+title:  "Optimizing a Jekyll Blog Containing Lots of Images"
 date:   2022-10-21 14:26:53 -0500
 layout: default
 categories: techblog
@@ -26,7 +26,8 @@ So I decided to solve the problem. I attacked it from multiple angles:
 
 If you:
 
-- would like to set up thumbnails for your own GitHub Pages-hosted Jekyll blog, - are just morbidly curious about the kinds of Rube Goldberg machines I assemble when I should be Halloween party planning
+- would like to set up thumbnails for your own GitHub Pages-hosted Jekyll blog
+- are just morbidly curious about the kinds of Rube Goldberg machines I assemble when I should be Halloween party planning
 
 read on.
 
