@@ -31,6 +31,10 @@ It doesn't take us long to pack up our tent and sleeping supplies: at this point
 
 Our ride into Morristown is quick, but our small stint on 100 turns out to be very busy at 7:30AM. [Black Cap Espresso](https://blackcapvermont.com/) turns out busy as well, but the breakfast sandwiches, coffee, and breakfast burrito are all highly competent.
 
+At Black Cap, we meet a crew of bikepackers starting on their first day of the Gravel Growler. None of them have panniers (the big bags on the racks at the rear of our bikes). They're all riding lightweight bikes, wearing spandex, and rocking some serious dad vibes. Their bags are small enough that I don't know where they're packing their sleeping bags, much less their tents.
+
+They seem very surprised that my 7-speed 90s mountain bike ascended the 20% grades of Lincoln Gap. Incredulous to the point of disbelief, actually. I quickly realize that despite the fact that we're riding (mostly) the same bike route, we are very, very different kinds of bicyclist. They have clearly fallen for [The Efficiency Ruse](https://www.rivbike.com/pages/the-efficiency-ruse). I wonder how many beers they allocate for themselves per day to maintain their racing pace.
+
 {% include figure.html url="2022_10_06/02_leaving_town.jpg" description="leaving town" %}
 
 After Black Cap, we ride through Morrisville, and nearly the minute we cross VT-15, the road turns to dirt.
