@@ -54,6 +54,13 @@ img {
     border: solid 0.15em #d24d15;
 }
 
+figure {
+  width: 120%;
+  margin: 0;
+  padding: 0;
+  margin-left: -4em;
+}
+
 figcaption {
     font-size: .8em;
     color: #f37320;
@@ -200,6 +207,8 @@ lambda {
 
 .content {
   display: flex;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .container {
