@@ -7,8 +7,8 @@
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 <link rel="manifest" href="/site.webmanifest">
-<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#d6785e">
-<meta name="msapplication-TileColor" content="#da532c">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#a169e0">
+<meta name="msapplication-TileColor" content="#a169e0">
 <meta name="theme-color" content="#ffffff">
 
 <TITLE>{{ page.title }}</TITLE>
@@ -21,19 +21,23 @@
   <div class="container">
   <header>
     <nav>
+      <!--<h1 style="font-size:2em">
+        Manic Musings
+      </h1> -->
       <div class="biglambda">
         <div class="biglambdacontent">
-        &#955; Latitudinarians
+        Manic Musings
         </div>
       </div>
-      &nbsp&nbsp
+      <div style="text-align: right;">
       <a href="/index.html">ABOUT</a> -
-      <a href="/_pages/blog.html">BLOG</a> -
-      <a href="/_pages/techblog.html">TECH BLOG</a> -
-      <a href="/_pages/writing.html">WRITING</a> -
-      <a href="/_pages/resume.html">RESUME</a> -
-      <a href="/_pages/projects.html">PROJECTS</a> |
+      <a href="/_pages/blog.html">BIKES</a> -
+      <a href="/_pages/techblog.html">KNITS</a> -
+      <a href="/_pages/writing.html">SNOW</a> -
+      <a href="/_pages/projects.html">BEER</a> -
+      <a href="/_pages/resume.html">RESUME</a> |
       <a class="btn btn-rss" href="/feed.xml" target="_blank">RSS</a>
+    </div>
     </nav>
   </header>
   <div id="page-container">
@@ -47,7 +51,7 @@
 
 <!-- used to load all actual content (about page, blog, resume, etc) -->
 <div class="content container">
-	{% if page.title == "Lambda Latitudinarians by Nathan Contino" %}
+	{% if page.title == "Manic Musings by Meg Arnold" %}
     <!-- no title display! -->
   {% else %}
     <H1>{{ page.title}}</H1>
@@ -59,7 +63,7 @@
 </table>
 </div>
 <center>
-<footer id="footer">Created by Nathan Contino. Last edited: {{ site.time | date: '%B %d, %Y' }}</footer>
+<footer id="footer">Created by Meg Arnold. Last edited: {{ site.time | date: '%B %d, %Y' }}</footer>
 </center>
  </div>
 </div>
