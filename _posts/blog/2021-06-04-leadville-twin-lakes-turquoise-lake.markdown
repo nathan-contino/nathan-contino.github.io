@@ -344,5 +344,4 @@ nighttime highway rides!
 Thanks for reading. If you have any suggestions or comments, send an email
 my way!
 
-For those interested in our route, you can check it out
-[here](https://ridewithgps.com/routes/36320011) at ridewithgps.
+<iframe src="https://ridewithgps.com/embeds?type=route&id=36320011&sampleGraph=true" style="width: 1px; min-width: 100%; height: 700px; border: none;" scrolling="no"></iframe>
