@@ -58,7 +58,7 @@ figure {
   width: 120%;
   margin: 0;
   padding: 0;
-  margin-left: -4em;
+  margin-left: -2em;
 }
 
 figcaption {
@@ -123,7 +123,7 @@ td {
   border-spacing: 0;
   padding: 0px;
   padding-right: 5px;
-  vertical-align: top;
+  vertical-align: center;
 }
 
 rw {font-style: italic; color: #602020;}
@@ -152,7 +152,7 @@ lambda {
 
 .biglambdacontent {
   font-family: "FreeMono", "Courier New", "Rockwell", monospace;
-  font-size:32px;
+  font-size:2em;
   background-color: #d24d15;
   color: black;
   font-weight: lighter;
@@ -256,4 +256,8 @@ HTML {
 
 #pdfdisplay {
 	height: 70vh;
+}
+
+nav {
+  font-size: 1em;
 }
