@@ -2,16 +2,9 @@
 @import url(fruity.css);
 
 BODY {
-  font-size: 13pt;
+  font-size:13px;
   color: white;
   background-color: #5f4f43;
-  padding-left: 2em;
-  padding-right: 5%;
-  padding-bottom: 5%;
-}
-
-li {
-  max-width: 90ex;
 }
 
 a {
@@ -39,47 +32,45 @@ pre {
   font-family: "FreeMono", "Courier New", monospace;
   font-weight: bold;
   border-radius: 0.5em;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 1em;
+  padding-bottom: 1em;
   white-space: pre;
-  overflow:scroll;
+  overflow: scroll;
 }
 
 div {
-	font-size: 13px;
 	line-height: 1.8em;
 }
 
 img {
-    width: 100%;
-    border-radius: 7px 7px 0px 0px;
-    border: solid 0.15em #d24d15;
+  width: 100%;
+  border-radius: 7px 7px 0px 0px;
+  border: solid 0.15em #d24d15;
 }
 
 figure {
   width: 120%;
   margin: 0;
-  padding: 0;
-  margin-left: -2em;
+  margin-left: -10%;
+  padding: 1%;
 }
 
 figcaption {
-    font-size: .8em;
-    color: #f37320;
-    width: 100%;
-    display: block;
-    text-align: center;
-    border-radius: 0px 0px 7px 7px;
-    border: solid 0.15em #d24d15;
-    border-top: 0;
-    background-color: #5C4033;
-    height: 1em;
-    line-height: 1em;
-    font-style: italic;
-    margin-top:-.7em;
-    padding-top: .4em;
-    padding-bottom: .2em;
-    height: 100%;
+  color: #f37320;
+  width: 100%;
+  display: block;
+  text-align: center;
+  border-radius: 0px 0px 7px 7px;
+  border: solid 0.15em #d24d15;
+  border-top: 0;
+  background-color: #5C4033;
+  height: 1em;
+  line-height: 1em;
+  font-style: italic;
+  margin-top:-.7em;
+  padding-top: .4em;
+  padding-bottom: .2em;
+  height: 100%;
 }
 
 table > thead > tr > th > img {
@@ -141,9 +132,9 @@ SPAN.program {font-family: monospace;}
 SPAN.rw {font-family: monospace; font-style: italic;}
 
 lambda {
-    font-family: "FreeMono", "Courier New", "Rockwell", monospace;
-    color: #d24d15;
-    font-weight: lighter;
+  font-family: "FreeMono", "Courier New", "Rockwell", monospace;
+  color: #d24d15;
+  font-weight: lighter;
 }
 
 .biglambda {
@@ -261,5 +252,4 @@ HTML {
 }
 
 nav {
-  font-size: 1em;
 }

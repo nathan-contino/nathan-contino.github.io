@@ -14,6 +14,8 @@ Did you notice an inverted caret (`ˇ`) that restored the height pixels of the h
 
 Did it annoy you that you can't remove that button, even in the "customize toolbar" view?
 
+<!-- readmore -->
+
 If this is the case, visit your browser's [about:config](about:config) configuration and update the following value to `false`:
 
 ```
