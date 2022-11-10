@@ -170,6 +170,7 @@ lambda {
   );
   display: block;
   width: 100%;
+  min-width: 20px;
   box-sizing: inherit;
   flex: 1;
 }
@@ -190,6 +191,7 @@ lambda {
   );
   display: block;
   width: 10%;
+  min-width: 20px;
   box-sizing: inherit;
   flex: .05;
 }
@@ -206,9 +208,13 @@ lambda {
 
 .container {
   margin:  0 auto;
-  padding-top: 1rem;
   flex-direction: column;
   max-width: 864px;
+}
+
+.menu {
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 h1 {
@@ -252,4 +258,5 @@ HTML {
 }
 
 nav {
+  display:inherit;
 }
