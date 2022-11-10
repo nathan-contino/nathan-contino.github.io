@@ -35,12 +35,14 @@ H3 {color: #dd4814; font-family: "FreeMono", "Courier New", "Rockwell", monospac
 code,
 .code,
 pre {
+  font-size: 1.1em;
   font-family: "FreeMono", "Courier New", monospace;
   font-weight: bold;
   border-radius: 0.5em;
   padding-top: 10px;
   padding-bottom: 10px;
-  white-space: pre-wrap;
+  white-space: pre;
+  overflow:scroll;
 }
 
 div {
