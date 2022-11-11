@@ -212,9 +212,11 @@ lambda {
   max-width: 864px;
 }
 
-.menu {
-  padding-left: 10%;
-  padding-right: 10%;
+menu {
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: 12px;
+  margin-top: 0%;
 }
 
 h1 {
