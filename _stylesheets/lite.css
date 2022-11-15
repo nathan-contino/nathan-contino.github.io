@@ -6,6 +6,7 @@ BODY {
   background-color: #5f4f43;
   max-width: 100vw;
   font-size: .9rem;
+  overflow-wrap: break-word;
 }
 
 a {
@@ -54,15 +55,17 @@ img {
 @media only screen and (min-width: 600px) {
   figure {
     width: 120%;
-    margin-left: -10%;
+    margin-left: -11%;
     padding: 1%;
+    font-size: .8rem;
   }
 }
 
 @media only screen and (max-width: 600px) {
   figure {
-    width: 95vw;
+    width: 98vw;
     margin: 0;
+    font-size: .8rem;
   }
 }
 
