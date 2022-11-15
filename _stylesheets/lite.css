@@ -1,6 +1,10 @@
 /* syntax highlighting import */
 @import url(fruity.css);
 
+html {
+  font-size: 14px;
+}
+
 BODY {
   color: white;
   background-color: #5f4f43;
