@@ -5,6 +5,7 @@ BODY {
   color: white;
   background-color: #5f4f43;
   max-width: 100vw;
+  font-size: .8rem;
 }
 
 a {
