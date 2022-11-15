@@ -202,8 +202,13 @@ lambda {
 
 .content {
   display: flex;
-  padding-left: 10%;
-  padding-right: 10%;
+}
+
+@media only screen and (min-width: 600px) {
+  .content {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
 }
 
 .container {
