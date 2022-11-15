@@ -25,10 +25,12 @@ H1 {color: #dd4814; font-family: "FreeMono", "Courier New", "Rockwell", monospac
 H2 {color: #dd4814; font-family: "FreeMono", "Courier New", "Rockwell", monospace;}
 H3 {color: #dd4814; font-family: "FreeMono", "Courier New", "Rockwell", monospace;}
 
-code,
-.code,
-pre {
+code {
   font-family: "FreeMono", "Courier New", monospace;
+  font-weight: bold;
+}
+
+pre > code {
   font-weight: bold;
   border-radius: 0.5em;
   padding: 5px;
