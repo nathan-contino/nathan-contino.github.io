@@ -2,7 +2,6 @@
 @import url(fruity.css);
 
 BODY {
-  font-size:13px;
   color: white;
   background-color: #5f4f43;
 }
@@ -64,7 +63,6 @@ img {
     margin: 0;
   }
 }
-
 
 
 figcaption {
@@ -156,7 +154,7 @@ lambda {
 
 .biglambdacontent {
   font-family: "FreeMono", "Courier New", "Rockwell", monospace;
-  font-size:2.5em;
+  font-size:2em;
   background-color: #d24d15;
   color: black;
   font-weight: lighter;
@@ -213,8 +211,8 @@ lambda {
 
 .content {
   display: flex;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 2px;
+  padding-right: 2px;
 }
 
 @media only screen and (min-width: 600px) {
