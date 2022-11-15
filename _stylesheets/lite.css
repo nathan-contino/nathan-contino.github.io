@@ -159,7 +159,7 @@ lambda {
 
 .biglambdacontent {
   font-family: "FreeMono", "Courier New", "Rockwell", monospace;
-  font-size:2em;
+  font-size: 2rem;
   background-color: #d24d15;
   color: black;
   font-weight: lighter;
