@@ -10,7 +10,7 @@ big tech. I know this is popular in some circles right now, and I've made
 all the standard moves:
 
 - remove myself from Facebook and Instagram
-- migrate my personal email from Gmail to Protonmail
+- migrate my personal email from Gmail to Protonmail (update: now trialing [Purelymail](https://purelymail.com))
 - reduce subscriptions to music and video streaming services across the board
 - start a blog where I can shamelessly rant and rave about cool things I've done
 
