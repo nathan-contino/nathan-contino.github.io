@@ -50,15 +50,26 @@ img {
   border: solid 0.15em #d24d15;
 }
 
-figure {
-  width: 120%;
-  margin: 0;
-  margin-left: -10%;
-  padding: 1%;
+@media only screen and (min-width: 600px) {
+  figure {
+    width: 120%;
+    margin-left: -10%;
+    padding: 1%;
+  }
 }
+
+@media only screen and (max-width: 600px) {
+  figure {
+    width: 95vw;
+    margin: 0;
+  }
+}
+
+
 
 figcaption {
   color: #f37320;
+  font-size: .8rem;
   width: 100%;
   display: block;
   text-align: center;
@@ -76,7 +87,6 @@ figcaption {
 }
 
 table > thead > tr > th > img {
-    font-size: .8em;
     color: #d24d15;
     align: center;
     width: 350px;
@@ -86,7 +96,6 @@ table > thead > tr > th > img {
 }
 
 table > tbody > tr > td > em {
-    font-size: 1em;
     color: #f37320;
     width: 350px;
     display: table-caption;
@@ -147,7 +156,7 @@ lambda {
 
 .biglambdacontent {
   font-family: "FreeMono", "Courier New", "Rockwell", monospace;
-  font-size:2em;
+  font-size:2.5em;
   background-color: #d24d15;
   color: black;
   font-weight: lighter;
@@ -224,12 +233,13 @@ lambda {
 menu {
   padding-left: 5%;
   padding-right: 5%;
-  font-size: 12px;
+  font-size: 1rem;
   margin-top: 0%;
 }
 
 h1 {
   font-family: "FreeMono", "Courier New", "Rockwell", monospace;
+  font-size: 1.8rem;
   color: #d24d15;
 }
 
@@ -247,21 +257,14 @@ h1 {
   bottom: 0;
   width: 100%;
   height: 2.5rem;            /* Footer height */
-  text-align: center;
-  font-size: 8px;
+  text-align: right;
+  font-size: .5rem;
   font-style:italic;
   color: #D2B48C;
 }
 
-sidebar {
-	font-family: Gill Sans MT, Gill Sans, Gill Sans Std, Verdana, Bitstream Vera Sans,sans-serif;
-	letter-spacing: 2px;
-	font-size: 1.2rem;
-}
-
 HTML {
 	font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
-  font-size: 100%;
 }
 
 #pdfdisplay {
