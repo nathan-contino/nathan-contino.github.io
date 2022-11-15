@@ -299,3 +299,8 @@ nav {
   display: flex;
   flex-direction: row-reverse;
 }
+
+/* Mobile browsers only -- fix for crazy inconsistent font rendering on ios */
+@media only screen and (max-device-width: 480px) {      
+        td#main_box { -webkit-text-size-adjust:100% }               
+}
