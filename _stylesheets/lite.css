@@ -1,8 +1,9 @@
 :root {
-  --bg: #492709;/*#5f4f43;*/
-  --bgaccent: #5C4033;
+  --bg: #492709;
+  --bgaccent: #5E2750;
   --main: #f37320;
   --mainaccent: #D24D15;
+  --bgtext: #D2B48C;
 }
 
 html {
@@ -27,7 +28,7 @@ a {
 }
 
 a:not(.nohover):hover {
-  background-color: #300A24;
+  background-color: var(--bgaccent);
   color: #BBB;
 }
 
@@ -272,7 +273,7 @@ h1 {
   text-align: right;
   font-size: .5rem;
   font-style:italic;
-  color: #D2B48C;
+  color: var(--bgtext);
 }
 
 HTML {
