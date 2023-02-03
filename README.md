@@ -5,6 +5,10 @@ Nathan Contino's personal web page.
 
 [nathan-contino.github.io](https://nathan-contino.github.io/)
 
+# license
+
+This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License (CC-SA)](http://creativecommons.org/licenses/by-sa/4.0/).
+
 # local testing
 
 To test this site locally, install jekyll (note: this requires ruby)
