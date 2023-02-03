@@ -1,6 +1,6 @@
 ---
 title:  "Review: Onyx Boox Nova 3"
-date:   2023-01-18 14:26:53 -0500
+date:   2023-02-03 13:17:53 -0500
 layout: default
 categories: techblog
 ---
