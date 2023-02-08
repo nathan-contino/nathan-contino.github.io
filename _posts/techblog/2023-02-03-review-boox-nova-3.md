@@ -11,6 +11,12 @@ When I was young, I read books.
 
 When I was slightly less young, I read books off of a [Kindle Touch](https://en.wikipedia.org/wiki/Amazon_Kindle#Kindle_Touch).
 
+I replaced my Kindle with an Android e-ink tablet. This article explains why.
+
+<!-- readmore -->
+
+{% include figure.html url="ereader/kindletouch.jpg" description="My old Kindle Touch, now an e-ink weather station." %}
+
 Eventually, I learned about Amazon's nasty business practices in the e-reader space:
 
 - forcing DRM (Digital Rights Management, software locks for files that Amazon, not you, holds the keys for) for ebooks, so you don't actually own your purchases -- you only [rent them as long as Amazon cares to allow you to view your rental ebook](http://www.bekkelund.net/2012/10/22/outlawed-by-amazon-drm/)
@@ -27,10 +33,6 @@ After more than a decade of use, I finally decided to upgrade from my Kindle Tou
 - pen support for annotations
 - larger screens (not useful in phones, if you ask me -- but for reading ebooks, I love something close to the size of a hardcover)
 - software options other than the very closed ecosystem of the Kindle
-
-I replaced my Kindle with an Android e-ink tablet. This article explains why.
-
-<!-- readmore -->
 
 ## Choices
 
@@ -64,6 +66,8 @@ I ended up settling on the Onyx Boox Nova 3, because it met my list of needs. Th
 - waterproofing (peace of mind, rather than "I want to swim with it")
 
 Fortunately I don't currently listen to audiobooks, so I can ignore most of those features. If I ever get into audiobooks, I'll likely be forced to upgrade. The only feature I *really* wish I had was a fingerprint reader for security... but knowing Android device security, almost no devices are secure enough to fully trust anyway. So maybe it just doesn't matter. I do wish I could get a "pattern" style lock screen though.
+
+{% include figure.html url="ereader/nova3.jpg" description="My Onyx Boox Nova 3 in action." %}
 
 ## Screen
 
@@ -126,3 +130,5 @@ Well, I have a few thoughts:
 ## TL;DR
 
 Boox good for me. Kindle bad. Kobo good for most.
+
+{% include figure.html url="ereader/dawgz.jpg" description="An ereader being eread in nature." %}
