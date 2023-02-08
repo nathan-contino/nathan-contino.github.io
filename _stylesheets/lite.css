@@ -32,6 +32,14 @@ a:not(.nohover):hover {
   color: #BBB;
 }
 
+blockquote {
+  margin: 0 1em 0 0.25em;
+  padding: 0 .75em 0 1em;
+  border-left: 1px solid var(--mainaccent);
+  border-right: 0px solid var(--mainaccent);
+  color: #DDD;
+}
+
 H1 {color: var(--main); font-family: "FreeMono", "Courier New", "Rockwell", monospace;}
 H2 {color: var(--main); font-family: "FreeMono", "Courier New", "Rockwell", monospace;}
 H3 {color: var(--main); font-family: "FreeMono", "Courier New", "Rockwell", monospace;}
