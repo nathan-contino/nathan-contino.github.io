@@ -124,3 +124,5 @@ At some point, I'll have to upgrade as apps stop supporting older versions of An
 ## Conclusion
 
 It's hard to find a small phone these days. Fortunately, Android's modular and open design means that old Android phones are still usable several years on. I'll keep my eye out for new small Android phones. But for at least the next couple of years, my "new" phone should easily cover my simple use cases. In the meantime, I'm really enjoying an OS that isn't quite as locked-down as iOS. If you're also feeling trapped by Apple's scumbag moves, like removing the headphone jack, the fingerprint sensor, and now the SIM card slot, I highly recommend trying an older Android phone. They can be picked up for pretty cheap, and after you overcome the basic learning curve, you might just find that you prefer a little more breathing room than Apple provides.
+
+*If you enjoyed reading this, check out fellow blogger Chuck's [similar post](https://chuck.is/repair/) about the OnePlus Nord N200 (with an emphasis on repairability).*
