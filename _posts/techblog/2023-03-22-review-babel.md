@@ -22,7 +22,7 @@ According to the book:
 
 > the word treacle was first recorded in the seventeenth century in relation to the heavy use of sugar to disguise the bad taste of medicine. [This] traced back to the Old French '*triacle*', meaning 'antidote' or 'cure from snakebite', then the Latin *'theriaca'*, and finally to the Greek *'theriake'*, both meaning 'antidote'.
 
-When Professor Lovett uses the match-pair "Triacle/Treacle" on Robin, Robin tastes something sweet in his mouth and stops dying of cholera.
+When Professor Lovell uses the match-pair "Triacle/Treacle" on Robin, Robin tastes something sweet in his mouth and stops dying of cholera.
 
 Another prominent early-book example: "Wúxíng" (Chinese: formless, shapeless, incorporeal) and "Invisible". This time, it's used to make people disappear, with the following description:
 
