@@ -31,7 +31,7 @@ And the obsession doesn't end with the material: Tinkering with your own chain s
 
 The dual campfires crack and flicker in the early morning cold. The bicyclists keep their distance from the fire: sure, it's warm. But you don't want to get too adjusted to that heat right before the Fifth Season. The bicycles gleam and glisten in a million different ways, the combined product of a million different geniuses, leaning against every decent-sized maple in the sugarbush.
 
-A moderately-bearded man dressed "Vermont sharp" in wellies, a flannel, cords, and a green [Vermont Barn Coat climbs](https://www.vermontcountrystore.com/mens-original-vermont-barn-coat/product/72328) onto a bench. He clears his throat and, surprisingly soft-spoken, announces that the time has come for the Fifth Season. Racers should prepare for their ride-starting bog march, hunting drink (bottom-barrel bourbon, maple syrup, and "spices") and donut/apple-on-a-string eating contest. Riders should form a tunnel to the bog and first sugar shack to cheer the racers on.
+A moderately-bearded man dressed "Vermont sharp" in wellies, a flannel, cords, and a green [Vermont Barn Coat](https://www.vermontcountrystore.com/mens-original-vermont-barn-coat/product/72328) climbs onto a bench. He clears his throat and, surprisingly soft-spoken, announces that the time has come for the Fifth Season. Racers should prepare for their ride-starting bog march, hunting drink (bottom-barrel bourbon, maple syrup, and "spices") and donut/apple-on-a-string eating contest. Riders should form a tunnel to the bog and first sugar shack to cheer the racers on.
 
 ## Race Start
 
@@ -59,6 +59,8 @@ Soon after, the ride begins. It isn't long before we hit our first dirt road. An
 
 ## The Grind
 
+{% include figure.html url="2023_03_26/photo_2023-03-26 08.35.01.jpeg" description="dirt-y roads" %}
+
 Back to the dirt road-cat 4 road grind. We zoom through icy puddles. We haul the bikes over softening late-season snow. To keep up the pace, we ride through narrow canyons of snow, bottomed with inches of cold mud. Meg zooms so fast through the ice and snow and mud that *I* struggle to keep up. It starts to snow. It's beautiful.
 
 {% include figure.html url="2023_03_26/retreiver.JPG" description="cabin, substance, dogs, dawgs" %}
@@ -81,7 +83,9 @@ The next pass is snowed out by the sea of flakes coming down around us. But it's
 
 {% include figure.html url="2023_03_26/10_maple_jello_shots.jpg" description="a face full of dirt and maple jello shots" %}
 
-The ride was challenging, but with everyone doing it together, it never felt overwhelming. Even when the weather got sketch, I knew we could handle things. Our new moonshiners were incredibly fun -- truly the perfect bike for the ride, with no suspension to slow you down on uphills, chonky tires for the mud and snow, and incredibly low bottom gear to conquer even the steepest hills, and high zero-reach drop bars to hang out in (a non-athletic cozy upright position) for basically the whole ride.
+The ride was challenging, but with everyone doing it together, it never felt overwhelming. Even when the weather got sketch, I knew we could handle things. Our new bikes (coincidentally, Tanglefoot Moonshiners, which Analog Cycles makes) were incredibly fun. Truly the perfect bike for the ride: no suspension to slow you down on uphills, chonky tires for the mud and snow, an incredibly low bottom gear to conquer even the steepest hills, and high zero-reach drop bars to hang out in (a non-athletic cozy upright position) for basically the whole ride.
+
+I'm sure we could have managed the ride on our touring bikes, or even our mountain bikes (soon to be liquidated, replaced by the Moonshiners). But thanks to our new bikes, we had a great time. It's nice to have bikes that feel cozy for all-day riding even on suboptimal terrain, and when you're soaked to the bone with ice water and muck.
 
 ## Recap
 
