@@ -3,6 +3,7 @@ title:  "Review: Sony Xperia XZ1 Compact"
 date:   2023-03-08 13:17:53 -0500
 layout: default
 categories: techblog
+permalink: /:categories/:year/:month/:day/:title:output_ext
 ---
 
 I recently switched to a "new" smartphone. This post explains why and how.
