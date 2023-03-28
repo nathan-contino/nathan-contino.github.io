@@ -3,6 +3,7 @@ title:  "Taking the Long Way Down: Ski Trip 2022"
 date:   2022-02-19 14:14:22 -0700
 layout: default
 categories: blog
+permalink: /:categories/:year/:month/:day/:title:output_ext
 ---
 
 For the last week, Meg and I took a week off to appreciate Colorado
