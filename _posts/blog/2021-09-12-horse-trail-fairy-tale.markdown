@@ -3,6 +3,7 @@ title:  "Horse Trail Fairy Tale"
 date:   2021-09-12 14:14:22 -0700
 layout: default
 categories: blog
+permalink: /:categories/:year/:month/:day/:title:output_ext
 ---
 
 This weekend, Meg and I headed out to the Finger Lakes for a biking day trip
