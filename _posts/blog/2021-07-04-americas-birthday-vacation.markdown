@@ -3,6 +3,7 @@ title:  "Trip For America's Birthday"
 date:   2021-07-04 14:14:22 -0700
 layout: default
 categories: blog
+permalink: /:categories/:year/:month/:day/:title:output_ext
 ---
 
 This trip took myself, Meg, and two friends on an adventure around
