@@ -3,6 +3,7 @@ title:  "Live Free or Die"
 date:   2022-05-24 14:14:22 -0700
 layout: default
 categories: blog
+permalink: /:categories/:year/:month/:day/:title:output_ext
 ---
 
 We moved to [New Hampshire](https://breakingbad.fandom.com/wiki/Walt%27s_New_Hampshire_Cabin)!
