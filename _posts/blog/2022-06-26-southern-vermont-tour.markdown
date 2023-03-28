@@ -3,6 +3,7 @@ title:  "Southern Vermont Bike Tour"
 date:   2022-06-26 14:14:22 -0700
 layout: default
 categories: blog
+permalink: /:categories/:year/:month/:day/:title:output_ext
 ---
 
 Meg and I just completed our longest self-supported bike tour yet: three
