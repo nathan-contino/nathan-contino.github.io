@@ -3,6 +3,7 @@ title:  "Two Birthdays at Two Miles High: A Eulogy for Denver"
 date:   2022-03-27 14:14:22 -0700
 layout: default
 categories: blog
+permalink: /:categories/:year/:month/:day/:title:output_ext
 ---
 
 Meg and I are moving to New Hampshire in just a couple of weeks.
