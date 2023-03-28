@@ -54,7 +54,12 @@
   {% else %}
     <H1>{{ page.title}}</H1>
   {% endif %}
-  	{{ content }}
+  {% if page.date %}
+    <span class="date">
+      <blockquote><i>{{ page.date | date: '%B %d, %Y' }}</i></blockquote>
+    </span>
+  {% endif %}
+  {{ content }}
 </div>
 
 </div>
