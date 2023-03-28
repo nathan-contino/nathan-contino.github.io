@@ -3,6 +3,7 @@ title:  "Great North VT Adventure: Part 6 (Morrisville to Greensboro)"
 date:   2022-10-06 14:14:22 -0700
 layout: default
 categories: blog
+permalink: /:categories/:year/:month/:day/:title:output_ext
 ---
 
 Meg and I once again completed our longest self-supported bike tour yet: seven
