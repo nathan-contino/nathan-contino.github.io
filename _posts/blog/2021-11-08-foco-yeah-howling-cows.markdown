@@ -3,6 +3,7 @@ title:  "FoCo Yeah, Howling Cows"
 date:   2021-11-08 14:14:22 -0700
 layout: default
 categories: blog
+permalink: /:categories/:year/:month/:day/:title:output_ext
 ---
 
 Meg and I returned to day touring this weekend with a jam-packed exploration
