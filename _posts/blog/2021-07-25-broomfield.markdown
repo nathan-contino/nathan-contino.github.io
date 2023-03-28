@@ -3,6 +3,7 @@ title:  "Broomfield Open Space Loop"
 date:   2021-07-25 14:14:22 -0700
 layout: default
 categories: blog
+permalink: /:categories/:year/:month/:day/:title:output_ext
 ---
 
 This week, we took it easy since the whole state is full of
