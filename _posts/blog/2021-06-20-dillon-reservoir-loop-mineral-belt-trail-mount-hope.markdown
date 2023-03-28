@@ -3,6 +3,7 @@ title:  "Dillon Reservoir Loop, Mineral Belt Trail, and Mount Hope"
 date:   2021-06-20 14:14:22 -0700
 layout: default
 categories: blog
+permalink: /:categories/:year/:month/:day/:title:output_ext
 ---
 
 This weekend, Meg and I mixed hiking and biking instead of just
