@@ -3,6 +3,7 @@ title:  "Mountain Biking is Silly"
 date:   2022-06-21 14:14:22 -0700
 layout: default
 categories: blog
+permalink: /:categories/:year/:month/:day/:title:output_ext
 ---
 
 ... silly *fun*. But honestly it is a slightly ridiculous use case for a bicycle.
