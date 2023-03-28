@@ -3,6 +3,7 @@ title:  "Steamboat Springs Gravel Grinding"
 date:   2021-05-22 14:14:22 -0700
 layout: default
 categories: blog
+permalink: /:categories/:year/:month/:day/:title:output_ext
 ---
 
 Last weekend, Meg and I embarked on our first majority non-pavement
