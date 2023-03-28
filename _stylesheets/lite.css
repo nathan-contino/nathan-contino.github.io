@@ -40,6 +40,10 @@ blockquote {
   color: #DDD;
 }
 
+hr {
+  color: var(--mainaccent);
+}
+
 H1 {color: var(--main); font-family: "FreeMono", "Courier New", "Rockwell", monospace;}
 H2 {color: var(--main); font-family: "FreeMono", "Courier New", "Rockwell", monospace;}
 H3 {color: var(--main); font-family: "FreeMono", "Courier New", "Rockwell", monospace;}
