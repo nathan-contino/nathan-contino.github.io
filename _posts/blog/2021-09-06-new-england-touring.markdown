@@ -3,6 +3,7 @@ title:  "The Great New England Adventure"
 date:   2021-09-06 14:14:22 -0700
 layout: default
 categories: blog
+permalink: /:categories/:year/:month/:day/:title:output_ext
 ---
 
 The last few weeks and weekends have been busy. We:
