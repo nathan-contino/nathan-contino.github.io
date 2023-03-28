@@ -3,6 +3,7 @@ title:  "Leadville, Twin Lakes, and Turquoise Lake Loop"
 date:   2021-06-04 14:14:22 -0700
 layout: default
 categories: blog
+permalink: /:categories/:year/:month/:day/:title:output_ext
 ---
 
 This weekend's bike trip in Lake County was a little different from our
