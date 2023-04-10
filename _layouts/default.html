@@ -10,7 +10,7 @@
   <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#d6785e">
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
-  <meta name="description" content="Nathan Contino's personal website, Lambda Latitudinarians.">
+  <meta name="description" content="{% if page.excerpt %} {{ page.excerpt }} {% else %} {{ site.description }} {% endif %}">
   <meta property="og:type" content="website">
   <meta property="og:image" content="https://raw.githubusercontent.com/nathan-contino/images/main/images/PavementEnds.webp">
   <meta property="og:image:secure_url" content="https://raw.githubusercontent.com/nathan-contino/images/main/images/PavementEnds.webp">
