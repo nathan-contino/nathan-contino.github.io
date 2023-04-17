@@ -13,7 +13,7 @@ categories: blog
 
 {% include figure.html url="2023_03_23/01_moonshiner_demo.jpg" description="demoing moonshiners in poultney" %}
 
-Remember how [mountain biking is silly](/blog/2022/06/21/mountain-biking-is-silly.html)? Well, here's an update.
+Remember how [mountain biking is silly](/blog/2022/06/21/mountain-biking-is-silly/)? Well, here's an update.
 
 Yes, mountain biking is still silly. People spend far too much money on ridiculous carbon frames, [dual](https://www.evil-bikes.com/products/wreckoning-ls) and [triple and quadruple](https://theradavist.com/specialized-diverge-str-longterm-review/) suspension monstrosities, obsess over "shredding" hills and setting record times and doing drops and jumps and many other very silly things.
 
