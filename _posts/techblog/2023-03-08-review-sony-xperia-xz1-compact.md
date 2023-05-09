@@ -100,7 +100,7 @@ At some point, I'll have to upgrade as apps stop supporting older versions of An
 
 - [Fennec](https://f-droid.org/packages/org.mozilla.fennec_fdroid/) is an excellent F-Droid updated version of Firefox with Mozilla telemetry disabled. You can use nearly any Firefox add-on, as long as you [add it to a collection and hook up that collection to your Fennec instance's app list in the Fennec developer settings](https://support.mozilla.org/en-US/kb/extended-add-support). A silly set of hoops to jump through, but a proper ad-blocker and other convenience extensions make the mobile web actually usable (and secure) again. Huzzah!
 
-- I use Pocket Casts for podcast listening.
+- I use Pocket Casts for podcast listening. Note: I recently switched to [AntennaPod](https://antennapod.org/), a FOSS alternative, because Pocket Casts has shown signs of monetization in the last couple of years. AntennaPod has the added benefit of supporting raw RSS feeds for podcast subscriptions, so it's easy to avoid centralized, [enshittification](https://pluralistic.net/2023/01/21/potemkin-ai/#hey-guys)-prone services.
 
 - I use Finamp to listen to music on my personal Jellyfin server.
 
@@ -110,9 +110,9 @@ At some point, I'll have to upgrade as apps stop supporting older versions of An
 
 - [FairEmail](https://f-droid.org/en/packages/eu.faircode.email/) has a significant learning curve as you set up the UI and accounts, but has worked *excellently* since then.
 
-- [Signal](https://signal.org/#signal) is the most secure messaging app I have. I only wish I could convince anyone else to actually use it.
+- [Signal](https://signal.org/#signal) is the most secure messaging app I have. I only wish I could convince anyone else to actually use it. Note: I recently changed to [Molly](https://molly.im/) instead to stick with open source software and minimize Signal's frequent nagging to donate.
 
-- [Nekogram X](https://f-droid.org/en/packages/nekox.messenger/) is an open source distribution of Telegram with less telemetry and some helpful options added on top.
+- [Nekogram X](https://f-droid.org/en/packages/nekox.messenger/) is an open source distribution of Telegram with less telemetry and some helpful options added on top. [Telegram FOSS](https://f-droid.org/packages/org.telegram.messenger/) is another brilliant option if you don't need the extra stuff. Both have some minimal issues with app icon/name display in the OS share sheet but it's not a big deal.
 
 - I use Google Maps as a necessary evil of address finding, and Osmand (with 10GB of downloaded detailed US maps) for bicycle touring and mountain biking navigation.
 
