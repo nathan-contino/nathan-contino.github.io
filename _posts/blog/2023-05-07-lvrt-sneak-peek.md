@@ -14,6 +14,8 @@ Our latest adventure took us across half of the state of Vermont: from St. Johns
 
 {% include figure.html url="2023_05_07/00_meg_stowe.jpg" description="new pic for stowe brochures" %}
 
+{% include figure.html url="2023_05_07/25_nate_bike_model.jpg" description="a sandal enthusiast" %}
+
 ## Day 1: St. J to Stowe (there)
 
 {% include figure.html url="2023_05_07/01_meg_morning.jpg" description="the gentle balance of caffeinating  and hoping you don't have to pee too soon" %}
@@ -103,8 +105,6 @@ Our very steep road swiftly turned into a windy dirt road with sweeping views of
 {% include figure.html url="2023_05_07/23_rowdy_dirt.jpg" description="finally some dirt that isn't pavement-like" %}
 
 {% include figure.html url="2023_05_07/24_nate_dirt.jpg" description="swoopy boi" %}
-
-{% include figure.html url="2023_05_07/25_nate_bike_model.jpg" description="a sandal enthusiast" %}
 
 {% include figure.html url="2023_05_07/26_get_milk.jpg" description="get milk" %}
 
