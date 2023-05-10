@@ -1,5 +1,5 @@
 ---
-title:  "There and Back Again: A LVRT Sneak Peek"
+title:  "There and Back Again: An LVRT Sneak Peek"
 date:   2023-05-07 13:17:53 -0500
 layout: default
 categories: blog
