@@ -1,4 +1,3 @@
-
 ---
 title:  "Great Britain Bike Tour: Part 1 (Chittenango to Glasgow)"
 date:   2023-08-02 14:14:22 -0700
