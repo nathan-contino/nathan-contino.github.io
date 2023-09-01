@@ -13,7 +13,13 @@ In this post, I'll cover our journey from Syracuse, NY, where we boxed up our bi
 
 Our story begins on a brutally rainy Sunday. We drove through sheets of torrential rain to [Mello Vello](https://www.mellovelobicycles.com/), the excellent local bike shop in Syracuse. Our car ended up parked in a large (temporary) pond due to the intensity of the rain. We sprinted through the pouring rain, and the employees produced our prize: two massive bike boxes, just under the airline's limit for total bicycle checked "bag" size. Then we stalled for a solid half hour, wandering around the bike shop, buying some small items, praying for the rain to abate.
 
+{% include figure.html url="2023_08_02/gb01_bike_box.jpg" description="successful swearing, unloading, and loading" %}
+
 Unfortunately it did not. But after a lot of swearing and unloading and loading and wet cardboard and breaking down one box, we ended up with two bicycle boxes in the back of our Crosstrek. We headed home, and started the exciting process of disassembling the bikes and arranging the parts and 90% of our camping supplies, clothes and equipment into boxes below United's 70lb maximum weight limit. After lots of swearing and unloading and loading, we ended up with two loaded bike boxes vaguely likely to make it to the UK in the hold of a plane.
+
+{% include figure.html url="2023_08_02/gb01_bike_boxing.jpg" description="seems easy enough to put in a box..." %}
+
+{% include figure.html url="2023_08_02/gb01_bike_boxed.jpg" description="harder to get to this point than it looks" %}
 
 The next step: getting to the airport. Thanks to the (enormous) size of Melo Velo's boxes, we ended up using two cars to ferry the two of us along with two bicycle boxes to the airport. Special thanks to Meg's parents for volunteering to give us a ride! Despite a lot of worrying and finger-crossing on my part, the United front desk attendant coolly and calmly accepted our boxes for the (not entirely unreasonable) hefty sum of United's *old* bicycle box policy, which waives the oversize box fee, but still charges extra for luggage over 50lb. Fair is fair, we paid the troll toll and found our way to an airport bar to calm our nerves with a refreshing beverage. We eventually watched them load our bicycles into a tiny tiny United Express plane (there was also finger-crossing and worrying involved as we prayed the boxes would actually fit into the hold), then boarded ourselves in a timely fashion. What seemed like 5 minutes later, we descended to Washington DC's Dulles airport.
 
