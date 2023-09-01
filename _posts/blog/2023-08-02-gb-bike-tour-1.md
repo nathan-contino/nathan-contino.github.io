@@ -4,6 +4,7 @@ title:  "Great Britain Bike Tour: Part 1 (Chittenango to Glasgow)"
 date:   2023-08-02 14:14:22 -0700
 layout: default
 categories: blog
+permalink: /:categories/:year/:month/:day/:title:output_ext
 ---
 
 A month on our bicycles, unsupported, spanning the entire isle of Great Britain. Three countries. Five major cities. Tens of thousands of feet of incline. 800ish miles. Literally millions of sheep.
