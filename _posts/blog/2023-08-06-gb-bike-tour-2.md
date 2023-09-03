@@ -21,6 +21,8 @@ After loading up with breakfast, we backtracked east on cycle route 75 out of th
 
 We saw a weird building.
 
+{% include figure.html url="2023_08_06/pns.png" description="interpretation of this photo is left as an exercise for the reader" %}
+
 We stumbled upon a very cute farmers market, and picked up a collection of savory pies (haggis, steak, curry chicken, and mushroom) to keep us fueled on the route.
 
 {% include figure.html url="2023_08_06/1.png" description="farmer's market hand pies" %}
