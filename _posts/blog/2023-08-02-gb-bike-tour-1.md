@@ -132,3 +132,5 @@ The rest of the day, we bopped around town. We watched some of the road race. We
 {% include figure.html url="2023_08_02/29.png" description="our only rainy bike ride in scotland" %}
 
 In what seemed like the blink of an eye, we were back in our hotel, readying the bikes for our next great adventure: our bike ride to England. We loved our time in the two largest cities in Scotland (I'm not sure we ever fully adapted to the accents), but we both felt ready to ride our bikes many miles into the hills and pitch a tent on scenic [right to roam](https://en.wikipedia.org/wiki/Freedom_to_roam) land. Tune in next time to find out the ups and downs (and subsequent ups, downs, and ups, and downs -- Great Britain is *very* hilly) of our wildest segment of the trip.
+
+When I get around to posting it, you can find Part 2 [here](/blog/2023/08/06/gb-bike-tour-2/).

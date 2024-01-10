@@ -184,3 +184,5 @@ Then we entered a stand of trees, and when we emerged back into fields... we wer
 {% include figure.html url="2023_08_06/43.png" description="LAND" %}
 
 Tune in next time to find out what happens once we leave Scotland and enter Her Majesty's realm. Will we be imprisoned in the Tower of London? Will the surveillance state get us down? Will infrastructure continue to impress us? You'll have to read on to find out.
+
+When I get around to posting it, you can find Part 3 [here](/blog/2023/08/07/gb-bike-tour-3/).

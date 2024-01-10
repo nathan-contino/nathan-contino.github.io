@@ -108,3 +108,5 @@ Naturally, I biked over to Twice Brewed while Meg set up the tent for some cans 
 We chatted the last of the daylight away, and fell asleep on a clear, chilly night with a great view of the stars and a front-row seat to the local Sheep Baa Symphony. Our highly nutritious breakfast the next day was well-earned.
 
 {% include figure.html url="2023_08_07/34.png" description="breakfast. for those of you who know about digestives, don't think about this too hard" %}
+
+When I get around to posting it, you can find Part 4 [here](/blog/2023/08/08/gb-bike-tour-4/).
