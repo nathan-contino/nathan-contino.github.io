@@ -15,7 +15,7 @@ In this post, we'll ramble around the countryside of England in the vague vicini
 
 {% include figure.html url="2023_08_08/7.png" description="winding thru the small roads" %}
 
-Our began with a speedy couple of miles downhill to the village of Haltwhistle, self-proclaimed "[center of Britain](https://en.wikipedia.org/wiki/Centre_points_of_the_United_Kingdom)." Haltwhistle was a wonderful first stop of the day thanks to the excellent flat white, tea, and breakfast sandwiches at [Brew Bar](https://www.hexham-courant.co.uk/news/23998036.brew-bar-haltwhistle-wins-mps-small-business-year-competition/). My only regret: it was still too early in the day to try their draft list!
+Our journey began with a speedy couple of miles downhill to the village of Haltwhistle, self-proclaimed "[center of Britain](https://en.wikipedia.org/wiki/Centre_points_of_the_United_Kingdom)." Haltwhistle was a wonderful first stop of the day thanks to the excellent flat white, tea, and breakfast sandwiches at [Brew Bar](https://www.hexham-courant.co.uk/news/23998036.brew-bar-haltwhistle-wins-mps-small-business-year-competition/). My only regret: it was still too early in the day to try their draft list!
 
 {% include figure.html url="2023_08_08/1.png" description="speedy downhill through a cute hamlet" %}
 
@@ -128,4 +128,4 @@ This leg of our journey wraps up with a bike ride down most of the length of the
 
 Thanks for reading! Join us next time to learn about our journey in Wales.
 
-When I get around to posting it, you can find Part 5 [here](/blog/2023/08/11/gb-bike-tour-5/).
+When I get around to posting it, you can find Part 5 [here](/blog/2023/08/12/gb-bike-tour-5/).
