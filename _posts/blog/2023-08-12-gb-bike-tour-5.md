@@ -9,12 +9,12 @@ A month on our bicycles, unsupported, spanning the entire isle of Great Britain.
 
 If you missed the previous post, you can find Part 4 [here](/blog/2023/08/08/gb-bike-tour-4/).
 
-In this post, we'll travel from Manchester, England to some tiny horses we met in Wales. We took a bit of a shortcut from Manchester to Wales 
+In this post, we'll travel from Manchester, England to some tiny horses we met in Wales. We took a bit of a shortcut from Manchester to Wales, but all is fair in love and [stroads](https://en.wikipedia.org/wiki/Stroad).
 
 <!-- readmore -->
 
 
-{% include figure.html url="2023_08_12/3.png" description="a nice place for a nice beer" %}
+{% include figure.html url="2023_08_12/3.png" description="you're only officially old if you no longer have fun with puddles" %}
 
 Our next chapter begins in Manchester. We arrived here after a harrowing morning on the [Rochdale Canal](https://en.wikipedia.org/wiki/Rochdale_Canal), where we only narrowly escaped the dastardly clutches of Canadian Geese (how do they get to the UK, anyway?). But, never fear: we quickly checked into our hotel room, ditched the bikes, and set to exploring Manchester.
 
