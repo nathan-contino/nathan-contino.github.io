@@ -150,4 +150,4 @@ The rest of the ride to Bristol was quite nice. We found ourselves on a mixture 
 
 Thanks for reading! Tune in next time to find out our favorite parts of Bristol, our ride to Bath, and the thrilling conclusion to our journey in London.
 
-When I get around to posting it, you can find Part 6 [here](/blog/2023/08/14/gb-bike-tour-6/).
+When I get around to posting it, you can find Part 7 [here](/blog/2023/08/17/gb-bike-tour-7/).
