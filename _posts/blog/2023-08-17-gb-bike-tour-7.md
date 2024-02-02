@@ -1,6 +1,6 @@
 ---
 title:  "Great Britain Bike Tour: Part 7 (Bristol, Bath, and London)"
-date:   2023-08-14 14:14:22 -0700
+date:   2023-08-17 14:14:22 -0700
 layout: default
 categories: blog
 ---
