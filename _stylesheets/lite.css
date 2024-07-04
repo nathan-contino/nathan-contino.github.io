@@ -1,9 +1,18 @@
 :root {
-  --bg: #492709;
-  --bgaccent: #5E2750;
-  --main: #f37320;
-  --mainaccent: #D24D15;
-  --bgtext: #D2B48C;
+  --bg: #AF8C6D;
+  --accent: #5E2750;
+  --main: #5E2750;
+  --mainalternative: #D24D15;
+  --textcolor: black;
+  color: var(--textcolor);
+}
+.dark {
+ --bg: #000000;
+ --accent: #5E2750;
+ --main: #f37320;
+ --mainalternative: rgb(210, 77, 21);
+ --textcolor: white;
+ color: var(--textcolor);
 }
 
 html {
@@ -11,12 +20,12 @@ html {
 }
 
 BODY {
-  color: white;
   background-color: var(--bg);
   max-width: 100vw;
   font-size: .9rem;
   overflow-wrap: break-word;
 }
+
 
 a {
   cursor: pointer;
@@ -28,25 +37,20 @@ a {
 }
 
 a:not(.nohover):hover {
-  background-color: var(--bgaccent);
+  background-color: var(--accent);
   color: #BBB;
 }
 
 blockquote {
   margin: 0 1em 0 0.25em;
   padding: 0 .75em 0 1em;
-  border-left: 1px solid var(--mainaccent);
-  border-right: 0px solid var(--mainaccent);
-  color: #DDD;
+  border-left: 1px solid var(--mainalternative);
+  border-right: 0px solid var(--mainalternative);
 }
 
 hr {
-  color: var(--mainaccent);
+  color: var(--mainalternative);
 }
-
-H1 {color: var(--main); font-family: "FreeMono", "Courier New", "Rockwell", monospace;}
-H2 {color: var(--main); font-family: "FreeMono", "Courier New", "Rockwell", monospace;}
-H3 {color: var(--main); font-family: "FreeMono", "Courier New", "Rockwell", monospace;}
 
 code {
   font-family: "FreeMono", "Courier New", monospace;
@@ -70,7 +74,7 @@ div {
 img {
   width: 100%;
   border-radius: 7px 7px 0px 0px;
-  border: solid 0.15em var(--mainaccent);
+  border: solid 0.15em var(--mainalternative);
 }
 
 @media only screen and (min-width: 600px) {
@@ -93,15 +97,15 @@ img {
 
 
 figcaption {
-  color: var(--main);
+  color: var(--mainalternative);
   font-size: .8rem;
   width: 100%;
   display: block;
   text-align: center;
   border-radius: 0px 0px 7px 7px;
-  border: solid 0.15em var(--mainaccent);
+  border: solid 0.15em var(--mainalternative);
   border-top: 0;
-  background-color: var(--bgaccent);
+  background-color: var(--accent);
   height: 1em;
   line-height: 1em;
   font-style: italic;
@@ -112,12 +116,12 @@ figcaption {
 }
 
 table > thead > tr > th > img {
-    color: var(--mainaccent);
+    color: var(--mainalternative);
     align: center;
     width: 350px;
     display: block;
     text-align: center;
-    border: solid 0.2em var(--mainaccent);
+    border: solid 0.2em var(--mainalternative);
 }
 
 table > tbody > tr > td > em {
@@ -126,9 +130,9 @@ table > tbody > tr > td > em {
     display: table-caption;
     text-align: center;
     border-radius: 0px 0px 7px 7px;
-    border: solid 0.15em var(--mainaccent);
+    border: solid 0.15em var(--mainalternative);
     border-top: 0;
-    background-color: var(--bgaccent);
+    background-color: var(--accent);
 }
 
 table {
@@ -169,7 +173,7 @@ SPAN.rw {font-family: monospace; font-style: italic;}
 
 lambda {
   font-family: "FreeMono", "Courier New", "Rockwell", monospace;
-  color: var(--mainaccent);
+  color: var(--mainalternative);
   font-weight: lighter;
 }
 
@@ -182,7 +186,7 @@ lambda {
 .biglambdacontent {
   font-family: "FreeMono", "Courier New", "Rockwell", monospace;
   font-size: 2rem;
-  background-color: var(--mainaccent);
+  background-color: var(--mainalternative);
   color: black;
   font-weight: lighter;
   display: flex;
@@ -193,7 +197,7 @@ lambda {
 .biglambdacontent::after {
   content: ' ';
   background-image: linear-gradient(60deg,
-    var(--mainaccent) 10% 90%,
+    var(--mainalternative) 10% 90%,
     /* hsl(60, 100%, 50%) 10% 20%, STRIPEY RAINBOW
     hsl(120, 100%, 50%) 20% 30%,
     hsl(180, 100%, 50%) 30% 40%,
@@ -223,7 +227,7 @@ lambda {
     hsl(270, 100%, 50%) 60% 70%,
     hsl(300, 100%, 50%) 70% 80%,
     hsl(360, 100%, 50%) 80% 90%, */
-    var(--mainaccent) 45% 100%
+    var(--mainalternative) 45% 100%
   );
   display: block;
   width: 10%;
@@ -265,7 +269,17 @@ menu {
 h1 {
   font-family: "FreeMono", "Courier New", "Rockwell", monospace;
   font-size: 1.8rem;
-  color: var(--mainaccent);
+  color: var(--accent);
+}
+h2 {
+  font-family: "FreeMono", "Courier New", "Rockwell", monospace;
+  font-size: 1.6rem;
+  color: var(--accent);
+}
+h3 {
+  font-family: "FreeMono", "Courier New", "Rockwell", monospace;
+  font-size: 1.4rem;
+  color: var(--accent);
 }
 
 #page-container {
