@@ -53,7 +53,7 @@ hr {
 }
 
 code {
-  font-family: "FreeMono", "Courier New", monospace;
+  font-family: "FreeMono", "Courier New", "Courier", monospace;
   font-weight: bold;
 }
 
@@ -172,7 +172,7 @@ SPAN.program {font-family: monospace;}
 SPAN.rw {font-family: monospace; font-style: italic;}
 
 lambda {
-  font-family: "FreeMono", "Courier New", "Rockwell", monospace;
+  font-family: "FreeMono", "Courier New", "Courier", "Rockwell", monospace;
   color: var(--mainalternative);
   font-weight: lighter;
 }
@@ -184,7 +184,7 @@ lambda {
 }
 
 .biglambdacontent {
-  font-family: "FreeMono", "Courier New", "Rockwell", monospace;
+  font-family: "FreeMono", "Courier New", "Courier", "Rockwell", monospace;
   font-size: 2rem;
   background-color: var(--mainalternative);
   color: black;
@@ -267,17 +267,17 @@ menu {
 }
 
 h1 {
-  font-family: "FreeMono", "Courier New", "Rockwell", monospace;
+  font-family: "FreeMono", "Courier New", "Courier", "Rockwell", monospace;
   font-size: 1.8rem;
   color: var(--accent);
 }
 h2 {
-  font-family: "FreeMono", "Courier New", "Rockwell", monospace;
+  font-family: "FreeMono", "Courier New", "Courier", "Rockwell", monospace;
   font-size: 1.6rem;
   color: var(--accent);
 }
 h3 {
-  font-family: "FreeMono", "Courier New", "Rockwell", monospace;
+  font-family: "FreeMono", "Courier New", "Courier", "Rockwell", monospace;
   font-size: 1.4rem;
   color: var(--accent);
 }
