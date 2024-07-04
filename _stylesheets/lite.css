@@ -53,7 +53,7 @@ hr {
 }
 
 code {
-  font-family: "FreeMono", "Courier New", "Droid Sans Mono", monospace;
+  font-family: "FreeMono", "Courier New", monospace;
   font-weight: bold;
 }
 
@@ -172,7 +172,7 @@ SPAN.program {font-family: monospace;}
 SPAN.rw {font-family: monospace; font-style: italic;}
 
 lambda {
-  font-family: "Courier New", "Droid Sans Mono", "FreeMono", "Rockwell", monospace;
+  font-family: "FreeMono", "Courier New", "Rockwell", monospace;
   color: var(--mainalternative);
   font-weight: lighter;
 }
@@ -184,7 +184,7 @@ lambda {
 }
 
 .biglambdacontent {
-  font-family: "Courier New", "Droid Sans Mono", "FreeMono", "Rockwell", monospace;
+  font-family: "FreeMono", "Courier New", "Rockwell", monospace;
   font-size: 2rem;
   background-color: var(--mainalternative);
   color: black;
@@ -267,17 +267,17 @@ menu {
 }
 
 h1 {
-  font-family: "Courier New", "Droid Sans Mono", "FreeMono", "Rockwell", monospace;
+  font-family: "FreeMono", "Courier New", "Rockwell", monospace;
   font-size: 1.8rem;
   color: var(--accent);
 }
 h2 {
-  font-family: "Courier New", "Droid Sans Mono", "FreeMono", "Rockwell", monospace;
+  font-family: "FreeMono", "Courier New", "Rockwell", monospace;
   font-size: 1.6rem;
   color: var(--accent);
 }
 h3 {
-  font-family: "Courier New", "Droid Sans Mono", "FreeMono", "Rockwell", monospace;
+  font-family: "FreeMono", "Courier New", "Rockwell", monospace;
   font-size: 1.4rem;
   color: var(--accent);
 }
@@ -303,7 +303,7 @@ h3 {
 }
 
 HTML {
-	font-family: "Menlo", "Monaco", "Lucida Console", "Liberation Mono", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New", "Droid Sans Mono", monospace, serif;
+	font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
 }
 
 #pdfdisplay {
