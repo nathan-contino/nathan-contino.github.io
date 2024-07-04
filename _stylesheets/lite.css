@@ -16,7 +16,7 @@
 }
 
 html {
-  --sans-font: Monaco, sans-serif;
+  --sans-font: Monaco, Comic Sans MS, sans-serif;
   --mono-font: Consolas, Menlo, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
   font-size: 14px;
   font-family: var(--sans-font);
