@@ -116,23 +116,23 @@ figcaption {
 }
 
 table > thead > tr > th > img {
-    color: var(--mainalternative);
-    align: center;
-    width: 350px;
-    display: block;
-    text-align: center;
-    border: solid 0.2em var(--mainalternative);
+  color: var(--mainalternative);
+  align: center;
+  width: 350px;
+  display: block;
+  text-align: center;
+  border: solid 0.2em var(--mainalternative);
 }
 
 table > tbody > tr > td > em {
-    color: var(--main);
-    width: 350px;
-    display: table-caption;
-    text-align: center;
-    border-radius: 0px 0px 7px 7px;
-    border: solid 0.15em var(--mainalternative);
-    border-top: 0;
-    background-color: var(--accent);
+  color: var(--main);
+  width: 350px;
+  display: table-caption;
+  text-align: center;
+  border-radius: 0px 0px 7px 7px;
+  border: solid 0.15em var(--mainalternative);
+  border-top: 0;
+  background-color: var(--accent);
 }
 
 table {
@@ -303,7 +303,7 @@ h3 {
 }
 
 HTML {
-	font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+	font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, Roboto, Droid Sans, monospace, serif;
 }
 
 #pdfdisplay {
