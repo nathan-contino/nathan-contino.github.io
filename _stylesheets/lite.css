@@ -17,9 +17,23 @@
  color: var(--textcolor);
 }
 
+@font-face {
+  font-family: 'Monaco';
+  src: url('/_stylesheets/Monaco.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Courier Prime';
+  src: url('/_stylesheets/Courier Prime.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 html {
   --sans-font: Monaco, "Ubuntu Mono", "Garamond", "Bookman", "Palatino", sans-serif;
-  --mono-font: Consolas, "Courier New", Menlo, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+  --mono-font: Consolas, "Courier Prime", Menlo, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
   font-size: 14px;
   font-family: var(--sans-font);
 }
@@ -177,7 +191,7 @@ SPAN.program {font-family: monospace;}
 SPAN.rw {font-family: monospace; font-style: italic;}
 
 lambda {
-  font-family: "FreeMono", "Courier New", "Rockwell", monospace;
+  font-family: "Courier Prime", "Courier New", "FreeMono", "Rockwell", monospace;
   color: var(--mainalternative);
   font-weight: lighter;
 }
@@ -189,7 +203,7 @@ lambda {
 }
 
 .biglambdacontent {
-  font-family: "FreeMono", "Courier New", "Rockwell", monospace;
+  font-family: "Courier Prime", "Courier New", "FreeMono", "Rockwell", monospace;
   font-size: 2rem;
   background-color: var(--mainalternative);
   color: black;
