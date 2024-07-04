@@ -283,6 +283,7 @@ menu {
   padding-right: 5%;
   font-size: 1rem;
   margin-top: 0%;
+  font-family: var(--mono-font);
 }
 
 h1 {
