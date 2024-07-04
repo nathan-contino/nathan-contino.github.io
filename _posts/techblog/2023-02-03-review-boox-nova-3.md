@@ -15,7 +15,7 @@ I replaced my Kindle with an Android e-ink tablet. This article explains why.
 
 <!-- readmore -->
 
-{% include figure.html url="ereader/kindletouch.jpg" description="My old Kindle Touch, now an e-ink weather station." %}
+{% include figure.html url="ereader/kindletouch.webp" description="My old Kindle Touch, now an e-ink weather station." %}
 
 Eventually, I learned about Amazon's nasty business practices in the e-reader space:
 
@@ -67,7 +67,7 @@ I ended up settling on the Onyx Boox Nova 3, because it met my list of needs. Th
 
 Fortunately I don't currently listen to audiobooks, so I can ignore most of those features. If I ever get into audiobooks, I'll likely be forced to upgrade. The only feature I *really* wish I had was a fingerprint reader for security... but knowing Android device security, almost no devices are secure enough to fully trust anyway. So maybe it just doesn't matter. I do wish I could get a "pattern" style lock screen though.
 
-{% include figure.html url="ereader/nova3.jpg" description="My Onyx Boox Nova 3 in action." %}
+{% include figure.html url="ereader/nova3.webp" description="My Onyx Boox Nova 3 in action." %}
 
 ## Screen
 
@@ -131,4 +131,4 @@ Well, I have a few thoughts:
 
 Boox good for me. Kindle bad. Kobo good for most.
 
-{% include figure.html url="ereader/dawgz.jpg" description="An ereader being eread in nature." %}
+{% include figure.html url="ereader/dawgz.webp" description="An ereader being eread in nature." %}

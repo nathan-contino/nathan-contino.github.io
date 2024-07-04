@@ -21,7 +21,7 @@ We spent time on the [coal creek trail](https://www.bouldercounty.org/open-space
 [meadowlark trail](https://www.hikingproject.com/trail/7005062/meadowlark-trail),
 and the [US 36 Bikeway](https://commutingsolutions.org/bike/us-36-bikeway/).
 
-{% include figure.html url="july_25_broomfield/cows.jpg" description="watch out for aggressive cows" %}
+{% include figure.html url="july_25_broomfield/cows.webp" description="watch out for aggressive cows" %}
 
 The trails were all really nice, though the smoke sort of ruined the views
 and made the entire ride feel like [scenes in Mexico in Breaking Bad](https://old.reddit.com/r/breakingbad/comments/gwbsyx/is_mexico_really_yellow/).
@@ -30,7 +30,7 @@ though some sections of the trail were a bit busy, other sections were
 empty enough that we could ride side-by-side and hang out on the bikes for
 long periods of time.
 
-{% include figure.html url="july_25_broomfield/nate.jpg" description="new helmet and new brakes" %}
+{% include figure.html url="july_25_broomfield/nate.webp" description="new helmet and new brakes" %}
 
 I recently invested in a new helmet and some new brakes for Mandarb. I ordered
 them both from [Planet X](https://www.planetx.co.uk/), a bike accessory seller
@@ -40,7 +40,7 @@ Los Angeles for a couple of weeks with no update from UPS.
 
 # Four Noses
 
-{% include figure.html url="july_25_broomfield/food.jpeg" description="a well earned sandwich, burger, and brews" %}
+{% include figure.html url="july_25_broomfield/food.webp" description="a well earned sandwich, burger, and brews" %}
 
 After the ride, Meg and I stopped by the nearby [4 Noses](https://www.4nosesbrewing.com/) brewery for a drink, food, and some to-go cans.
 We've purchased from 4 Noses before, since they distribute a little bit around

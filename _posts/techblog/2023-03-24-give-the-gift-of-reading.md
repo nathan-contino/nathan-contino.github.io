@@ -26,6 +26,6 @@ Worst case, it goes to spam.
 Medium case, it brings a smile to their face.
 Best case, they also like YOUR blog and you make a new connection. I like to imagine the best case is more common than we think.
 
-{% include figure.html url="the-more-you-know.jpg" description="🌈🌟The more you know🌈🌟" %}
+{% include figure.html url="the-more-you-know.webp" description="🌈🌟The more you know🌈🌟" %}
 
 And thank you to everyone who reads this blog. I've never tried to gain followers or engage or target any kind of real audience. But if you take any amount of your valuable time on this planet to read this blog and either learn something or get a chuckle out of it, I appreciate you.

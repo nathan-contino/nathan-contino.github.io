@@ -76,7 +76,7 @@ and brokered access to rides in a friend's car to stock up on food, coffee,
 and milk for frothing. I also made one of the finest investments of my life:
 my first espresso machine.
 
-{% include figure.html url="ec155smol.jpg" description="My Delonghi EC155" %}
+{% include figure.html url="ec155smol.webp" description="My Delonghi EC155" %}
 
 Enter the Delonghi EC155. Stainless steel (some). Plastic (more).
 Pressurized baskets (though you can mod them to unpressurized). A frothing

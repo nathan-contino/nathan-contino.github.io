@@ -265,11 +265,11 @@ Music
     AlbumA
       Song1
       Song2
-      cover.jpg
+      cover.webp
     AlbumB
       Song1
       Song2
-      cover.jpg
+      cover.webp
 ```
 
 Jellyfin lets you edit metadata in the files directly, but only some of

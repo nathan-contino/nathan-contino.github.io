@@ -13,7 +13,7 @@ In this post, I reflect on what went well -- and what went not so well -- in our
 
 <!-- readmore -->
 
-{% include figure.html url="2024_02_02/1.png" description="something that went well: carrying food on mandarb" %}
+{% include figure.html url="2024_02_02/1.webp" description="something that went well: carrying food on mandarb" %}
 
 ## What went well?
 
@@ -47,7 +47,7 @@ I proved that **Bristol is indeed a very cool city**, and not just the product o
 
 **And we did it all for a pretty affordable sticker price** -- turns out accomodation is 90% of the cost of most vacations, and even when you pay for campsites, it comes out a lot cheaper than hotel rooms. We splurged on campsites, hotel rooms, beer, coffee, and food, but for a longer length tour we could cut 90% of that and travel internationally for... less than our average winter heating bill per month.
 
-{% include figure.html url="2024_02_02/1.png" description="something that went not-so-well: carrying food on mandarb" %}
+{% include figure.html url="2024_02_02/1.webp" description="something that went not-so-well: carrying food on mandarb" %}
 
 ## What went not-so-well?
 
@@ -59,7 +59,7 @@ I proved that **Bristol is indeed a very cool city**, and not just the product o
 
 **Booking a vehicle to transport you from a city to the airport is expensive and kind of shitty.** I'd just rely on public transit next time, especially with a rail line to the airport. But that isn't an option everywhere, so it was good practice to try this out.
 
-{% include figure.html url="2024_02_02/1.png" description="what's next: carrying food on mandarb" %}
+{% include figure.html url="2024_02_02/1.webp" description="what's next: carrying food on mandarb" %}
 
 ## Where next?
 

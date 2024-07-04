@@ -45,7 +45,7 @@ I considered the Mini iPhone models. But they are too large, compromise too many
 
 ## More Like "Candroid"
 
-{% include figure.html url="phone/phonesizes.png" description="My old phone, size compared to a few contemporary options." %}
+{% include figure.html url="phone/phonesizes.webp" description="My old phone, size compared to a few contemporary options." %}
 
 There aren't many Android phones out there still made with headphone jacks. The two most notable exceptions? Google's Pixel "a" series (until the most recent 6a), ASUS's Zenfone series, and Sony's Xperia series.
 
@@ -63,7 +63,7 @@ So I looked into the past. Has Sony (or any other Android OEM) released a reason
 
 ## XZ1 Compact
 
-{% include figure.html url="phone/succulent.jpg" description="Bask in the glory of the XZ1C." %}
+{% include figure.html url="phone/succulent.webp" description="Bask in the glory of the XZ1C." %}
 
 After much hand-wringing and searching, I found it. The Sony Xperia XZ1 Compact. It has:
 
@@ -84,7 +84,7 @@ At some point, I'll have to upgrade as apps stop supporting older versions of An
 
 ## My Setup
 
-{% include figure.html url="phone/XZ1vsSE.jpg" description="Old phone vs. new phone." %}
+{% include figure.html url="phone/XZ1vsSE.webp" description="Old phone vs. new phone." %}
 
 - I immediately set up [LineageOS 18.1](https://forum.xda-developers.com/t/rom-lineageos-17-18-19-unofficial-update-2023-04-01.4308295/) for the latest space-efficient Android OS and security updates. *Note: if you plan on following in my footsteps, consider [backing up your unique Sony DRM keys](https://forum.xda-developers.com/t/xz1c-xz1-xzp-temp-root-exploit-to-backup-drm-keys-implemented.3795510/page-88#post-88023479) so that you can return to stock firmware with full camera functionality.*  If you use Google Fi as a wireless provider like I do, you might have to install Google Play Services -- I recommend [MindTheGapps](https://wiki.lineageos.org/gapps).
 

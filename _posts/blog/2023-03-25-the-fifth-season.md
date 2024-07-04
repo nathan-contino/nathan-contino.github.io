@@ -13,7 +13,7 @@ Snow. Rain. Hail. Blue skies. Cold. Mud. Huge puddles. Ice. Sleet. Maple syrup. 
 
 Because that sounds incredibly sane and completely reasonable, Meg and I decided on it for our first group bike ride event. And our first big ride of 2023. Toad Hall-y sane.
 
-{% include figure.html url="2023_03_26/toad-hally-awesome.jpg" description="toad hall-y sane" %}
+{% include figure.html url="2023_03_26/toad-hally-awesome.webp" description="toad hall-y sane" %}
 
 ## Getting to the Start
 
@@ -25,7 +25,7 @@ Out of the car and onto the bikes. As we ride to East Poultney (the *true* Analo
 
 And the obsession doesn't end with the material: Tinkering with your own chain slack every other day because it's fun? Check. Nerding out over which tires have the best feel on cat 4 roads, but the lowest rolling resistance on pavement? Check. Esoteric disagreements about the merits of internal drivetrains? You know it.
 
-{% include figure.html url="2023_03_26/01_so_many_bikes.jpg" description="pre-ride hangs - so many bikes!" %}
+{% include figure.html url="2023_03_26/01_so_many_bikes.webp" description="pre-ride hangs - so many bikes!" %}
 
 ## Analog HQ
 
@@ -35,7 +35,7 @@ A moderately-bearded man dressed "Vermont sharp" in wellies, a flannel, cords, a
 
 ## Race Start
 
-{% include figure.html url="2023_03_26/11_race_start.jpg" description="fifth season race start" %}
+{% include figure.html url="2023_03_26/11_race_start.webp" description="fifth season race start" %}
 
 Precisely 10 minutes later, the race begins with the boom of a shotgun. The racers hit the bog and eat off of a string. Some purchase gallons of maple syrup; turns out, a single gallon balances our multiple hours of riding time in the race times. As James says: this race is stupid. If you try to win this race, you're stupid.
 
@@ -43,27 +43,27 @@ It's a blast. Cowbells ring. Racers fall in the mud. Racers eat donuts and apple
 
 ## Today we Ride
 
-{% include figure.html url="2023_03_26/02_perfect_vt_dirt.jpg" description="perfect VT dirt" %}
+{% include figure.html url="2023_03_26/02_perfect_vt_dirt.webp" description="perfect VT dirt" %}
 
-{% include figure.html url="2023_03_26/cat4.JPG" description="perfect VT cat 4" %}
+{% include figure.html url="2023_03_26/cat4.webp" description="perfect VT cat 4" %}
 
-{% include figure.html url="2023_03_26/05_rider_hangs.jpg" description="snack break" %}
+{% include figure.html url="2023_03_26/05_rider_hangs.webp" description="snack break" %}
 
 Soon after, the ride begins. It isn't long before we hit our first dirt road. And not long after that, our first hike-a-bike up a snowy, icey category 4 road. And not long after that, our first sugar shack, complete with complimentary maple cotton candy, bourbon barrel-aged maple syrup, and maple candies for the road.
 
-{% include figure.html url="2023_03_26/06_maple_cotton_candy_at_greens.jpg" description="maple cotton candy at greens sugar house" %}
+{% include figure.html url="2023_03_26/06_maple_cotton_candy_at_greens.webp" description="maple cotton candy at greens sugar house" %}
 
-{% include figure.html url="2023_03_26/03_happy_nate.jpg" description="all smiles for good weather and vermont dirt" %}
+{% include figure.html url="2023_03_26/03_happy_nate.webp" description="all smiles for good weather and vermont dirt" %}
 
-{% include figure.html url="2023_03_26/04_class_4_roads_commence.jpg" description="onto the class 4" %}
+{% include figure.html url="2023_03_26/04_class_4_roads_commence.webp" description="onto the class 4" %}
 
 ## The Grind
 
-{% include figure.html url="2023_03_26/photo_2023-03-26 08.35.01.jpeg" description="dirt-y roads" %}
+{% include figure.html url="2023_03_26/photo_2023-03-26 08.35.01.webp" description="dirt-y roads" %}
 
 Back to the dirt road-cat 4 road grind. We zoom through icy puddles. We haul the bikes over softening late-season snow. To keep up the pace, we ride through narrow canyons of snow, bottomed with inches of cold mud. Meg zooms so fast through the ice and snow and mud that *I* struggle to keep up. It starts to snow. It's beautiful.
 
-{% include figure.html url="2023_03_26/retreiver.JPG" description="cabin, substance, dogs, dawgs" %}
+{% include figure.html url="2023_03_26/retreiver.webp" description="cabin, substance, dogs, dawgs" %}
 
 After a long haul over a pass, we arrive at a stunning scene: a tiny one-room cabin by a small lake, with a merrily crackling campfire, a bucket full of "the substance" (strongly suspected to be bud heavy, sap, and the occasional rogue spruce tip), and a wood stove boiling a small batch of sap.
 
@@ -73,15 +73,15 @@ The ride pauses here for a while. It's not so bad, sipping the substance by the 
 
 ## Creative Re-routing
 
-{% include figure.html url="2023_03_26/07_nate_class_4.jpg" description="perfect conditions" %}
+{% include figure.html url="2023_03_26/07_nate_class_4.webp" description="perfect conditions" %}
 
-{% include figure.html url="2023_03_26/08_meg_hike_a_bike.jpg" description="hike-a-bike train" %}
+{% include figure.html url="2023_03_26/08_meg_hike_a_bike.webp" description="hike-a-bike train" %}
 
 The next pass is snowed out by the sea of flakes coming down around us. But it's no worry. We route back over the last pass (easier the second time) to reach our reward of maple syrup jello shots, beef stew, sap-boiled hot dogs, and maple syrup pineapple upside-down cake. There's hail. There's mud. There's ice. There's rain. There's snow. But everyone is in good spirits. We truck on, and before long, we're back at Analog HQ, sipping hot toddies and snacking on leftover breakfast burritos. Turns out the race winner bought something like 4 gallons of syrup at the first sugar shack and trucked it 60 miles over mountain passes and snow and ice and puddles back to analog HQ. (support local business!)
 
-{% include figure.html url="2023_03_26/09_snowy_views.jpg" description="snowy vt views" %}
+{% include figure.html url="2023_03_26/09_snowy_views.webp" description="snowy vt views" %}
 
-{% include figure.html url="2023_03_26/10_maple_jello_shots.jpg" description="a face full of dirt and maple jello shots" %}
+{% include figure.html url="2023_03_26/10_maple_jello_shots.webp" description="a face full of dirt and maple jello shots" %}
 
 The ride was challenging, but with everyone doing it together, it never felt overwhelming. Even when the weather got sketch, I knew we could handle things. Our new bikes (coincidentally, Tanglefoot Moonshiners, which Analog Cycles makes) were incredibly fun. Truly the perfect bike for the ride: no suspension to slow you down on uphills, chonky tires for the mud and snow, an incredibly low bottom gear to conquer even the steepest hills, and high zero-reach drop bars to hang out in (a non-athletic cozy upright position) for basically the whole ride.
 
