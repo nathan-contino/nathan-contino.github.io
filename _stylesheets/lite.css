@@ -303,7 +303,7 @@ h3 {
 }
 
 HTML {
-	font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, Roboto, Droid Sans, monospace, serif;
+	font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, Roboto, Droid Sans, sans-serif;
 }
 
 #pdfdisplay {
