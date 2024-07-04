@@ -1,6 +1,7 @@
 :root {
   --bg: #AF8C6D;
   --accent: #5E2750;
+  --headeraccent: #5E2750;
   --main: #5E2750;
   --mainalternative: #D24D15;
   --textcolor: black;
@@ -9,6 +10,7 @@
 .dark {
  --bg: #000000;
  --accent: #5E2750;
+ --headeraccent: #f37320;
  --main: #f37320;
  --mainalternative: rgb(210, 77, 21);
  --textcolor: white;
@@ -16,8 +18,8 @@
 }
 
 html {
-  --sans-font: Monaco, Comic Sans MS, sans-serif;
-  --mono-font: Consolas, Menlo, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+  --sans-font: Monaco, "Ubuntu Mono", "Garamond", "Bookman", "Palatino", sans-serif;
+  --mono-font: Consolas, "Courier New", Menlo, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
   font-size: 14px;
   font-family: var(--sans-font);
 }
@@ -272,17 +274,17 @@ menu {
 h1 {
   font-family: "FreeMono", "Courier New", "Rockwell", monospace;
   font-size: 1.8rem;
-  color: var(--accent);
+  color: var(--headeraccent);
 }
 h2 {
   font-family: "FreeMono", "Courier New", "Rockwell", monospace;
   font-size: 1.6rem;
-  color: var(--accent);
+  color: var(--headeraccent);
 }
 h3 {
   font-family: "FreeMono", "Courier New", "Rockwell", monospace;
   font-size: 1.4rem;
-  color: var(--accent);
+  color: var(--headeraccent);
 }
 
 #page-container {
