@@ -25,7 +25,7 @@
 </head>
 
 <!-- set the theme to dark and toggle the theme button icon if we detect a (dark) theme setting in local storage OR if the user's browser asks for dark OR if the user is using a Mozilla browser -->
-<body style="margin: 0px;" onload="var theme = localStorage.getItem('theme'); if(theme !== null && theme === '🌚' || (window.matchMedia && 
+<body onload="var theme = localStorage.getItem('theme'); if(theme !== null && theme === '🌚' || (window.matchMedia && 
         window.matchMedia('(prefers-color-scheme: dark)').matches && theme !== '🌝') || (navigator.userAgent.includes('Firefox') && theme !== '🌝')) { document.body.classList.toggle('dark'); document.getElementById('theme-toggle').innerHTML = '🌝'; }">
   <div class="container">
   <header style="position: sticky; top: 0; z-index: 500;">
@@ -33,10 +33,12 @@
       <div class="biglambda">
         <div class="biglambdacontent">
           &#955; Latitudinarians
+          <mobile-menu-toggle>
+            <label for="menuToggle"><span>&#9660; MENU</span></label>
+          </mobile-menu-toggle>
         </div>
-        <label for="menuToggle" style="color: black; position:absolute; right:50px; top:7px; font-size:1.3rem;"><span>MENU</label>
       </div>
-      <menu style="background-color: var(--bg);">
+      <menu>
         <a href="/">ABOUT</a> -
         <a href="/blog/">ADVENTURE BLOG</a> -
         <a href="/techblog/">DISQUISITIONS</a> -
@@ -45,32 +47,32 @@
         <a href="/projects/">PROJECTS</a> | <a alt="toggle site theme" title="toggle site theme" id="theme-toggle" onclick="var theme = localStorage.getItem('theme'); if (localStorage.getItem('theme') !== null && theme == '🌚' ) { localStorage.setItem('theme', '🌝'); this.innerHTML = '🌚'; } else { localStorage.setItem('theme', '🌚'); this.innerHTML = '🌝'; } document.body.classList.toggle('dark')">🌚</a> <script>var theme = localStorage.getItem('theme'); if (theme !== null || theme == '🌚' ) { document.getElementById("theme-toggle").innerHTML.innerHTML = '🌝';} else { document.getElementById("theme-toggle").innerHTML.innerHTML = '🌚';} </script> |
         <a class="btn btn-rss" href="/feed.xml" target="_blank">RSS</a>
       </menu>
-      <mobile-menu style="position:absolute; z-index: 500; background-color: var(--mainalternative);">
+      <mobile-menu>
         <input type="checkbox" id="menuToggle">
         <ul>
           <li>
-            <a style="color: black;" href="/">ABOUT</a>
+            <a href="/">ABOUT</a>
           </li>
           <li>
-            <a style="color: black;" href="/blog/">ADVENTURE BLOG</a>
+            <a href="/blog/">ADVENTURE BLOG</a>
           </li>
           <li>
-            <a style="color: black;" href="/techblog/">DISQUISITIONS</a>
+            <a href="/techblog/">DISQUISITIONS</a>
           </li>
           <li>
-            <a style="color: black;" href="/writing/">WRITING</a>
+            <a href="/writing/">WRITING</a>
           </li>
           <li>
-            <a style="color: black;" href="/resume/">RESUME</a>
+            <a href="/resume/">RESUME</a>
           </li>
           <li>
-            <a style="color: black;" href="/projects/">PROJECTS</a>
+            <a href="/projects/">PROJECTS</a>
           </li>
           <li>
             <a alt="toggle site theme" title="toggle site theme" id="theme-toggle" onclick="var theme = localStorage.getItem('theme'); if (localStorage.getItem('theme') !== null && theme == '🌚' ) { localStorage.setItem('theme', '🌝'); this.innerHTML = '🌚'; } else { localStorage.setItem('theme', '🌚'); this.innerHTML = '🌝'; } document.body.classList.toggle('dark')">🌚</a> <script>var theme = localStorage.getItem('theme'); if (theme !== null || theme == '🌚' ) { document.getElementById("theme-toggle").innerHTML.innerHTML = '🌝';} else { document.getElementById("theme-toggle").innerHTML.innerHTML = '🌚';} </script>
           </li>
           <li>
-            <a style="color: black;" class="btn btn-rss" href="/feed.xml" target="_blank">RSS</a>
+            <a class="btn btn-rss" href="/feed.xml" target="_blank">RSS</a>
           </li>
         </ul>
       </mobile-menu>

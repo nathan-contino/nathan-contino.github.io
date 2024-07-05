@@ -45,6 +45,7 @@ BODY {
   max-width: 100vw;
   font-size: .9rem;
   overflow-wrap: break-word;
+  margin: 0px;
 }
 
 
@@ -231,7 +232,7 @@ lambda {
   );
   display: block;
   width: 100%;
-  min-width: 20px;
+  min-width: 120px;
   box-sizing: inherit;
   flex: 1;
 }
@@ -280,7 +281,7 @@ lambda {
   max-width: 864px;
 }
 
-/* Smartphones (portrait) ----------- */
+/* rules for screens 740 pixels wide and below */
 @media only screen
 and (max-width : 740px) {
 menu {
@@ -288,10 +289,13 @@ menu {
 }
 }
 
-/* everything else */
+/* rules for screens over 740 pixels wide */
 @media only screen
 and (min-width : 741px) {
 mobile-menu {
+  visibility: hidden;
+}
+mobile-menu-toggle {
   visibility: hidden;
 }
 }
@@ -304,7 +308,15 @@ menu {
   font-family: var(--mono-font);
 }
 
+menu>a {
+  border:10px;
+  border-color: var(--main);
+}
+
 mobile-menu {
+  position:absolute;
+  z-index: 500;
+  background-color: var(--menucolor);
   font-size: 2rem;
   text-align: right;
   display: flex;
@@ -317,7 +329,16 @@ mobile-menu {
   width: 60%;
   margin-left: auto;
   justify-content: flex-end;
-  right: 3%;
+  right:5%;
+}
+
+mobile-menu-toggle {
+  position:absolute;
+  right:10%;
+}
+
+mobile-menu-toggle>label {
+  color: black; font-size:1.5rem; white-space: nowrap;
 }
 
 mobile-menu input {
