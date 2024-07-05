@@ -34,6 +34,7 @@
         <div class="biglambdacontent">
           &#955; Latitudinarians
         </div>
+        <label for="menuToggle" style="color: black; position:absolute; right:50px; top:7px; font-size:1.3rem;"><span>MENU</label>
       </div>
       <menu style="background-color: var(--bg);">
         <a href="/">ABOUT</a> -
@@ -44,33 +45,32 @@
         <a href="/projects/">PROJECTS</a> | <a alt="toggle site theme" title="toggle site theme" id="theme-toggle" onclick="var theme = localStorage.getItem('theme'); if (localStorage.getItem('theme') !== null && theme == '🌚' ) { localStorage.setItem('theme', '🌝'); this.innerHTML = '🌚'; } else { localStorage.setItem('theme', '🌚'); this.innerHTML = '🌝'; } document.body.classList.toggle('dark')">🌚</a> <script>var theme = localStorage.getItem('theme'); if (theme !== null || theme == '🌚' ) { document.getElementById("theme-toggle").innerHTML.innerHTML = '🌝';} else { document.getElementById("theme-toggle").innerHTML.innerHTML = '🌚';} </script> |
         <a class="btn btn-rss" href="/feed.xml" target="_blank">RSS</a>
       </menu>
-      <mobile-menu style="background-color: var(--bg);">
+      <mobile-menu style="position:absolute; z-index: 500; background-color: var(--mainalternative);">
         <input type="checkbox" id="menuToggle">
-        <label for="menuToggle" style="color: var(--main);"><span>&times;</span><span>MENU</label>
         <ul>
           <li>
-            <a href="/">ABOUT</a>
+            <a style="color: black;" href="/">ABOUT</a>
           </li>
           <li>
-            <a href="/blog/">ADVENTURE BLOG</a>
+            <a style="color: black;" href="/blog/">ADVENTURE BLOG</a>
           </li>
           <li>
-            <a href="/techblog/">DISQUISITIONS</a>
+            <a style="color: black;" href="/techblog/">DISQUISITIONS</a>
           </li>
           <li>
-            <a href="/writing/">WRITING</a>
+            <a style="color: black;" href="/writing/">WRITING</a>
           </li>
           <li>
-            <a href="/resume/">RESUME</a>
+            <a style="color: black;" href="/resume/">RESUME</a>
           </li>
           <li>
-            <a href="/projects/">PROJECTS</a>
+            <a style="color: black;" href="/projects/">PROJECTS</a>
           </li>
           <li>
             <a alt="toggle site theme" title="toggle site theme" id="theme-toggle" onclick="var theme = localStorage.getItem('theme'); if (localStorage.getItem('theme') !== null && theme == '🌚' ) { localStorage.setItem('theme', '🌝'); this.innerHTML = '🌚'; } else { localStorage.setItem('theme', '🌚'); this.innerHTML = '🌝'; } document.body.classList.toggle('dark')">🌚</a> <script>var theme = localStorage.getItem('theme'); if (theme !== null || theme == '🌚' ) { document.getElementById("theme-toggle").innerHTML.innerHTML = '🌝';} else { document.getElementById("theme-toggle").innerHTML.innerHTML = '🌚';} </script>
           </li>
           <li>
-            <a class="btn btn-rss" href="/feed.xml" target="_blank">RSS</a>
+            <a style="color: black;" class="btn btn-rss" href="/feed.xml" target="_blank">RSS</a>
           </li>
         </ul>
       </mobile-menu>
