@@ -341,7 +341,9 @@ mobile-menu-toggle {
 }
 
 mobile-menu-toggle>label {
-  color: black; font-size:1.3rem; white-space: nowrap;
+  color: black;
+  font-size:1.2rem;
+  white-space: nowrap;
 }
 
 mobile-menu input {
