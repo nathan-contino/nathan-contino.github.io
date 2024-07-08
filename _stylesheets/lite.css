@@ -232,9 +232,23 @@ lambda {
   );
   display: block;
   width: 100%;
-  min-width: 120px;
+  min-width: 20px;
   box-sizing: inherit;
   flex: 1;
+}
+
+/* small screens, don't bother with the fancy top formatting */
+@media only screen
+and (max-width: 420px) {
+  .biglambdacontent::after {
+    background-image: var(--mainalternative)
+  }
+  .biglambdacontent::before {
+    background-image: var(--mainalternative) !important
+  }
+  .biglambdacontent {
+    font-size: 1.5rem;
+  }
 }
 
 .biglambdacontent::before {
@@ -320,19 +334,20 @@ mobile-menu {
   z-index: 500;
   background-color: var(--menucolor);
   font-size: 2rem;
-  text-align: right;
   display: flex;
-  flex-direction: row-reverse;
-  padding-left: 5%;
-  padding-right: 5%;
   margin-top: 0%;
   line-height: 3rem;
   font-family: var(--mono-font);
   width: 60%;
-  right:5%;
+  right: 5%;
   border-left: 1px solid var(--mainalternative);
   border-right: 1px solid var(--mainalternative);
-  border-bottom: 1px solid var(--mainalternative);
+  border-bottom: 0px solid var(--mainalternative);
+}
+
+mobile-menu a {
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 mobile-menu-toggle {
@@ -342,7 +357,7 @@ mobile-menu-toggle {
 
 mobile-menu-toggle>label {
   color: black;
-  font-size:1.2rem;
+  font-size: 1.2rem;
   white-space: nowrap;
 }
 
@@ -358,16 +373,14 @@ mobile-menu input:not(:checked) ~ label span:first-child{
   display: none;
 }
 
-
 mobile-menu ul {
-  padding-right:25%;
   text-align: right;
   overflow: hidden;
   width: 0;
   height: 0;
-  padding: 0;
   margin: 0;
   list-style: none;
+  padding-inline-start: 0;
 }
 
 mobile-menu ul li {
@@ -382,6 +395,7 @@ mobile-menu ul > :first-child {
 mobile-menu input:checked ~ ul{
   width: 100%;
   height: 100%;
+  border-bottom: 1px solid var(--mainalternative);
 }
 
 h1 {
