@@ -1,4 +1,14 @@
 :root {
+  --bg: #000000;
+  --accent: #5E2750;
+  --headeraccent: #f37320;
+  --main: #f37320;
+  --mainalternative: rgb(210, 77, 21);
+  --textcolor: white;
+  --menucolor: #111;
+  color: var(--textcolor);
+}
+.light {
   --bg: #AF8C6D;
   --accent: #77216F;
   --headeraccent: #77216F;
@@ -7,16 +17,6 @@
   --textcolor: black;
   --menucolor: #8E6D55;
   color: var(--textcolor);
-}
-.dark {
- --bg: #000000;
- --accent: #5E2750;
- --headeraccent: #f37320;
- --main: #f37320;
- --mainalternative: rgb(210, 77, 21);
- --textcolor: white;
- --menucolor: #111;
- color: var(--textcolor);
 }
 
 @font-face {
