@@ -84,7 +84,7 @@ hr {
 }
 
 code {
-  font-family: "FreeMono", "Courier New", monospace;
+  font-family: "Courier New", "FreeMono", monospace;
   font-weight: bold;
 }
 
@@ -203,7 +203,7 @@ SPAN.program {font-family: monospace;}
 SPAN.rw {font-family: monospace; font-style: italic;}
 
 lambda {
-  font-family: "Courier New", "Courier New", "FreeMono", "Rockwell", monospace;
+  font-family: "Courier New", "FreeMono", "Rockwell", monospace;
   color: var(--mainalternative);
   font-weight: lighter;
 }
@@ -215,7 +215,7 @@ lambda {
 }
 
 .biglambdacontent {
-  font-family: "Courier New", "Courier New", "FreeMono", "Rockwell", monospace;
+  font-family: "Courier New", "FreeMono", "Rockwell", monospace;
   font-size: 2rem;
   background-color: var(--mainalternative);
   color: black;
@@ -408,17 +408,17 @@ mobile-menu input:checked ~ ul{
 }
 
 h1 {
-  font-family: "FreeMono", "Courier New", "Rockwell", monospace;
+  font-family: "Courier New", "FreeMono", "Rockwell", monospace;
   font-size: 1.8rem;
   color: var(--headeraccent);
 }
 h2 {
-  font-family: "FreeMono", "Courier New", "Rockwell", monospace;
+  font-family: "Courier New", "FreeMono", "Rockwell", monospace;
   font-size: 1.6rem;
   color: var(--headeraccent);
 }
 h3 {
-  font-family: "FreeMono", "Courier New", "Rockwell", monospace;
+  font-family: "Courier New", "FreeMono", "Rockwell", monospace;
   font-size: 1.4rem;
   color: var(--headeraccent);
 }
@@ -444,7 +444,7 @@ h3 {
 }
 
 #pdfdisplay {
-	height: 70vh;
+  height: 70vh;
 }
 
 nav {
