@@ -99,7 +99,7 @@ pre > code {
 }
 
 div {
-	line-height: 1.8em;
+  line-height: 1.8em;
 }
 
 img {
@@ -355,8 +355,8 @@ mobile-menu {
 }
 
 mobile-menu a {
-  padding-left: 5%;
   padding-right: 5%;
+  overflow-wrap: unset;
 }
 
 mobile-menu-toggle {
