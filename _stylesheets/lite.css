@@ -6,6 +6,7 @@
   --mainalternative: rgb(210, 77, 21);
   --textcolor: white;
   --menucolor: #111;
+  --theme-toggle-label: "🌝";
   color: var(--textcolor);
 }
 .light {
@@ -16,7 +17,15 @@
   --mainalternative: #D24D15;
   --textcolor: black;
   --menucolor: #8E6D55;
+  --theme-toggle-label: "🌚";
   color: var(--textcolor);
+}
+
+.theme-toggle span {
+  display: none;
+}
+.theme-toggle:after {
+  content: var(--theme-toggle-label);
 }
 
 @font-face {
