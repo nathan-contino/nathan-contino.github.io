@@ -347,7 +347,8 @@ mobile-menu {
   margin-top: 0%;
   line-height: 3rem;
   font-family: var(--mono-font);
-  width: 60%;
+  width: 90%;
+  max-width: 400px;
   right: 5%;
   border-left: 1px solid var(--mainalternative);
   border-right: 1px solid var(--mainalternative);
