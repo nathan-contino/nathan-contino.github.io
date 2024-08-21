@@ -73,7 +73,7 @@ I can't speak about ride quality, tubing feel, and other highfalutin murky bicyc
 
 {% include figure.html url="2024-08-09-the-moonshiner-review/22.webp" description="my rear brake" %}
 
-**Cable Stops**: I never thought I'd actually mention this in a review, but I seriously recommend [Forager cable cherries](https://analogcycles.com/products/forager-cable-cherries). You'll never have to buy a brake cable ferrule again! They also look better than ferrules, and you can reuse them. Note: these require the tinest, strangest-sized allen key you've ever seen, 1.5mm IIRC. And of course they're 1000x the price of ferrules. But at least you'll waste less metal when you replace cables!
+**Cable Stops**: I never thought I'd actually mention this in a review, but I seriously recommend [Forager cable cherries](https://analogcycles.com/products/forager-cable-cherries). You'll never have to buy a brake cable ferrule again! They also look better than ferrules, and you can reuse them. Note: these require the tiniest, strangest-sized allen key you've ever seen, 1.5mm IIRC. And of course they're 1000x the price of ferrules. But at least you'll waste less metal when you replace cables!
 
 {% include figure.html url="2024-08-09-the-moonshiner-review/12.webp" description="check out that sick cable cherry!" %}
 
