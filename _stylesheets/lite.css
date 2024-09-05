@@ -98,7 +98,7 @@ pre > code {
   display: block;
 }
 
-div {
+p {
   line-height: 1.8em;
 }
 
@@ -138,7 +138,7 @@ figcaption {
   border-top: 0;
   background-color: var(--accent);
   height: 1em;
-  line-height: 1em;
+  line-height: 1.8em;
   font-style: italic;
   margin-top:-.7em;
   padding-top: .4em;
@@ -170,6 +170,7 @@ table {
   border-collapse: collapse;
   border-spacing: 0px;
   padding: 0px;
+  width: 100%;
 }
 
 th {
@@ -386,6 +387,10 @@ mobile-menu input:not(:checked) ~ label span:first-child{
   display: none;
 }
 
+ul {
+  padding-left: 2em;
+} 
+
 mobile-menu ul {
   text-align: right;
   overflow: hidden;
@@ -415,15 +420,26 @@ h1 {
   font-family: "Courier New", "FreeMono", "Rockwell", monospace;
   font-size: 1.8rem;
   color: var(--headeraccent);
+  margin-bottom: 0px;
+  margin-top: 5px;
 }
 h2 {
   font-family: "Courier New", "FreeMono", "Rockwell", monospace;
   font-size: 1.6rem;
   color: var(--headeraccent);
+  margin-bottom: 0px;
+  margin-top: 5px;
 }
 h3 {
   font-family: "Courier New", "FreeMono", "Rockwell", monospace;
   font-size: 1.4rem;
+  color: var(--headeraccent);
+  margin-bottom: 0px;
+  margin-top: 5px;
+}
+
+thead {
+  font-size: 1.1rem;
   color: var(--headeraccent);
 }
 
