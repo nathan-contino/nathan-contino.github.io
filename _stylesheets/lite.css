@@ -102,6 +102,10 @@ p {
   line-height: 1.8em;
 }
 
+li {
+  line-height: 1.8em;
+}
+
 img {
   width: 100%;
   border-radius: 7px 7px 0px 0px;

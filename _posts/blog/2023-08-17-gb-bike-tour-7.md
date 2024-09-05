@@ -24,6 +24,7 @@ Our Bristol favourites included:
 {% include figure.html url="2023_08_17/1.webp" description="dinner at the scrandit our first night in bristol" %}
 
 * [Coffee + Beer](https://www.coffeeandbeer.co.uk/) makes great coffee and pours great beer. In the same space. They source beans from some of the best roasters in the country and clearly source their pastries from some of the tastiest bakers in the city. Again, I wish this place was not thousands of miles from my home.
+
 * [The Cloakroom Cafe](https://maps.app.goo.gl/6XoZvEHW3ZUmMvHR9) made a fantastic chai latte, but the real attraction is the location. Which used to be a toilet. But a British toilet so it's not nasty, it's actually cool. I'm not entirely sure how the antique bicycle hanging from the ceiling fits in with the theme but it certainly looked cool.
 
 {% include figure.html url="2023_08_17/4.webp" description="what does this floating bicycle have to do with anything?" %}
@@ -45,14 +46,18 @@ Our Bristol favourites included:
 {% include figure.html url="2023_08_17/6.webp" description="nate at the tippy top of cabot tower in front of the uni" %}
 
 * I'm not really a cocktail bar kind of person but [Hyde & Co](http://hydeand.co/) turned out to be a very fun speakeasy bar. As usual, the puzzles weren't really something you could "solve" without ordering half the menu, but the vibe was really unique and the service was extremely friendly.
+
 * Not only did [Baristas Coffee Collective](https://maps.app.goo.gl/KgfsZo1M4eRZC2CSA) make me an excellent latte, they also made me one of the greatest breakfast sandwiches I have ever eaten. Halloumi, avocado, perfectly fried eggs, and what my journal describes as "sourdough like a bouncy castle, but in a good way".
+
 * [New Cut Coffee](https://newcutcoffee.com/) made me a latte with one of those tea-like natural proccess coffees that could convince just about anyone that "fruit notes" aren't just made-up sommelier shit. That's enough to make the list, but the real standout was their _banana walnut bread with espresso butter_, a pastry so good I had to order a second piece.
+
 * [Grain Barge](https://grainbarge.com/) seems like a perfectly adequate pub-with-a-schtick (and unlike The Apple, another floating pub, they actually refrigerate their cider). But as a recovering sailor, I had a fantastic time watching sailboat races in the floating harbor for an afternoon over a couple of beverages.
 
 {% include figure.html url="2023_08_17/10.webp" description="boat races; note that half the boats in this image are not racing" %}
 {% include figure.html url="2023_08_17/9.webp" description="skydiving along the floating harbour" %}
 
 * [Crying Wolf](https://cryingwolf.co.uk/) makes a mean piña colada thanks to homemade coconut sherbet.
+
 * [Bristol Cathedral](https://bristol-cathedral.co.uk/) is a millenia old, entirely free, and full of interesting historical artifacts. I could have spent much more time here.
 
 {% include figure.html url="2023_08_17/2.webp" description="flowers in the cathedral garden" %}
@@ -107,16 +112,25 @@ I won't bother recommending much in the city centre, but I think a lot of visito
 {% include figure.html url="2023_08_17/19.webp" description="ty bike maniac" %}
 
 * We wandered into the [Museum of the Home](https://www.museumofthehome.org.uk/) and wound up pleasantly surprised by their selection of living rooms through the ages.
+
 * [Weino BIB](https://www.weinobib.co.uk/pages/menu) provided great wine, great olives, and a chill place to hang out.
+
 * The second level of every double decker bus in London (except the shitty tourist ones) turned out to be a great way to get around. On the second level, you can almost trick yourself that you're on a competent mode of public transportation (a train).
+
 * [Table 13](https://www.table13london.com/wp-content/uploads/2022/05/T13-All-Menu.pdf) made great coffee. I wish we'd found them during their wine shop and dinner hours.
+
 * [Mikos Gyros](https://mikosgyros.com/) makes for excellent guilty pleasure Greek street food.
 
 * The [National Gallery](https://www.nationalgallery.org.uk/), like many state-run museums in London, is free. You'll recognize a lot of paintings. The building itself is gorgeous. If I had to visit just one museum in London, it would be this one. (yes, this is a subtle dig at Tate because I can't bear to look at modern art for more than 10 minutes at a stretch)
+
 * We stumbled upon [Violet Cakes](http://www.violetcakes.com/) when I carried our bike boxes a couple of miles around london. Solid coffee, better baked goods.
+
 * [Hackney Church Brew Co](https://hackneychurchbrew.co/) makes good beer under a train line. Though I don't recommend ordering food here; we went on a not-that-busy night and it took them almost 2 hours to bring us our orders.
+
 * [Batch Baby](https://www.batchbaby.co.uk/) made a high quality toasty in a 60s retro setting. Excellent place to finish a book series and watch the neighborhood wake up.
+
 * [e5 bakehouse](https://e5bakehouse.com/) makes exquisite bread and top-tier coffee.
+
 * [My Neighbors the Dumplings](https://myneighboursthedumplings.com/), despite the strange name, made the best dim sum I've ever had. Though admittedly I have not had _that_ much dim sum. But Meg has had a lot more and she thought it was high quality, too.
 
 {% include figure.html url="2023_08_17/20.webp" description="the neighborhood around dumplings provided excellent catspotting" %}
