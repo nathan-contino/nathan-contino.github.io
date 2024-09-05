@@ -5,7 +5,7 @@ permalink: /resume/
 ---
 
 <p>
-Nathan's resume comes in two flavours: a web page, built using the same technology stack and theming as the rest of this site, and a PDF, in case you want to save it for a snack later:
+Nathan's resume comes in two flavours: a web page, built using the same technology stack as the rest of this site, and a PDF, in case you want to save it for a snack later:
 </p>
 
 <ul>

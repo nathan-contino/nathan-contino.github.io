@@ -1,78 +1,31 @@
 <!DOCTYPE html>
 
 <html lang="en">
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
-  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#d6785e">
-  <meta name="msapplication-TileColor" content="#da532c">
-  <meta name="theme-color" content="#000000">
-  <meta name="description" content="{% if page.excerpt %} {{ page.excerpt | normalize_whitespace | replace: '</li> </ul>', '' | replace: '</li>', ';' | strip_html }} {% else %} {{ site.description }} {% endif %}">
-  <meta property="og:type" content="website">
-  <meta property="og:image" content="https://raw.githubusercontent.com/nathan-contino/images/main/images/PavementEnds.webp">
-  <meta property="og:image:secure_url" content="https://raw.githubusercontent.com/nathan-contino/images/main/images/PavementEnds.webp">
-  <meta property="og:image:width" content="700">
-  <meta property="og:image:height" content="700">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="keywords" content="lambda, latitudinarians, disquisitions, adventure, blog, nathan contino, adventure blog, nathan, contino, nathan contino">
-  <TITLE>{{ page.title }}</TITLE>
-  <META http-equiv="pragma" content="no-cache">
-  <LINK rel=stylesheet type="text/css" href="/_stylesheets/lite.css">
-  <LINK rel=stylesheet type="text/css" href="/_stylesheets/fruity.css" >
-  <script>
-    // toggles the site theme between dark and light
-    function toggleTheme() {
-      // fetch the theme from local storage (if it exists)
-      var theme = localStorage.getItem('theme');
-      // if theme them has never been set, or is light, set the theme to the dark symbol in local storage to change it
-      if (localStorage.getItem('theme') !== null && theme == '🌝' ) {
-        localStorage.setItem('theme', '🌚');
-      } else {
-        // otherwise, the theme is currently set to dark, so set the theme to the light symbol in local storage to change it
-        localStorage.setItem('theme', '🌝');
-      }
-      // finally, toggle the light option off or on the body to change the display of the theme
-      document.body.classList.toggle('light');
-    }
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#d6785e">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#000000">
+    <meta name="description" content="{% if page.excerpt %} {{ page.excerpt | normalize_whitespace | replace: '</li> </ul>', '' | replace: '</li>', ';' | strip_html }} {% else %} {{ site.description }} {% endif %}">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://raw.githubusercontent.com/nathan-contino/images/main/images/PavementEnds.webp">
+    <meta property="og:image:secure_url" content="https://raw.githubusercontent.com/nathan-contino/images/main/images/PavementEnds.webp">
+    <meta property="og:image:width" content="700">
+    <meta property="og:image:height" content="700">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="keywords" content="lambda, latitudinarians, disquisitions, adventure, blog, nathan contino, adventure blog, nathan, contino, nathan contino">
+    <TITLE>{{ page.title }}</TITLE>
+    <META http-equiv="pragma" content="no-cache">
+    <LINK rel=stylesheet type="text/css" href="/_stylesheets/resume.css">
+  </head>
 
-    // initialises the site theme display
-    // of key interest here: from the user's perspective, the site defaults to the light theme...
-    // ...unless your browser uses prefers-color-scheme to ask for a dark theme, or you use firefox (statistically, firefox users prefer dark themes)
-    // from the site's perspective, we default to a dark theme, but toggle it to a light theme on load if the user doesn't ask for dark.
-    // why do this? To prevent an annoying light 'flash' for dark theme users. light theme users don't really notice or care if there's a dark anti-flash.
-    function initTheme() {
-      // fetch the theme from local storage (if it exists)
-      var theme = localStorage.getItem('theme');
-
-      // if the theme has been set to light (null check to short circuit if not set)
-      if(theme !== null && theme === '🌝'
-            // if we can use matchMedia and the browser supports the dark color scheme
-            || (window.matchMedia && !window.matchMedia('(prefers-color-scheme: dark)').matches && theme !== '🌚')
-            // if the user is using firefox and the theme has not explicitly been set to dark mode
-            || (!navigator.userAgent.includes('Firefox') && theme !== '🌚')) {
-        // toggles the theme from the default dark mode to the light version (which actually _shows_ by default to many users)
-        document.body.classList.toggle('light');
-      }
-    }
-  </script>
-</head>
-
-<!-- set the theme to dark and toggle the theme button icon if we detect a (dark) theme setting in local storage OR if the user's browser asks for dark OR if the user is using a Mozilla browser -->
-<body onload="initTheme()">
-  <div class="container">
-  
-<!-- used to load all actual content (about page, blog, resume, etc) -->
-<div>
-  {{ content }}
-</div>
-
-</div>
-</div>
-</div>
-</body>
+  <body>
+    {{ content }}
+  </body>
 </html>
 
 
