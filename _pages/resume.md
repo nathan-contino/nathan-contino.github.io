@@ -73,14 +73,14 @@ other developers at Bloomberg.
 
 ***
 
-| **Bluehawk**: markup processor that generates documentation examples | 2022 |
+| Bluehawk: markup processor that generates documentation examples | 2022 |
 | :--- | ---: |
 | _Typescript_ ||
 
 * Extracts code examples from unit tests, formatting with syntax highlighting and token replacement.
 * Replaces "finished" code with "todo" code for a branch in a tutorial repo.
 
-| **Hulk**: cache for a computationally-intensive calculation engine | 2019 |
+| Hulk: cache for a computationally-intensive calculation engine | 2019 |
 | :--- | ---: |
 | _C++, Bloomberg Message Queue, SQL_ ||
 
@@ -90,6 +90,6 @@ other developers at Bloomberg.
 
 ***
 
-**Technologies**: Kotlin, C++, Java, Docs-as-Code, Python, Javascript, TypeScript, SQL, MQL
+Technologies: Kotlin, C++, Java, Docs-as-Code, Python, Javascript, TypeScript, SQL, MQL
 
-**Interests**: Recruitment, Campus Outreach, Teaching, Coffee, Running, Biking, Hiking
+Interests: Recruitment, Campus Outreach, Teaching, Coffee, Running, Biking, Hiking
