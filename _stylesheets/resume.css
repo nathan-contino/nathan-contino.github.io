@@ -49,6 +49,11 @@ ul {
   padding-left: 2em;
 }
 
+ul > li > ul {
+  margin-top: 3px;
+  padding-left: 7px;
+}
+
 th {
   font-size: 1.1rem;
   color: #77216F;

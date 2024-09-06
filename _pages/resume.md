@@ -35,15 +35,15 @@ permalink: /resume-html/
 | :--- | ---: |
 | _AsciiDoc, Python, Ruby, Git_ ||
 
-* Wrote and maintained documentation for Raspberry Pi OS and all Raspberry Pi hardware, including flagship devices, Zero, Pico, and accessories.
-* Wrote datasheet documentation for Raspberry Pi hardware and silicon.
+* Wrote and edited documentation for Raspberry Pi software and hardware, including flagship devices, Zero, Pico, and accessories.
+* Shepherded datasheet PDFs detailing the specifics of Raspberry Pi hardware and silicon from the minds of hardware engineers into words.
 
 | {::nomarkdown} <div style="display: flex; align-items: center;"> <img src="/_resources/gradle.ico" style="width:1em !important; border: 0px !important; padding-right: .2em;" /> Lead Technical Writer, Gradle </div>{:/}  | `2022 – 2023` |
 | :--- | ---: |
 | _AsciiDoc, Gradle Build Tool, Kotlin, Groovy, Java, Git_ ||
 
-* Refactored existing documentation to ease the onboarding process for new Gradle Build Tool users.
-* Edited new engineering docs contributions to ensure consistency and comprehensiveness throughout the docs.
+* Wrote and extensively refactored existing documentation to improve the onboarding process for new Gradle Build Tool users.
+* Edited new engineering documentation contributions to ensure consistency and comprehensiveness throughout the docs.
 * Coordinated with Engineering and Education to write, edit, and revise release notes for Gradle Build Tool.
 
 | {::nomarkdown} <div style="display: flex; align-items: center;"> <img src="/_resources/mongodb.ico" style="width:1em !important; border: 0px !important; padding-right: .2em;" /> Senior Technical Writer, MongoDB </div>{:/}  | `2019 – 2022` |
@@ -58,16 +58,16 @@ permalink: /resume-html/
 | :--- | ---: |
 | _C++, Comdb2, Python, Javascript, Java, Node, Postgres, Kafka, Git_ ||
 
-* Bloomberg Indices: Built an API and UI for calculating both the Bloomberg Barclays Indices and custom indices.
-* Developer Experience: Built an internal web app to make project management and continuous integration easier for
-other developers at Bloomberg.
+* Worked on two separate teams:
+  * **Bloomberg Fixed Income Indices**: Built an API and UI for calculating both the Bloomberg Barclays Indices and custom indices.
+  * **Developer Experience**: Built an internal web app to simplify project management and continuous integration for internal developers.
 
 | {::nomarkdown} <div style="display: flex; align-items: center;"> <img src="/_resources/rochester.ico" style="width:1em !important; border: 0px !important; padding-right: .2em;" /> Workshop Leader and Teaching Assistant, University of Rochester</div>{:/} | `2014 – 2017` |
 | :--- | ---: |
 | _C++, Java, Scheme_ ||
 
 * As head TA, led test review, student testing, and grading sessions.
-* 5 different classes, 8 semesters total: _Intro to Java_, _Data Structures_, _Computational Systems_, _Honors Research Seminar_, and _Artificial Intelligence_
+* 5 different classes, 8 semesters total: _Intro to Java_, _Data Structures_, _Computational Systems_, _Honors Research Seminar_, and _Artificial Intelligence_.
 
 # Projects
 
