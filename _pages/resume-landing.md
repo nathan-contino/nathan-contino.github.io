@@ -9,7 +9,7 @@ Nathan's resume comes in two flavours: a web page, built using the same technolo
 </p>
 
 <ul>
-<li><p><a href="/resume-html/" target="_blank">Nathan's Resume [web page]</a></p></li>
-<li><p><a href="https://raw.githubusercontent.com/nathan-contino/images/main/images/Nathan_Contino_Resume.pdf">Nathan's Resume [PDF, 100KB]</a></p></li>
+<li><p><a href="/resume-html/" target="_blank">Nathan Contino's Resume [web page]</a></p></li>
+<li><p><a href="https://raw.githubusercontent.com/nathan-contino/images/main/images/Nathan Contino's Resume.pdf">Nathan's Resume [PDF, 100KB]</a></p></li>
 </ul>
 

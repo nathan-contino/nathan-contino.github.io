@@ -54,6 +54,18 @@ ul > li > ul {
   padding-left: 7px;
 }
 
+hr {
+  border-top: 1px solid #FFF;
+  border-left: 1px solid #FFF;
+  border-right: 1px solid #FFF;
+  border-bottom: 1px solid #E95420;
+  margin-top: -1px;
+}
+
+code,pre {
+  color: #000;
+}
+
 th {
   font-size: 1.1rem;
   color: #77216F;
@@ -100,7 +112,6 @@ mail {
 }
 
 phone {
-  font-style: italic;
   text-align: right;
   font-family: var(--mono-font);
 }

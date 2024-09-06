@@ -73,14 +73,14 @@ permalink: /resume-html/
 
 ***
 
-| Bluehawk: {::nomarkdown}<slap style="font-weight:100 !important;">markup processor that generates documentation examples</slap>{:/} | 2022 |
+| Bluehawk: {::nomarkdown}<slap style="font-weight:100 !important;">markup processor that generates documentation examples</slap>{:/} | `2022` |
 | :--- | ---: |
 | _Typescript_ ||
 
 * Extracts code examples from unit tests, formatting with syntax highlighting and token replacement.
 * Replaces "finished" code with "todo" code for a branch in a tutorial repo.
 
-| Hulk: {::nomarkdown}<slap style="font-weight:100 !important;">cache for a computationally-intensive calculation engine</slap>{:/} | 2019 |
+| Hulk: {::nomarkdown}<slap style="font-weight:100 !important;">cache for a computationally-intensive calculation engine</slap>{:/} | `2019` |
 | :--- | ---: |
 | _C++, Bloomberg Message Queue, SQL_ ||
 
