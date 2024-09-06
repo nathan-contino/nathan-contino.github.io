@@ -31,7 +31,7 @@ permalink: /resume-html/
 
 ***
 
-| {::nomarkdown} <div style="display: flex; align-items: center;"> <img src="/_resources/raspberrypi.ico" style="width:1em !important; border: 0px !important; padding-right: .2em;" />  Lead Technical Writer, Raspberry Pi </div>{:/} | `2023 – ****` |
+| {::nomarkdown} <div style="display: flex; align-items: center;"> <img src="/_resources/raspberrypi.ico" style="width:1em !important; border: 0px !important; padding-right: .2em;" /> Head of Documentation, Raspberry Pi </div>{:/} | `2023 – ****` |
 | :--- | ---: |
 | _AsciiDoc, Python, Ruby, Git_ ||
 
@@ -73,14 +73,14 @@ other developers at Bloomberg.
 
 ***
 
-| Bluehawk: markup processor that generates documentation examples | 2022 |
+| Bluehawk: {::nomarkdown}<slap style="font-weight:100 !important;">markup processor that generates documentation examples</slap>{:/} | 2022 |
 | :--- | ---: |
 | _Typescript_ ||
 
 * Extracts code examples from unit tests, formatting with syntax highlighting and token replacement.
 * Replaces "finished" code with "todo" code for a branch in a tutorial repo.
 
-| Hulk: cache for a computationally-intensive calculation engine | 2019 |
+| Hulk: {::nomarkdown}<slap style="font-weight:100 !important;">cache for a computationally-intensive calculation engine</slap>{:/} | 2019 |
 | :--- | ---: |
 | _C++, Bloomberg Message Queue, SQL_ ||
 
@@ -90,6 +90,6 @@ other developers at Bloomberg.
 
 ***
 
-Technologies: Kotlin, C++, Java, Docs-as-Code, Python, Javascript, TypeScript, SQL, MQL
+**Technologies**: Kotlin, C++, Java, Docs-as-Code, Python, Javascript, TypeScript, SQL, MQL
 
-Interests: Recruitment, Campus Outreach, Teaching, Coffee, Running, Biking, Hiking
+**Interests**: Recruitment, Campus Outreach, Teaching, Coffee, Running, Biking, Hiking

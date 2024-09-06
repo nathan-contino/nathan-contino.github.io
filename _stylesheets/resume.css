@@ -1,15 +1,23 @@
 @font-face {
   font-family: 'Ubuntu';
   src: url('/_stylesheets/Ubuntu-R.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  src: url('/_stylesheets/Ubuntu-B.ttf') format('truetype');
+  font-weight: bold;
 }
 
 @font-face {
   font-family: 'Ubuntu Mono';
   src: url('/_stylesheets/UbuntuMono-R.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Ubuntu Mono';
+  src: url('/_stylesheets/UbuntuMono-B.ttf') format('truetype');
+  font-weight: bold;
 }
 
 html {
@@ -42,15 +50,15 @@ ul {
 }
 
 th {
-  font-size: 1.2rem;
-  font-weight: normal;
+  font-size: 1.1rem;
+  color: #77216F;
 }
 
 h1,h2,h3,h4,h5 {
   font-family: var(--mono-font);
   margin-bottom: 0px;
   margin-top: 5px;
-  font-weight: normal;
+  font-weight: bold;
 }
 
 topper {
