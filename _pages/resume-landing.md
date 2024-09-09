@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Nathan Contino's Resume Landing Page
+title: Nathan Contino's Resume
 permalink: /resume/
 ---
 
