@@ -1,6 +1,6 @@
 ---
 title:  "Bikepacking Vermontshire: Part 1"
-date:   2024-09-28 19:36:53 -0500
+date:   2024-09-28 19:36:53 +0500
 layout: default
 categories: blog
 ---
