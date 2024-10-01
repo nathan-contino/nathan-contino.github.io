@@ -50,7 +50,7 @@ Then we reached a giant hole where the Cotton Brook bridge used to be.
 
 {% include figure.html url="2024_09_25/8.webp" description="shitfuckdamnwtfohnothisisbadwtfamigonnadonowsheiiiiittttttclaydavis" %}
 
-My dream was collapsing. The worst was surely come true: we'd just have to turn around, waste hours more of our time, and start again in Little River. My cold toes would remain this cold for hours more, and wind up subjected to the debris of paved roads to boot, before they could warm up in Stowe.
+My dream was collapsing. The worst had surely come true: we'd just have to turn around, waste hours more of our time, and start again in Little River. My cold toes would remain this cold for hours more, and wind up subjected to the debris of paved roads to boot, before they could warm up in Stowe.
 
 I was just about ready to give up and lie down on the ground in the forest. Even if Cotton Brook was a multiple foot deep whitewater rapid between twenty-foot walls of solid wet rock with no hope of getting a bike through it, I might have tried. The situation was dire.
 
