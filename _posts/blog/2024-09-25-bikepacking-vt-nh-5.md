@@ -27,7 +27,7 @@ _Plop ploop plink plonk._
 
 _**Bloppity bloopity poppity broopity plonk plink.**_
 
-So sang the soaking wet tent rainfly as we lay under torrential rains, dreading stepping out of the tent and packing everything up wet. But eventually we gathered our courage, packed up camp, helped our elderly campsite neighbors hitch their trailer to their car, wrapped ourselves in water-resistant layers, and got on the road.
+So sang the soaking wet tent rainfly as we lay under torrential rains, dreading stepping out of the tent and packing everything up wet. But eventually we gathered our courage, packed up camp, helped our elderly campsite neighbors hitch their (surprisingly light) teardrop camper to their car, wrapped ourselves in water-resistant layers, and got on the road.
 
 Fortunately, our morning was almost entirely car-free. Unfortunately, this was one of our more rugged mornings: a ride up singletrack trails, through an abandoned farming community, and onto much-neglected class 4 roads to loop around the northern edge of Waterbury Reservoir and some particularly steep, landslide-prone terrain around Cotton Brook.
 
