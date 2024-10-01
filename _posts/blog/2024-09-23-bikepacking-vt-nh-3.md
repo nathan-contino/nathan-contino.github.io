@@ -89,9 +89,9 @@ Turns out that this one wasn't too bad. It was steep at times, and the traffic t
 
 The descent made it all worthwhile, though. We cruised through miles of absolutely pleasant, swooping roads with a gorgeous view of the Green Mountains and Sugarbush's ski trails, right to our penultimate stop of the day: the [East Warren Market](https://www.eastwarrenmarket.com/), a perfectly folksy old schoolhouse complete with tiny cemetery, an excellent wine and beer selection, and some seriously good looking sandwiches and burritos. There was a lot of local art as well, but we didn't bother with any this time -- our bikes are already heavy enough!
 
-{% include figure.html url="2024_09_23/24.webp" description="east warren market after (some of) the big descent" %}
+{% include figure.html url="2024_09_23/24.webp" description="east warren market: two thumbs up" %}
 
-{% include figure.html url="2024_09_23/25.webp" description="east warren market: two thumbs up" %}
+{% include figure.html url="2024_09_23/25.webp" description="east warren market after (some of) the big descent" %}
 
 We nabbed a four pack of Alchemist and a couple of burritos, and headed down through Warren to reach our campsite for the night, a HipCamp that promised waterfalls, a fire ring, an outhouse, and a pizza oven. After two nights of wild camping, we were seriously hyped. Passing through Warren was a quaint as ever, and before we knew it, we turned down yet another dirt barely-a-road to reach our campsite. It turned out to be our favourite of the entire trip: a gorgeous spot, immaculately maintained, and even better, we were the only campers there that night.
 
