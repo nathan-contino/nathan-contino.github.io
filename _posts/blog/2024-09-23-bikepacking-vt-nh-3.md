@@ -112,3 +112,5 @@ We grilled our burritos and sipped our beers under the stars much later than our
 {% include figure.html url="2024_09_23/32.webp" description="overall a lovely place to camp" %}
 
 I woke up a couple of times to hear some seriously dumb coyotes horsing around in the nearby forest; I know coyotes can sound scary when you're deep in the dark woods, but when you're cozy and safe, it's hard not to notice that they're basically a pack of children playing in the woods.
+
+Curious about the rest of the story? You can now find it [in part 4](/blog/2024/10/01/bikepacking-vt-nh-4/).

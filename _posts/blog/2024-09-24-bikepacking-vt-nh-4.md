@@ -97,3 +97,5 @@ Our campsite at Little River was fine. The last time we stayed at Little River, 
 {% include figure.html url="2024_09_24/28.webp" description="campfires are always the best way to end the night" %}
 
 We enjoyed a short campfire, set up the tent, and slept well. I only woke up once during the night, around midnight, to the sounds of much more rain arriving much earlier than originally forecast. Unfortunately, we would soon wake up to a similar surprise.
+
+Curious about the rest of the story? You can now find it [in part 5](/blog/2024/10/01/bikepacking-vt-nh-5/).

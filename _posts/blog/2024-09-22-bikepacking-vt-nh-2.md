@@ -67,3 +67,5 @@ I especially enjoyed our journey down a class 4 road that essentially no longer 
 {% include figure.html url="2024_09_22/14.webp" description="at the campsite in roxbury" %}
 
 From there, we endured a brief uphill climb into Roxbury State Forest, where we quickly and easily found a wild camping site that might have even been legal. We set up camp, enjoyed a simple snack, hung up the bear bag, and enjoyed a much quieter night of sleep.
+
+Curious about the rest of the story? You can now find it [in part 3](/blog/2024/10/01/bikepacking-vt-nh-3/).

@@ -101,3 +101,5 @@ Of course, that wasn't the end of our day. Because the forest was absolutely cho
 Fortunately, nearly 6000 feet of steep road climbing and 55 miles of riding was enough to knock us out despite the spooks. I woke up a couple of times in the night (or maybe I was just dreaming) to even crazier noises, but overall our camping site served us well. 7 stars out of 10 for the accommodation: the neighbours were noisy and the facilities were lacking, but I can forgive that since the price was right.
 
 Stay tuned for our next episode, where we journey further into Vermont to Bent Hill Brewery and Roxbury State Forest for even more climbing, beers, and primitive camping.
+
+Curious about the rest of the story? You can now find it [in part 2](/blog/2024/09/29/bikepacking-vt-nh-2/).

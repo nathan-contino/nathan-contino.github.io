@@ -128,3 +128,5 @@ _**Bloppity bloopity poppity broopity plonk plink.**_
 So sang the roof of our lean-to as we lay under torrential rains, no longer dreading stepping out of the tent and packing everything up wet. Thanks for letting us upgrade, Bobby.
 
 {% include figure.html url="2024_09_25/20.webp" description="a cushy night" %}
+
+Curious about the rest of the story? You can now find it [in part 6](/blog/2024/10/02/bikepacking-vt-nh-6/).
