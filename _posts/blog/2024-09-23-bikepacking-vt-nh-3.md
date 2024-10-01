@@ -39,9 +39,9 @@ This turned out to be a bad idea. The road, as I mentioned before, was covered i
 
 {% include figure.html url="2024_09_23/8.webp" description="not really a bridge any more" %}
 
-{% include figure.html url="2024_09_23/9.webp" description="you can sort of see the bridge from this angle" %}
+{% include figure.html url="2024_09_23/9.webp" description="you can sort of see the bridge from this angle; note the road in the distance" %}
 
-{% include figure.html url="2024_09_23/10.webp" description="you can really see the bridge from this angle; note the road in the distance" %}
+{% include figure.html url="2024_09_23/10.webp" description="you can really see the bridge from this angle" %}
 
 Naturally, we didn't let that get in our way. We proceeded down the nearby slope, across the nearby stream, through a nearby bog, and up the adjacent very steep, very tall embankment of the dirt road. There weren't any difficulties at all. No blood was shed. No trespassing occurred. We didn't wind up covered in mud and muck, I never discovered just how cold that creek water was, and nobody groaned at all as they lugged a heavy, loaded steel bicycle up a roadside embankment. Nope. Definitely not. Everything was above the board and totally legal and normal.
 
