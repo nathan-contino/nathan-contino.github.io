@@ -103,3 +103,5 @@ Fortunately, nearly 6000 feet of steep road climbing and 55 miles of riding was 
 Stay tuned for our next episode, where we journey further into Vermont to Bent Hill Brewery and Roxbury State Forest for even more climbing, beers, and primitive camping.
 
 Curious about the rest of the story? You can now find it [in part 2](/blog/2024/09/29/bikepacking-vt-nh-2/).
+
+Prefer not to read? Take a look at the [video Meg made](/blog/2024/10/01/bikepacking-vt-nh-video/) that summarises our entire journey in just a few minutes of screen time.
