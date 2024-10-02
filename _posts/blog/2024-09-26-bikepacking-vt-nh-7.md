@@ -51,7 +51,7 @@ We descended down the hill in the blazing sunshine, only rerouting once due to a
 
 {% include figure.html url="2024_09_27/13.webp" description="at least we saw highland cows" %}
 
-For lunch, we swung by an old favourite: the Marshfield Country Store, home of the [The Hot, Instagrammable, FOMO, [Zoomer, Calzone, nearby Meg's Favourite Waterfall](/blog/2022/10/01/the-great-northern-vt-adventure-pt2.html). This time, we only ordered a sub, and naturally picked up a four-pack of Alchemist's Heady Topper to-go. We _did_ have to refrigerate that sandwich, after all! An older Vermont man complimented Meg's Brooks saddle; we bonded over a mutual love of desiccated animal carcasses.
+For lunch, we swung by an old favourite: the Marshfield Country Store, home of the [The Hot, Instagrammable, FOMO, [Zoomer, Calzone, nearby Meg's Favourite Waterfall](/blog/2022/10/02/the-great-northern-vt-adventure-pt2.html). This time, we only ordered a sub, and naturally picked up a four-pack of Alchemist's Heady Topper to-go. We _did_ have to refrigerate that sandwich, after all! An older Vermont man complimented Meg's Brooks saddle; we bonded over a mutual love of desiccated animal carcasses.
 
 {% include figure.html url="2024_09_27/14.webp" description="confirmed wooly spotting" %}
 
@@ -89,7 +89,7 @@ At this point, we agreed; instead of fighting Vermont's bureaucracy over staying
 
 And so the race was on. We rolled along the old railroad bed at blistering, record speeds, determined to make it home to a warm bed before dark.
 
-The rest of the old railroad bed in Groton was kind of weird. A couple of miles after our lunch spot, the flood damage was quite serious. It became immediately obvious why we didn't see any other bicycles on this trail: the ruts created by flooding were just too deep for most bikes. Fortunately our rigs are set up for class 4 roads, so we mostly rolled right through the damage. But in a few spots, even we had to walk or carry the bikes over several foot deep cracks in the earth. Crazy to see the difference from just two years ago, when the trail was [full of people riding normal bicycles, including even a baby in a trailer pulled behind a bike](/blog/2022/10/01/the-great-northern-vt-adventure-pt2.html).
+The rest of the old railroad bed in Groton was kind of weird. A couple of miles after our lunch spot, the flood damage was quite serious. It became immediately obvious why we didn't see any other bicycles on this trail: the ruts created by flooding were just too deep for most bikes. Fortunately our rigs are set up for class 4 roads, so we mostly rolled right through the damage. But in a few spots, even we had to walk or carry the bikes over several foot deep cracks in the earth. Crazy to see the difference from just two years ago, when the trail was [full of people riding normal bicycles, including even a baby in a trailer pulled behind a bike](/blog/2022/10/02/the-great-northern-vt-adventure-pt2.html).
 
 We were even more intrigued when we came to a road crossing, and saw a 'trail closed' sign draped along the gate that blocks cars from using the trail. The sign faced opposite us, but we never saw any 'trail closed' sign when we entered the trail from the North end. So we kept cruising along the trail; if the state can't even bother to mark every entrance, and we're fully capable of riding down the trail, and we don't plan on suing the state if we get hurt, who cares?
 
