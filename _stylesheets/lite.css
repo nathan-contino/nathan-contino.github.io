@@ -227,7 +227,8 @@ lambda {
   font-weight: lighter;
   display: flex;
   flex: 1;
-  line-height: 1em; !important
+  line-height: 1em; !important;
+  box-shadow: 0px 0px 10px 10px var(--bg);
 }
 
 .biglambdacontent::after {
@@ -334,13 +335,14 @@ menu {
   font-size: 1rem;
   margin-top: 0px;
   font-family: var(--mono-font);
-  background-color: var(--bg);
+  margin-bottom: 0px;
 }
 
 menu>a {
   border: 1px solid var(--main);
   padding-left: 5px;
   padding-right: 5px;
+  background-color: var(--bg);
 }
 
 mobile-menu {
@@ -425,7 +427,7 @@ h1 {
   font-size: 1.8rem;
   color: var(--headeraccent);
   margin-bottom: 0px;
-  margin-top: 5px;
+  margin-top: 10px;
 }
 h2 {
   font-family: "Courier New", "FreeMono", "Rockwell", monospace;
@@ -508,3 +510,23 @@ nav {
     -webkit-text-size-adjust:none;
   }
 }
+
+/* blog post nav buttons */
+.PageNavigation {
+  font-size: 14px;
+  display: block;
+  width: auto;
+  overflow: hidden;
+}
+
+.PageNavigation a {
+  display: block;
+  width: 50%;
+  float: left;
+  margin: 1em 0;
+}
+
+.PageNavigation .next {
+  text-align: right;
+}
+
