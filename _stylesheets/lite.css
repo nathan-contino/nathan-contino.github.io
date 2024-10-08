@@ -234,7 +234,7 @@ lambda {
 .biglambdacontent::after {
   content: ' ';
   background-image: linear-gradient(60deg,
-    var(--mainalternative) 10% 90%,
+    var(--mainalternative) 10% 95%,
     /* hsl(60, 100%, 50%) 10% 20%, STRIPEY RAINBOW
     hsl(120, 100%, 50%) 20% 30%,
     hsl(180, 100%, 50%) 30% 40%,
@@ -243,7 +243,7 @@ lambda {
     hsl(270, 100%, 50%) 60% 70%,
     hsl(300, 100%, 50%) 70% 80%,
     hsl(360, 100%, 50%) 80% 90%, */
-    var(--bg) 90% 100%
+    var(--bg) 95% 100%
   );
   display: block;
   width: 100%;

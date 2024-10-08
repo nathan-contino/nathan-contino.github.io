@@ -1,5 +1,5 @@
 ---
-title:  "You Don't *Have* to be a Developer"
+title:  "You Don't <i>Have</i> to be a Developer"
 date:   2022-09-13 14:14:22 -0700
 layout: default
 categories: techblog
