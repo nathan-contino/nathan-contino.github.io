@@ -18,7 +18,7 @@
     <meta property="og:image:height" content="700">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="keywords" content="lambda, latitudinarians, disquisitions, adventure, blog, nathan contino, adventure blog, nathan, contino, nathan contino">
-    <TITLE>{{ page.title }}</TITLE>
+    <TITLE>{{ page.title | strip_html }}</TITLE>
     <META http-equiv="pragma" content="no-cache">
     <LINK rel=stylesheet type="text/css" href="/_stylesheets/lite.css">
     <LINK rel=stylesheet type="text/css" href="/_stylesheets/fruity.css" >
@@ -121,7 +121,7 @@
           	{% if page.title == "Lambda Latitudinarians by Nathan Contino" %}
               <!-- no title display! -->
             {% else %}
-              <H1>{{ page.title}}</H1>
+              <H1>{{ page.title }}</H1>
             {% endif %}
             {% if page.date %}
               <span class="date">

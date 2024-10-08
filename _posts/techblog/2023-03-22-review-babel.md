@@ -1,5 +1,5 @@
 ---
-title:  "Review: Babel, or the Necessity of Violence: an Arcane History of Oxford Translator's Revolution"
+title:  "Review: <i>Babel, or the Necessity of Violence: an Arcane History of Oxford Translator's Revolution</i>"
 date:   2023-03-22 13:17:53 -0500
 layout: default
 categories: techblog
