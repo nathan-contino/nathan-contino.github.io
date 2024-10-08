@@ -528,5 +528,6 @@ nav {
 
 .PageNavigation .next {
   text-align: right;
+  float: right;
 }
 
