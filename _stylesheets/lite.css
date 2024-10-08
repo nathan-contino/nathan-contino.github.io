@@ -513,21 +513,31 @@ nav {
 
 /* blog post nav buttons */
 .PageNavigation {
-  font-size: 14px;
-  display: block;
+  display: flex;
+  gap: 10%;
+  flex-direction: row;
   width: auto;
   overflow: hidden;
 }
 
 .PageNavigation a {
-  display: block;
-  width: 50%;
-  float: left;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2%;
   margin: 1em 0;
+  border: 1px solid var(--main);
 }
 
 .PageNavigation .next {
-  text-align: right;
-  float: right;
+  flex-direction: row-reverse;
 }
 
+.PageNavigation .next::before {
+  content: ">>";
+}
+
+.PageNavigation .prev::before {
+  content: "<<";
+}
