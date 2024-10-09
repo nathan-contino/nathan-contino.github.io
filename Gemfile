@@ -11,9 +11,6 @@ ruby RUBY_VERSION
 # Happy Jekylling!
 gem "jekyll"
 
-# This is the default theme for new Jekyll sites. You may change this to anything you like.
-gem "minima", "~> 2.0"
-
 # i really don't understand why this is necessary but whatever
 gem "kramdown-parser-gfm"
 gem "webrick"
