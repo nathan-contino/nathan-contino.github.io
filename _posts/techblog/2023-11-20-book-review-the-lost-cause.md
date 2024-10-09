@@ -1,5 +1,5 @@
 ---
-title:  "Book Review: The Lost Cause"
+title:  "Book Review: <i>The Lost Cause</i>"
 date:   2023-11-20 13:17:53 -0500
 layout: default
 categories: techblog

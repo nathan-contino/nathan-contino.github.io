@@ -11,6 +11,12 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 Inter
 
 # local testing
 
+You might need to run this command before building anything to ensure that Ruby installs gems into your user directory, not a global directory that sometimes maybe kinda sort requires `sudo`:
+
+```bash
+bundle config path ~/.gem/ruby
+```
+
 To test this site locally, install jekyll (note: this requires ruby)
 (note: you might need to preface this with `sudo`):
 
