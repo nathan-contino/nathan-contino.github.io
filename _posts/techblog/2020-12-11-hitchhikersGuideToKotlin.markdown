@@ -3,6 +3,7 @@ title:  "The Hitchhiker's Guide to Kotlin"
 date:   2020-12-11 14:14:22 -0700
 layout: default
 categories: techblog
+permalink: /:categories/:year/:month/:day/:title:output_ext
 ---
 
 Lately I've been doing a lot of work in a relatively new programming

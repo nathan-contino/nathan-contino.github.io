@@ -76,7 +76,7 @@ and brokered access to rides in a friend's car to stock up on food, coffee,
 and milk for frothing. I also made one of the finest investments of my life:
 my first espresso machine.
 
-{% include figure.html url="ec155smol.jpg" description="My Delonghi EC155" %}
+{% include figure.html url="ec155smol.webp" description="My Delonghi EC155" %}
 
 Enter the Delonghi EC155. Stainless steel (some). Plastic (more).
 Pressurized baskets (though you can mod them to unpressurized). A frothing
@@ -117,8 +117,8 @@ quarantine).
 
 Of course, all good things must come to an end. Spro is no longer my
 primary espresso machine at home. I've upgraded to a
-[Crossland CC1](https://www.seattlecoffeegear.com/crossland-coffee-cc1-v2-espresso-machine)
-, thanks to the many lessons that Spro taught me about what features matter
+[Crossland CC1](https://www.seattlecoffeegear.com/crossland-coffee-cc1-v2-espresso-machine),
+thanks to the many lessons that Spro taught me about what features matter
 in an espresso machine and which features you can do without. Which comes
 to the reason I wrote this post in the first place: sure, the EC155 isn't
 the best espresso machine in the world. It probably isn't even in

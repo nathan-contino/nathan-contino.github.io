@@ -1,5 +1,5 @@
 ---
-title:  "Michael Lewis' *Flash Boys*"
+title:  "Michael Lewis' <i>Flash Boys</i>"
 date:   2018-01-18 11:26:53 -0500
 layout: default
 categories: techblog

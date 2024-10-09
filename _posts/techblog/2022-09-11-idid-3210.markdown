@@ -10,6 +10,8 @@ As a conscious human being with not-so-fond memories of Time Warner Cable,
 I'm aware that using Spectrum for internet is a fool's errand. But I have
 no choice in the small New England town that I now live in. Thanks, FCC.
 
+<!-- readmore -->
+
 As you'd expect, my attempt to log in to my account didn't go well. I
 entered valid credentials, and the auth portal spit out:
 
@@ -18,8 +20,6 @@ We’re sorry, we’re unable to sign you in. Please try again later. IDID-3210.
 ```
 
 Here's how I escaped the horrors of `IDID-3210`.
-
-<!-- readmore -->
 
 1. I use a [DNS black hole](https://pi-hole.net/) to block ads.
    I whitelisted `pov.spectrum.net` based on some suggestions from Reddit users.

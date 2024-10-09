@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#d6785e">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#000000">
+    <meta name="description" content="{% if page.excerpt %} {{ page.excerpt | normalize_whitespace | replace: '</li> </ul>', '' | replace: '</li>', ';' | strip_html }} {% else %} {{ site.description }} {% endif %}">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://raw.githubusercontent.com/nathan-contino/images/main/images/PavementEnds.webp">
+    <meta property="og:image:secure_url" content="https://raw.githubusercontent.com/nathan-contino/images/main/images/PavementEnds.webp">
+    <meta property="og:image:width" content="700">
+    <meta property="og:image:height" content="700">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="keywords" content="lambda, latitudinarians, disquisitions, adventure, blog, nathan contino, adventure blog, nathan, contino, nathan contino">
+    <TITLE>{{ page.title }}</TITLE>
+    <META http-equiv="pragma" content="no-cache">
+    <LINK rel=stylesheet type="text/css" href="/_stylesheets/resume.css">
+  </head>
+
+  <body>
+    {{ content }}
+  </body>
+</html>
+
+
+

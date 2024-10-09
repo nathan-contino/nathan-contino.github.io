@@ -1,11 +1,12 @@
 title: λ Latitudinarians
-email: ncontino [at] u.rochester.edu
+email: ncontino[at]lambdalatitudinarians[dot]org
 description: >
-  Nathan Contino's personal website and blog.
-author: Nathan Contino
+  Nathan Contino's personal website and blog, Lambda Latitudinarians.
+author: Nathan Contino (ncontino[at]lambdalatitudinarians[dot]org)
 baseurl: /
 url: "https://www.lambdalatitudinarians.org"
 excerpt_separator: "<!-- readmore -->"
+permalink: pretty
 
 # timezone shenanigans
 future: true
@@ -35,4 +36,4 @@ plugins_dir:
 
 # image hosting setup
 images: https://raw.githubusercontent.com/nathan-contino/images/main/reasonable-images/
-thumbnails: https://raw.githubusercontent.com/nathan-contino/images/main/.thumbnails/images/
+thumbnails: https://raw.githubusercontent.com/nathan-contino/images/main/thumbnails/images/

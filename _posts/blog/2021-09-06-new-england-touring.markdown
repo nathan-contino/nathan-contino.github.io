@@ -3,6 +3,7 @@ title:  "The Great New England Adventure"
 date:   2021-09-06 14:14:22 -0700
 layout: default
 categories: blog
+permalink: /:categories/:year/:month/:day/:title:output_ext
 ---
 
 The last few weeks and weekends have been busy. We:
@@ -18,7 +19,7 @@ of just-us vacation. Also known as the gravel grind.
 
 <!-- readmore -->
 
-{% include figure.html url="sep_06_new_england/1_bridge_to_vt.jpeg" description="lumpy land here we come!" %}
+{% include figure.html url="sep_06_new_england/1_bridge_to_vt.webp" description="lumpy land here we come!" %}
 
 # Lumpy Country
 
@@ -32,7 +33,7 @@ After a craft beer from New England and a burrito with maple verde salsa, we
 were ready for the last leg of our journey: less than an hour of beautiful
 driving through northern Vermont.
 
-{% include figure.html url="sep_06_new_england/2_nate_burrito.jpeg" description="savoring that maple verde" %}
+{% include figure.html url="sep_06_new_england/2_nate_burrito.webp" description="savoring that maple verde" %}
 
 For a second stop, we chose
 [Hill Farmstead Brewery](https://hillfarmstead.com/), one
@@ -45,7 +46,7 @@ Everything is well executed, even styles of beer that you don't like are
 worth tasting, and it's beautiful to boot. If you can pull off an IPA aged
 in white wine barrels, you can pull off damn near anything.
 
-{% include figure.html url="sep_06_new_england/4_hill_farmstead.jpeg" description="enjoying the best of brews" %}
+{% include figure.html url="sep_06_new_england/4_hill_farmstead.webp" description="enjoying the best of brews" %}
 
 After Hill Farmstead, our campsite was a very, very short drive away. Special
 thanks to [HipCamp](https://www.hipcamp.com/en-US) for hooking us up
@@ -57,7 +58,7 @@ I swapped out my awful Onyx brake pads for some aftermarket
 [Kool-Stop](http://www.koolstop.com/) upgrades,
 and we set off on the bikes in search of dinner.
 
-{% include figure.html url="sep_06_new_england/3_goats.jpeg" description="carol's goats living it up" %}
+{% include figure.html url="sep_06_new_england/3_goats.webp" description="carol's goats living it up" %}
 
 Our bike ride to dinner turned out amazing. Turns out that unlike other
 Northeast states (New York, specifically), Vermont is chock full of
@@ -79,13 +80,13 @@ Made it back to the campsite just before sunset, and shared a couple
 of Hill Farmstead beers as we watched the sun set and the stars came
 out.
 
-{% include figure.html url="sep_06_new_england/5_rainbow.jpeg" description="finally, the end of the rainbow" %}
+{% include figure.html url="sep_06_new_england/5_rainbow.webp" description="finally, the end of the rainbow" %}
 
-{% include figure.html url="sep_06_new_england/6_meg_rain.jpeg" description="the northeast has trees to hide out under" %}
+{% include figure.html url="sep_06_new_england/6_meg_rain.webp" description="the northeast has trees to hide out under" %}
 
-{% include figure.html url="sep_06_new_england/7_nate_cemetary.jpeg" description="nate in his natural habitat" %}
+{% include figure.html url="sep_06_new_england/7_nate_cemetary.webp" description="nate in his natural habitat" %}
 
-{% include figure.html url="sep_06_new_england/8_dirt_vt.jpeg" description="gotta love those vt dirt roads" %}
+{% include figure.html url="sep_06_new_england/8_dirt_vt.webp" description="gotta love those vt dirt roads" %}
 
 # Pointy Country
 
@@ -111,9 +112,9 @@ listened to his thoughts on life and compliments of our orange shirt
 choices and car. Then we headed out as quickly as we could to avoid
 another 40-minute lecture.
 
-{% include figure.html url="sep_06_new_england/9_nh.jpg" description="cya l8r clem" %}
+{% include figure.html url="sep_06_new_england/9_nh.webp" description="cya l8r clem" %}
 
-{% include figure.html url="sep_06_new_england/10_meg_rail_trail.jpg" description="all rail trail, all bikes, all good times" %}
+{% include figure.html url="sep_06_new_england/10_meg_rail_trail.webp" description="all rail trail, all bikes, all good times" %}
 
 After our first impressions of Gorham, we were really afraid that
 our bike ride would be totally ruined by side-by-sides and ATVs.
@@ -126,19 +127,19 @@ creeks, cute former-rail bridges, bald mountain views, a
 at least a dozen e-bikes, mostly rentals. I guess New Hampshirians find
 pedaling a bicycle challenging enough to need assistance most of the time.
 
-{% include figure.html url="sep_06_new_england/11_nate_creek.jpeg" description="happy boi in the creek" %}
+{% include figure.html url="sep_06_new_england/11_nate_creek.webp" description="happy boi in the creek" %}
 
-{% include figure.html url="sep_06_new_england/12_meg_bridge.jpeg" description="hard core snackin" %}
+{% include figure.html url="sep_06_new_england/12_meg_bridge.webp" description="hard core snackin" %}
 
-{% include figure.html url="sep_06_new_england/13_susan.jpg" description="thanks hill farmstead for the goods" %}
+{% include figure.html url="sep_06_new_england/13_susan.webp" description="thanks hill farmstead for the goods" %}
 
-{% include figure.html url="sep_06_new_england/14_bridge_wasp.jpg" description="the worst part of snacking in a dangerous spot" %}
+{% include figure.html url="sep_06_new_england/14_bridge_wasp.webp" description="the worst part of snacking in a dangerous spot" %}
 
-{% include figure.html url="sep_06_new_england/15_flowers_mountains.jpg" description="pleasantly surprised by the white mountains mountaineyness" %}
+{% include figure.html url="sep_06_new_england/15_flowers_mountains.webp" description="pleasantly surprised by the white mountains mountaineyness" %}
 
-{% include figure.html url="sep_06_new_england/16_honey_bee.jpg" description="cute lil bee butts hard at work" %}
+{% include figure.html url="sep_06_new_england/16_honey_bee.webp" description="cute lil bee butts hard at work" %}
 
-{% include figure.html url="sep_06_new_england/17_wildlife_preserve.jpg" description="sully & mandarb photo op at the wildlife preserve outlook" %}
+{% include figure.html url="sep_06_new_england/17_wildlife_preserve.webp" description="sully & mandarb photo op at the wildlife preserve outlook" %}
 
 After riding the entire length of the rail trail, we set out on some rural
 roads to find dispersed camping. The journey began with a long, plodding
@@ -146,7 +147,7 @@ ascent of a poorly maintained paved road, continued with a speedy hill descent d
 leading into
 [White Mountain National Forest](https://www.fs.usda.gov/whitemountain).
 
-{% include figure.html url="sep_06_new_england/18_meg_hill_forest.jpeg" description="meg climbing her way into the white mountains" %}
+{% include figure.html url="sep_06_new_england/18_meg_hill_forest.webp" description="meg climbing her way into the white mountains" %}
 
 Our search for dispersed camping at 4 PM on Saturday of Labor Day weekend
 went better than expected. After quite a few occupied campsites, most of which
@@ -160,7 +161,7 @@ stopped by to pick up the truck around 8:30 PM, well after dark. Which just
 makes me more curious why anybody would leave their truck parked in a national
 forest next to a campsite they don't intend to use. But on the plus side, we got a campsite!
 
-{% include figure.html url="sep_06_new_england/19_meg_camp.jpeg" description="we got a campsite on labor day!" %}
+{% include figure.html url="sep_06_new_england/19_meg_camp.webp" description="we got a campsite on labor day!" %}
 
 The campsite was largely uneventful, except for one thing: at 9PM, for a good
 half hour, the air exploded. BANG BANG BANG, one after another, for thirty minutes straight. Woke me right up and kept me up until it ended. I still don't
@@ -187,11 +188,11 @@ the ride, a long hill ascent to
 [Jefferson Notch](https://trailsnh.com/reports/Forest-Roads-Gates.php?road=jefferson-notch-road),
 the highest point along any public road in New Hampshire.
 
-{% include figure.html url="sep_06_new_england/20_land_of_many_uses.jpg" description="our use is trekking along on some bicycles" %}
+{% include figure.html url="sep_06_new_england/20_land_of_many_uses.webp" description="our use is trekking along on some bicycles" %}
 
-{% include figure.html url="sep_06_new_england/21_shroomies.jpg" description="land of many shroomies" %}
+{% include figure.html url="sep_06_new_england/21_shroomies.webp" description="land of many shroomies" %}
 
-{% include figure.html url="sep_06_new_england/22_nate_notch.jpg" description="getting high" %}
+{% include figure.html url="sep_06_new_england/22_nate_notch.webp" description="getting high" %}
 
 This hill climb was long, but a lot easier than the climb to our
 campsite the previous day due to the rolling nature of the hills and the

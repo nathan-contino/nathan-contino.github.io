@@ -1,5 +1,5 @@
 ---
-title:  "Peter Kovak' *Flash Boys: Not So Fast*"
+title:  "Peter Kovak's <i>Flash Boys: Not So Fast</i>"
 date:   2018-01-24 11:42:53 -0500
 layout: default
 categories: techblog

@@ -3,6 +3,7 @@ title:  "Horse Trail Fairy Tale"
 date:   2021-09-12 14:14:22 -0700
 layout: default
 categories: blog
+permalink: /:categories/:year/:month/:day/:title:output_ext
 ---
 
 This weekend, Meg and I headed out to the Finger Lakes for a biking day trip
@@ -51,11 +52,11 @@ though taking pictures was a little difficult since there are a LOT of bugs in
 the Finger Lakes, and they swarm you the minute that you stop your bike. But
 the weather was a very comfy 65-70 degrees, there was a mild breeze in the air, and the views, when we weren't surrounded by forest, were spectacular.
 
-{% include figure.html url="sep_12_finger_lakes/1_start_pic.jpg" description="leaving clem in the forest" %}
+{% include figure.html url="sep_12_finger_lakes/1_start_pic.webp" description="leaving clem in the forest" %}
 
-{% include figure.html url="sep_12_finger_lakes/2_bugs.jpg" description="meg starting to battle the mosquitos" %}
+{% include figure.html url="sep_12_finger_lakes/2_bugs.webp" description="meg starting to battle the mosquitos" %}
 
-{% include figure.html url="sep_12_finger_lakes/3_view_nate.jpg" description="nate and the finger lakes views" %}
+{% include figure.html url="sep_12_finger_lakes/3_view_nate.webp" description="nate and the finger lakes views" %}
 
 
 We eventually reached a steep-ish hill up a paved road, which fortunately wasn't
@@ -65,11 +66,11 @@ trail. There were some large rocks and roots, some mud, some weeds in our way,
 and some steep hills, but overall the terrain was good enough to ride on 95% of
 the time.
 
-{% include figure.html url="sep_12_finger_lakes/4_meg_creek.jpg" description="and the hike-a-bike begins" %}
+{% include figure.html url="sep_12_finger_lakes/4_meg_creek.webp" description="and the hike-a-bike begins" %}
 
-{% include figure.html url="sep_12_finger_lakes/5_nate_creek_crossing.jpg" description="and nate perseveres" %}
+{% include figure.html url="sep_12_finger_lakes/5_nate_creek_crossing.webp" description="and nate perseveres" %}
 
-{% include figure.html url="sep_12_finger_lakes/6_almost_horse_path.jpg" description="horse path hike-a-bike begins" %}
+{% include figure.html url="sep_12_finger_lakes/6_almost_horse_path.webp" description="horse path hike-a-bike begins" %}
 
 Then we came to a corner where our horse trail met another road, and turned into
 yet another horse trail to the east. The horse trail looked pretty muddy and overgrown... but the only other option was a ride down a busy highway for a good
@@ -124,9 +125,9 @@ trail passed right through. Unusual though it may be, we passed through the gate
 approving "moo"), and proceeded through the paddock, dodging cow pies all the
 way.
 
-{% include figure.html url="sep_12_finger_lakes/7_cows.jpg" description="COWS!" %}
+{% include figure.html url="sep_12_finger_lakes/7_cows.webp" description="COWS!" %}
 
-{% include figure.html url="sep_12_finger_lakes/8_post_cows.jpg" description="cow pasture cruisin" %}
+{% include figure.html url="sep_12_finger_lakes/8_post_cows.webp" description="cow pasture cruisin" %}
 
 Our final descent to the winery took us down a mile at least of steep downhill overlooking Seneca Lake. We cut through a winery's vineyard, locked up the
 bikes, and then went to a different winery across the street when it turned out
@@ -138,7 +139,7 @@ and soon we were on our way with a bottle of bubbly for the road.
 
 # The Broken Bridge
 
-{% include figure.html url="sep_12_finger_lakes/9_no_bridge.jpg" description="never trust g-maps to be up to date" %}
+{% include figure.html url="sep_12_finger_lakes/9_no_bridge.webp" description="never trust g-maps to be up to date" %}
 
 Fortunately for our legs, our return journey didn't take us up that same mile+
 long hill we came down on our way to the winery. Instead, we headed up a half mile or so of the hill, took a side road, and almost immediately realized that the next road we were supposed to turn onto was just... gone. Turns out, the
@@ -149,9 +150,9 @@ I assume that if we were trespassing it wasn't egregious enough to get us shot.
 
 # Ice Cream Sandwiches and Cucumbers
 
-{% include figure.html url="sep_12_finger_lakes/10_meg_ice_cream.jpg" description="ice cream sammies for the win" %}
+{% include figure.html url="sep_12_finger_lakes/10_meg_ice_cream.webp" description="ice cream sammies for the win" %}
 
-{% include figure.html url="sep_12_finger_lakes/11_stand.jpg" description="cucumbers also for the win" %}
+{% include figure.html url="sep_12_finger_lakes/11_stand.webp" description="cucumbers also for the win" %}
 
 The rest of our route took us down mostly-paved roads on our way back to the
 national forest with a mix up uphills and downhills that mostly spared our legs
@@ -170,7 +171,7 @@ Just after the farm stand, a herd of cows decided to run alongside us as we
 biked down the road. It's the little things in life that make you appreciate
 the world around you.
 
-{% include figure.html url="sep_12_finger_lakes/12_cows.jpg" description="STAMPEDE!" %}
+{% include figure.html url="sep_12_finger_lakes/12_cows.webp" description="STAMPEDE!" %}
 
 From the farm stand, it was only a few more miles of mostly quiet, mostly paved
 roads back to the car. Once we were back in the national forest, we passed some
@@ -193,7 +194,7 @@ trails, ever. Ithaca has good coffee and good beer.
 
 # Dedication
 
-{% include figure.html url="sep_12_finger_lakes/0_vinny.jpg" description="Vinny, Nate, and Meg at Smith Mountain Lake" %}
+{% include figure.html url="sep_12_finger_lakes/0_vinny.webp" description="Vinny, Nate, and Meg at Smith Mountain Lake" %}
 
 This post is dedicated in memory of Vincent Ostermeier, my grandfather, who very
 recently passed away. May you find good books, fast boats, fine wine, and good

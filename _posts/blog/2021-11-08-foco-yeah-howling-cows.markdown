@@ -3,6 +3,7 @@ title:  "FoCo Yeah, Howling Cows"
 date:   2021-11-08 14:14:22 -0700
 layout: default
 categories: blog
+permalink: /:categories/:year/:month/:day/:title:output_ext
 ---
 
 Meg and I returned to day touring this weekend with a jam-packed exploration
@@ -33,17 +34,17 @@ next.
 Before we jump into our most recent ride, a smattering of some recent
 happenings in our lives:
 
-{% include figure.html url="nov_08_foco/cows_wny.jpg" description="curious dairy cows wonder why we're about to drive 25 hours straight" %}
+{% include figure.html url="nov_08_foco/cows_wny.webp" description="curious dairy cows wonder why we're about to drive 25 hours straight" %}
 
-{% include figure.html url="nov_08_foco/the_long_drive.jpg" description="sunset, over halfway to colorado" %}
+{% include figure.html url="nov_08_foco/the_long_drive.webp" description="sunset, over halfway to colorado" %}
 
-{% include figure.html url="nov_08_foco/mandarb_longhorn.jpg" description="i've been upgrading" %}
+{% include figure.html url="nov_08_foco/mandarb_longhorn.webp" description="i've been upgrading" %}
 
-{% include figure.html url="nov_08_foco/brews_around_denver.jpg" description="denver in fall has optimal outdoor beer drinking and biking weather" %}
+{% include figure.html url="nov_08_foco/brews_around_denver.webp" description="denver in fall has optimal outdoor beer drinking and biking weather" %}
 
-{% include figure.html url="nov_08_foco/city_park.jpg" description="when it's not on fire, this state is even pretty on the front range sometimes" %}
+{% include figure.html url="nov_08_foco/city_park.webp" description="when it's not on fire, this state is even pretty on the front range sometimes" %}
 
-{% include figure.html url="nov_08_foco/clear_creek_to_golden.jpg" description="in all fairness, denver does have its fair share of nice bike rides" %}
+{% include figure.html url="nov_08_foco/clear_creek_to_golden.webp" description="in all fairness, denver does have its fair share of nice bike rides" %}
 
 # The Road to Fort Collins
 
@@ -72,7 +73,7 @@ how special Fort Collins really is.
 
 # A Pleasant Valley
 
-{% include figure.html url="nov_08_foco/poudre.jpg" description="our journey started on the poudre river in fort collins" %}
+{% include figure.html url="nov_08_foco/poudre.webp" description="our journey started on the poudre river in fort collins" %}
 
 The Poudre River Trail turned out to be just the kind of scenic greenway we've
 come to love in Colorado: rocky rapids, cute bridges, isolation from noisy cars,
@@ -112,7 +113,7 @@ couple miles of rolling hills to reach our goal:
 
 # The Howling Cow Cafe
 
-{% include figure.html url="nov_08_foco/howling_cow.jpg" description="the howling cow cafe" %}
+{% include figure.html url="nov_08_foco/howling_cow.webp" description="the howling cow cafe" %}
 
 There's nothing like a well-run cafe to get your bike ride off to a good start.
 The Howling Cow didn't disappoint, with well executed coffees, two particularly
@@ -120,7 +121,7 @@ fresh sandwiches, and, for some reason, one gloriously creamy milkshake. I
 suppose you'd expect a dairy farm to make a great milkshake, but this one was
 even better than I'd expected.
 
-{% include figure.html url="nov_08_foco/cheeeeeeeeese.jpg" description="they specialize in dairy. can you tell?" %}
+{% include figure.html url="nov_08_foco/cheeeeeeeeese.webp" description="they specialize in dairy. can you tell?" %}
 
 We took in our sandwiches, coffee, and milkshake on the expansive lawn, and
 enjoyed a day that was just breaking 70 degrees. Dozens of cyclists rode by
@@ -131,18 +132,18 @@ another major difference from Denver, where even if you lock your bike in
 your own garage, you're never really certain it'll be there when you come back
 to it.
 
-{% include figure.html url="nov_08_foco/cowling_how.jpg" description="the lawn at howling cow" %}
-{% include figure.html url="nov_08_foco/cowling_mesa.jpg" description="pleasant valley mesas" %}
+{% include figure.html url="nov_08_foco/cowling_how.webp" description="the lawn at howling cow" %}
+{% include figure.html url="nov_08_foco/cowling_mesa.webp" description="pleasant valley mesas" %}
 
 After relaxing for a bit on the lawn and remarking on just how pleasant Pleasant
 Valley Farms really was, we set out on the bikes again. This time, we didn't
 really have a destination in mind.
 
-{% include figure.html url="nov_08_foco/rip.jpg" description="shoutout to whitney with some premium roadkill" %}
+{% include figure.html url="nov_08_foco/rip.webp" description="shoutout to whitney with some premium roadkill" %}
 
-{% include figure.html url="nov_08_foco/bus.jpg" description="i know nothing about this bus but it is pretty cool" %}
+{% include figure.html url="nov_08_foco/bus.webp" description="i know nothing about this bus but it is pretty cool" %}
 
-{% include figure.html url="nov_08_foco/howling_cow_truck.jpg" description="a lightly shotgunned bus" %}
+{% include figure.html url="nov_08_foco/howling_cow_truck.webp" description="a lightly shotgunned bus" %}
 
 # Horsetooth Reservoir
 
@@ -159,7 +160,7 @@ Valley: rolling hills, wide shoulders, polite drivers. I'm sure those rolling
 hills are beautiful the 30 days a year that they're actually green, mostly in May. But we soon hit our first big obstacle: a very tall, very steep, very long
 hill right next to a dam for the reservoir.
 
-{% include figure.html url="nov_08_foco/meg_and_the_hill.jpg" description="little meg, big hill" %}
+{% include figure.html url="nov_08_foco/meg_and_the_hill.webp" description="little meg, big hill" %}
 
 Fortunately, it comes with a
 built-in rest stop: the road at the top of the dam, halfway up the hill (the
@@ -168,11 +169,11 @@ to the top of the dam, I was happy to shed a layer of jacket and sip some
 water. But I didn't expect the view: a breathtaking vista of rocky ridge, reservoir, and just the faint outlines of high peaks peeking from behind
 the foothills.
 
-{% include figure.html url="nov_08_foco/dam.jpg" description="dam" %}
+{% include figure.html url="nov_08_foco/dam.webp" description="dam" %}
 
-{% include figure.html url="nov_08_foco/that_dam_view.jpg" description="it was nice on the dam" %}
+{% include figure.html url="nov_08_foco/that_dam_view.webp" description="it was nice on the dam" %}
 
-{% include figure.html url="nov_08_foco/gnarly_hill.jpg" description="hill remains gnarly to look at halfway up" %}
+{% include figure.html url="nov_08_foco/gnarly_hill.webp" description="hill remains gnarly to look at halfway up" %}
 
 And the views at the top of the ridge were even better, providing a view of the reservoir in addition to sweeping views of the entire Fort Collins area. Damn,
 those guys have it nice. The ridge is literally right on the edge of town!
@@ -194,7 +195,7 @@ By the time we were ready to leave the road, I'd spotted a perfect alternative:
 a singletrack trail snaking its way down the mountain, with only a few dogs and
 mountain bikes to dodge.
 
-{% include figure.html url="nov_08_foco/mandarb_gets_back_to_singletrack.jpg" description="in all fairness, mandarb's top tube literally says 'singletrack'" %}
+{% include figure.html url="nov_08_foco/mandarb_gets_back_to_singletrack.webp" description="in all fairness, mandarb's top tube literally says 'singletrack'" %}
 
 Meg was (reasonably) skeptical at first, but eventually gave into the temptation
 of adventure. The trail turned out to be chock full of rocks. And hairpin turns. And more rocks. And more dogs and bikes than I expected. Frankly, it
@@ -204,7 +205,7 @@ took it slow, let faster travelers pass us, and in the end we had an absolutely
 brilliant time. Nothing quite like sailing down a mountain bike trail right
 into the bike lanes of town.
 
-{% include figure.html url="nov_08_foco/mountain_bike_trail.jpg" description="not sure we'd have tackled this if we could see the whole thing from the start" %}
+{% include figure.html url="nov_08_foco/mountain_bike_trail.webp" description="not sure we'd have tackled this if we could see the whole thing from the start" %}
 
 # Not Just Bikes
 
@@ -221,9 +222,9 @@ awesome: there's dedicated lanes for bikes, separate from the dedicated lanes
 for pedestrians. Even better: in the densest parts of campus, there just
 isn't a dedicated lane for cars at all. Take that, car-industrial complex.
 
-{% include figure.html url="nov_08_foco/thats_not_a_car_lane.jpg" description="there is no car lane in this picture" %}
+{% include figure.html url="nov_08_foco/thats_not_a_car_lane.webp" description="there is no car lane in this picture" %}
 
-{% include figure.html url="nov_08_foco/ram.jpg" description="i guess the csu mascot is the ram" %}
+{% include figure.html url="nov_08_foco/ram.webp" description="i guess the csu mascot is the ram" %}
 
 We were also impressed by the sheer number of bike racks and parked bikes
 around town, especially on campus. It's clear that a huge proportion of
@@ -246,7 +247,7 @@ with shared sinks. The food truck was a simple but well-executed prosciutto and
 artichoke heart flatbread. And it was super easy to get to Stodgy, because all
 of the roads have bike lanes.
 
-{% include figure.html url="nov_08_foco/stodgy_brewing.jpg" description="even more racks" %}
+{% include figure.html url="nov_08_foco/stodgy_brewing.webp" description="even more racks" %}
 
 # Mason Street
 
@@ -259,10 +260,10 @@ very pleasant way to ride your bicycle. It goes to show that it is,
 in fact, possible to create north-south bike routes through town. Looking
 at you, [Denver](https://www.denvergov.org/content/denvergov/en/transportation-infrastructure/programs-services/bicycles/bike-maps.html).
 
-{% include figure.html url="nov_08_foco/smooth_corners.jpg" description="smooth riding around csu" %}
-{% include figure.html url="nov_08_foco/racks_on_racks.jpg" description="racks on racks" %}
+{% include figure.html url="nov_08_foco/smooth_corners.webp" description="smooth riding around csu" %}
+{% include figure.html url="nov_08_foco/racks_on_racks.webp" description="racks on racks" %}
 
-{% include figure.html url="nov_08_foco/csu.jpg" description="just a couple of old people riding around csu" %}
+{% include figure.html url="nov_08_foco/csu.webp" description="just a couple of old people riding around csu" %}
 
 We eventually ended up right in the heart of Fort Collins: Old Town. A
 super walkable stretch of restaurants, bars, shops, and a guest taproom
@@ -289,7 +290,7 @@ race, and we had the pleasure of seeing one of the competitors ride
 *two* bicycles at once down a bike lane to his truck. Only in Fort
 Collins, I guess.
 
-{% include figure.html url="nov_08_foco/double_bike.jpg" description="yep, that's a guy riding two bicycles at once" %}
+{% include figure.html url="nov_08_foco/double_bike.webp" description="yep, that's a guy riding two bicycles at once" %}
 
 # The Road Goes Ever On
 
@@ -303,7 +304,7 @@ suburban grocery stores to load up on supplies for the week, and headed home.
 
 # Conclusion
 
-{% include figure.html url="nov_08_foco/well_be_back.jpg" description="we'll be back" %}
+{% include figure.html url="nov_08_foco/well_be_back.webp" description="we'll be back" %}
 
 Fort Collins opened my eyes to just how good city bicycling can be.
 I didn't bike back when I lived in Rochester because my bike was

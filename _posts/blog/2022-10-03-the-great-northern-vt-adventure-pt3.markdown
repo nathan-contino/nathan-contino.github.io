@@ -3,6 +3,7 @@ title:  "Great North VT Adventure: Part 3 (Lincoln Gap to Mount Philo)"
 date:   2022-10-03 14:14:22 -0700
 layout: default
 categories: blog
+permalink: /:categories/:year/:month/:day/:title:output_ext
 ---
 
 Meg and I once again completed our longest self-supported bike tour yet: seven
@@ -26,43 +27,43 @@ Primitive camping by the babbling brook turned out to be a very pleasant way to 
 
 Remember how yesterday's Lincoln Gap ascent was brutally uphill? The way down was... slightly less brutally downhill. And largely dirt. Note to self: the next time you climb Lincoln Gap, ascend the dirt side.
 
-{% include figure.html url="2022_10_03/01_morning_dirt.jpg" description="off to a good start" %}
+{% include figure.html url="2022_10_03/01_morning_dirt.webp" description="off to a good start" %}
 
 We set out on a long and winding path to Middlebury, where we've tracked down the first coffee shop of the day. On the way, we'll pass through Lincoln and a whole lot of dirt roads.
 
 # A Frosty Morning in the Greens
 
-{% include figure.html url="2022_10_03/02_frost.jpg" description="our first frost of the season" %}
+{% include figure.html url="2022_10_03/02_frost.webp" description="our first frost of the season" %}
 
 Lincoln sits within a valley in the Green Mountains. As we ride lower and lower into the valley, it gets colder and colder. We start to notice frost on the fields. The ponds give off a decidedly spooky vibe, thanks to fall foliage and the steam evaporating off the warm pond surfaces into the cold air.
 
-{% include figure.html url="2022_10_03/03_hay_sun.jpg" description="oh hay sun" %}
+{% include figure.html url="2022_10_03/03_hay_sun.webp" description="oh hay sun" %}
 
 We enjoy a lovely morning, looping up and down and over and across a myriad of hills on the healthy population of dirt roads in the Lincoln area. The occasional school bus or gaggle of kids waiting at the end of a driveway serves as a reminder that despite *our* vacation, for the rest of the world, it's Monday.
 
-{% include figure.html url="2022_10_03/04_tree_farm.jpg" description="i heard taylor swift grew up here" %}
+{% include figure.html url="2022_10_03/04_tree_farm.webp" description="i heard taylor swift grew up here" %}
 
-{% include figure.html url="2022_10_03/05_ bears.jpg" description="unsure whether or not to be disappointed that these are the only bears we saw" %}
+{% include figure.html url="2022_10_03/05_ bears.webp" description="unsure whether or not to be disappointed that these are the only bears we saw" %}
 
 We finally descend fully into the flatlands surrounding Lake Champlain on a very windy, very steep, paved road.
 
-{% include figure.html url="2022_10_03/06_curvy_road.jpg" description="the road into middlebury was literally a roller coaster" %}
+{% include figure.html url="2022_10_03/06_curvy_road.webp" description="the road into middlebury was literally a roller coaster" %}
 
 It becomes immediately obvious that we're no longer "up in the mountains": the air is warm, the tree-encrusted hills give way to sprawling farms, and the narrow dirt roads inflate into wide, highly-trafficked pavement.
 
 Aside from our cruise through East Middlebury and the crossing over 7 (as truck-filled a road as I've ever seen in Vermont), we manage to keep to back roads. The route into Middlebury and our coffee shop destination takes us on a dirt road right in the middle of resurfacing. Which means next to no traffic, except for the grading machine, because there's a giant pile of sand in the middle of the road.
 
-{% include figure.html url="2022_10_03/07_dirt_construction.jpg" description="we were excited for dirt so close to middlebury then realized the road was just under construction" %}
+{% include figure.html url="2022_10_03/07_dirt_construction.webp" description="we were excited for dirt so close to middlebury then realized the road was just under construction" %}
 
-{% include figure.html url="2022_10_03/13_field.jpg" description="the flat lands" %}
+{% include figure.html url="2022_10_03/13_field.webp" description="the flat lands" %}
 
-{% include figure.html url="2022_10_03/14_cozy.jpg" description="we didn't get to ride this tractor so we can only imagine how cozy it must be" %}
+{% include figure.html url="2022_10_03/14_cozy.webp" description="we didn't get to ride this tractor so we can only imagine how cozy it must be" %}
 
 # Middlebury
 
 We soon reach Middlebury, and take the "trail around Middlebury" to avoid the roads that are now somewhat-clogged with cars. A confused high school student asks us if we've seen her outdoor gym class on the trails; I wonder if she's still out there, looking for them.
 
-{% include figure.html url="2022_10_03/09_bridge.jpg" description="legends say you can hear the moans of lazy high school gym class cutters from this bridge" %}
+{% include figure.html url="2022_10_03/09_bridge.webp" description="legends say you can hear the moans of lazy high school gym class cutters from this bridge" %}
 
 A suspension bridge and a mildly stressful downtown ride later, we arrive at [Royal Oak Coffee](https://www.royaloakcoffee.com/). After all our hard work, it seems fitting to reward ourselves with a vegan pastry "flight" containing:
 
@@ -70,7 +71,7 @@ A suspension bridge and a mildly stressful downtown ride later, we arrive at [Ro
 - spiced pear cake
 - cider donut
 
-{% include figure.html url="2022_10_03/10_pastry_flight.jpg" description="yes, we will take all of the pastries please" %}
+{% include figure.html url="2022_10_03/10_pastry_flight.webp" description="yes, we will take all of the pastries please" %}
 
 Meg was especially fond of the cider donut. I thought the cardamom bun had the most "not-vegan" texture. When you regularly buy cider donuts in the local diner for 50 cents, purchasing a fancy vegan cider donut for $3.75 feels not entirely unlike the infamous Pulp Fiction [$5 milkshake](https://www.youtube.com/watch?v=lZzai6at_xA). But Royal Oak *did* made some of the best coffee of our entire trip, including one of the best mochas I've ever had. I'll allow the markup since vegan pastries are really freaking hard to get right.
 
@@ -78,7 +79,7 @@ Chock full of pastries, it's time to check out the local brewery. We head north 
 
 # Odder Creek
 
-{% include figure.html url="2022_10_03/11_otter_creek.jpg" description="otter creek provided beers, mac&cheese, & good times" %}
+{% include figure.html url="2022_10_03/11_otter_creek.webp" description="otter creek provided beers, mac&cheese, & good times" %}
 
 Our experience at Otter Creek is decidedly odd. First off, our beers: I enjoy a bitter IPA. Meg opts for a flight:
 
@@ -93,17 +94,17 @@ They make a very peppery homemade mac and cheese, which they are happy to inform
 
 # Vergennes
 
-{% include figure.html url="2022_10_03/12_bridge.jpg" description="two way covered bridge!" %}
+{% include figure.html url="2022_10_03/12_bridge.webp" description="two way covered bridge!" %}
 
-{% include figure.html url="2022_10_03/15_adks.jpg" description="first view of the dacks" %}
+{% include figure.html url="2022_10_03/15_adks.webp" description="first view of the dacks" %}
 
 But we can't hang out at the brewery all day. So after a couple of beers and some carbs, we hit the road to Vergennes. The weather is beautiful, even warm. There are cute farms, dirt roads, cows, and very fluffy dogs.
 
-{% include figure.html url="2022_10_03/08_horse_castle.jpg" description="a castle for horsies" %}
+{% include figure.html url="2022_10_03/08_horse_castle.webp" description="a castle for horsies" %}
 
 Time flies by, and before long we find ourselves at the [3 Squares Cafe](https://www.threesquarescafe.com/).
 
-{% include figure.html url="2022_10_03/16_vergennes.jpg" description="a stop in vergennes for 2nd lunch" %}
+{% include figure.html url="2022_10_03/16_vergennes.webp" description="a stop in vergennes for 2nd lunch" %}
 
 I enjoy a remarkably well executed pita. Meg chooses a soup that is disappointing only because it *really really* sounded like a creamy soup... but turned out to be not creamy at all. Such is life.
 
@@ -111,17 +112,17 @@ We grab a 4-pack of Foam beers at the local wine store, and take the annoyingly 
 
 # Mount Philo & Mango
 
-{% include figure.html url="2022_10_03/17_adks_again.jpg" description="the people that live on the west side of this road have an absolutely wild view" %}
+{% include figure.html url="2022_10_03/17_adks_again.webp" description="the people that live on the west side of this road have an absolutely wild view" %}
 
 Then, it's a relaxing lumpy ride all the way to Mount Philo. Even at the base of the hill, the views of Lake Champlain and the Adirondacks are stunning. The ranger is kind enough to let us take our bikes the wrong direction around the hill to avoid an extra mile or two of brutal climbing after an already long day on the bikes. Thanks Nathaniel! Sorry for spooking you at the window when we silently arrived on our bicycles.
 
 After arriving, we grab a couple of cans of beer and enjoy the sunset view at the peak. Nothing beats petting a very kind golden retriever named Mango while looking out at a sunset over the mountains and sipping a local beer.
 
-{% include figure.html url="2022_10_03/18_philo_views.jpg" description="top of mt philo" %}
+{% include figure.html url="2022_10_03/18_philo_views.webp" description="top of mt philo" %}
 
 Soon, it starts to get dark. We say our goodbyes to Mango, and return to the campsite to set up the tent. Before long, our good friends (and new Burlington residents) Rachael and Gino stop by with some firewood, beer and hot dogs. Thanks for stopping by to hang out! It was a great way to spend the evening.
 
-{% include figure.html url="2022_10_03/19_cutie_patooties.jpg" description="cheesin" %}
+{% include figure.html url="2022_10_03/19_cutie_patooties.webp" description="cheesin" %}
 
 # The Saga Continues
 

@@ -3,6 +3,7 @@ title:  "Leadville, Twin Lakes, and Turquoise Lake Loop"
 date:   2021-06-04 14:14:22 -0700
 layout: default
 categories: blog
+permalink: /:categories/:year/:month/:day/:title:output_ext
 ---
 
 This weekend's bike trip in Lake County was a little different from our
@@ -86,8 +87,8 @@ weekend of maskless festivities. We parked, set up the tent at a beautiful overl
 damn good, so we tossed the laptops in the car and took the bikes out for a
 sunset spin.
 
-{% include figure.html url="june_04_bike_trip/2_meg_karate.jpg" description="it’s called fashion" %}
-{% include figure.html url="june_04_bike_trip/3_nate_karate.jpg" description="camp karate fashion" %}
+{% include figure.html url="june_04_bike_trip/2_meg_karate.webp" description="it’s called fashion" %}
+{% include figure.html url="june_04_bike_trip/3_nate_karate.webp" description="camp karate fashion" %}
 
 I've said this before, but let me remind you: Meg and I don't ride mountain
 bikes. Well, we don't ride *modern* mountain bikes, which come with dual
@@ -102,7 +103,7 @@ for pavement, dirt roads, gravel, and even some light
 But they aren't exactly optimal for challenging mountain bike terrain
 like you'll find at ski resorts during the summer these days.
 
-{% include figure.html url="june_04_bike_trip/1_nate_bike.jpg" description="this road should have been foreshadowing for saturday" %}
+{% include figure.html url="june_04_bike_trip/1_nate_bike.webp" description="this road should have been foreshadowing for saturday" %}
 
 Of course, that didn't stop us from taking on 10% and higher grades on rocky,
 sandy roads near our campsite at the base of
@@ -118,8 +119,8 @@ complain. We got back to the campsite, whipped up some camp macaroni and
 cheese on our stove, and called it a night early so we could get the maximum
 amount of time on the bikes on Saturday.
 
-{% include figure.html url="june_04_bike_trip/4_twin_lakes_sunset.jpg" description="twin lakes sunset" %}
-{% include figure.html url="june_04_bike_trip/doodle.png" description="meg’s rendition" %}
+{% include figure.html url="june_04_bike_trip/4_twin_lakes_sunset.webp" description="twin lakes sunset" %}
+{% include figure.html url="june_04_bike_trip/doodle.webp" description="meg’s rendition" %}
 
 # The Saturday Loop
 
@@ -127,25 +128,25 @@ amount of time on the bikes on Saturday.
 coffee, and headed out on the first section of our ride: biking from Twin
 Lakes to Turquoise Lake.
 
-{% include figure.html url="june_04_bike_trip/6_forebay.jpg" description="they say montana is big sky country, but colorado has some pretty big skies" %}
+{% include figure.html url="june_04_bike_trip/6_forebay.webp" description="they say montana is big sky country, but colorado has some pretty big skies" %}
 
 We started out on a surprisingly smooth paved road that snaked its way through
 even more campsites that I had possibly imagined existed by Twin Lakes. And then
 we saw one of the weirdest... houses? That I've ever seen.
 
-{% include figure.html url="june_04_bike_trip/7_weird_house.jpg" description="when you look at a place and think “weird” but also think “i’d live there”" %}
+{% include figure.html url="june_04_bike_trip/7_weird_house.webp" description="when you look at a place and think “weird” but also think “i’d live there”" %}
 
 Soon the trail gave way to gravel as we passed a mine with views so nice,
 it made me consider working at a mine.
 
-{% include figure.html url="june_04_bike_trip/8_mines.jpg" description="still a mining town" %}
+{% include figure.html url="june_04_bike_trip/8_mines.webp" description="still a mining town" %}
 
 After a short time on gravel, we were back to the pavement and riding through
 ranch land. But it wasn't long before we made our way to a dirt seasonal road
 that really wasn't anything more than an ATV trail. (Sidenote: we'd later
 learn just what an ATV trail can be in the mountains. More on that later)
 
-{% include figure.html url="june_04_bike_trip/9_seasonal_road.jpg" description="the true sign of a well chosen bike route" %}
+{% include figure.html url="june_04_bike_trip/9_seasonal_road.webp" description="the true sign of a well chosen bike route" %}
 
 This ended up being my favorite road of the entire trip: just enough roughage
 of rocks and sand on the raod to keep things interesting, but generally smooth
@@ -153,9 +154,9 @@ sailing, peace and quiet, and absolutely crazy views of the
 [Mosquito Range](https://en.wikipedia.org/wiki/Mosquito_Range) on the eastern
 side of the valley. All we saw of humanity the entire time was one or two dirt bikes and perhaps one tent at a campsite.
 
-{% include figure.html url="june_04_bike_trip/10_dirt_road.jpg" description="sandy in sections but overall a beautiful road" %}
+{% include figure.html url="june_04_bike_trip/10_dirt_road.webp" description="sandy in sections but overall a beautiful road" %}
 
-{% include figure.html url="june_04_bike_trip/11_green_trees.jpg" description="green trees and bliss" %}
+{% include figure.html url="june_04_bike_trip/11_green_trees.webp" description="green trees and bliss" %}
 
 But the lazy dirt roads can't last forever. The last section of our trek to
 Turquoise Lake brought us back to paved ranch roads and past
@@ -164,17 +165,17 @@ allegedly the highest altitude golf course in the
 US. A few more cars here, but not too many, and everyone passed us at a safe
 distance and speed.
 
-{% include figure.html url="june_04_bike_trip/12_pavement_and_cows.jpg" description="obligatory cow pic" %}
+{% include figure.html url="june_04_bike_trip/12_pavement_and_cows.webp" description="obligatory cow pic" %}
 
-{% include figure.html url="june_04_bike_trip/13_mount_massive_golf.jpg" description="mount massive golf course is a cutie, next time we will bring the clubs" %}
+{% include figure.html url="june_04_bike_trip/13_mount_massive_golf.webp" description="mount massive golf course is a cutie, next time we will bring the clubs" %}
 
 A short climb after the golf course, we reached
 [Sugar Loaf Dam](https://en.wikipedia.org/wiki/Sugar_Loaf_Dam). Damn, it was
 beautiful. (sorry)
 
-{% include figure.html url="june_04_bike_trip/14_sully_and_mandarb.jpg" description="sully & mandarb after climb 1 of 3 around turquoise lake" %}
+{% include figure.html url="june_04_bike_trip/14_sully_and_mandarb.webp" description="sully & mandarb after climb 1 of 3 around turquoise lake" %}
 
-{% include figure.html url="june_04_bike_trip/15_point_to_camp.jpg" description="camp and clem are somewhere around there" %}
+{% include figure.html url="june_04_bike_trip/15_point_to_camp.webp" description="camp and clem are somewhere around there" %}
 
 After a brief photoshoot and water break (hey, Colorado is hot and dry!), we
 started on the loop on routes 9, 4 & 9C around the lake. This was actually
@@ -184,8 +185,8 @@ four times as fast as cross country skiing, but there was something special
 about the pure peace and quiet of snowbound Turqoise lake in winter. At least
 until the snowmobiles show up.
 
-{% include figure.html url="june_04_bike_trip/17_meg_climbs.jpg" description="the road around turquoise lake just keeps going up" %}
-{% include figure.html url="june_04_bike_trip/18_nate_skis.jpg" description="hard to believe nate is skiing a similar incline" %}
+{% include figure.html url="june_04_bike_trip/17_meg_climbs.webp" description="the road around turquoise lake just keeps going up" %}
+{% include figure.html url="june_04_bike_trip/18_nate_skis.webp" description="hard to believe nate is skiing a similar incline" %}
 
 We rode up and down quite a few hills at Turquoise Lake, and at the very
 summit of the last uphill segment, we took the opportunity for lunch at
@@ -194,9 +195,9 @@ lunched when we cross country skiied, though we had a better view this
 time since we weren't able to deviate much from the groomed trail in
 March.
 
-{% include figure.html url="june_04_bike_trip/16_thirsty_gril.jpg" description="meg hydrating" %}
+{% include figure.html url="june_04_bike_trip/16_thirsty_gril.webp" description="meg hydrating" %}
 
-{% include figure.html url="june_04_bike_trip/19_lunch.jpg" description="just two sandal wearing adventure bikers drinking hard kombucha and eating salami sammies" %}
+{% include figure.html url="june_04_bike_trip/19_lunch.webp" description="just two sandal wearing adventure bikers drinking hard kombucha and eating salami sammies" %}
 
 Some hard kombucha, salami sandwiches, and cheddar
 bunnies (the store was out of [pink goldfish](https://www.thrillist.com/eat/nation/best-goldfish-flavors-ranked), in my defense) later, we were on
@@ -205,7 +206,7 @@ record speed. We checked out the other overlook points, but they were
 honestly just lower altitude versions of Shimmering Point with slightly
 worse views and some moderately fun gravel paths to bike on.
 
-{% include figure.html url="june_04_bike_trip/20_meg_in_trees.jpg" description="channeling some cycling about vibes" %}
+{% include figure.html url="june_04_bike_trip/20_meg_in_trees.webp" description="channeling some cycling about vibes" %}
 
 The downhill ride from our lunch spot brought us almost all the way to
 Leadville, where I found a nice gravel path along the side of the road
@@ -213,9 +214,9 @@ and we checked out the very unusually organized
 [Evergreen Cemetery](https://leadville.com/the-evergreen-cemetery-a-record-of-leadvilles-past/), which is very...
 gridded.
 
-{% include figure.html url="june_04_bike_trip/22_railroad.jpg" description="the railroad was a useful indicator of getting closer to leadville" %}
+{% include figure.html url="june_04_bike_trip/22_railroad.webp" description="the railroad was a useful indicator of getting closer to leadville" %}
 
-{% include figure.html url="june_04_bike_trip/23_cemetery.jpg" description="cemetery exploration never lets us down" %}
+{% include figure.html url="june_04_bike_trip/23_cemetery.webp" description="cemetery exploration never lets us down" %}
 
 After that quick stop, we headed over to the best brewery in
 Leadville, [Two Mile Brewing Company](http://twomilebrewing.com/). It's
@@ -226,14 +227,14 @@ we engaged in a modest amount of touristing and stopped by
 [Melanzana](https://melanzana.com/) to nab some only-available-in-leadville
 hoodies.
 
-{% include figure.html url="june_04_bike_trip/24_leadville.jpeg" description="cute leadville pics taken by nate while meg is in melanzana" %}
+{% include figure.html url="june_04_bike_trip/24_leadville.webp" description="cute leadville pics taken by nate while meg is in melanzana" %}
 
 After that, we were ready for the final segment of the ride, which
 I have affectionately dubbed...
 
 # The Meat Grinder
 
-{% include figure.html url="june_04_bike_trip/26_nate_bridge.jpg" description="pros of meg being slow are getting sweet pics like this" %}
+{% include figure.html url="june_04_bike_trip/26_nate_bridge.webp" description="pros of meg being slow are getting sweet pics like this" %}
 
 In my last post, I started to make up random names for rides. If I had to
 make up a name for our travels in the foothills east of Leadville, this
@@ -246,7 +247,7 @@ We began with a ride up out of town toward the
 people decided to leave around a ton of old mining equipment when a mine
 stopped being profitable.
 
-{% include figure.html url="june_04_bike_trip/25_mines_and_leadville.jpg" description="not a bad view to have when working a life threatening job at the mines" %}
+{% include figure.html url="june_04_bike_trip/25_mines_and_leadville.webp" description="not a bad view to have when working a life threatening job at the mines" %}
 
 From the mine, we hopped on Leadville's
 [Mineral Belt Trail](https://en.wikipedia.org/wiki/Mineral_Belt_National_Recreation_Trail), which was just as pleasant for
@@ -255,13 +256,13 @@ Very nicely paved, with great views, and almost too many plaques and
 historical facts. After the trail, we switched over to mountain roads
 in the foothills. That's where things got interesting.
 
-{% include figure.html url="june_04_bike_trip/28_wildflowers.jpg" description="more flowers for our girl flowersbywhit" %}
+{% include figure.html url="june_04_bike_trip/28_wildflowers.webp" description="more flowers for our girl flowersbywhit" %}
 
 The mountain roads of **The Meat Grinder** started off nice enough:
 next to no cars (perhaps two the whole paved segment), nice sealed
 pavement, decent grades. Then it started raining.
 
-{% include figure.html url="june_04_bike_trip/27_meg_nate_rain.jpg" description="was actually pretty fun to do some rain riding" %}
+{% include figure.html url="june_04_bike_trip/27_meg_nate_rain.webp" description="was actually pretty fun to do some rain riding" %}
 
 Then our path took
 us on a dirt road. Then that road was very steep. And very rocky.
@@ -270,22 +271,22 @@ And wasn't really a road, but seemed to be an ATV trail dubbed the
 struggle with. But alas, we continued, preferring the quiet, technical
 roads to slogging down the shoulder of a 65 MPH highway.
 
-{% include figure.html url="june_04_bike_trip/29_nate.jpg" description="oh to think we thought we still had time for pictures" %}
+{% include figure.html url="june_04_bike_trip/29_nate.webp" description="oh to think we thought we still had time for pictures" %}
 
-{% include figure.html url="june_04_bike_trip/30_muddy_gravel.jpg" description="this isn't even a 7% grade" %}
+{% include figure.html url="june_04_bike_trip/30_muddy_gravel.webp" description="this isn't even a 7% grade" %}
 
 Then it was 7:30, and we realized we were still up in the mountain
 foothills, 15 miles or so from our campsite, with sunset looming at 9 PM.
 No problem -- we got out our bike lights for visibility, and picked up the
 pace a little, remaining cautious on the rocky downhills.
 
-{% include figure.html url="june_04_bike_trip/31_river_trees.jpg" description="what a beaut" %}
+{% include figure.html url="june_04_bike_trip/31_river_trees.webp" description="what a beaut" %}
 
 We reached a main-ish paved road around 8:45 and hit our next obstacle:
 a closed paddock gate. Even though we *definitely* didn't pass through any
 gates on our way there.
 
-{% include figure.html url="june_04_bike_trip/32_dirt_mountains.jpg" description="you know the view is good when you are racing the darkness of the night but stop for the pic anyways" %}
+{% include figure.html url="june_04_bike_trip/32_dirt_mountains.webp" description="you know the view is good when you are racing the darkness of the night but stop for the pic anyways" %}
 
 But fortunately the gate wasn't locked: it was just chained up. So we didn't
 have to do any fence or gate hopping. We made it onto the paved road without
@@ -309,7 +310,7 @@ the cute cows for the third time. And we found ourselves, as darkness fell,
 riding 1.2 miles down the shoulder of a wet 65 MPH highway. I don't think I've
 ever ridden faster.
 
-{% include figure.html url="june_04_bike_trip/road_10.png" description="this guy" %}
+{% include figure.html url="june_04_bike_trip/road_10.webp" description="this guy" %}
 
 We made it down the highway with no real issues, and started back down the
 desolate paved ranch roads and the gravel mining road. That's when "dark"
@@ -327,7 +328,7 @@ seem like much work in comparison.
 
 # Conclusion
 
-{% include figure.html url="june_04_bike_trip/21_nate_and_meg.jpg" description="sony alpha self timer for the win" %}
+{% include figure.html url="june_04_bike_trip/21_nate_and_meg.webp" description="sony alpha self timer for the win" %}
 
 Bike touring continues to be my absolute favorite way to explore towns and
 regions in Colorado. The ample dirt roads, beautiful views, bike paths, and
@@ -344,4 +345,8 @@ nighttime highway rides!
 Thanks for reading. If you have any suggestions or comments, send an email
 my way!
 
+Interested in our route? Check it out below:
+
 <iframe src="https://ridewithgps.com/embeds?type=route&id=36320011&sampleGraph=true" style="width: 1px; min-width: 100%; height: 700px; border: none;" scrolling="no"></iframe>
+
+Also accessible at [ridewithgps](https://ridewithgps.com/routes/36320011).
