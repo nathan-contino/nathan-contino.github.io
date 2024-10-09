@@ -117,8 +117,8 @@ quarantine).
 
 Of course, all good things must come to an end. Spro is no longer my
 primary espresso machine at home. I've upgraded to a
-[Crossland CC1](https://www.seattlecoffeegear.com/crossland-coffee-cc1-v2-espresso-machine)
-, thanks to the many lessons that Spro taught me about what features matter
+[Crossland CC1](https://www.seattlecoffeegear.com/crossland-coffee-cc1-v2-espresso-machine),
+thanks to the many lessons that Spro taught me about what features matter
 in an espresso machine and which features you can do without. Which comes
 to the reason I wrote this post in the first place: sure, the EC155 isn't
 the best espresso machine in the world. It probably isn't even in
