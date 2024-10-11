@@ -539,6 +539,8 @@ a.nostyle:visited {
   color: inherit;
 }
 
+/* blog post folder-ish style */
+
 .blog-post {
   border: 1px solid var(--mainalternative);
   padding-left: 5px;
@@ -550,7 +552,7 @@ blog-date {
   display: flex;
 }
 
-blog-date > p {
+blog-date > div {
   background-color: var(--mainalternative);
   line-height: 1em;
   margin-top: 0px;
