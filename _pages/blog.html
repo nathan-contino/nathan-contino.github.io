@@ -7,13 +7,12 @@ permalink: /blog/
   <div class="blog-posts">
     {% for post in site.posts %}
       {% if post.categories contains "blog" %}
-        <div class="blog-post spacing">
+        <slant>
+        <blog-date><p>{{ post.date | date: '%B %d, %Y' }}</p></blog-date>
+        </slant>
+        <div class="blog-post">
           <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
           <p class="summary">
-            {{ post.category }}
-            <span class="date">
-              <i>{{ post.date | date: '%B %d, %Y' }}</i>
-            </span>
           </p>
           {{ post.excerpt }}
           <br>

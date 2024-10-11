@@ -530,11 +530,39 @@ nav {
 
 /* no style links -- used for nav header */
 a.nostyle:link {
-    text-decoration: inherit;
-    color: inherit;
+  text-decoration: inherit;
+  color: inherit;
 }
 
 a.nostyle:visited {
-    text-decoration: inherit;
-    color: inherit;
+  text-decoration: inherit;
+  color: inherit;
+}
+
+.blog-post {
+  border: 1px solid var(--mainalternative);
+  padding-left: 5px;
+  padding-bottom: 0px;
+  margin-bottom: 25px;
+}
+
+blog-date {
+  display: flex;
+}
+
+blog-date > p {
+  background-color: var(--mainalternative);
+  line-height: 1em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 3px;
+}
+
+blog-date::after {
+  content: ' ';
+  background-image: linear-gradient(60deg,
+    var(--mainalternative) 10% 50%,
+    var(--bg) 50% 100%
+  );
+  flex: 0 20px;
 }
