@@ -112,7 +112,7 @@ img {
   border: solid 0.15em var(--mainalternative);
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 601px) {
   figure {
     width: 120%;
     margin-left: -11%;
@@ -215,63 +215,47 @@ lambda {
 
 .biglambda {
   display: flex;
-  flex-direction: row;
   max-width: 1000px;
-  line-height: 1em; !important
+  transform: skewX(30deg);
+  background-color: var(--mainalternative);
+  margin-left: 10px;
+  margin-right: 10px;
+  box-shadow: 10px 5px 10px 10px var(--bg)
 }
 
 .biglambdacontent {
   font-family: "Courier New", "FreeMono", "Rockwell", monospace;
   font-size: 2rem;
+  max-width: 1000px;
   color: #000;
-  background-color: var(--mainalternative);
   font-weight: lighter;
   line-height: 1em; !important;
-  box-shadow: 0px 0px 10px 10px var(--bg);
-  max-width: 1000px;
   flex: 1;
   display: flex;
+  transform: skewX(-30deg);
   overflow-wrap: anywhere;
-}
-
-.biglambdacontent::before {
-  content: ' ';
-  background: linear-gradient(60deg,
-    var(--bg),
-    var(--bg) 45%,
-    var(--mainalternative) calc(45% + 1px)
-  );
-  flex: 0 20px;
-}
-
-.biglambdacontent::after {
-  content: ' ';
-  background: linear-gradient(60deg,
-    var(--mainalternative),
-    var(--mainalternative) 50%,
-    var(--bg) calc(50% + 1px)
-  );
-  flex: 0 20px;
-}
-
-spacer {
-  display: flex;
-  flex: 1;
+  box-shadow: 10px var(--bg);
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 /* small screens, don't bother with the fancy top formatting */
 @media only screen
 and (max-width: 420px) {
-  .biglambdacontent::after {
-    background-image: var(--mainalternative)
-  }
-  .biglambdacontent::before {
-    background-image: var(--mainalternative) !important
+  .biglambda {
+    width: 100%;
+    transform: none;
+    margin-left: 0px;
+    margin-left: 0px;
   }
   .biglambdacontent {
     font-size: 1.5rem;
+    transform: none;
+    margin-left: 0px;
+    margin-left: 0px;
   }
 }
+
 
 *, ::before, ::after {
   box-sizing: inherit;
@@ -283,8 +267,9 @@ and (max-width: 420px) {
   padding-right: 2px;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 601px) {
   .content {
+    display: flex;
     padding-left: 10%;
     padding-right: 10%;
   }
@@ -323,6 +308,7 @@ menu {
   margin-top: 0px;
   font-family: var(--mono-font);
   margin-bottom: 0px;
+  position: sticky;
 }
 
 menu>a {
@@ -560,14 +546,14 @@ blog-date > div {
   margin-top: 0px;
   margin-bottom: 0px;
   padding: 3px;
+  z-index: 10;
 }
 
 blog-date::after {
   content: ' ';
-  background-image: linear-gradient(60deg,
-    var(--mainalternative),
-    var(--mainalternative) 50%,
-    var(--bg) calc(50% + 1px)
-  );
+  background: var(--mainalternative);
   flex: 0 20px;
+  transform: skewX(30deg) translateX(-10px);
+  border-left: 20px var(--mainalternative);
+  z-index: 9;
 }
