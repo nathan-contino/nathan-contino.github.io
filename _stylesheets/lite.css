@@ -236,18 +236,20 @@ lambda {
 
 .biglambdacontent::before {
   content: ' ';
-  background-image: linear-gradient(60deg,
-    var(--bg) 0% 45%,
-    var(--mainalternative) 45% 100%
+  background: linear-gradient(60deg,
+    var(--bg),
+    var(--bg) 45%,
+    var(--mainalternative) calc(45% + 1px)
   );
   flex: 0 20px;
 }
 
 .biglambdacontent::after {
   content: ' ';
-  background-image: linear-gradient(60deg,
-    var(--mainalternative) 10% 50%,
-    var(--bg) 50% 100%
+  background: linear-gradient(60deg,
+    var(--mainalternative),
+    var(--mainalternative) 50%,
+    var(--bg) calc(50% + 1px)
   );
   flex: 0 20px;
 }
@@ -563,8 +565,9 @@ blog-date > div {
 blog-date::after {
   content: ' ';
   background-image: linear-gradient(60deg,
-    var(--mainalternative) 10% 50%,
-    var(--bg) 50% 100%
+    var(--mainalternative),
+    var(--mainalternative) 50%,
+    var(--bg) calc(50% + 1px)
   );
   flex: 0 20px;
 }
