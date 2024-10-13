@@ -115,7 +115,7 @@ We picked up our fully-assembled (freestanding, fortunately) tent, carried it ov
 
 I re-assembled the fire, popped the firestarter in, and had a blaze raging in our fire ring within a minute.
 
-{% include figure.html url="2024_09_25/19.webp" description="grillin burritos, a vermont tradition" %}
+{% include figure.html url="2024_09_25/20.webp" description="grillin burritos, a vermont tradition" %}
 
 We cracked some beers, grilled our burritos (note: if you try this, move your burritos to _real_ aluminum foil -- not waxpaper-aluminum wrap liners -- before grilling; peeling the melted waxpaper off is not particularly fun), and soon retired to the lean-to. I set my head down on my pillow.
 
@@ -127,6 +127,6 @@ _**Bloppity bloopity poppity broopity plonk plink.**_
 
 So sang the roof of our lean-to as we lay under torrential rains, no longer dreading stepping out of the tent and packing everything up wet. Thanks for letting us upgrade, Bobby.
 
-{% include figure.html url="2024_09_25/20.webp" description="a cushy night" %}
+{% include figure.html url="2024_09_25/21.webp" description="a cushy night" %}
 
 Curious about the rest of the story? You can now find it [in part 6](/blog/2024/10/01/bikepacking-vt-nh-6/).

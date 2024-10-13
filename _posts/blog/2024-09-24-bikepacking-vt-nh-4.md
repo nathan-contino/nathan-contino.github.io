@@ -27,7 +27,7 @@ In fact, this road was so busy with the constant comings and goings of enormous 
 
 {% include figure.html url="2024_09_24/4.webp" description="a thankful chuckle as we heard a particularly loud crashing sound from the road below" %}
 
-{% include figure.html url="2024_09_24/5.webp" description="a quiet moment where we questioned our thankfulness" %}
+{% include figure.html url="2024_09_24/5.webp" description="a quiet moment where we questioned our decisions" %}
 
 Eventually, we made our way up to a ridgeline trail named "Plum Line" that took us along some ancient stone walls around some pretty massive sugarbushes.
 
