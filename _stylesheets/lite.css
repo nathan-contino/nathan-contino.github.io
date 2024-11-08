@@ -242,16 +242,21 @@ and (max-width: 420px) {
     width: 100%;
     transform: none;
     margin-left: 0px;
-    margin-left: 0px;
+    height: 1.5rem;
   }
   .biglambdacontent {
     font-size: 1.5rem;
     transform: none;
     margin-left: 0px;
-    margin-left: 0px;
+    flex-shrink: 1;
+    padding-left: 5px;
+  }
+  .biglambdacontent a {
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
   mobile-menu {
-    top: .7em !important;
+    top: 1.5rem !important;
   }
 }
 
