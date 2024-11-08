@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Reading Log
+title: Book Log
 permalink: /reading-log/
 ---
 

@@ -250,6 +250,9 @@ and (max-width: 420px) {
     margin-left: 0px;
     margin-left: 0px;
   }
+  mobile-menu {
+    top: .7em !important;
+  }
 }
 
 
@@ -321,20 +324,27 @@ menu>a {
 }
 
 mobile-menu {
-  position:absolute;
+  position: absolute;
+  overflow: hidden;
   z-index: 500;
-  background-color: var(--menucolor);
   font-size: 2rem;
   display: flex;
   margin-top: 0%;
   line-height: 3rem;
   font-family: var(--mono-font);
-  width: 90%;
-  max-width: 400px;
-  right: 5%;
-  border-left: 1px solid var(--mainalternative);
-  border-right: 1px solid var(--mainalternative);
-  border-bottom: 0px solid var(--mainalternative);
+  top: 1em;
+  right: 3px;
+  flex-direction: row-reverse;
+  transition: all .3s ease-in-out;
+  width: 95%;
+}
+
+#menuToggle {
+  display: none;
+}
+#menuToggle:checked ~ mobile-menu {
+  max-height: 100%;
+  max-width: 100%;
 }
 
 mobile-menu a {
@@ -343,6 +353,8 @@ mobile-menu a {
   width: 90%;
   display: inline-block;
   padding-left: 5%;
+  transition: all .3s ease-in-out;
+  white-space: nowrap;
 }
 
 mobile-menu-toggle {
@@ -357,18 +369,6 @@ mobile-menu-toggle>label {
   float:right;
 }
 
-mobile-menu input {
-  display: none;
-}
-
-mobile-menu input:checked ~ label span:last-child{
-  display: none;
-}
-
-mobile-menu input:not(:checked) ~ label span:first-child{
-  display: none;
-}
-
 ul {
   padding-left: 2em;
 } 
@@ -381,6 +381,12 @@ mobile-menu ul {
   margin: 0;
   list-style: none;
   padding-inline-start: 0;
+  transition: all .3s ease-in-out;
+  flex-direction: row-reverse;
+  background-color: var(--menucolor);
+  border-left: 1px solid var(--mainalternative);
+  border-right: 1px solid var(--mainalternative);
+  border-bottom: 0px solid var(--mainalternative);
 }
 
 mobile-menu ul li {
