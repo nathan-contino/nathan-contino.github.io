@@ -171,29 +171,25 @@ table > tbody > tr > td > em {
 }
 
 table {
-  border-collapse: collapse;
-  border-spacing: 0px;
-  padding: 0px;
+  color: var(--mainalternative);
+  border: solid 0.1em var(--mainalternative);
   width: 100%;
-}
-
-th {
-  border-top: 0px;
-  border-bottom: 0px;
-  border-spacing: 0;
-  padding: 0px;
-  padding-right: 5px;
-  vertical-align: bottom;
+  border-radius: 7px 7px 7px 7px;
+  border-collapse: collapse;
 }
 
 td {
-  border-top: 0px;
-  border-bottom: 0px;
-  border-spacing: 0;
-  padding: 0px;
-  padding-right: 5px;
-  vertical-align: center;
+  border: solid 0.1em var(--mainalternative);
+  color: var(--textcolor);
 }
+
+th {
+  vertical-align: bottom;
+  background-color: var(--accent);
+  color: var(--textcolor);
+  border: solid 0.1em var(--mainalternative);
+}
+
 
 rw {font-style: italic; color: #602020;}
 eqn {font-style: italic; color: #202080;}
@@ -285,7 +281,7 @@ and (max-width: 420px) {
 @media only screen
 and (max-width : 740px) {
 menu {
-  display: none;
+  visibility: hidden;
 }
 }
 
@@ -302,13 +298,17 @@ mobile-menu-toggle {
 }
 
 menu {
-  padding-left: 5%;
-  padding-right: 5%;
+  max-width: 850px;
   font-size: 1rem;
   margin-top: 0px;
   font-family: var(--mono-font);
   margin-bottom: 0px;
   position: sticky;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding-left: 20px;
+  padding-right: 7px;
 }
 
 menu>a {
@@ -316,6 +316,8 @@ menu>a {
   padding-left: 5px;
   padding-right: 5px;
   background-color: var(--bg);
+  display: grid;
+  place-items: center;
 }
 
 mobile-menu {
