@@ -182,12 +182,30 @@
             {{ content }}
           </div>
 
-          <div class="PageNavigation">
-            {% if page.previous.url %}
-            <a class="prev" href="{{ page.previous.url }}"> {{ page.previous.title | strip_html  }}</a>
+          {% assign cat = page.categories[0] %}
+
+          {% for post in site.categories[cat] %}
+            {% if post.url == page.url %}
+              {% assign post_index0 = forloop.index0 %}
+              {% assign post_index1 = forloop.index %}
             {% endif %}
-            {% if page.next.url %}
-            <a class="next" href="{{ page.next.url }}"> {{ page.next.title | strip_html  }} </a>
+          {% endfor %}
+
+          {% for post in site.categories[cat] %}
+            {% if post_index0 == forloop.index %}
+              {% assign next_post = post %}
+            {% endif %}
+            {% if post_index1 == forloop.index0 %}
+              {% assign prev_post = post %}
+            {% endif %}
+          {% endfor %}
+
+          <div class="PageNavigation">
+            {% if prev_post %}
+            <a class="prev" href="{{ prev_post.url }}"> {{ prev_post.title | strip_html  }}</a>
+            {% endif %}
+            {% if next_post %}
+            <a class="next" href="{{ next_post.url }}"> {{ next_post.title | strip_html  }} </a>
             {% endif %}
           </div>
         </div>
