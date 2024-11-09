@@ -63,7 +63,8 @@
   <!-- set the theme to dark and toggle the theme button icon if we detect a (dark) theme setting in local storage OR if the user's browser asks for dark OR if the user is using a Mozilla browser -->
   <body onload="initTheme()">
     <div style="display:none;">
-      <svg  fill="var(--main)" version="2.0" id="rss" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve">
+      <svg  fill="var(--main)" version="2.0" id="rss" role="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve">
+        <title>subscribe to updates via Atom or RSS</title>
         <g id="lines__x003C_Group_x003E_">
           <g id="circle">
             <path d="M125.896,398.928c0,33.683-27.308,60.999-61.022,60.999c-33.684,0-61.006-27.316-61.006-60.999
@@ -99,56 +100,65 @@
             </div>
           </div>
           <menu>
-            <a href="/">ABOUT</a> |
-            <a href="/blog/">ADVENTURE BLOG</a>
-            <a class="btn btn-rss" href="/feed/blog.xml" target="_blank">
-              <svg width="1em" height="1em" viewBox="0 0 461.432 461.432" style="display:inline-block;" alt="RSS" title="subscribe to blog updates via RSS-compatible Atom feed">
+            <a href="/"><span>ABOUT</span></a>
+            <vdiv> </vdiv>
+            <a href="/blog/"><span>ADVENTURE BLOG</span></a>
+            <a class="btn btn-rss" href="/feed/blog.xml" target="_blank" title="subscribe to blog updates via RSS-compatible Atom feed">
+              <svg width=".8em" height=".8em" viewBox="0 0 461.432 461.432" style="display:inline-block;" alt="RSS" title="subscribe to blog updates via RSS-compatible Atom feed">
                 <use href="#rss" />
               </svg>
-            </a> |
-            <a href="/techblog/">TECH BLOG</a>
-            <a class="btn btn-rss" href="/feed/techblog.xml" target="_blank">
-              <svg width="1em" height="1em" viewBox="0 0 461.432 461.432" style="display:inline-block;" alt="RSS" title="subscribe to tech blog updates via RSS-compatible Atom feed">
+            </a>
+            <vdiv> </vdiv>
+            <a href="/techblog/"><span>TECH BLOG</span></a>
+            <a class="btn btn-rss" href="/feed/techblog.xml" target="_blank" title="subscribe to tech blog updates via RSS-compatible Atom feed">
+              <svg width=".8em" height=".8em" viewBox="0 0 461.432 461.432" style="display:inline-block;" alt="RSS" title="subscribe to tech blog updates via RSS-compatible Atom feed">
                 <use href="#rss" />
               </svg>
-            </a> |
-            <a href="/writing/">WRITING</a>
-            <a href="/resume/">RESUME</a>
-            <a href="/reading-log/">BOOK LOG</a>
-            <a href="/projects/">PROJECTS</a> | <a class="theme-toggle" alt="toggle site theme" title="toggle site theme" id="theme-toggle" onclick="toggleTheme()"></a>
+            </a>
+            <vdiv> </vdiv>
+            <a href="/writing/"><span>WRITING</span></a>
+            <a href="/resume/"><span>RESUME</span></a>
+            <a href="/reading-log/"><span>BOOK LOG</span></a>
+            <a href="/projects/"><span>PROJECTS</span></a>
+            <vdiv> </vdiv>
+            <a class="theme-toggle" alt="toggle site theme" title="toggle site theme" id="theme-toggle" onclick="toggleTheme()"><span></span></a>
           </menu>
           <mobile-menu>
             <input type="checkbox" id="menuToggle">
             <ul>
-              <li>
+              <li class="mobile-menu-row">
                 <a href="/">ABOUT</a>
               </li>
-              <li>
+              <li class="mobile-menu-row">
+                <a class="btn btn-rss" style="text-align: left;" href="/feed/blog.xml" target="_blank">
+                  <svg width=".8em" height=".8em" viewBox="0 0 461.432 461.432" style="display:inline-block;" alt="RSS" title="subscribe to tech blog updates via RSS-compatible Atom feed">
+                    <use href="#rss" />
+                  </svg>
+                </a>
                 <a href="/blog/">ADVENTURE BLOG</a>
               </li>
-              <li>
+              <li class="mobile-menu-row">
+                <a class="btn btn-rss" style="text-align:left;" href="/feed/techblog.xml" target="_blank"> 
+                  <svg width=".8em" height=".8em" viewBox="0 0 461.432 461.432" style="display:inline-block;" alt="RSS" title="subscribe to tech blog updates via RSS-compatible Atom feed">
+                    <use href="#rss" />
+                  </svg>
+                </a>
                 <a href="/techblog/">TECH BLOG</a>
               </li>
-              <li>
+              <li class="mobile-menu-row">
                 <a href="/writing/">WRITING</a>
               </li>
-              <li>
+              <li class="mobile-menu-row">
                 <a href="/resume/">RESUME</a>
               </li>
-              <li>
+              <li class="mobile-menu-row">
                 <a href="/reading-log/">BOOK LOG</a>
               </li>
-              <li>
+              <li class="mobile-menu-row">
                 <a href="/projects/">PROJECTS</a>
               </li>
-              <li>
+              <li class="mobile-menu-row">
                 <a class="theme-toggle" alt="toggle site theme" title="toggle site theme" id="theme-toggle-mobile" onclick="toggleTheme()"></a>
-              </li>
-              <li>
-                <a class="btn btn-rss" href="/feed/techblog.xml" target="_blank">TECH BLOG RSS</a>
-              </li>
-              <li>
-                <a class="btn btn-rss" href="/feed/blog.xml" target="_blank">ADVENTURE BLOG RSS</a>
               </li>
             </ul>
           </mobile-menu>
@@ -182,7 +192,13 @@
           </div>
         </div>
 
-        <footer id="footer"><hr>Created by Nathan Contino. Licensed with <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0">CC-SA</a>. Last edited: {{ site.time | date: '%B %d, %Y' }}
+        <footer id="footer">
+          <hr>
+          <div>
+            <div>
+              Created by Nathan Contino. Licensed with <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0">CC-SA</a>. Last edited: {{ site.time | date: '%B %d, %Y' }}
+            </div>
+          </div>
         </footer>
       </div>
     </div>
