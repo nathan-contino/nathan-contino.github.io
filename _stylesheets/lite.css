@@ -143,6 +143,36 @@ li {
   line-height: 1.8em;
 }
 
+.hero-photo-container {
+  transform: skewX(30deg);
+  border: solid 0.15em var(--mainalternative);
+}
+
+.hero-photo {
+  transform: skewX(-30deg) translateX(30px);
+  border: 0;
+  border-radius: 0px 0px 0px 0px;
+  width: 300px;
+  height: 300px;
+}
+
+.other-hero-photo-container {
+  transform: skewX(-30deg);
+  border: solid 0.15em var(--mainalternative);
+  overflow: hidden;
+  height: 160px;
+}
+
+.other-hero-photo {
+  transform: skewX(30deg) translateX(-20px) translateY(-50px);
+  border: 0;
+  border-radius: 0px 0px 0px 0px;
+  width: 260px;
+  height: 250px;
+  background: url(https://raw.githubusercontent.com/nathan-contino/images/main/images/mugz.webp);
+  background-size: cover;
+}
+
 img {
   width: 100%;
   border-radius: 7px 7px 0px 0px;
@@ -371,6 +401,7 @@ menu a {
   place-items: center;
   text-align: center;
   transform: skewX(30deg);
+  margin-top: 1px;
 }
 
 menu a span {
