@@ -248,12 +248,14 @@ table {
 td {
   border: solid 0.1em var(--mainalternative);
   color: var(--textcolor);
+  font-size: .8em;
+  padding: 5px;
 }
 
 th {
-  vertical-align: bottom;
+  vertical-align: middle;
   background-color: var(--accent);
-  color: var(--textcolor);
+  color: var(--mainalternative);
   border: solid 0.1em var(--mainalternative);
 }
 
