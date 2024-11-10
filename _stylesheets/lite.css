@@ -149,28 +149,31 @@ li {
 }
 
 .hero-photo {
-  transform: skewX(-30deg) translateX(30px);
+  transform: skewX(-30deg) translateX(-25px);
   border: 0;
   border-radius: 0px 0px 0px 0px;
-  width: 300px;
-  height: 300px;
+  height: 200px;
+  width: 200px;
+  background: url(https://raw.githubusercontent.com/nathan-contino/images/main/images/nathan_art-1.webp);
+  background-size: cover;
+  background-position: center;
 }
 
 .other-hero-photo-container {
+  margin-left: 10%;
   transform: skewX(-30deg);
   border: solid 0.15em var(--mainalternative);
-  overflow: hidden;
-  height: 160px;
 }
 
 .other-hero-photo {
-  transform: skewX(30deg) translateX(-20px) translateY(-50px);
+  transform: skewX(30deg) translateX(15px);
   border: 0;
   border-radius: 0px 0px 0px 0px;
-  width: 260px;
-  height: 250px;
-  background: url(https://raw.githubusercontent.com/nathan-contino/images/main/images/mugz.webp);
+  height: 120px;
+  width: 100px;
+  background: url(https://raw.githubusercontent.com/nathan-contino/images/main/images/meg.webp);
   background-size: cover;
+  background-position: center; 
 }
 
 img {
@@ -589,6 +592,21 @@ nav {
        screen and (device-width: 768px) {
   body {
     -webkit-text-size-adjust:none;
+  }
+  .hero-photo {
+    transform: skewX(-30deg) translateX(-50px);
+  }
+  .hero-photo-container {
+    max-width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .other-hero-photo-container {
+    max-width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
