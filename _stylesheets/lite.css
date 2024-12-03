@@ -168,7 +168,7 @@ li {
 }
 
 .other-hero-photo {
-  transform: skewX(30deg) translateX(15px);
+  transform: skewX(30deg);
   border: 0;
   border-radius: 0px 0px 0px 0px;
   height: 120px;
@@ -596,7 +596,7 @@ nav {
     -webkit-text-size-adjust:none;
   }
   .hero-photo {
-    transform: skewX(-30deg) translateX(-50px);
+    transform: skewX(-30deg);
   }
   .hero-photo-container {
     max-width: 20%;
