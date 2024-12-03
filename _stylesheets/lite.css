@@ -146,6 +146,8 @@ li {
 .hero-photo-container {
   transform: skewX(30deg);
   border: solid 0.15em var(--mainalternative);
+  display: flex;
+  flex-direction: inherit;
 }
 
 .hero-photo {
