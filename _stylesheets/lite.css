@@ -148,10 +148,11 @@ li {
   border: solid 0.15em var(--mainalternative);
   display: flex;
   flex-direction: inherit;
+  flex: 0.5;
 }
 
 .hero-photo {
-  transform: skewX(-30deg) translateX(-25px);
+  transform: skewX(-30deg);
   border: 0;
   border-radius: 0px 0px 0px 0px;
   height: 200px;
