@@ -148,7 +148,6 @@ li {
   border: solid 0.15em var(--mainalternative);
   display: flex;
   flex-direction: inherit;
-  flex: 0.5;
 }
 
 .hero-photo {
