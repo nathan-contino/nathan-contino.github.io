@@ -599,13 +599,11 @@ nav {
     transform: skewX(-30deg);
   }
   .hero-photo-container {
-    max-width: 20%;
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
   .other-hero-photo-container {
-    max-width: 20%;
     display: block;
     margin-left: auto;
     margin-right: auto;
