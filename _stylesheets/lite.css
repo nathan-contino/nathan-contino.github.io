@@ -182,15 +182,13 @@ img {
   width: 100%;
   border-radius: 7px 7px 0px 0px;
   border: solid 0.15em var(--mainalternative);
+  object-fit: cover;
 }
 
-@media only screen and (min-width: 601px) {
-  figure {
-    width: 120%;
-    margin-left: -11%;
-    padding: 1%;
-    font-size: .8rem;
-  }
+figure {
+  width: fit-content;
+  align-self: center;
+  font-size: .8rem;
 }
 
 @media only screen and (max-width: 600px) {
@@ -198,7 +196,6 @@ img {
     width: 98vw;
     margin: 0;
     padding-top: 2px;
-    font-size: .8rem;
   }
 }
 
