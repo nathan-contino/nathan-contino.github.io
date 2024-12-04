@@ -182,6 +182,7 @@ img {
   width: 100%;
   border-radius: 7px 7px 0px 0px;
   border: solid 0.15em var(--mainalternative);
+  object-fit: cover;
 }
 
 figure {
