@@ -53,7 +53,7 @@ Fast forward to 8 January 2025. The update drops. Immediately, screams of cosmic
 
 * the update permanently marked the battery icon in the top right with an exclamation point:
 
-{% include figure.html url="2025_01_09/exclamation.png" description="scarred battery icon" %}
+{% include figure.html url="2025_01_09/exclamation.png" description="seems subtle, but if you play a lot of RPGs this will constantly make you think you have a pending quest" %}
 
 * users trying to redeem their $50 credit with Google are being forced to submit significant amounts of personal information to [Payoneer](https://old.reddit.com/r/Pixel4a/comments/1hwkhj5/what_is_this_payoneer_thing/), a highly legitimate trustworthy corporation that definitely won't sell or abuse my personal data or lose it in a leak eventually.
 
