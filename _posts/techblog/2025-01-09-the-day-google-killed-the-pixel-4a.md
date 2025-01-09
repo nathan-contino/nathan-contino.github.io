@@ -5,13 +5,15 @@ layout: default
 categories: techblog
 ---
 
-In the year of our lord 2025, many of us use phones that are a couple of years out of date. As the phone industry insists on removing useful features like the headphone jack and dimensions that actually fit in jeans pockets, while at the same time inflating new phones to a minimum of $500 for American-band-compatible non-bloatware-infected phones, it has become increasingly attractive to hold onto old phones. It's good for our wallets. It's good for the environment (the most environmentally-friendly phone purchase is no new phone purchase). It's not good for security, but you have to compromise somewhere.
+Many of us use phones that are a couple of years out of date. As the phone industry insists on removing useful features like the headphone jack and dimensions that actually fit in jeans pockets, while at the same time inflating new phones to a minimum of $500 for American-band-compatible non-bloatware-infected phones, it has become increasingly attractive to hold onto old phones. It's good for our wallets. It's good for the environment (the most environmentally-friendly phone purchase is no new phone purchase). It's not good for security, but you have to compromise somewhere.
 
 In 2023, Google abandoned the Pixel 4a, deciding to no longer publish security updates for the still-popular phone (as originally announced, in all fairness). Many of us kept using the 4a because it ticks a lot of boxes that no modern phone ticks, and it still works quite well.
 
 In 2024, Google left us alone. Many people explored custom ROMs like LineageOS and GrapheneOS to keep the security updates flowing, despite the fact that those custom ROMS have no way to fix firmware vulnerabilities. It was sad to see a great phone slowly sink into obsolescence. But through the community efforts of a lot of volunteers, custom ROMs have kept the phone alive. Of course, only a small subset of people are comfortable or even able to install custom ROMs, so plenty of people -- the vast majority, in fact -- kept using the stock firmware. Sure, we don't get OS security updates. But we can update our browsers, our apps, Google Play Services, and just about anything else on the device, so it's not like we're walking around completely exposed. Life was good.
 
 In 2025, Google killed the Pixel 4a.
+
+**TL;DR: In 2025, Google pushed an update for an unsupported phone that broke battery percentage reporting, limits charging speed, adds obnoxious warnings to the UI, and permanently limited the maximum charge capacity of the battery. Even in the developer options, you can't permanently put off this update; you will eventually start getting notifications to download and install it, and you will eventually accidentally grant it permission to install when you're sleepy or drunk. Installing a new battery may or may not fix the issues caused by this update. Google may or may not pay for a new battery installation; it's unclear what kind of costs you might end up on the hook for depending on the phone repair shop you go to. Google might give you $50 through a third party program that likely gets more than $50 of valuable personal data out of you, and will likely take $50 of time and effort to redeem. The only way to fix this issue is custom ROMs, which Google has been gradually squeezing out of the ecosystem entirely thanks to services like the [Play Integrity API](https://developer.android.com/google/play/integrity/overview), which prevents essential apps like banking apps from working at all on custom ROMs. And remember: most users lack the technical ability to install custom ROMs!**
 
 <!-- readmore -->
 
@@ -28,11 +30,12 @@ It all started with an email on 6 January 2025:
 > More details related to this change are available [here](https://support.google.com/pixelphone/answer/15701861?p=pixel4a_battery&rd=1). Eligibility criteria and other terms will apply.
 >
 > Thank you,
+>
 > Pixel team
 
-This came as a bit of a shock to many 4a owners, some of whom have been using their phones since August 2020 without any battery issues. I know my phone has been in constant use since late 2020, though previously my partner used it, not me. Neither of us every had any complaints about battery life, though it has obviously diminished over the last 3.5 years.
+This came as a bit of a shock to many 4a owners, some of whom have been using their phones since August 2020 without any battery issues. I know my phone has been in constant use since late 2020, though previously my partner used it, not me. Neither of us ever had any complaints about battery life, though it has obviously diminished over the last 3.5 years.
 
-Reading more information revealed that, just two days after the announcement, Google planned to release an update that would "reduce in battery capacity and charging performance"... for a phone that Google doesn't even support with security updates any more. An surprise to be sure. Not a welcome one, especially since the [linked article] is full of lengthy nonspecific corporate weasel-words that make _me_, a very technical communicator and developer, somehow less certain about the safety of my phone.
+Reading more information revealed that, just two days after the announcement, Google planned to release an update that would "reduce in battery capacity and charging performance"... a phone that Google doesn't even support with security updates any more. An surprise to be sure. Not a welcome one, especially since the [linked article](https://support.google.com/pixelphone/answer/15701861?p=pixel4a_battery&rd=1) is full of lengthy nonspecific corporate weasel-words that make _me_, a very technical communicator and developer, somehow less certain about the safety of my phone.
 
 Fast forward to 8 January 2025. The update drops. Immediately, screams of cosmic horror (more than usual) issue from online communities of Pixel 4a owners:
 
@@ -66,10 +69,7 @@ I don't know. Nobody seems to. All I know is that pretty much anybody who was ha
 
 And I don't think that's OK.
 
-**TL;DR: In 2025, Google pushed an update for an unsupported phone that broke battery percentage reporting, limits charging speed, adds obnoxious warnings to the UI, and permanently limited the maximum charge capacity of the battery. Even in the developer options, you can't permanently put off this update; you will eventually start getting notifications to download and install it, and you will eventually accidentally give it permission to install when you're sleepy or drunk. Installing a new battery may or may not fix the issues caused by this update. Google may or may not pay for a new battery installation, but it's unclear what kind of costs you might end up on the hook for depending on the phone repair shop you go to. Google might give you $50 through a third party program that likely gets more than $50 of valuable personal data out of you, and will likely take $50 of time and effort to redeem. The only way to fix this issue is custom ROMs, which Google has been gradually squeezing out of the ecosystem entirely thanks to services like the [Play Integrity API](https://developer.android.com/google/play/integrity/overview), which prevents essential apps like banking apps from working at all on custom ROMs. And remember: most users lack the technical ability to install custom ROMs!**
-
 <details><summary><strong>Full text of the "Pixel 4a Battery Performance Program" page, in case Google changes it:</strong></summary>
-
 
 <blockquote>
 Pixel 4a Battery Performance Program
