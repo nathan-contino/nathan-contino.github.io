@@ -5,17 +5,17 @@ layout: default
 categories: techblog
 ---
 
-Many of us use phones that are a couple of years out of date. As the phone industry insists on removing useful features like the headphone jack and dimensions that actually fit in jeans pockets, while at the same time inflating new phones to a minimum of $500 for American-band-compatible non-bloatware-infected phones, it has become increasingly attractive to hold onto old phones. It's good for our wallets. It's good for the environment (the most environmentally-friendly phone purchase is no new phone purchase). It's not good for security, but you have to compromise somewhere.
+Many of us use phones that are a couple of years out of date. As the phone industry insists on removing useful features while at the same time inflating new phones to a seeming minimum of $500, older phones have become increasingly attractive. Using an older phone is good for your wallet and good for the environment (the most environmentally-friendly phone purchase is no new phone purchase), but not good for security, since you likely miss out on OS security updates.
 
-In 2023, Google abandoned the Pixel 4a, deciding to no longer publish security updates for the still-popular phone (as originally announced, in all fairness). Many of us kept using the 4a because it ticks a lot of boxes that no modern phone ticks, and it still works quite well.
+In 2023, Google abandoned the Pixel 4a, deciding to no longer publish security updates for the still-popular phone (as originally announced, in all fairness). Many of us kept using the 4a because it ticks a lot of boxes that no modern phone ticks (the 4a is smaller than any Pixel phone since, has a very fast rear-mounted fingerprint reader, and has a headphone jack), and it still works quite well.
 
 In 2024, Google left us alone. Many people explored custom ROMs like LineageOS and GrapheneOS to keep the security updates flowing, despite the fact that those custom ROMS have no way to fix firmware vulnerabilities. It was sad to see a great phone slowly sink into obsolescence. But through the community efforts of a lot of volunteers, custom ROMs have kept the phone alive. Of course, only a small subset of people are comfortable or even able to install custom ROMs, so plenty of people -- the vast majority, in fact -- kept using the stock firmware. Sure, we don't get OS security updates. But we can update our browsers, our apps, Google Play Services, and just about anything else on the device, so it's not like we're walking around completely exposed. Life was good.
 
 In 2025, Google killed the Pixel 4a.
 
-**TL;DR: In 2025, Google pushed an update for an unsupported phone that broke battery percentage reporting, limits charging speed, adds obnoxious warnings to the UI, and permanently limited the maximum charge capacity of the battery. Even in the developer options, you can't permanently put off this update; you will eventually start getting notifications to download and install it, and you will eventually accidentally grant it permission to install when you're sleepy or drunk. Installing a new battery may or may not fix the issues caused by this update. Google may or may not pay for a new battery installation; it's unclear what kind of costs you might end up on the hook for depending on the phone repair shop you go to. Google might give you $50 through a third party program that likely gets more than $50 of valuable personal data out of you, and will likely take $50 of time and effort to redeem. The only way to fix this issue is custom ROMs, which Google has been gradually squeezing out of the ecosystem entirely thanks to services like the [Play Integrity API](https://developer.android.com/google/play/integrity/overview), which prevents essential apps like banking apps from working at all on custom ROMs. And remember: most users lack the technical ability to install custom ROMs!**
-
 <!-- readmore -->
+
+**TL;DR**: In 2025, Google pushed an update for an unsupported phone that broke battery percentage reporting, limits charging speed, adds obnoxious warnings to the UI, and permanently limited the maximum charge capacity of the battery. Even in the developer options, you can't permanently put off this update; you will eventually start getting notifications to download and install it, and you will eventually accidentally grant it permission to install when you're sleepy or drunk. Installing a new battery may or may not fix the issues caused by this update. Google may or may not pay for a new battery installation; it's unclear what kind of costs you might end up on the hook for depending on the phone repair shop you go to. Google might give you $50 through a third party program that likely gets more than $50 of valuable personal data out of you, and will likely take $50 of time and effort to redeem. The only way to fix this issue is custom ROMs, which Google has been gradually squeezing out of the ecosystem entirely thanks to services like the [Play Integrity API](https://developer.android.com/google/play/integrity/overview), which prevents essential apps like banking apps from working at all on custom ROMs. And remember: most users lack the technical ability to install custom ROMs!
 
 It all started with an email on 6 January 2025:
 
@@ -47,11 +47,13 @@ Fast forward to 8 January 2025. The update drops. Immediately, screams of cosmic
 
 * [the update added a giant non-removable warning to the Battery page in Settings](https://old.reddit.com/r/Pixel4a/comments/1hwtupc/battery_info_before_and_after_the_update/)
 
-* the update added a giant warning notification in the notifications tray, and permanently marked the battery icon in the top right with an exclamation point:
+* the update added a giant warning notification in the notifications tray:
 
-{% include figure.html url="2025_01_09/notification.png" description="ugly permanent notification." %}
+{% include figure.html url="2025_01_09/notification.png" description="ugly permanent notification" %}
 
-{% include figure.html url="2025_01_09/exclamation.png" description="scarred battery icon." %}
+* the update permanently marked the battery icon in the top right with an exclamation point:
+
+{% include figure.html url="2025_01_09/exclamation.png" description="scarred battery icon" %}
 
 * users trying to redeem their $50 credit with Google are being forced to submit significant amounts of personal information to [Payoneer](https://old.reddit.com/r/Pixel4a/comments/1hwkhj5/what_is_this_payoneer_thing/), a highly legitimate trustworthy corporation that definitely won't sell or abuse my personal data or lose it in a leak eventually.
 
@@ -65,7 +67,7 @@ It's also uncertain how this repair will work with third-party stores: if the Pi
 
 I don't know. Nobody seems to. All I know is that pretty much anybody who was happily using the not-quite 3.5 year old Pixel 4a up until this point, who doesn't pay attention to online phone enthusiast communities, is likely now stuck with an annoying brick that will work significantly worse than it did before, since the battery gauge no longer works.
 
-{% include figure.html url="2025_01_09/dead.png" description="4a is kill." %}
+{% include figure.html url="2025_01_09/dead.png" description="4a is kill" %}
 
 And I don't think that's OK.
 
