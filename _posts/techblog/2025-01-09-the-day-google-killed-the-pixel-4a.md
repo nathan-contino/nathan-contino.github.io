@@ -35,7 +35,7 @@ It all started with an email on 6 January 2025:
 
 This came as a bit of a shock to many 4a owners, some of whom have been using their phones since August 2020 without any battery issues. I know my phone has been in constant use since late 2020, though previously my partner used it, not me. Neither of us ever had any complaints about battery life, though it has obviously diminished over the last 3.5 years.
 
-Reading more information revealed that, just two days after the announcement, Google planned to release an update that would "reduce in battery capacity and charging performance"... a phone that Google doesn't even support with security updates any more. An surprise to be sure. Not a welcome one, especially since the [linked article](https://support.google.com/pixelphone/answer/15701861?p=pixel4a_battery&rd=1) is full of lengthy nonspecific corporate weasel-words that make _me_, a very technical communicator and developer, somehow less certain about the safety of my phone.
+Reading more information revealed that, just two days after the announcement, Google planned to release an update that would "reduce in battery capacity and charging performance"... a phone that Google doesn't even support with security updates any more. A surprise to be sure. Not a welcome one, especially since the [linked article](https://support.google.com/pixelphone/answer/15701861?p=pixel4a_battery&rd=1) is full of lengthy nonspecific corporate weasel-words that make _me_, a very technical communicator and developer, somehow less certain about the safety of my phone.
 
 Fast forward to 8 January 2025. The update drops. Immediately, screams of cosmic horror (more than usual) issue from online communities of Pixel 4a owners:
 
