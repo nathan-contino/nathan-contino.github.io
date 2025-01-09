@@ -15,7 +15,15 @@ In 2025, Google killed the Pixel 4a.
 
 <!-- readmore -->
 
-**TL;DR**: In 2025, Google pushed an update for an unsupported phone that broke battery percentage reporting, limits charging speed, adds obnoxious warnings to the UI, and permanently limited the maximum charge capacity of the battery. Even in the developer options, you can't permanently put off this update; you will eventually start getting notifications to download and install it, and you will eventually accidentally grant it permission to install when you're sleepy or drunk. Installing a new battery may or may not fix the issues caused by this update. Google may or may not pay for a new battery installation; it's unclear what kind of costs you might end up on the hook for depending on the phone repair shop you go to. Google might give you $50 through a third party program that likely gets more than $50 of valuable personal data out of you, and will likely take $50 of time and effort to redeem. The only way to fix this issue is custom ROMs, which Google has been gradually squeezing out of the ecosystem entirely thanks to services like the [Play Integrity API](https://developer.android.com/google/play/integrity/overview), which prevents essential apps like banking apps from working at all on custom ROMs. And remember: most users lack the technical ability to install custom ROMs!
+**TL;DR**: In 2025, Google pushed an update for an unsupported phone that broke battery percentage reporting, limits charging speed to 1A (!!!), adds obnoxious warnings to the UI, and permanently limited the maximum charge capacity of the battery. Many users are reporting serious battery drain and capacity issues after the update, to the point where their phones are unusable.
+
+* Even using developer options, you can't permanently stave off this update; you will eventually start getting notifications to download and install it, and you will eventually accidentally grant it permission to install when you're sleepy or not 100%.
+* Installing a new battery may or may not fix the issues caused by this update; nobody has successfully eliminated all of the warnings and issues yet, even people with relatively recently replaced batteries.
+* Google may or may not pay for a new battery installation; it's unclear what kind of costs you might end up on the hook for depending on the phone repair shop you go to.
+* Google might give you $50 through a third party program that likely gets more than $50 of valuable personal data (including your social security number) out of you, and will likely take $50 of time and effort to redeem.
+* The only way to fix this issue is custom ROMs, which Google has been gradually squeezing out of the ecosystem entirely thanks to services like the [Play Integrity API](https://developer.android.com/google/play/integrity/overview), which prevents essential apps like banking apps from working at all on custom ROMs.
+
+And remember: _most users lack the technical ability to install custom ROMs!_
 
 It all started with an email on 6 January 2025:
 
@@ -41,11 +49,13 @@ Fast forward to 8 January 2025. The update drops. Immediately, screams of cosmic
 
 * [many phones are stuck reporting 100% battery forever, dropping dead without warning](https://old.reddit.com/r/Pixel4a/comments/1hwx9m4/used_my_4a_for_20_minutes_and_its_still_at_100/)
 
-* [many users are reporting that their battery lasts significantly less than it used to](https://old.reddit.com/r/Pixel4a/comments/1hx10zq/final_psa_do_not_update_to_the_latest_battery/)
+* [many users are reporting that their battery lasts significantly less than it used to](https://old.reddit.com/r/Pixel4a/comments/1hx10zq/final_psa_do_not_update_to_the_latest_battery/); **Update**: many previously functional phones are draining up to 1% per minute after the update, and frequently get "stuck" at random battery percentages _other_ than 100% 
 
-* [charging has been permanently limited to 5W](https://old.reddit.com/r/Pixel4a/comments/1hwqvmb/warning_do_not_uodate_i_am_ineligible_and_they/)
+* [charging has been permanently limited to **1A**](https://old.reddit.com/r/Pixel4a/comments/1hwqvmb/warning_do_not_uodate_i_am_ineligible_and_they/)
 
-* [the update added a giant non-removable warning to the Battery page in Settings](https://old.reddit.com/r/Pixel4a/comments/1hwtupc/battery_info_before_and_after_the_update/)
+* [the update added a giant non-removable warning to the Battery page in Settings](https://old.reddit.com/r/Pixel4a/comments/1hwtupc/battery_info_before_and_after_the_update/):
+
+{% include figure.html url="2025_01_09/settings.png" description="annoying but at least out of the way" %}
 
 * the update added a giant warning notification in the notifications tray:
 
@@ -55,7 +65,7 @@ Fast forward to 8 January 2025. The update drops. Immediately, screams of cosmic
 
 {% include figure.html url="2025_01_09/exclamation.png" description="seems subtle, but if you play a lot of RPGs this will constantly make you think you have a pending quest" %}
 
-* users trying to redeem their $50 credit with Google are being forced to submit significant amounts of personal information to [Payoneer](https://old.reddit.com/r/Pixel4a/comments/1hwkhj5/what_is_this_payoneer_thing/), a highly legitimate trustworthy corporation that definitely won't sell or abuse my personal data or lose it in a leak eventually.
+* users trying to redeem their $50 credit with Google are being forced to submit significant amounts of personal information to [Payoneer](https://old.reddit.com/r/Pixel4a/comments/1hwkhj5/what_is_this_payoneer_thing/), a highly legitimate trustworthy corporation that definitely won't sell or abuse my personal data or lose it in a leak eventually; **Update**: Payoneer requires a social security number. You should not give it to them. If you're not a US citizen, this also means that you have _no way_ to redeem the $50 offer.
 
 The icing on the cake? The [only way to disable OTA is via developer options](https://old.reddit.com/r/Pixel4a/comments/1hxa9s0/forced_to_do_the_new_update/). Which is fine for me, as I already take this precaution on many devices to vet updates for serious errors before I install them. Unfortunately it isn't something I can easily communicate to less technical folks I know who still use the 4a.
 
