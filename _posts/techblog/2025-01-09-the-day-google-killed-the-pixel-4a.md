@@ -5,6 +5,21 @@ layout: default
 categories: techblog
 ---
 
+  
+<p>
+</p>
+
+> **UPDATE**:
+> 
+> On 16 January 2024, my phone downloaded the update and prompted me to install it via a notification, despite disabling automatic update checks in Developer Options. As far as I know, there is no way to disable checks (and automatic downloads!) for this update. Without an option to disable the automatic update in the OS settings, you're stuck with the following options:
+> 
+> * install a custom ROM, like GrapheneOS or LineageOS
+> * continue using the stock software, but block the update at the DNS level with a pi.hole, nextDNS, or similar
+> 
+> To block the updates, block the entire `googlezip.net` domain. Technically you can just block `ota.googlezip.net`, `ota-cache1.googlezip.net`, and `ota-cache2.googlezip.net`, but if you use nextDNS or pi.hole you can only block the whole domain.
+> 
+> When your phone inevitably decides to install the update _anyway_ (because VPNs on Android [leak traffic](https://mullvad.net/en/blog/2022/10/10/android-leaks-connectivity-check-traffic)), go to **Settings** > **Apps** > **All Apps** > **Google Play Services** > **Storage and cache** > **Manage Space** and click the **Clear all data** button to delete all data, including the update file. Fortunately, it seems that you at least have to click the notification to actually install the update!
+
 Many of us use phones that are a couple of years out of date. As the phone industry insists on removing useful features while at the same time inflating new phones to a seeming minimum of $500, older phones have become increasingly attractive. Using an older phone is good for your wallet and good for the environment (the most environmentally-friendly phone purchase is no new phone purchase), but not good for security, since you likely miss out on OS security updates.
 
 In 2023, Google abandoned the Pixel 4a, deciding to no longer publish security updates for the still-popular phone (as originally announced, in all fairness). Many of us kept using the 4a because it ticks a lot of boxes that no modern phone ticks (the 4a is smaller than any Pixel phone since, has a very fast rear-mounted fingerprint reader, and has a headphone jack), and it still works quite well.
