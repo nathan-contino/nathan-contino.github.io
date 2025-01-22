@@ -135,6 +135,12 @@ pre > code {
   display: block;
 }
 
+details {
+  border-radius: 0.5em;
+  border: 1px solid var(--main);
+  padding: 0.5em;
+}
+
 p {
   line-height: 1.8em;
 }
