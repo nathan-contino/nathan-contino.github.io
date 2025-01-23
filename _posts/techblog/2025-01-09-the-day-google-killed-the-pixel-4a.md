@@ -11,7 +11,7 @@ categories: techblog
 
 > **UPDATE**:
 > 
-> On 16 January 2024, my phone downloaded the update and prompted me to install it via a notification, despite disabling automatic update checks in Developer Options. As far as I know, there is no way to disable checks (and automatic downloads!) for this update. Without an option to disable the automatic update in the OS settings, you're stuck with the following options:
+> On 16 January 2025, my phone downloaded the update and prompted me to install it via a notification, despite disabling automatic update checks in Developer Options. As far as I know, there is no way to disable checks (and automatic downloads!) for this update. Without an option to disable the automatic update in the OS settings, you're stuck with the following options:
 > 
 > * install a custom ROM, like GrapheneOS or LineageOS
 > * continue using the stock software, but block the update at the DNS level with a pi.hole, nextDNS, or similar
