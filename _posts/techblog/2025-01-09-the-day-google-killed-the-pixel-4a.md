@@ -9,14 +9,17 @@ categories: techblog
 <p>
 </p>
 
-> **UPDATE**<sup>UPDATE</sup>:
-> 
-> Around 20 January 2025, Google took down [all Pixel 4a firmware releases other than the recent release that destroys battery performance](https://www.androidcentral.com/phones/google-pixel-4as-old-firmware-is-gone-trapping-users-on-the-buggy-battery-update).
->
-> At this point, I'm forced to conclude that some 4a batteries have catastrophically failed, exploding or burning down houses somewhere. Making this a massive CYA legal operation for Google. Of course, it all happened with only 48 hours of warning, next to no battery supplies, extremely limited geographical locations for battery replacements, poor communication, and plenty of people incurring $90 screen replacement costs for screens previously scratched or destroyed during battery replacement... in other words, Google borked this operation from the beginning.
->
-> I just wish Google would offer a trade-in. Send me a refurbished Pixel 4a with a new, safe battery in the mail. I'll copy over my files and data from my current (old, unsafe battery) 4a. And then mail it back. Then Google can refurbish _my_ Pixel 4a for someone else. No downtime required, and I'm sure they have a stockpile of refurbished phones somewhere for warranties and such. But currently my only battery replacement option is a mail-in one, and I _cannot_ go without my phone for 7-10 business days when I need it for basic stuff like 2FA, let alone travel, music, podcasts, emergencies, etc.
+Many of us use phones that are a couple of years out of date. As the phone industry insists on removing useful features while at the same time inflating new phones to a seeming minimum of $500, older phones have become increasingly attractive. Using an older phone is good for your wallet and good for the environment (the most environmentally-friendly phone purchase is no new phone purchase), but not good for security, since you likely miss out on OS security updates.
 
+In 2023, Google abandoned the Pixel 4a, deciding to no longer publish security updates for the still-popular phone (as originally announced, in all fairness). Many of us kept using the 4a because it ticks a lot of boxes that no modern phone ticks (the 4a is smaller than any Pixel phone since, has a very fast rear-mounted fingerprint reader, and has a headphone jack), and it still works quite well.
+
+In 2024, Google left us alone. Many people explored custom ROMs like LineageOS and GrapheneOS to keep the security updates flowing, despite the fact that those custom ROMS have no way to fix firmware vulnerabilities. It was sad to see a great phone slowly sink into obsolescence. But through the community efforts of a lot of volunteers, custom ROMs have kept the phone alive. Of course, only a small subset of people are comfortable or even able to install custom ROMs, so plenty of people -- the vast majority, in fact -- kept using the stock firmware. Sure, we don't get OS security updates. But we can update our browsers, our apps, Google Play Services, and just about anything else on the device, so it's not like we're walking around completely exposed. Life was good.
+
+In 2025, Google killed the Pixel 4a.
+
+<!-- readmore -->
+
+**TL;DR**: In 2025, Google pushed an update for an unsupported phone that broke battery percentage reporting, limits charging speed to 1A (!!!), adds obnoxious warnings to the UI, and permanently limited the maximum charge capacity of the battery. Many users are reporting serious battery drain and capacity issues after the update, to the point where their phones are unusable.
 
 > **UPDATE**:
 > 
@@ -29,17 +32,14 @@ categories: techblog
 > 
 > When your phone inevitably decides to install the update _anyway_ (because VPNs on Android [leak traffic](https://mullvad.net/en/blog/2022/10/10/android-leaks-connectivity-check-traffic)), go to **Settings** > **Apps** > **All Apps** > **Google Play Services** > **Storage and cache** > **Manage Space** and click the **Clear all data** button to delete all data, including the update file. Fortunately, it seems that you at least have to click the notification to actually install the update!
 
-Many of us use phones that are a couple of years out of date. As the phone industry insists on removing useful features while at the same time inflating new phones to a seeming minimum of $500, older phones have become increasingly attractive. Using an older phone is good for your wallet and good for the environment (the most environmentally-friendly phone purchase is no new phone purchase), but not good for security, since you likely miss out on OS security updates.
+> **UPDATE**<sup>UPDATE</sup>:
+> 
+> Around 20 January 2025, Google took down [all Pixel 4a firmware releases other than the recent release that destroys battery performance](https://www.androidcentral.com/phones/google-pixel-4as-old-firmware-is-gone-trapping-users-on-the-buggy-battery-update).
+>
+> At this point, I'm forced to conclude that some 4a batteries have catastrophically failed, exploding or burning down houses somewhere. Making this a massive CYA legal operation for Google. Of course, it all happened with only 48 hours of warning, next to no battery supplies, extremely limited geographical locations for battery replacements, poor communication, and plenty of people incurring $90 screen replacement costs for screens previously scratched or destroyed during battery replacement... in other words, Google borked this operation from the beginning.
+>
+> I just wish Google would offer a trade-in. Send me a refurbished Pixel 4a with a new, safe battery in the mail. I'll copy over my files and data from my current (old, unsafe battery) 4a. And then mail it back. Then Google can refurbish _my_ Pixel 4a for someone else. No downtime required, and I'm sure they have a stockpile of refurbished phones somewhere for warranties and such. But currently my only battery replacement option is a mail-in one, and I _cannot_ go without my phone for 7-10 business days when I need it for basic stuff like 2FA, let alone travel, music, podcasts, emergencies, etc.
 
-In 2023, Google abandoned the Pixel 4a, deciding to no longer publish security updates for the still-popular phone (as originally announced, in all fairness). Many of us kept using the 4a because it ticks a lot of boxes that no modern phone ticks (the 4a is smaller than any Pixel phone since, has a very fast rear-mounted fingerprint reader, and has a headphone jack), and it still works quite well.
-
-In 2024, Google left us alone. Many people explored custom ROMs like LineageOS and GrapheneOS to keep the security updates flowing, despite the fact that those custom ROMS have no way to fix firmware vulnerabilities. It was sad to see a great phone slowly sink into obsolescence. But through the community efforts of a lot of volunteers, custom ROMs have kept the phone alive. Of course, only a small subset of people are comfortable or even able to install custom ROMs, so plenty of people -- the vast majority, in fact -- kept using the stock firmware. Sure, we don't get OS security updates. But we can update our browsers, our apps, Google Play Services, and just about anything else on the device, so it's not like we're walking around completely exposed. Life was good.
-
-In 2025, Google killed the Pixel 4a.
-
-<!-- readmore -->
-
-**TL;DR**: In 2025, Google pushed an update for an unsupported phone that broke battery percentage reporting, limits charging speed to 1A (!!!), adds obnoxious warnings to the UI, and permanently limited the maximum charge capacity of the battery. Many users are reporting serious battery drain and capacity issues after the update, to the point where their phones are unusable.
 
 * Even using developer options, you can't permanently stave off this update; you will eventually start getting notifications to download and install it, and you will eventually accidentally grant it permission to install when you're sleepy or not 100%.
 * Installing a new battery may or may not fix the issues caused by this update; nobody has successfully eliminated all of the warnings and issues yet, even people with relatively recently replaced batteries.
@@ -90,6 +90,8 @@ Fast forward to 8 January 2025. The update drops. Immediately, screams of cosmic
 {% include figure.html url="2025_01_09/exclamation.png" description="seems subtle, but if you play a lot of RPGs this will constantly make you think you have a pending quest" %}
 
 * users trying to redeem their $50 credit with Google are being forced to submit significant amounts of personal information to [Payoneer](https://old.reddit.com/r/Pixel4a/comments/1hwkhj5/what_is_this_payoneer_thing/), a highly legitimate trustworthy corporation that definitely won't sell or abuse my personal data or lose it in a leak eventually; **Update**: Payoneer requires a social security number. You should not give it to them. ~~If you're not a US citizen, this also means that you have _no way_ to redeem the $50 offer.~~ UPDATE: It seems that non-US citizens can indeed redeem the offer. But you likely still have to violate your own privacy by entrusting a bunch of personal data to a sketchy third party.
+
+* users trying to redeem their $100 discount on a Google Pixel device from the Google Store cannot combine the discount with any other discount (including most store sales, incentives, and employee discounts), must wait sometimes weeks to receive their discount code, and got bait-and-switched by a $100 price raise on most Google Store devices the day after the email announcement went out (after folks selected the $100 discount option, but before they received a discount code, effectively nullifying the discount completely)
 
 The icing on the cake? The [only way to disable OTA is via developer options](https://old.reddit.com/r/Pixel4a/comments/1hxa9s0/forced_to_do_the_new_update/). Which is fine for me, as I already take this precaution on many devices to vet updates for serious errors before I install them. Unfortunately it isn't something I can easily communicate to less technical folks I know who still use the 4a.
 
