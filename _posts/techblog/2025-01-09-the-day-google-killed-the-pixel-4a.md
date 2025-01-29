@@ -5,49 +5,70 @@ layout: default
 categories: techblog
 ---
 
-  
+In 2025, Google killed the Pixel 4a.
+
+<!-- readmore -->
+
+1.5 years after the last security update for the Pixel 4a and its apparent end of software support and life, Google pushed an update that breaks battery percentage reporting, limits charging speed to 1A (!!!), adds obnoxious warnings to the UI, and permanently limits the maximum charge capacity of the battery. Many users report serious battery drain and capacity issues after the update, to the point where their phones are unusable.
+
+* Even using developer options, you can't permanently stave off this update; you will eventually start getting notifications to download and install it, and you will eventually accidentally grant it permission to install when you're sleepy or not 100%.
+* Installing a new battery may or may not fix the issues caused by this update; nobody has successfully eliminated all of the warnings and issues yet, even people with relatively recently replaced batteries.
+* Google may or may not pay for a new battery installation; it's unclear what kind of costs you might end up on the hook for depending on the phone repair shop you go to.
+* Google might give you $50 through a third party program that likely gets more than $50 of valuable personal data (including your social security number) out of you, and will likely take $50 of time and effort to redeem.
+* The only way to fix this issue is custom ROMs, which Google has been gradually squeezing out of the ecosystem entirely thanks to services like the [Play Integrity API](https://developer.android.com/google/play/integrity/overview), which prevents essential apps like banking apps from working at all on custom ROMs. Remember: _most users lack the technical ability to install custom ROMs!_
+
+
+<details>
+<summary><strong>UPDATE</strong></summary>
+
+
+<p>
+On 16 January 2025, my phone downloaded the update and prompted me to install it via a notification, despite disabling automatic update checks in Developer Options. As far as I know, there is no way to disable checks (and automatic downloads!) for this update. Without an option to disable the automatic update in the OS settings, you're stuck with the following options:
+</p>
+
+
+<ul>
+<li> install a custom ROM, like GrapheneOS or LineageOS</li>
+<li> continue using the stock software, but block the update at the DNS level with a pi.hole, nextDNS, or similar</li>
+<li> To block the updates, block the entire <code>googlezip.net</code> domain. Technically you can just block <code>ota.googlezip.net</code>, <code>ota-cache1.googlezip.net</code>, and <code>ota-cache2.googlezip.net</code>, but if you use nextDNS or pi.hole you can only block the whole domain.</li>
+</ul>
+
+
+<p>
+When your phone inevitably decides to install the update _anyway_ (because VPNs on Android <a href="https://mullvad.net/en/blog/2022/10/10/android-leaks-connectivity-check-traffic">leak traffic</a>), go to <strong>Settings</strong> > <strong>Apps</strong> > <strong>All Apps</strong> > <strong>Google Play Services</strong> > <strong>Storage and cache</strong> > <strong>Manage Space</strong> and click the <strong>Clear all data</strong> button to delete all data, including the update file. Fortunately, it seems that you at least have to click the notification to actually install the update!
+</p>
+
+
+</details>
+
+
 <p>
 </p>
+
+<details>
+	<summary><strong>UPDATE<sup>UPDATE</sup></strong></summary>
+
+
+<p>
+Around 20 January 2025, Google took down <a href="https://www.androidcentral.com/phones/google-pixel-4as-old-firmware-is-gone-trapping-users-on-the-buggy-battery-update">all Pixel 4a firmware releases other than the recent release that destroys battery performance</a>.
+</p>
+
+<p>
+At this point, I'm forced to conclude that some 4a batteries have catastrophically failed, exploding or burning down houses somewhere. Making this a massive CYA legal operation for Google. Of course, it all happened with only 48 hours of warning, next to no battery supplies, extremely limited geographical locations for battery replacements, poor communication, and plenty of people incurring $90 screen replacement costs for screens previously scratched or destroyed during battery replacement... in other words, Google borked this operation from the beginning.
+</p>
+
+<p>
+I just wish Google would offer a trade-in. Send me a refurbished Pixel 4a with a new, safe battery in the mail. I'll copy over my files and data from my current (old, unsafe battery) 4a. And then mail it back. Then Google can refurbish <em>my</em> Pixel 4a for someone else. No downtime required, and I'm sure they have a stockpile of refurbished phones somewhere for warranties and such. But currently my only battery replacement option is a mail-in one, and I <em>cannot</em> go without my phone for 7-10 business days when I need it for basic stuff like 2FA, let alone travel, music, podcasts, emergencies, etc.
+</p>
+
+
+</details>
 
 Many of us use phones that are a couple of years out of date. As the phone industry insists on removing useful features while at the same time inflating new phones to a seeming minimum of $500, older phones have become increasingly attractive. Using an older phone is good for your wallet and good for the environment (the most environmentally-friendly phone purchase is no new phone purchase), but not good for security, since you likely miss out on OS security updates.
 
 In 2023, Google abandoned the Pixel 4a, deciding to no longer publish security updates for the still-popular phone (as originally announced, in all fairness). Many of us kept using the 4a because it ticks a lot of boxes that no modern phone ticks (the 4a is smaller than any Pixel phone since, has a very fast rear-mounted fingerprint reader, and has a headphone jack), and it still works quite well.
 
 In 2024, Google left us alone. Many people explored custom ROMs like LineageOS and GrapheneOS to keep the security updates flowing, despite the fact that those custom ROMS have no way to fix firmware vulnerabilities. It was sad to see a great phone slowly sink into obsolescence. But through the community efforts of a lot of volunteers, custom ROMs have kept the phone alive. Of course, only a small subset of people are comfortable or even able to install custom ROMs, so plenty of people -- the vast majority, in fact -- kept using the stock firmware. Sure, we don't get OS security updates. But we can update our browsers, our apps, Google Play Services, and just about anything else on the device, so it's not like we're walking around completely exposed. Life was good.
-
-In 2025, Google killed the Pixel 4a.
-
-<!-- readmore -->
-
-**TL;DR**: In 2025, Google pushed an update for an unsupported phone that broke battery percentage reporting, limits charging speed to 1A (!!!), adds obnoxious warnings to the UI, and permanently limited the maximum charge capacity of the battery. Many users are reporting serious battery drain and capacity issues after the update, to the point where their phones are unusable.
-
-> **UPDATE**:
-> 
-> On 16 January 2025, my phone downloaded the update and prompted me to install it via a notification, despite disabling automatic update checks in Developer Options. As far as I know, there is no way to disable checks (and automatic downloads!) for this update. Without an option to disable the automatic update in the OS settings, you're stuck with the following options:
-> 
-> * install a custom ROM, like GrapheneOS or LineageOS
-> * continue using the stock software, but block the update at the DNS level with a pi.hole, nextDNS, or similar
-> 
-> To block the updates, block the entire `googlezip.net` domain. Technically you can just block `ota.googlezip.net`, `ota-cache1.googlezip.net`, and `ota-cache2.googlezip.net`, but if you use nextDNS or pi.hole you can only block the whole domain.
-> 
-> When your phone inevitably decides to install the update _anyway_ (because VPNs on Android [leak traffic](https://mullvad.net/en/blog/2022/10/10/android-leaks-connectivity-check-traffic)), go to **Settings** > **Apps** > **All Apps** > **Google Play Services** > **Storage and cache** > **Manage Space** and click the **Clear all data** button to delete all data, including the update file. Fortunately, it seems that you at least have to click the notification to actually install the update!
-
-> **UPDATE**<sup>UPDATE</sup>:
-> 
-> Around 20 January 2025, Google took down [all Pixel 4a firmware releases other than the recent release that destroys battery performance](https://www.androidcentral.com/phones/google-pixel-4as-old-firmware-is-gone-trapping-users-on-the-buggy-battery-update).
->
-> At this point, I'm forced to conclude that some 4a batteries have catastrophically failed, exploding or burning down houses somewhere. Making this a massive CYA legal operation for Google. Of course, it all happened with only 48 hours of warning, next to no battery supplies, extremely limited geographical locations for battery replacements, poor communication, and plenty of people incurring $90 screen replacement costs for screens previously scratched or destroyed during battery replacement... in other words, Google borked this operation from the beginning.
->
-> I just wish Google would offer a trade-in. Send me a refurbished Pixel 4a with a new, safe battery in the mail. I'll copy over my files and data from my current (old, unsafe battery) 4a. And then mail it back. Then Google can refurbish _my_ Pixel 4a for someone else. No downtime required, and I'm sure they have a stockpile of refurbished phones somewhere for warranties and such. But currently my only battery replacement option is a mail-in one, and I _cannot_ go without my phone for 7-10 business days when I need it for basic stuff like 2FA, let alone travel, music, podcasts, emergencies, etc.
-
-
-* Even using developer options, you can't permanently stave off this update; you will eventually start getting notifications to download and install it, and you will eventually accidentally grant it permission to install when you're sleepy or not 100%.
-* Installing a new battery may or may not fix the issues caused by this update; nobody has successfully eliminated all of the warnings and issues yet, even people with relatively recently replaced batteries.
-* Google may or may not pay for a new battery installation; it's unclear what kind of costs you might end up on the hook for depending on the phone repair shop you go to.
-* Google might give you $50 through a third party program that likely gets more than $50 of valuable personal data (including your social security number) out of you, and will likely take $50 of time and effort to redeem.
-* The only way to fix this issue is custom ROMs, which Google has been gradually squeezing out of the ecosystem entirely thanks to services like the [Play Integrity API](https://developer.android.com/google/play/integrity/overview), which prevents essential apps like banking apps from working at all on custom ROMs.
-
-And remember: _most users lack the technical ability to install custom ROMs!_
 
 It all started with an email on 6 January 2025:
 
