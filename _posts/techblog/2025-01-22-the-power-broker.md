@@ -89,6 +89,10 @@ But regardless of how you feel about those various projects, Moses' true legacy 
 
 ## Bad Things
 
+{% include figure.html url="power_broker/mid-manhattan-expressway.webp" description="the mid-manhattan expressway, a bad thing that was never built largely thanks to jane jacobs (absent from this book due to an editorial decision) -- sourced from the Triborough Authority" %}
+
+{% include figure.html url="power_broker/mid-manhattan-expressway-aerial-alt.webp" description="aerial shot of an alternate mid-manhattan expressway route that did not literally cut through the 10th floor of the empire state building -- sourced from the Triborough Authority" %}
+
 OK, I might have lied a tiny bit in that last section. He also did some seriously bad things:
 
 * he ripped up tram tracks and removing trams from NYC entirely
@@ -100,11 +104,15 @@ And then, y'know, the low bridges, the destroyed neighborhoods, the evictions, t
 
 ## Losing the Plot
 
+{% include figure.html url="power_broker/moses-and-the-mustache-stuart-constable.webp" description="robert moses and stuart constable, 'the mustache', who lost the plot of william shakespeare plays -- <a href='https://professornerdster.com/power-broker-by-robert-caro-summary-analysis-of-chapter-44/'>source</a>" %}
+
 Even after he lost his power and positions, Moses couldn't understand why people hated him so much. Why? Because he lost touch. Nobody is all-powerful or all-knowing. We all have blind spots, biases, and make mistakes (logical and otherwise).
 
 Contrast Moses with Abraham Lincoln, a man best known for [revising his own racist beliefs](https://presidentlincoln.illinois.gov/education/educator-resources/teaching-guides/lincolns-views-african-american-slavery/). Whether you're the President of the United States, a powerful CEO, or a low-down dirty peasant individual contributor peon like myself, you need to be willing to a) admit you were wrong and b) learn from other people. Clearly you can get a lot done even if you aren't willing to do that. But if you want to do the best things, you need help.
 
 ## Great Things -- Terrible, Yes, but Great
+
+{% include figure.html url="power_broker/moses-map.webp" description="the physical legacy of robert moses. probably not a ley line runes designed to keep him immortal -- <a href='https://www.nycurbanism.com/blog/2019/6/11/robert-moses-legacy-map'>source</a>" %}
 
 To quote a random Stack Exchanger, ["The word 'great' is actually a lot closer to 'big' than it is to 'good'."](https://scifi.stackexchange.com/questions/35908/what-did-ollivander-mean-when-he-said-voldemort-did-great-things).
 

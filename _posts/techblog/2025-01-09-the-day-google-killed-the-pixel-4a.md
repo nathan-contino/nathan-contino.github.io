@@ -9,6 +9,15 @@ categories: techblog
 <p>
 </p>
 
+> **UPDATE**<sup>UPDATE</sup>:
+> 
+> Around 20 January 2025, Google took down [all Pixel 4a firmware releases other than the recent release that destroys battery performance](https://www.androidcentral.com/phones/google-pixel-4as-old-firmware-is-gone-trapping-users-on-the-buggy-battery-update).
+>
+> At this point, I'm forced to conclude that some 4a batteries have catastrophically failed, exploding or burning down houses somewhere. Making this a massive CYA legal operation for Google. Of course, it all happened with only 48 hours of warning, next to no battery supplies, extremely limited geographical locations for battery replacements, poor communication, and plenty of people incurring $90 screen replacement costs for screens previously scratched or destroyed during battery replacement... in other words, Google borked this operation from the beginning.
+>
+> I just wish Google would offer a trade-in. Send me a refurbished Pixel 4a with a new, safe battery in the mail. I'll copy over my files and data from my current (old, unsafe battery) 4a. And then mail it back. Then Google can refurbish _my_ Pixel 4a for someone else. No downtime required, and I'm sure they have a stockpile of refurbished phones somewhere for warranties and such. But currently my only battery replacement option is a mail-in one, and I _cannot_ go without my phone for 7-10 business days when I need it for basic stuff like 2FA, let alone travel, music, podcasts, emergencies, etc.
+
+
 > **UPDATE**:
 > 
 > On 16 January 2025, my phone downloaded the update and prompted me to install it via a notification, despite disabling automatic update checks in Developer Options. As far as I know, there is no way to disable checks (and automatic downloads!) for this update. Without an option to disable the automatic update in the OS settings, you're stuck with the following options:
