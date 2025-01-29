@@ -112,7 +112,7 @@ Contrast Moses with Abraham Lincoln, a man best known for [revising his own raci
 
 ## Great Things -- Terrible, Yes, but Great
 
-{% include figure.html url="power_broker/moses-map.webp" description="the physical legacy of robert moses. probably not a ley line runes designed to keep him immortal -- <a href='https://www.nycurbanism.com/blog/2019/6/11/robert-moses-legacy-map'>source</a>" %}
+{% include figure.html url="power_broker/moses-map.webp" description="the physical legacy of robert moses. probably not ley line runes designed to keep him immortal -- <a href='https://www.nycurbanism.com/blog/2019/6/11/robert-moses-legacy-map'>source</a>" %}
 
 To quote a random Stack Exchanger, ["The word 'great' is actually a lot closer to 'big' than it is to 'good'."](https://scifi.stackexchange.com/questions/35908/what-did-ollivander-mean-when-he-said-voldemort-did-great-things).
 
