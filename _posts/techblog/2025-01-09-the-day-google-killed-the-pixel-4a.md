@@ -64,6 +64,47 @@ I just wish Google would offer a trade-in. Send me a refurbished Pixel 4a with a
 
 </details>
 
+<p>
+</p>
+
+<details>
+	<summary><strong>UPDATE<sup>UPDATE<sup>UPDATE</sup></sup></strong></summary>
+
+
+<p>
+29 January 2025, <a href="https://social.treehouse.systems/@marcan/113914172433692339">marcan@treehouse.systems took a look at the kernels for the last two 4a firmwares</a>. Turns out that this update does indeed cut battery capacity in half for impacted phones!
+</p>
+
+<p>
+A couple of interesting takeaways:
+</p>
+
+<ul>
+	<li>
+		this commit was built on an engineer's machine, not the usual Android kernel buildsystem used for Pixel phones (likely because that buildsystem has removed support for the 4a)
+	</li>
+	<li>
+		there's no source for this update, so this kernel violates GPL
+	</li>
+	<li>
+		the new kernel was compiled without <a href="https://wiki.gentoo.org/wiki/LTO">Link Time Optimization</a>, which translates to a minimal performance hit for the new kernel
+	</li>
+	<li>
+		they lowered the maximum charge voltage from <strong>4.44 V to 3.95 V</strong> for one of the two known battery profiles for the 4a, so all of that battery now have a maximum capacity of not 3080mAh, but <strong>1539mAh</strong> (for reference, that's about the same battery capacity as the iPhone 5 had).
+	</li>
+</ul>
+
+<p>
+In case you're trying to replace your own battery because, like most people, you can't find one at repair stores, this quote is particularly relevant:
+</p>
+
+<blockquote>
+	You can tell which battery you have physically by the number next to the QR code. 8230015901 is ATL (good) and 8230020501 is LSN (bad). If you're replacing your battery, make sure it's ATL.
+</blockquote>
+
+
+</details>
+
 Many of us use phones that are a couple of years out of date. As the phone industry insists on removing useful features while at the same time inflating new phones to a seeming minimum of $500, older phones have become increasingly attractive. Using an older phone is good for your wallet and good for the environment (the most environmentally-friendly phone purchase is no new phone purchase), but not good for security, since you likely miss out on OS security updates.
 
 In 2023, Google abandoned the Pixel 4a, deciding to no longer publish security updates for the still-popular phone (as originally announced, in all fairness). Many of us kept using the 4a because it ticks a lot of boxes that no modern phone ticks (the 4a is smaller than any Pixel phone since, has a very fast rear-mounted fingerprint reader, and has a headphone jack), and it still works quite well.
