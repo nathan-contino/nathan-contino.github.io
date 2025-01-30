@@ -105,6 +105,34 @@ In case you're trying to replace your own battery because, like most people, you
 
 </details>
 
+<p>
+</p>
+
+<details>
+	<summary><strong>UPDATE<sup>UPDATE<sup>UPDATE<sup>UPDATE</sup></sup></sup></strong></summary>
+
+
+<p>
+30 January 2025, <a href="https://old.reddit.com/r/Pixel4a/comments/1id6zw8/attention_google_customer_service_said_device/">Google support reps seem to think un-updated phones like mine will be remotely factory reset with no warning today to force the update</a>. The screenshotted support conversation reads:
+</p>
+
+<blockquote>
+We understand the battery issue that you're referring to right now. Each Impacted Devices and eligible customers must manually update their device's firmware once it is available in January 2025. If they don't update the firmware on January 30, 2025, the device will experience a factory reset and the customer will need to set up their device again.
+During that setup process, the new firmware will install on their device.
+</blockquote>
+
+<p>
+Let me remind you that this is far worse than the iPhone BatteryGate scandal, where Apple downclocked CPUs to keep underperforming older batteries from powering down the phone under heavy loads. Google has kneecapped completely workable phones without fessing up to the actual problem (which appears to be a very real risk of fires or explosion from the batteries, based on their aggressive stance). $50 reimbursement is only available in a few countries, and only through an exploitative third party that requires invasive personal data like your Social Security number. Their $100 discount has serious strings attached and takes weeks to become available. Batteries are out of stock at many repair places, and you might get charged $90 for a screen repair if they break it. And mail-in repair requires you to go without your phone for 2 weeks.
+</p>
+
+<p>
+This sucks.
+</p>
+
+
+
+</details>
+
 Many of us use phones that are a couple of years out of date. As the phone industry insists on removing useful features while at the same time inflating new phones to a seeming minimum of $500, older phones have become increasingly attractive. Using an older phone is good for your wallet and good for the environment (the most environmentally-friendly phone purchase is no new phone purchase), but not good for security, since you likely miss out on OS security updates.
 
 In 2023, Google abandoned the Pixel 4a, deciding to no longer publish security updates for the still-popular phone (as originally announced, in all fairness). Many of us kept using the 4a because it ticks a lot of boxes that no modern phone ticks (the 4a is smaller than any Pixel phone since, has a very fast rear-mounted fingerprint reader, and has a headphone jack), and it still works quite well.
