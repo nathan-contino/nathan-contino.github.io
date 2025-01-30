@@ -126,6 +126,10 @@ Let me remind you that this is far worse than the iPhone BatteryGate scandal, wh
 </p>
 
 <p>
+<em>Oh, and they might just wipe my phone completely without warning because I had the audacity to try and preserve my battery life until I can take my phone into a repair store in person.</em>
+</p>
+
+<p>
 This sucks.
 </p>
 
