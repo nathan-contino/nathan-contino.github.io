@@ -577,11 +577,11 @@ nav {
 }
 
 .two-column {
-  display: flex;
-  flex:1;
+  display: inline-flex;
+  flex: 1;
   flex-direction: row-reverse;
-  justify-content:center;
-  align-items:center;
+  justify-content: center;
+  align-items: center;
 }
 
 @media only screen and (max-width: 600px) {
