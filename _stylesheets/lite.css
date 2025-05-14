@@ -154,15 +154,16 @@ li {
   border: solid 0.15em var(--mainalternative);
   display: flex;
   flex-direction: inherit;
+  position: right;
 }
 
 .hero-photo {
   transform: skewX(-30deg);
   border: 0;
-  border-radius: 0px 0px 0px 0px;
-  height: 200px;
+  border-radius: 0;
+  height: 300px;
   width: 200px;
-  background: url(https://raw.githubusercontent.com/nathan-contino/images/main/images/nathan_art-1.webp);
+  background: url(https://raw.githubusercontent.com/nathan-contino/images/refs/heads/main/thumbnails/images/yellow13nobg.webp);
   background-size: cover;
   background-position: center;
 }
@@ -176,7 +177,7 @@ li {
 .other-hero-photo {
   transform: skewX(30deg);
   border: 0;
-  border-radius: 0px 0px 0px 0px;
+  border-radius: 0;
   height: 120px;
   width: 100px;
   background: url(https://raw.githubusercontent.com/nathan-contino/images/main/images/meg.webp);
@@ -574,7 +575,7 @@ nav {
 }
 
 .two-column {
-  display: inline-flex;
+  display: flex;
   flex:1;
   flex-direction: row-reverse;
   justify-content:center;
