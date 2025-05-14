@@ -51,6 +51,8 @@ html {
   --mono-font: Consolas, "Courier New", Menlo, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
   font-size: 14px;
   font-family: var(--sans-font);
+  width: 100%;
+  overflow-x: hidden;
 }
 
 body {
@@ -577,7 +579,7 @@ nav {
 }
 
 .two-column {
-  display: inline-flex;
+  display: flex;
   flex: 1;
   flex-direction: row-reverse;
   justify-content: center;
