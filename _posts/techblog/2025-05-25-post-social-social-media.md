@@ -125,3 +125,4 @@ And every time you open your post-social social media app to fill up 30 seconds 
 
 {% include figure.html url="2025_05_25/9-out-of-10-doctors-use-mastodon.jpg" description="9 out of 10 doctors use mastodon" %}
 
+{% include figure.html url="2025_05_25/facebook.jpg" description="do you think if i paid for enough of these on facebook people would finally get the idea?" %}
