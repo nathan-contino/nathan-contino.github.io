@@ -151,30 +151,42 @@ li {
   line-height: 1.8em;
 }
 
+.hero-accompaniment {
+  flex: 2;
+}
+
 .hero-photo-container {
   transform: skewX(30deg);
   border: solid 0.15em var(--mainalternative);
+  flex: 1;
+  position: relative;
   display: flex;
-  flex-direction: inherit;
-  position: right;
+  height: 280px;
+  width: 200px;
+  overflow: hidden;
   box-shadow: 0px 5px 30px 10px var(--menucolor);
 }
 
 .hero-photo {
-  transform: skewX(-30deg);
+  transform: translateX(-100px);
   border: 0;
   border-radius: 0;
-  height: 300px;
-  width: 200px;
-  background: url(https://raw.githubusercontent.com/nathan-contino/images/refs/heads/main/thumbnails/images/yellow13nobg.webp);
-  background-size: cover;
-  background-position: center;
+  object-fit: contain;
+  position: absolute;
+  width: 475px;
+  top: -110px;
+  left: -130px;
 }
 
 .other-hero-photo-container {
-  margin-left: 10%;
   transform: skewX(-30deg);
   border: solid 0.15em var(--mainalternative);
+  flex: 1;
+  position: relative;
+  display: flex;
+  height: 220px;
+  width: 200px;
+  overflow: hidden;
   box-shadow: 0px 5px 30px 10px var(--menucolor);
 }
 
@@ -182,11 +194,11 @@ li {
   transform: skewX(30deg);
   border: 0;
   border-radius: 0;
-  height: 120px;
-  width: 100px;
-  background: url(https://raw.githubusercontent.com/nathan-contino/images/main/images/meg.webp);
-  background-size: cover;
-  background-position: center;
+  object-fit: contain;
+  position: absolute;
+  width: 475px;
+  top: -110px;
+  left: -150px;
 }
 
 img {
@@ -612,11 +624,13 @@ nav {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    min-height: 280px;
   }
   .other-hero-photo-container {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    min-height: 220px;
   }
 }
 
