@@ -54,12 +54,12 @@ You can also visit the **Privacy & Security** section of macOS Settings to indiv
 To remove the quarantine bit from a single file, run the following command:
 
 ```console
-xattr -dr com.apple.quarantine <file>
+$ xattr -dr com.apple.quarantine <file>
 ```
 
 If you're sick of the workarounds and the hullabaloo, you can also entirely disable the quarantine bit entirely forever on your machine (until a major macOS update brings it back, unfortunately):
 
 ```console
-sudo defaults write com.apple.LaunchServices LSQuarantine -bool NO
+$ sudo defaults write com.apple.LaunchServices LSQuarantine -bool NO
 ```
 
