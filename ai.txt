@@ -1,0 +1,19 @@
+# Prohibit AI training on all content
+User-agent: *
+Disallow: /
+
+# Specific AI crawler restrictions
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: Claude-Web
+Disallow: /
+
+User-agent: Bard
+Disallow: /
+
+User-agent: Meta-ExternalAgent
+Disallow: /

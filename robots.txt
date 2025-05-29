@@ -1,1 +1,25 @@
-User-agent: * Disallow: 
+# Traditional web crawlers
+User-agent: *
+Crawl-delay: 1
+
+# AI training crawlers
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: Claude-Web
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: Meta-ExternalAgent
+Disallow: /
+
+User-agent: FacebookBot
+Disallow: /

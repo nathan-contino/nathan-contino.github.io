@@ -10,18 +10,20 @@
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#d6785e">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#000000">
-    <meta name="description" content="{% if page.excerpt %} {{ page.excerpt | normalize_whitespace | replace: '</li> </ul>', '' | replace: '</li>', ';' | strip_html }} {% else %} {{ site.description }} {% endif %}">
     <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta name="robots" content="noai, noimageai">
+    <meta name="googlebot" content="noai, noimageai">
     <meta property="og:image" content="https://raw.githubusercontent.com/nathan-contino/images/main/images/PavementEnds.webp">
     <meta property="og:image:secure_url" content="https://raw.githubusercontent.com/nathan-contino/images/main/images/PavementEnds.webp">
     <meta property="og:image:width" content="700">
     <meta property="og:image:height" content="700">
-    <meta name="twitter:card" content="summary_large_image">
     <meta name="keywords" content="lambda, latitudinarians, disquisitions, adventure, blog, nathan contino, adventure blog, nathan, contino, nathan contino">
-    <TITLE>{{ page.title | strip_html }}</TITLE>
-    <META http-equiv="pragma" content="no-cache">
-    <LINK rel=stylesheet type="text/css" href="/_stylesheets/lite.css">
-    <LINK rel=stylesheet type="text/css" href="/_stylesheets/fruity.css" >
+    <meta name="description" content="{% if page.excerpt %} {{ page.excerpt | normalize_whitespace | replace: '</li> </ul>', '' | replace: '</li>', ';' | strip_html }} {% else %} {{ site.description }} {% endif %}">
+    <title>{{ page.title | strip_html }}</title>
+    <link rel=stylesheet type="text/css" href="/_stylesheets/lite.css">
+    <link rel=stylesheet type="text/css" href="/_stylesheets/fruity.css" >
     <script>
       // toggles the site theme between dark and light
       function toggleTheme() {
@@ -183,6 +185,8 @@
             {{ content }}
           </div>
 
+
+          <!-- show next and last pages in blog sections for only the current category -->
           {% assign cat = page.categories[0] %}
 
           {% for post in site.categories[cat] %}
