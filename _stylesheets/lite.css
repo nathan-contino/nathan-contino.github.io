@@ -137,7 +137,6 @@ pre > code {
   padding: 5px;
   white-space: pre;
   overflow: scroll;
-  width: 100%;
   display: block;
   background-color: var(--code-bg);
   color: var(--code-textcolor);
