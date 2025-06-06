@@ -138,6 +138,7 @@ pre > code {
   white-space: pre;
   overflow: scroll;
   max-width: 80vw;
+  width: 100%;
   display: block;
   background-color: var(--code-bg);
   color: var(--code-textcolor);
