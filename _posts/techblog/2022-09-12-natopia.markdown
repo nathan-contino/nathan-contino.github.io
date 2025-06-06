@@ -319,26 +319,26 @@ steps I followed:
 
 1. Update your system:
 
-   ```
+   ```zsh
    sudo apt-get update && sudo apt-get dist-upgrade
    ```
 2. Fetch dependencies:
 
-   ```
+   ```zsh
    sudo apt install php php-curl php-gmp php-intl php-mbstring php-sqlite3 php-xml php-zip
    ```
 
 3. Clone the master branch of FreshRSS into a directory on your server. In
    this case, `/srv/` (I used `/home/pi/Documents/FreshRSS/`):
 
-   ```
+   ```zsh
    cd /srv/ && sudo git clone https://github.com/FreshRSS/FreshRSS.git
    ```
 
 4. Add the following to `/etc/lighttpd/external.conf` to run FreshRSS on port
    2000 with your existing lighttpd service (used to host your Pi-Hole):
 
-   ```
+   ```zsh
    # FreshRSS config
 
    $SERVER["socket"] == ":2000" {
@@ -348,7 +348,7 @@ steps I followed:
 
 5. Link `<FreshRSS director>/p` to the web server folder:
 
-   ```
+   ```zsh
    sudo ln -s /srv/FreshRSS/p /var/www/html/freshrss
    ```
    In my case, I replaced "/srv/FreshRSS/p" above with "/home/pi/Documents/FreshRSS/p".
@@ -357,33 +357,33 @@ steps I followed:
 6. Grant the web server user account (`www-data`) access to read the FreshRSS
    folder and write to the `data` subfolder:
 
-   ```
+   ```zsh
    cd /srv/FreshRSS
    ```
-   ```
+   ```zsh
    sudo chown -R www-data:www-data .
    ```
-   ```
+   ```zsh
    sudo cmod -R g+r .
    ```
-   ```
+   ```zsh
    sudo cmod -R g+w ./data
    ```
 
 7. Next, configure your cron tab to update the feeds automatically.
    Open the crontab:
-   ```
+   ```zsh
    sudo crontab -e
    ```
    Paste the following to run FreshRSS's `actualize_script` every 15 minutes
    and write any output to a log in `/tmp/`:
-   ```
+   ```zsh
    */15 * * * * sudo -u www-data php -f /srv/FreshRSS/app/actualize_script.php > /tmp/FreshRSS.log 2>&1
    ```
    As before, replace "/srv/" above with "/home/pi/Documents/FreshRSS/" or
    whatever location you chose for your installation in step 3.
 8. Restart lighttpd:
-   ```
+   ```zsh
    sudo /etc/init.d/lghttpd restart
    ```
 9. Breathe a sigh of relief and visit http://<home server address>:2000. Within
@@ -423,7 +423,7 @@ but in short:
 
 1. Install Samba on the raspberry pi:
 
-   ```
+   ```zsh
    sudo apt update && sudo apt upgrade
    sudo apt install samba samba-common-bin
    ```
@@ -431,7 +431,7 @@ but in short:
    file sharing (I stuck with pi; that's probably not the most secure
    way to go):
 
-   ```
+   ```zsh
    sudo smbpasswd -a pi
    ```
 
@@ -442,7 +442,7 @@ but in short:
    `/etc/avahi/services/smb.service` file (use `sudo`) and entering
    the following contents:
 
-   ```
+   ```xml
     <?xml version="1.0" standalone='no'?>
     <!DOCTYPE service-group SYSTEM "avahi-service.dtd">
     <service-group>
@@ -464,13 +464,13 @@ but in short:
 
 5. Restart the Samba service to make these changes effective:
 
-   ```
+   ```zsh
    sudo service smbd restart
    ```
 
    And restart the Avahi service to make the icon changes effective:
 
-   ```
+   ```zsh
    sudo service avahi-daemon restart
    ```
 

@@ -10,13 +10,13 @@ Since I created this site, I've received many questions about the name. As a res
 
 Now that you're familiar with the tip of the lambda iceberg, you're probably wondering: just what the hell is lambda calculus anyway? The wikipedia page is not particularly good at teaching the basics, so you probably expect me to demonstrate something. As it turns out, you're in luck. Behold: a lambda calculus example:
 
-~~~ bash
+~~~
 λparameter.(function parameter parameter) input
 ~~~
 
 Which is equivalent to this function in C:
 
-~~~ c
+~~~
 int lambda(int parameter){
 	function(parameter, parameter);
 }
@@ -28,7 +28,7 @@ int main(){
 
 That's pretty basic, but it shows you the way that lambda functions work: the lambda function pulls in an input item and replaces "parameter" in its body with the value of input. Now I can show you something a lot cooler:
 
-~~~ bash
+~~~
 λg.(λx.g (x x)) (λx.g (x x))
 ~~~
 

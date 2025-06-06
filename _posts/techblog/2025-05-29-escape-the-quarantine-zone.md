@@ -35,7 +35,7 @@ The "unrecognized application" and "quarantined" wording is scary. "If you trust
 
 If the quarantine bit mostly annoys you with unsigned applications distributed via Homebrew, there's a fix. On a case-by-case basis, pass the `--no-quarantine` flag when you install or upgrade a package to disable the quarantine bit on your installation. But it's easy to forget this eventually. So instead, I recommend adding the option to your Homebrew cask settings permanently. Add the following line to your shell configuration (`~/.zshrc` on modern macOS, unless you switched to a different shell):
 
-```zsh
+```shell
 HOMEBREW_CASK_OPTS="--no-quarantine $HOMEBREW_CASK_OPTS"
 ```
 
@@ -53,13 +53,13 @@ You can also visit the **Privacy & Security** section of macOS Settings to indiv
 
 To remove the quarantine bit from a single file, run the following command:
 
-```console
-$ xattr -dr com.apple.quarantine <file>
+```zsh
+xattr -dr com.apple.quarantine <file>
 ```
 
 If you're sick of the workarounds and the hullabaloo, you can also entirely disable the quarantine bit entirely forever on your machine (until a major macOS update brings it back, unfortunately):
 
-```console
-$ sudo defaults write com.apple.LaunchServices LSQuarantine -bool NO
+```zsh
+sudo defaults write com.apple.LaunchServices LSQuarantine -bool NO
 ```
 

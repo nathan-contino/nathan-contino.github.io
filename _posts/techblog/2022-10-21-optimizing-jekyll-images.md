@@ -53,8 +53,8 @@ This is how I ran the BFG:
 
 First clone a fresh copy of your repo, using the --mirror flag:
 
-```
-$ git clone --mirror git://github.com/your-repository-name.git
+```zsh
+git clone --mirror git://github.com/your-repository-name.git
 ```
 
 This is a "bare repo", so files won't be visible.
@@ -63,8 +63,8 @@ Make a backup of it to ensure you don't lose anything.
 
 Now you can run the BFG to clean your repository up:
 
-```
-$ java -jar bfg.jar --strip-blobs-bigger-than 500K your-repository-name.git
+```zsh
+java -jar bfg.jar --strip-blobs-bigger-than 500K your-repository-name.git
 ```
 
 The BFG rewrites your commits and all branches and tags to purge the blobs.
@@ -72,16 +72,16 @@ But it doesn't physically delete the unwanted stuff.
 Examine the repo to make sure your history updated.
 Then, use git's garbage collector to strip out the blobs:
 
-```
-$ cd your-repository-name.git
-$ git reflog expire --expire=now --all && git gc --prune=now --aggressive
+```zsh
+cd your-repository-name.git
+git reflog expire --expire=now --all && git gc --prune=now --aggressive
 ```
 
 Once you're happy with the updated state of your repo, push it back up.
 WARNING: because your clone command used the `--mirror` flag, this push updates all refs at your git host:
 
-```
-$ git push
+```zsh
+git push
 ```
 
 Oddly, I didn't have to force push. If this fails, add the `-f` flag and it might work. I *did* see some failures related to github issues, but inspecting my repo revealed that the blobs no longer existed in my history. Seems like those errors didn't matter for my needs.
@@ -106,9 +106,9 @@ There are three steps involved in the process of displaying these new images on 
 
 1. Add custom Jekyll variables to easily reference your image repository in `_config.yml`:
 
-   ```
+   ```yaml
    images: https://raw.githubusercontent.com/<your-username>/<repo-name>/main/images/
-thumbnails: https://raw.githubusercontent.com/<your-username>/<repo-name>/main/.thumbnails/images/
+   thumbnails: https://raw.githubusercontent.com/<your-username>/<repo-name>/main/.thumbnails/images/
    ```
 
 2. Create a figure HTML include for your Jekyll site. I created [figure.html](https://github.com/nathan-contino/nathan-contino.github.io/blob/master/_includes/figure.html) in my site's "_includes" subdirectory. This include uses the built-in HTML "figure" tag to display an image and a caption. I've wrapped the "img" tag within the "figure" tag in an anchor that links out to the full resolution version of the image.
@@ -122,7 +122,7 @@ I also had to implement a couple of minor styling fixes to make this work.
 
 1. On my blog, links have styling that colors their background when you hover over them. This resulted in some weird behavior when I hovered over images that are also links. I added a class called "nohover" to my figure image tags, and used `:not(.nohover)` in my CSS to exclude that class from hover styling:
 
-   ```
+   ```css
    a:not(.nohover):hover {
 	  background-color: #300A24;
 	  color: #BBB;
@@ -131,7 +131,7 @@ I also had to implement a couple of minor styling fixes to make this work.
 
 2. I added the following styling to all anchor links on my site, because honestly, I pretty much never want a link to open in the current tab:
 
-   ```
+   ```css
    target: _blank;
    rel: "noopener noreferrer";
    ```

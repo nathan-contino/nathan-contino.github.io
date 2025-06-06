@@ -17,17 +17,17 @@ Follow these steps:
    click "erase", then rename your drive & choose FAT.
 2. Download the ISO image to load onto the drive.
 3. Convert the ISO to an DMG image:
-   ```
+   ```zsh
    hdiutil convert /path/to/example.iso -format UDRW -o /path/to/example
    ```
    Note that the output file implicitly gets a `.dmg` extension added to the end. You'll need to include the `.dmg` when you write the image to the drive.
 4. Find the USB drive id with diskutil:
-   ```
+   ```zsh
    diskutil list
    ```
    This will output a big list of disks (`/dev/disk1`, `/dev/disk2`, `/dev/disk3`, for instance). Look for the USB you just reformatted by name in the "NAME" column. Then grab the identifier from the "IDENTIFIER" column in row 0. Or just use the last string in the disk label at the start of the disk listing, a la "disk3". If you forgot to assign a meaningful name, you might be able to find it by capacity.
 5. Write your DMG to the USB drive using the ID from the previous step:
-   ```
+   ```zsh
    sudo dd if=/path/to/example.dmg of=/dev/<USB DRIVE ID> bs=1m
    ```
    **Note:** you'll need to include the `.dmg` extension at the end of your image file. If you're a little thick like me, you might forget it because you didn't include it in step 3. You *do* have to include it this time.

@@ -1,46 +1,54 @@
 # nathan-contino.github.io
-Nathan Contino's personal web page.
 
-[lambdalatitudinarians.org](https://www.lambdalatitudinarians.org)
+Nathan Contino's personal web page, built with [Jekyll](https://jekyllrb.com/docs/).
 
-[nathan-contino.github.io](https://nathan-contino.github.io/)
+Hosted at:
+
+- [lambdalatitudinarians.org](https://www.lambdalatitudinarians.org)
+
+- [nathan-contino.github.io](https://nathan-contino.github.io/)
 
 # license
 
 This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License (CC-SA)](http://creativecommons.org/licenses/by-sa/4.0/).
 
-# local testing
+# build this site
 
-You might need to run this command before building anything to ensure that Ruby installs gems into your user directory, not a global directory that sometimes maybe kinda sort requires `sudo`:
+## prerequisites
 
-```bash
-bundle config path ~/.gem/ruby
+You need a reasonably recent version of Ruby. The installation that ships with macOS won't do, so install [a better distribution from Homebrew](https://formulae.brew.sh/formula/ruby):
+
+```console
+brew install ruby
 ```
 
-To test this site locally, install jekyll (note: this requires ruby)
-(note: you might need to preface this with `sudo`):
+Be sure to follow the instructions that Homebrew prints out to make this installation of Ruby:
 
-```bash
-$ gem install jekyll bundler
+- accessible via the `ruby` command in an interactive shell, using your `PATH`
+- discoverable to compilers.
+
+Once you've finished those edits to your shell configuration, open a new terminal to load the changes.
+
+Then, install jekyll and update Ruby's `bundler` package manager to the latest version:
+
+```console
+gem install jekyll bundler
 ```
 
-Then, install the dependencies for running the site locally:
+Then, use `bundler` to install the dependencies for running the site locally:
 
-```bash
-$ bundle install
+```console
+bundle install
 ```
 
-Finally, you can create a running instance of the site with:
+## preview site
 
-```bash
-$ bundle exec jekyll serve
+To build and host the site on your local machine, run the following command:
+
+```console
+bundle exec jekyll serve
 ```
-
-To learn more about adding new dependencies and tweaking the
-Jekyll config, see [Jekyll's documentation](https://jekyllrb.com/docs/).
 
 # images
 
-Images live at [nathan-contino/images](https://github.com/nathan-contino/images).
-
-A GitHub Actions pipeline takes full-size images from the "images" directory and produces both small thumbnails and reasonably-sized 2000 pixel wide images from them.
+Images live separately at [nathan-contino/images](https://github.com/nathan-contino/images).
