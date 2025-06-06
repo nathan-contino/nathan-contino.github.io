@@ -49,6 +49,14 @@ To build and host the site on your local machine, run the following command:
 bundle exec jekyll serve
 ```
 
+If you prefer, you can instead use Make:
+
+```console
+make serve
+```
+
+For a full list of Make options, run `make list`.
+
 # images
 
 Images live separately at [nathan-contino/images](https://github.com/nathan-contino/images).
