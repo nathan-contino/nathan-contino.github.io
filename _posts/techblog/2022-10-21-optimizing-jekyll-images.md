@@ -74,6 +74,9 @@ Then, use git's garbage collector to strip out the blobs:
 
 ```zsh
 cd your-repository-name.git
+```
+
+```zsh
 git reflog expire --expire=now --all && git gc --prune=now --aggressive
 ```
 
@@ -111,7 +114,7 @@ There are three steps involved in the process of displaying these new images on 
    thumbnails: https://raw.githubusercontent.com/<your-username>/<repo-name>/main/.thumbnails/images/
    ```
 
-2. Create a figure HTML include for your Jekyll site. I created [figure.html](https://github.com/nathan-contino/nathan-contino.github.io/blob/master/_includes/figure.html) in my site's "_includes" subdirectory. This include uses the built-in HTML "figure" tag to display an image and a caption. I've wrapped the "img" tag within the "figure" tag in an anchor that links out to the full resolution version of the image.
+2. Create a figure HTML include for your Jekyll site. I created [figure.html](https://github.com/nathan-contino/nathan-contino.github.io/blob/master/_includes/figure.html) in my site's `_includes` subdirectory. This include uses the built-in HTML "figure" tag to display an image and a caption. I've wrapped the "img" tag within the "figure" tag in an anchor that links out to the full resolution version of the image.
 
 3. Reference the include from blog posts with the syntax demonstrated [here](https://github.com/nathan-contino/nathan-contino.github.io/blob/master/_posts/blog/2022-06-21-mountain-biking-is-silly.markdown). Look for the "figure.html" mentions and the images should stick out.
 

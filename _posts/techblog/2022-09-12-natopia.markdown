@@ -164,7 +164,7 @@ public IP address. There are many ways to find this, but one easy way is to
 
 You can add a VPN client profile with the following command:
 
-```
+```zsh
 pivpn wg -a
 ```
 
@@ -259,7 +259,7 @@ The official documentation covers things quite well.
 
 I organize my files just like I did in the 00's with iTunes:
 
-```
+```toml
 Music
   Artist
     AlbumA
@@ -338,7 +338,7 @@ steps I followed:
 4. Add the following to `/etc/lighttpd/external.conf` to run FreshRSS on port
    2000 with your existing lighttpd service (used to host your Pi-Hole):
 
-   ```zsh
+   ```javascript
    # FreshRSS config
 
    $SERVER["socket"] == ":2000" {
@@ -425,6 +425,8 @@ but in short:
 
    ```zsh
    sudo apt update && sudo apt upgrade
+   ```
+   ```zsh
    sudo apt install samba samba-common-bin
    ```
 2. Set a dedicated Samba password for the account you'd like to use for
