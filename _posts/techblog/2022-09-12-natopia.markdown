@@ -259,17 +259,17 @@ The official documentation covers things quite well.
 
 I organize my files just like I did in the 00's with iTunes:
 
-```toml
+```yaml
 Music
-  Artist
-    AlbumA
-      Song1
-      Song2
-      cover.webp
-    AlbumB
-      Song1
-      Song2
-      cover.webp
+└── ArtistName
+    ├── AlbumName
+    │   ├── Song1.mp3
+    │   ├── Song2.mp3
+    │   └── cover.webp
+    └── AnotherAlbumName
+        ├── Song1.m4a
+        ├── Song2.m4a
+        └── cover.webp
 ```
 
 Jellyfin lets you edit metadata in the files directly, but only some of
