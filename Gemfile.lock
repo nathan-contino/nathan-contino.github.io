@@ -13,6 +13,7 @@ GEM
       http_parser.rb (~> 0)
     eventmachine (1.2.7)
     ffi (1.17.0)
+    ffi (1.17.0-arm64-darwin)
     forwardable-extended (2.6.0)
     http_parser.rb (0.8.0)
     i18n (1.14.6)
@@ -85,7 +86,7 @@ DEPENDENCIES
   tzinfo-data
 
 RUBY VERSION
-   ruby 3.4.4p34
+   ruby 3.1.7p261
 
 BUNDLED WITH
    2.5.11
