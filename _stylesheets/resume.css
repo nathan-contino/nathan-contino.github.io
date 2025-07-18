@@ -30,7 +30,7 @@ html {
 body {
   background-color: #FFF;
   max-width: 100vw;
-  font-size: .9rem;
+  font-size: .85rem;
   overflow-wrap: break-word;
   margin: 0 auto;
   flex-direction: column;
@@ -94,7 +94,7 @@ topper-side {
 
 name {
   flex: 2;
-  font-size: 5rem;
+  font-size: 4rem;
   font-family: var(--mono-font);
   color: #E95420;
 }

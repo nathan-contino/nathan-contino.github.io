@@ -31,11 +31,11 @@ permalink: /resume-html/
 
 ***
 
-| {::nomarkdown} <div style="display: flex; align-items: center;"> <img src="/_resources/raspberrypi.ico" style="width:1em !important; border: 0px !important; padding-right: .2em;" /> Head of Documentation, Raspberry Pi </div>{:/} | `2023 – ****` |
+| {::nomarkdown} <div style="display: flex; align-items: center;"> <img src="/_resources/raspberrypi.ico" style="width:1em !important; border: 0px !important; padding-right: .2em;" /> Documentation Lead, Raspberry Pi </div>{:/} | `2023 – ****` |
 | :--- | ---: |
 | _AsciiDoc, Python, Ruby, Git_ ||
 
-* Wrote and edited documentation for Raspberry Pi software and hardware, including flagship devices, Zero, Pico, and accessories.
+* Wrote and edited documentation for Raspberry Pi software and hardware, including flagship devices, Compute Modules, Zero, Pico, and accessories.
 * Shepherded datasheet PDFs detailing the specifics of Raspberry Pi hardware and silicon from the minds of hardware engineers into words.
 
 | {::nomarkdown} <div style="display: flex; align-items: center;"> <img src="/_resources/gradle.ico" style="width:1em !important; border: 0px !important; padding-right: .2em;" /> Lead Technical Writer, Gradle </div>{:/}  | `2022 – 2023` |
@@ -79,12 +79,6 @@ permalink: /resume-html/
 
 * Extracts code examples from unit tests, formatting with syntax highlighting and token replacement.
 * Replaces "finished" code with "todo" code for a branch in a tutorial repo.
-
-| Hulk: {::nomarkdown}<slap style="font-weight:100 !important;">cache for a computationally-intensive calculation engine</slap>{:/} | `2019` |
-| :--- | ---: |
-| _C++, Bloomberg Message Queue, SQL_ ||
-
-* Improved average query performance by orders of magnitude.
 
 # Skills & Interests
 
