@@ -46,7 +46,7 @@ permalink: /resume-html/
 * Edited new engineering documentation contributions to ensure consistency and comprehensiveness throughout the docs.
 * Coordinated with Engineering and Education to write, edit, and revise release notes for Gradle Build Tool.
 
-| {::nomarkdown} <div style="display: flex; align-items: center;"> <img src="/_resources/mongodb.ico" style="width:1em !important; border: 0px !important; padding-right: .2em;" /> Senior Technical Writer, MongoDB </div>{:/}  | `2019 – 2022` |
+| {::nomarkdown} <div style="display: flex; align-items: center;"> <img src="/_resources/mongodb.ico" style="width:1em !important; border: 0px !important; padding-right: .2em;" /> Senior Documentation Engineer, MongoDB </div>{:/}  | `2019 – 2022` |
 | :--- | ---: |
 | _rST, Sphinx, Android development, Kotlin, Python, Java, Javascript, Swift, Git_ ||
 
