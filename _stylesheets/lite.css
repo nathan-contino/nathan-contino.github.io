@@ -214,6 +214,10 @@ li {
   left: -130px;
 }
 
+.hero-accompaniment {
+  margin-right: 40px;
+}
+
 .other-hero-photo-container {
   transform: skewX(-30deg);
   border: solid 0.15em var(--mainalternative);
@@ -419,6 +423,8 @@ and (max-width: 420px) {
   margin:  0 auto;
   flex-direction: column;
   max-width: 864px;
+  text-align: justify;
+  hyphens: auto;
 }
 
 /* rules for screens 740 pixels wide and below */
