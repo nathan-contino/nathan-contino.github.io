@@ -1,5 +1,5 @@
 {% assign include.width = | default: 0 %}
-<figure {% if include.width != 0 %} style="float:left; width: {{ include.width }}px !important;" {% endif %}>
-  <a href="{{ site.images }}{{ include.url }}" target="_blank" class="nohover"><img src="{{ site.thumbnails }}{{ include.url }}" alt="{{ include.description }}" height="500px" loading="lazy" {% if include.width != 0 %} style="width:{{ include.width }}px !important;" {% endif %}></a>
-  <figcaption {% if include.width != 0 %} style="width:{{ include.width }}px !important; min-width:{{ include.width }}px !important;" {% endif %}>{{ include.description }}</figcaption>
+<figure {% if include.width != 0 %} style="float:left; max-width: {{ include.width }}px !important;" {% endif %}>
+  <a href="{{ site.images }}{{ include.url }}" target="_blank" class="nohover"><img src="{{ site.thumbnails }}{{ include.url }}" alt="{{ include.description }}" height="500px" loading="lazy" {% if include.width != 0 %} style="max-width:{{ include.width }}px !important;" {% endif %}></a>
+  <figcaption {% if include.width != 0 %} style="max-width:{{ include.width }}px !important; min-width:{{ include.width }}px !important;" {% endif %}>{{ include.description }}</figcaption>
 </figure>
