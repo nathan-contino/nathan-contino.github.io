@@ -423,7 +423,6 @@ and (max-width: 420px) {
   margin:  0 auto;
   flex-direction: column;
   max-width: 864px;
-  text-align: justify;
   text-wrap: pretty;
   hyphens: auto;
 }

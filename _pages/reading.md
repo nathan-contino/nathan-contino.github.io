@@ -6,6 +6,8 @@ permalink: /reading-log/
 
 | Book Title 					| Author 				| Date 			| Notes |
 | ---		 					| ---		 			| ---			| ---	|
+| **The First Witch of Boston** | Andrea Catalano		| 2025			| A hilarious psychological experiment: what if someone wrote a bunch of bodice-ripping ahistorical smut, renamed all of the characters after actual historical people, then pitched the book as a 'historical fiction' novel? You might convince some book clubs to commit to reading it before they knew any better. Cardboard cutout characters. Dialog rife with contractions and other non-1600s speech patterns, not even consistently lazy old-timey. A disturbing amount of rapes for a smut book. 0/10 would recommend only for a book club that intentionally reads bad books to make fun of them. You have been warned. |
+| **The Diamond Age**			| Neal Stephenson		| 2025			| [see review](/techblog/2025/10/22/the-diamond-age/) |
 | **Cryptonomicon**				| Neal Stephenson		| 2025			| [see review](/techblog/2025/09/04/cryptonomicon/) |
 | **Anathem**					| Neal Stephenson		| 2025			| [see review](/techblog/2025/08/06/anathem/) |
 | **The Moon is a Harsh Mistress** | Robert Heinlein	| 2025			| [see review](/techblog/2025/07/13/moon-heinlein/) |
