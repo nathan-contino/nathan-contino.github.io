@@ -1,6 +1,6 @@
 ---
 title:  "Improve macOS Finder SMB Share Performance"
-date:   2025-10-22 15:13:13 -0500
+date:   2025-11-21 15:13:13 -0500
 layout: default
 categories: techblog
 ---
