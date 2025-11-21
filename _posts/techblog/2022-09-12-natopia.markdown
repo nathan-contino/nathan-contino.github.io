@@ -338,7 +338,7 @@ steps I followed:
 4. Add the following to `/etc/lighttpd/external.conf` to run FreshRSS on port
    2000 with your existing lighttpd service (used to host your Pi-Hole):
 
-   ```javascript
+   ```conf
    # FreshRSS config
 
    $SERVER["socket"] == ":2000" {

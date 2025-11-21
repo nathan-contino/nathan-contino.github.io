@@ -1,0 +1,12 @@
+--bg: #000000;
+--code-bg: #522C46;
+--accent: #5E2750;
+--headeraccent: #f37320;
+--main: #f37320;
+--mainalternative: rgb(210, 77, 21);
+--textcolor: white;
+--code-textcolor: var(--mainalternative);
+--mutedtextcolor: grey;
+--menucolor: #111;
+--theme-toggle-label: "🌝";
+color: var(--textcolor);

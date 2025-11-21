@@ -8,6 +8,8 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#d6785e">
+    <link rel="me" href="https://mastodon.social/@ncontino"></link>
+    <meta name="fediverse:creator" content="@ncontino@mastodon.social">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#000000">
     <meta property="og:type" content="website">
@@ -22,20 +24,40 @@
     <meta name="keywords" content="lambda, latitudinarians, disquisitions, adventure, blog, nathan contino, adventure blog, nathan, contino, nathan contino">
     <meta name="description" content="{% if page.excerpt %} {{ page.excerpt | normalize_whitespace | replace: '</li> </ul>', '' | replace: '</li>', ';' | strip_html }} {% else %} {{ site.description }} {% endif %}">
     <title>{{ page.title | strip_html }}</title>
-    <link rel=stylesheet type="text/css" href="/_stylesheets/lite.css">
+        <!-- stylesheet for site, frontloaded instead of in a separate file so we never get a 'flash' of unstyled content -->
+    <style>
+      {% include lite.css %}
+    </style>
+    <!-- stylesheet for code blocks -- only needed on certain blog posts, and those posts are entirely usable without it -->
     <link rel=stylesheet type="text/css" href="/_stylesheets/fruity.css" >
     <script>
-      // toggles the site theme between dark and light
+      function prefersDark() {
+        // user prefers dark if browser requests dark color scheme or uses firefox
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+            || navigator.userAgent.includes('Firefox')) {
+          return true;
+        }
+        return false;
+      }
+      // toggles the site theme between dark and light: NOTE: because this setting is also used as the cookie label,
+      // dark moon = light theme and light moon = dark theme (apologies, i know this is counter-intuitive)
       function toggleTheme() {
         // fetch the theme from local storage (if it exists)
         var theme = localStorage.getItem('theme');
-        // if theme them has never been set, or is light, set the theme to the dark symbol in local storage to change it
-        if (localStorage.getItem('theme') !== null && theme == '🌝' ) {
+
+        // because we don't write any preference until you click, toggle needs to check if the user is already using the dark theme
+        if (theme === null) {
+          if (prefersDark()) {
+            localStorage.setItem('theme', '🌝');
+          } else {
+            localStorage.setItem('theme', '🌚');
+          }
+        } else if (theme == '🌝') {
           localStorage.setItem('theme', '🌚');
-        } else {
-          // otherwise, the theme is currently set to dark, so set the theme to the light symbol in local storage to change it
+        } else if (theme == '🌚') {
           localStorage.setItem('theme', '🌝');
         }
+
         // finally, toggle the light option off or on the body to change the display of the theme
         document.body.classList.toggle('light');
       }
@@ -49,12 +71,8 @@
         // fetch the theme from local storage (if it exists)
         var theme = localStorage.getItem('theme');
 
-        // if the theme has been set to light (null check to short circuit if not set)
-        if(theme !== null && theme === '🌝'
-              // if we can use matchMedia and the browser supports the dark color scheme
-              || (window.matchMedia && !window.matchMedia('(prefers-color-scheme: dark)').matches && theme !== '🌚')
-              // if the user is using firefox and the theme has not explicitly been set to dark mode
-              || (!navigator.userAgent.includes('Firefox') && theme !== '🌚')) {
+        // if the user has already set the dark theme in a past visit, or the user prefers the dark theme, toggle to light theme
+        if((theme !== null && theme === '🌚') || (theme === null && prefersDark())) {
           // toggles the theme from the default dark mode to the light version (which actually _shows_ by default to many users)
           document.body.classList.toggle('light');
         }
