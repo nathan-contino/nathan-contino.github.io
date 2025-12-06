@@ -388,10 +388,14 @@ and (max-width: 420px) {
 /* rules for screens 740 pixels wide and below */
 @media only screen
 and (max-width : 740px) {
-menu {
-  visibility: hidden;
-  width: 0px;
-}
+  menu {
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+  }
+  h1 {
+    padding-top: 10px;
+  }
 }
 
 /* rules for screens over 740 pixels wide */
@@ -448,7 +452,7 @@ menu a svg {
 mobile-menu {
   position: absolute;
   overflow: hidden;
-  z-index: 500;
+  z-index: 502;
   font-size: 2rem;
   display: flex;
   margin-top: 0%;
