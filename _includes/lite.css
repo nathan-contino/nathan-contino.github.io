@@ -396,6 +396,9 @@ and (max-width : 740px) {
   h1 {
     padding-top: 10px;
   }
+  .two-column {
+    padding-top: 30px;
+  }
 }
 
 /* rules for screens over 740 pixels wide */
