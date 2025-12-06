@@ -266,26 +266,6 @@ figcaption {
   height: 100%;
 }
 
-table > thead > tr > th > img {
-  color: var(--mainalternative);
-  align: center;
-  width: 350px;
-  display: block;
-  text-align: center;
-  border: solid 0.2em var(--mainalternative);
-}
-
-table > tbody > tr > td > em {
-  color: var(--main);
-  width: 350px;
-  display: table-caption;
-  text-align: center;
-  border-radius: 0px 0px 7px 7px;
-  border: solid 0.15em var(--mainalternative);
-  border-top: 0;
-  background-color: var(--accent);
-}
-
 table {
   color: var(--mainalternative);
   border: solid 0.1em var(--mainalternative);
@@ -733,59 +713,56 @@ blog-date::after {
   z-index: 9;
 }
 
-/* make reading log more readable */
+/* turn table reading log (in markdown) into something resembling a card view for readability */
 #reading-log + table {
+  display: block;
+  border: 0;
+
+  /* un-tableify the table */
+  table, thead, tbody, th, td, tr {
     display: block;
     border: 0;
-
-    /* Force table to not be like tables anymore */
-    table, thead, tbody, th, td, tr {
-      display: block;
-      border: 0;
-    }
-
-    /* Hide table headers (but not display: none;, for accessibility) */
-    thead tr {
-      position: absolute;
-      top: -9999px;
-      left: -9999px;
-    }
-
-    tr {
-      margin: 0 0 2rem 0;
-      border: solid 0.2em var(--mainalternative);
-      border-radius: 7px 7px 7px 7px;
-    }
-      
-    tr:nth-child(odd) {
-      background: var(--menucolor);
-    }
-    
-    td {
-      /* Behave  like a "row" */
-      border: none;
-      border-bottom: 1px solid var(--mainalternative);
-      position: relative;
-      padding-left: 20%;
-    }
-
-    td:before {
-      /* Now like a table header */
-      position: absolute;
-      /* Top/left values mimic padding */
-      top: 0;
-      left: 3px;
-      width: 45%;
-      padding: 5px;
-      white-space: nowrap;
-    }
-
-    /*
-    Label the data
-    You could also use a data-* attribute and content for this. That way "bloats" the HTML, this way means you need to keep HTML and CSS in sync. Lea Verou has a clever way to handle with text-shadow.
-    */
-    td:nth-of-type(1):before { content: "Book Title"; }
-    td:nth-of-type(2):before { content: "Author"; }
-    td:nth-of-type(3):before { content: "Date"; }
-    td:nth-of-type(4):before { content: "Notes"; }
   }
+
+  /* Hide table headers (but not display: none;, for accessibility) */
+  thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  tr {
+    margin: 0 0 2rem 0;
+    border: solid 0.2em var(--mainalternative);
+    border-radius: 7px 7px 7px 7px;
+  }
+    
+  tr:nth-child(odd) {
+    background: var(--menucolor);
+  }
+  
+  /* Convert row into a series of rows, grouped */
+  td {
+    border: none;
+    border-bottom: 1px solid var(--mainalternative);
+    position: relative;
+    padding-left: 20%;
+  }
+
+  td:before {
+    position: absolute;
+    /* Top/left values mimic padding */
+    top: 0;
+    left: 3px;
+    width: 45%;
+    padding: 5px;
+    white-space: nowrap;
+  }
+
+
+  /* Manually assign labels for 'rows' in 'cards' */
+  td:nth-of-type(1):before { content: "Book Title"; }
+  td:nth-of-type(2):before { content: "Author"; }
+  td:nth-of-type(3):before { content: "Date"; }
+  td:nth-of-type(4):before { content: "Notes"; }
+}
