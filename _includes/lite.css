@@ -14,25 +14,11 @@
   transform: skewX(-30deg);
 }
 
-@font-face {
-  font-family: 'Monaco';
-  src: url('/_stylesheets/Monaco.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Courier New';
-  src: url('/_stylesheets/Courier New.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
 html {
-  --sans-font: Monaco, "Ubuntu Mono", "Garamond", "Bookman", "Palatino", sans-serif;
   --mono-font: Consolas, "Courier New", Menlo, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+  --hero-font: "Courier New", "FreeMono", "Rockwell", "Courier", monospace;
   font-size: 14px;
-  font-family: var(--sans-font);
+  font-family: "Courier new", Courier, Menlo, Monaco, monospace;
   width: 100%;
   overflow-x: hidden;
 }
@@ -105,7 +91,7 @@ footer > div > div {
 }
 
 code {
-  font-family: "Courier New", "FreeMono", monospace;
+  font-family: var(--mono-font);
   font-weight: bold;
 }
 
@@ -302,7 +288,7 @@ SPAN.program {font-family: monospace;}
 SPAN.rw {font-family: monospace; font-style: italic;}
 
 lambda {
-  font-family: "Courier New", "FreeMono", "Rockwell", monospace;
+  font-family: var(--hero-font);
   color: var(--mainalternative);
   font-weight: lighter;
 }
@@ -318,7 +304,7 @@ lambda {
 }
 
 .biglambdacontent {
-  font-family: "Courier New", "FreeMono", "Rockwell", monospace;
+  font-family: var(--hero-font);
   font-size: 2rem;
   max-width: 1000px;
   color: #000;
@@ -544,21 +530,21 @@ mobile-menu input:checked ~ ul li {
 }
 
 h1 {
-  font-family: "Courier New", "FreeMono", "Rockwell", monospace;
+  font-family: var(--hero-font);
   font-size: 1.8rem;
   color: var(--headeraccent);
   margin-bottom: 0px;
   margin-top: 10px;
 }
 h2 {
-  font-family: "Courier New", "FreeMono", "Rockwell", monospace;
+  font-family: var(--hero-font);
   font-size: 1.6rem;
   color: var(--headeraccent);
   margin-bottom: 0px;
   margin-top: 5px;
 }
 h3 {
-  font-family: "Courier New", "FreeMono", "Rockwell", monospace;
+  font-family: var(--hero-font);
   font-size: 1.4rem;
   color: var(--headeraccent);
   margin-bottom: 0px;
