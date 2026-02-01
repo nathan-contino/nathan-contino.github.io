@@ -38,11 +38,22 @@ header {
   z-index: 500;
 }
 
-a {
-  cursor: pointer;
-  cursor: hand;
+menu a {
   color: var(--main);
   text-decoration: none;
+  target: _blank;
+  rel: "noopener noreferrer";
+}
+
+.blog-post a {
+  color: var(--main);
+  text-decoration: none;
+  target: _blank;
+  rel: "noopener noreferrer";
+}
+
+a {
+  color: var(--accent);
   target: _blank;
   rel: "noopener noreferrer";
 }
@@ -679,7 +690,7 @@ a.nostyle:visited {
 /* blog post folder-ish style */
 
 .blog-post {
-  border: 1px solid var(--mainalternative);
+  border: 1px solid var(--main);
   padding-left: 5px;
   padding-bottom: 0px;
   margin-bottom: 25px;
@@ -687,10 +698,11 @@ a.nostyle:visited {
 
 blog-date {
   display: flex;
+  color: white;
 }
 
 blog-date > div {
-  background-color: var(--mainalternative);
+  background-color: var(--main);
   line-height: 1em;
   margin-top: 0px;
   margin-bottom: 0px;
@@ -700,10 +712,10 @@ blog-date > div {
 
 blog-date::after {
   content: ' ';
-  background: var(--mainalternative);
+  background: var(--main);
   flex: 0 20px;
   transform: skewX(30deg) translateX(-10px);
-  border-left: 20px var(--mainalternative);
+  border-left: 20px var(--main);
   z-index: 9;
 }
 

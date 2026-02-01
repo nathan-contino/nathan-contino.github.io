@@ -1,12 +1,12 @@
 --bg: #000000;
 --code-bg: #522C46;
---accent: #5E2750;
+--accent: #99438F;
 --headeraccent: #f37320;
 --main: #f37320;
 --mainalternative: rgb(210, 77, 21);
 --textcolor: white;
 --code-textcolor: var(--mainalternative);
---mutedtextcolor: grey;
+--mutedtextcolor: #555;
 --menucolor: #111;
 --theme-toggle-label: "🌝";
 color: var(--textcolor);

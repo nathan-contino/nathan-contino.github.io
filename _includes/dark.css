@@ -6,7 +6,7 @@
 --mainalternative: #D24D15;
 --textcolor: black;
 --code-textcolor: var(--mainalternative);
---mutedtextcolor: grey;
+--mutedtextcolor: #555;
 --menucolor: #8E6D55;
 --theme-toggle-label: "🌚";
 color: var(--textcolor);
