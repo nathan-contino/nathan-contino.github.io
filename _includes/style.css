@@ -45,6 +45,13 @@ menu a {
   rel: "noopener noreferrer";
 }
 
+mobile-menu a {
+  color: var(--main);
+  text-decoration: none;
+  target: _blank;
+  rel: "noopener noreferrer";
+}
+
 .blog-post a {
   color: var(--main);
   text-decoration: none;
