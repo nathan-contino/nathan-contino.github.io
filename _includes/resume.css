@@ -1,27 +1,5 @@
-@font-face {
-  font-family: 'Ubuntu';
-  src: url('/_stylesheets/Ubuntu-R.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Ubuntu';
-  src: url('/_stylesheets/Ubuntu-B.ttf') format('truetype');
-  font-weight: bold;
-}
-
-@font-face {
-  font-family: 'Ubuntu Mono';
-  src: url('/_stylesheets/UbuntuMono-R.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Ubuntu Mono';
-  src: url('/_stylesheets/UbuntuMono-B.ttf') format('truetype');
-  font-weight: bold;
-}
-
 html {
-  --sans-font: "Ubuntu", "Garamond", "Bookman", "Palatino", sans-serif;
+  --sans-font: "Ubuntu", "Monaco", "Courier New", "Courier", "Garamond", "Bookman", "Palatino", sans-serif;
   --mono-font: "Ubuntu Mono", "Courier", monospace;
   font-size: 14px;
   font-family: var(--sans-font);
