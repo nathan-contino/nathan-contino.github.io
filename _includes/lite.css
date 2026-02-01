@@ -494,6 +494,7 @@ mobile-menu-toggle>label {
 
 ul {
   padding-left: 2em;
+  list-style-type: "› ";
 } 
 
 mobile-menu ul {
