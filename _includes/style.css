@@ -253,7 +253,7 @@ figcaption {
   border-radius: 0px 0px 7px 7px;
   border: solid 0.15em var(--mainalternative);
   border-top: 0;
-  background-color: var(--accent);
+  background-color: var(--code-bg);
   height: 1em;
   line-height: 1.8em;
   font-style: italic;
@@ -659,6 +659,7 @@ nav {
   display: flex;
   flex-direction: row;
   align-items: center;
+  text-decoration: none;
   gap: 2%;
   margin: 1em 0;
   border: 1px solid var(--main);

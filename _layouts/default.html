@@ -26,11 +26,11 @@
     <title>{{ page.title | strip_html }}</title>
         <!-- stylesheet for site, frontloaded instead of in a separate file so we never get a 'flash' of unstyled content -->
     <style>
-      {% include lite.css %}
+      {% include style.css %}
     </style>
     <!-- stylesheet for code blocks -- only needed on certain blog posts, and those posts are entirely usable without it -->
     <style>
-      {% include fruity.css %}
+      {% include code.css %}
     </style>
     <script>
       function prefersDark() {
