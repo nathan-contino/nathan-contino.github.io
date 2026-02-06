@@ -60,7 +60,7 @@ mobile-menu a {
 }
 
 a {
-  color: var(--accent);
+  color: var(--highlightcolor);
   target: _blank;
   rel: "noopener noreferrer";
 }
@@ -252,7 +252,7 @@ figure img {
 }
 
 figcaption {
-  color: var(--mainalternative);
+  color: var(--hero);
   font-size: .8rem;
   min-width: 100%;
   display: block;
@@ -315,7 +315,7 @@ lambda {
   display: flex;
   max-width: 1000px;
   transform: skewX(30deg);
-  background-color: var(--mainalternative);
+  background-color: var(--hero);
   margin-left: 10px;
   margin-right: 6px;
   box-shadow: 0px 5px 30px 10px var(--menucolor);

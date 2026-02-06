@@ -7,6 +7,8 @@
 --textcolor: black;
 --code-textcolor: var(--mainalternative);
 --mutedtextcolor: #333;
+--highlightcolor: #3C0530;
+--hero: #D24D15;
 --menucolor: #8E6D55;
 --theme-toggle-label: "🌚";
 color: var(--textcolor);
