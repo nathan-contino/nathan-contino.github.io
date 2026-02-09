@@ -552,22 +552,16 @@ h1 {
   font-family: var(--hero-font);
   font-size: 1.8rem;
   color: var(--headeraccent);
-  margin-bottom: 0px;
-  margin-top: 10px;
 }
 h2 {
   font-family: var(--hero-font);
   font-size: 1.6rem;
   color: var(--headeraccent);
-  margin-bottom: 0px;
-  margin-top: 5px;
 }
 h3 {
   font-family: var(--hero-font);
   font-size: 1.4rem;
   color: var(--headeraccent);
-  margin-bottom: 0px;
-  margin-top: 5px;
 }
 
 thead {
