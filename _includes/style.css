@@ -553,11 +553,13 @@ h1 {
   font-size: 1.8rem;
   color: var(--headeraccent);
 }
+
 h2 {
   font-family: var(--hero-font);
   font-size: 1.6rem;
   color: var(--headeraccent);
 }
+
 h3 {
   font-family: var(--hero-font);
   font-size: 1.4rem;
