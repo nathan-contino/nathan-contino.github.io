@@ -5,7 +5,7 @@ layout: default
 categories: techblog
 ---
 
-There's been a lot of talk lately about Meta's antritrust trial. But one discussion subject subject in particular has been stuck in my brain for weeks now, ever since early May. Specifically, Mark claims that the average person:
+There's been a lot of talk lately about Meta's antitrust trial. But one discussion subject subject in particular has been stuck in my brain for weeks now, ever since early May. Specifically, Mark claims that the average person:
 
 > has three people that they would consider friends, and the average person has demand for meaningfully more. I think it's, like, 15.
 
