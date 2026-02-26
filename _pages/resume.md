@@ -1,6 +1,6 @@
 ---
 layout: resume
-title: Nathan Contino's Resume
+title: Nathan Contino's Résumé
 permalink: /resume-html/
 ---
 
