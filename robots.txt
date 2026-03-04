@@ -9,9 +9,6 @@ Disallow: /
 User-agent: GPTBot
 Disallow: /
 
-User-agent: Google-Extended
-Disallow: /
-
 User-agent: Claude-Web
 Disallow: /
 
@@ -55,18 +52,6 @@ User-agent: FacebookBot
 Disallow: /
 
 User-agent: facebookexternalhit
-Disallow: /
-
-User-agent: Google-Extended
-Disallow: /
-
-User-agent: GoogleOther
-Disallow: /
-
-User-agent: GoogleOther-Image
-Disallow: /
-
-User-agent: GoogleOther-Video
 Disallow: /
 
 User-agent: GPTBot
