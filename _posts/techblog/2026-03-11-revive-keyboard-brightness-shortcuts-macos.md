@@ -35,6 +35,9 @@ We'll just add a LaunchAgent that remaps those keys:
 
 ```zsh
 mkdir -p ~/Library/LaunchAgents
+```
+
+```zsh
 defaults write ~/Library/LaunchAgents/com.local.KeyRemapping.plist '{
   "Label": "com.local.KeyRemapping",
   "ProgramArguments": [
