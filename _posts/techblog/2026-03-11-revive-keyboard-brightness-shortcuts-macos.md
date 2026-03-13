@@ -38,8 +38,8 @@ Fortunately that's quite easy to do, and you don't need any third-party software
       mkdir -p ~/Library/LaunchAgents
       ```
    1. Write a Property List (`plist`) that maps source ("Src") keys to destination ("Dst") keys by setting a property with Apple's `hidutil`:
-      * F5 (`0xC000000CF`) to `illumination_down` (`0x0C00000221`)
-      * F6 (`0x10000009B` in decimal) to `illumination_up` (`0x0C0000022B` in decimal)
+      * F5/Spotlight (`0xC000000CF`) to `illumination_down` (`0x0C00000221`)
+      * F6/Dictation (`0x10000009B`) to `illumination_up` (`0x0C0000022B`)
 
       ```zsh
       cat <<EOF > ~/Library/LaunchAgents/com.local.KeyRemapping.plist
