@@ -31,35 +31,40 @@ I'll allow that the moon icon is theoretically useful, even if I don't use Focus
 
 Fortunately that's quite easy to do, and you don't need any third-party software to do it.
 
-We'll just add a LaunchAgent that remaps those keys:
+1. Create a LaunchAgent that uses Apple's built-in Human Interface Devices to remap the keys using the commands below:
 
-```zsh
-mkdir -p ~/Library/LaunchAgents
-```
+   1. Create a `LaunchAgents` directory for your user profile, if you don't already have one:
+      ```zsh
+      mkdir -p ~/Library/LaunchAgents
+      ```
+   1. Write a Property List (`plist`) that maps source ("Src") keys to destination ("Dst") keys by setting a property with Apple's `hidutil`:
+      * F5 (51539608097 in decimal) to `illumination_down` (1099511627785 in decimal)
+      * F6 (51539607759 in decimal) to `illumination_up` (1099511627784 in decimal)
 
-```zsh
-defaults write ~/Library/LaunchAgents/com.local.KeyRemapping.plist '{
-  "Label": "com.local.KeyRemapping",
-  "ProgramArguments": [
-    "/usr/bin/hidutil", "property", "--set",
-    "{\"UserKeyMapping\":[{\"HIDKeyboardModifierMappingSrc\":51539608097,\"HIDKeyboardModifierMappingDst\":1099511627785},{\"HIDKeyboardModifierMappingSrc\":51539607759,\"HIDKeyboardModifierMappingDst\":1099511627784}]}"
-  ],
-  "RunAtLoad": true,
-  "LimitLoadToSessionType": "Aqua"
-}'
-```
+      ```zsh
+      defaults write ~/Library/LaunchAgents/com.local.KeyRemapping.plist '{
+         "Label": "com.local.KeyRemapping",
+         "ProgramArguments": [
+            "/usr/bin/hidutil", "property", "--set",
+            "{\"UserKeyMapping\":[{\"HIDKeyboardModifierMappingSrc\":51539608097,\"HIDKeyboardModifierMappingDst\":1099511627785},{\"HIDKeyboardModifierMappingSrc\":51539607759,\"HIDKeyboardModifierMappingDst\":1099511627784}]}"
+         ],
+         "RunAtLoad": true,
+         "LimitLoadToSessionType": "Aqua"
+      }'
+      ```
+      Those mapping values are a lot less hideous in hexadecimal, but using `defaults write` forces us to write them in decimal instead. `RunAtLoad` ensures that this command runs every time you load a user session -- typically, when you first login after shutting down your computer.
 
-Unload the old keymapping:
+1. Unload the old keymappings, if you have any:
 
-```zsh
-launchctl unload ~/Library/LaunchAgents/com.local.KeyRemapping.plist 2>/dev/null
-```
+   ```zsh
+   launchctl unload ~/Library/LaunchAgents/com.local.KeyRemapping.plist 2>/dev/null
+   ```
 
-Load your new keymapping:
+1. Load your new keymapping:
 
-```zsh
-launchctl load   ~/Library/LaunchAgents/com.local.KeyRemapping.plist
-```
+   ```zsh
+   launchctl load ~/Library/LaunchAgents/com.local.KeyRemapping.plist
+   ```
 
 Hit your magnifying glass and microphone keys, and you should see the keyboard brightness change indicator pop up on your screen. And, of course, your keyboard backlight will change brightness. You won't need to ever change these settings again, unless Apple decides to remap the keys in the future or you reinstall macOS from scratch.
 
