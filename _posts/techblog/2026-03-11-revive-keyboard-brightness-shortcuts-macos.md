@@ -38,21 +38,31 @@ Fortunately that's quite easy to do, and you don't need any third-party software
       mkdir -p ~/Library/LaunchAgents
       ```
    1. Write a Property List (`plist`) that maps source ("Src") keys to destination ("Dst") keys by setting a property with Apple's `hidutil`:
-      * F5 (51539608097 in decimal) to `illumination_down` (1099511627785 in decimal)
-      * F6 (51539607759 in decimal) to `illumination_up` (1099511627784 in decimal)
+      * F5 (`0xC000000CF`) to `illumination_down` (`0x0C00000221`)
+      * F6 (`0x10000009B` in decimal) to `illumination_up` (`0x0C0000022B` in decimal)
 
       ```zsh
-      defaults write ~/Library/LaunchAgents/com.local.KeyRemapping.plist '{
-         "Label": "com.local.KeyRemapping",
-         "ProgramArguments": [
-            "/usr/bin/hidutil", "property", "--set",
-            "{\"UserKeyMapping\":[{\"HIDKeyboardModifierMappingSrc\":51539608097,\"HIDKeyboardModifierMappingDst\":1099511627785},{\"HIDKeyboardModifierMappingSrc\":51539607759,\"HIDKeyboardModifierMappingDst\":1099511627784}]}"
-         ],
-         "RunAtLoad": true,
-         "LimitLoadToSessionType": "Aqua"
-      }'
+      cat <<EOF > ~/Library/LaunchAgents/com.local.KeyRemapping.plist
+      <?xml version="1.0" encoding="UTF-8"?>
+      <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+      <plist version="1.0">
+      <dict>
+          <key>Label</key>
+          <string>com.local.KeyRemapping</string>
+          <key>ProgramArguments</key>
+          <array>
+              <string>/usr/bin/hidutil</string>
+              <string>property</string>
+              <string>--set</string>
+              <string>{"UserKeyMapping":[{"HIDKeyboardModifierMappingSrc":0xC000000CF,"HIDKeyboardModifierMappingDst":0x0C00000221},{"HIDKeyboardModifierMappingSrc":0x10000009B,"HIDKeyboardModifierMappingDst":0x0C0000022B}]}</string>
+          </array>
+          <key>RunAtLoad</key>
+          <true/>
+      </dict>
+      </plist>
+      EOF
       ```
-      Those mapping values are a lot less hideous in hexadecimal, but using `defaults write` forces us to write them in decimal instead. `RunAtLoad` ensures that this command runs every time you load a user session -- typically, when you first login after shutting down your computer.
+      `RunAtLoad` ensures that this command runs every time you load a user session -- typically, when you first login after shutting down your computer.
 
 1. Unload the old keymappings, if you have any:
 
