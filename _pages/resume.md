@@ -8,8 +8,8 @@ permalink: /resume-html/
 
 <name>Nathan Contino</name>
 <topper-side>
-	<site><a href="https://www.lambdalatitudinarians.org">lambdalatitudinarians.org</a></site>
-	<mail><a href="mailto:ncontino@lambdalatitudinarians.org">ncontino@lambdalatitudinarians.org</a></mail>
+	<site><a href="https://www.lambdalatitudinarians.org">lambda<wbr>latitud<wbr>inarians<wbr>.org</a></site>
+	<mail><a href="mailto:ncontino@lambdalatitudinarians.org">ncontino<wbr>@lambda<wbr>latitud<wbr>inarians<wbr>.org</a></mail>
 	<phone>(315) 836-7031</phone>
 </topper-side>
 
