@@ -119,10 +119,6 @@ The best thing you can do is socialize in real life instead. Of course, you prob
 * Texts and calls and group chats can do a lot, but they're not ideal for sharing minimal life updates, or photo albums, or longer thoughts.
 * Letters are fun. Every time I get a letter from a friend or family member, I love that person a little bit more. People seem to enjoy my letters, too, but maybe they're just being kind. Regardless, they're a nice way to articulate longer thoughts to loved ones, and if you store them, a fantastic way to reminisce on a relationship a few years down the line.
 * Blogs, like mine, are the best way to maintain a presence on the internet. They prove you exist. They give you a place to voice your thoughts. People can subscribe via RSS if they want to know when you post something new. But blogs are public, and not everyone is comfortable with that, and even if you're comfortable with that you probably shouldn't post all of your vacation photos of your children to a blog.
-* [Mastodon](https://mastodon.social/explore) is social media owned by the community, with no profit motive. There's a lot of nerdy reasons to love it, but the important part is that your feed won't fill with ads and start brainwashing you to buy certain products or vote a certain way. If you decide to try it out, feel free to give me a follow at [https://illegible.club/@natch](https://illegible.club/@natch).
+* [Mastodon](https://mastodon.social/explore) is social media owned by the community, with no profit motive. There's a lot of nerdy reasons to love it, but the important part is that your feed won't fill with ads and start brainwashing you to buy certain products or vote a certain way. If you decide to try it out, feel free to give me a follow at [https://mastodon.social/@ncontino](https://mastodon.social/@ncontino).
 
 And every time you open your post-social social media app to fill up 30 seconds of spare time in the middle of your day, think about the people 50 years ago who did the same damn thing with cigarettes.
-
-{% include figure.html url="2025_05_25/9-out-of-10-doctors-use-mastodon.jpg" description="9 out of 10 doctors use mastodon" %}
-
-{% include figure.html url="2025_05_25/facebook.jpg" description="do you think if i paid for enough of these on facebook people would finally get the idea?" %}
