@@ -513,7 +513,11 @@ mobile-menu-toggle>label {
 ul {
   padding-left: 2em;
   list-style-type: "› ";
-} 
+}
+
+li::marker {
+  color: var(--main);
+}
 
 mobile-menu ul {
   text-align: right;
