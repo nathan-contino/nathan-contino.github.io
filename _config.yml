@@ -20,6 +20,7 @@ kramdown:
   smart_quotes: apos,apos,quot,quot
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 exclude:
   - Gemfile
   - Gemfile.lock
