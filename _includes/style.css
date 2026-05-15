@@ -18,7 +18,7 @@ html {
   --mono-font: Consolas, "Courier New", Menlo, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
   --hero-font: "Courier New", "FreeMono", "Rockwell", "Courier", monospace;
   font-size: 14px;
-  font-family: "Courier new", Courier, Menlo, Monaco, monospace;
+  font-family: Menlo, Monaco, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
   width: 100%;
   overflow-x: hidden;
 }
