@@ -1,6 +1,6 @@
 html {
-  --sans-font: "Ubuntu", "Monaco", "Courier New", "Courier", "Garamond", "Bookman", "Palatino", sans-serif;
-  --mono-font: "Ubuntu Mono", "Courier", monospace;
+  --sans-font: "Ubuntu", "Monaco", "Menlo", -apple-system, system-ui, "Courier New", "Courier", "Garamond", "Bookman", "Palatino", sans-serif;
+  --mono-font: "Ubuntu Mono", "Courier New", "Courier", monospace;
   font-size: 14px;
   font-family: var(--sans-font);
 }
