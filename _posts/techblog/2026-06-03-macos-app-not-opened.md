@@ -1,5 +1,5 @@
 ---
-title:  "<App> Not Opened"
+title:  "App Not Opened"
 date:   2026-06-03 15:13:13 -0500
 layout: default
 categories: techblog
