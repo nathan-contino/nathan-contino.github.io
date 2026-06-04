@@ -22,6 +22,7 @@ Ever installed an app on your Mac and been greeted with this lovely dialog?
 > <br>
 > [Done]       [Move to Trash]
 
+Or, in image form:
 
 {% include figure.html url="2026_06_03/dialog.png" description="a misleading macOS dialog, in UK English" %}
 
