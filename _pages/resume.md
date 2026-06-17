@@ -1,6 +1,6 @@
 ---
 layout: resume
-title: Nathan Contino's Résumé
+title: Nathan Contino's Resume
 permalink: /resume-html/
 ---
 
@@ -31,43 +31,43 @@ permalink: /resume-html/
 
 ***
 
-| {::nomarkdown} <div style="display: flex; align-items: center;"> <img src="/_resources/raspberrypi.ico" style="width:1em !important; border: 0px !important; padding-right: .2em;" /> Documentation Lead, Raspberry Pi </div>{:/} | `2023 – ****` |
+| {::nomarkdown} <div style="display: flex; align-items: center;"> <img src="/_resources/fusionauth.ico" style="width:1em !important; border: 0px !important; padding-right: .2em;" /> Documentation Engineer, FusionAuth </div>{:/} | `2025 – ****` |
+| :--- | ---: |
+| _Astro, Hugo, JavaScript, Python, Git_ ||
+
+* Wrote and edited documentation for FusionAuth software, release notes, quickstarts, and tutorials.
+* Developed and maintained docs infrastructure, from developer tools, to automation pipelines, to tested code snippets.
+
+| {::nomarkdown} <div style="display: flex; align-items: center;"> <img src="/_resources/raspberrypi.ico" style="width:1em !important; border: 0px !important; padding-right: .2em;" /> Documentation Lead, Raspberry Pi </div>{:/} | `2023 – 2025` |
 | :--- | ---: |
 | _AsciiDoc, Python, Ruby, Git_ ||
 
-* Wrote and edited documentation for Raspberry Pi software and hardware, including flagship devices, Compute Modules, Zero, Pico, and accessories.
-* Shepherded datasheet PDFs detailing the specifics of Raspberry Pi hardware and silicon from the minds of hardware engineers into words.
+* Wrote and edited documentation, datasheets, and infrastructure for Raspberry Pi software and hardware, including flagship devices, Compute Modules, Zero, Pico, and accessories.
 
 | {::nomarkdown} <div style="display: flex; align-items: center;"> <img src="/_resources/gradle.ico" style="width:1em !important; border: 0px !important; padding-right: .2em;" /> Lead Technical Writer, Gradle </div>{:/}  | `2022 – 2023` |
 | :--- | ---: |
 | _AsciiDoc, Gradle Build Tool, Kotlin, Groovy, Java, Git_ ||
 
-* Wrote and extensively refactored existing documentation to improve the onboarding process for new Gradle Build Tool users.
-* Edited new engineering documentation contributions to ensure consistency and comprehensiveness throughout the docs.
-* Coordinated with Engineering and Education to write, edit, and revise release notes for Gradle Build Tool.
+* Wrote and edited documentation and infrastructure for Gradle Build Tool, including release notes and guides.
 
 | {::nomarkdown} <div style="display: flex; align-items: center;"> <img src="/_resources/mongodb.ico" style="width:1em !important; border: 0px !important; padding-right: .2em;" /> Senior Documentation Engineer, MongoDB </div>{:/}  | `2019 – 2022` |
 | :--- | ---: |
-| _rST, Sphinx, Android development, Kotlin, Python, Java, Javascript, Swift, Git_ ||
+| _rST, Sphinx, Android, Kotlin, Python, Java, JavaScript, Swift, Git_ ||
 
-* Wrote developer-focused tutorials and documentation for MongoDB Server, Realm, Stitch, and client libraries.
-* Managed all MongoDB Realm Java and Kotlin SDK documentation, tutorials, and sample applications.
-* Developed and implemented a markup syntax and parser that enabled the team to test code samples and tutorials.
+* Wrote and maintained documentation for MongoDB Realm (Java and Kotlin SDKs), Server, and Drivers, including tutorials and sample applications.
 
 | {::nomarkdown} <div style="display: flex; align-items: center;"> <img src="/_resources/bloomberg.ico" style="width:1em !important; border: 0px !important; padding-right: .2em;" /> Software Developer, Bloomberg LP</div>{:/} | `2017 – 2019` |
 | :--- | ---: |
-| _C++, Comdb2, Python, Javascript, Java, Node, Postgres, Kafka, Git_ ||
+| _C++, ComDB2, Python, JavaScript, Java, Node, PostgreSQL, Kafka, Git_ ||
 
-* Worked on two separate teams:
-  * **Bloomberg Fixed Income Indices**: Built an API and UI for calculating both the Bloomberg Barclays Indices and custom indices.
-  * **Developer Experience**: Built an internal web app to simplify project management and continuous integration for internal developers.
+* Developed APIs and a UI for defining and calculating financial indices using Bloomberg Barclays data.
+* Built an internal CI/CD application that made it easier to create and template projects.
 
 | {::nomarkdown} <div style="display: flex; align-items: center;"> <img src="/_resources/rochester.ico" style="width:1em !important; border: 0px !important; padding-right: .2em;" /> Workshop Leader and Teaching Assistant, University of Rochester</div>{:/} | `2014 – 2017` |
 | :--- | ---: |
 | _C++, Java, Scheme_ ||
 
-* As head TA, led test review, student testing, and grading sessions.
-* 5 different classes, 8 semesters total: _Intro to Java_, _Data Structures_, _Computational Systems_, _Honors Research Seminar_, and _Artificial Intelligence_.
+* Led workshop, review, testing, and grading sessions for 5 classes: _Intro to Java_, _Data Structures_, _Computational Systems_, _Honors Research Seminar_, and _Artificial Intelligence_.
 
 # Projects
 
@@ -77,8 +77,7 @@ permalink: /resume-html/
 | :--- | ---: |
 | _Typescript_ ||
 
-* Extracts code examples from unit tests, formatting with syntax highlighting and token replacement.
-* Replaces "finished" code with "todo" code for a branch in a tutorial repo.
+* CLI tool used to extract code examples from tests for use in documentation and tutorial repositories.
 
 # Skills & Interests
 

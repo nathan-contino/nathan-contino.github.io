@@ -98,3 +98,10 @@ phone {
   text-align: right;
   font-family: var(--mono-font);
 }
+
+@media print {
+  @page {
+    size: letter;
+    margin: 0.1in;
+  }
+}
