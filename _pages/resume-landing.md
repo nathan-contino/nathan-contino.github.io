@@ -14,5 +14,5 @@ My résumé comes in the following flavours:
 </ul>
 
 <p>
-For more information about me, see my <a href="https://www.linkedin.com/m/in/natecontino/">LinkedIn account</a>.
+For more information about me, see my <a href="https://www.linkedin.com/in/natecontino/">LinkedIn account</a>.
 </p>
