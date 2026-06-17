@@ -1,5 +1,5 @@
 html {
-  --sans-font: "Ubuntu", "Monaco", "Menlo", -apple-system, system-ui, "Courier New", "Courier", "Garamond", "Bookman", "Palatino", sans-serif;
+  --sans-font: "Ubuntu", "Menlo", "Monaco", "Garamond", "Bookman", "Palatino", "Courier New", "Courier", -apple-system, system-ui, sans-serif;
   --mono-font: "Ubuntu Mono", "Courier New", "Courier", monospace;
   font-size: 14px;
   font-family: var(--sans-font);
@@ -47,6 +47,7 @@ code,pre {
 th {
   font-size: 1.1rem;
   color: #77216F;
+  font-family: var(--mono-font);
 }
 
 h1,h2,h3,h4,h5 {
