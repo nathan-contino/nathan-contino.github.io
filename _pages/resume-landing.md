@@ -9,7 +9,7 @@ My résumé comes in the following flavours:
 </p>
 
 <ul>
-<li><p><a href="https://raw.githubusercontent.com/nathan-contino/images/main/images/Nathan Contino's Resume.pdf">PDF (100KB)</a></p></li>
+<li><p><a href="/nathan-contino-resume.pdf">PDF</a></p></li>
 <li><p><a href="/resume-html/" target="_blank">Web page</a></p></li>
 </ul>
 

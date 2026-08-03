@@ -1,0 +1,75 @@
+# Builds the Jekyll site, generates .md companion files for every page,
+# produces the resume PDF via WeasyPrint (no browser needed), and deploys
+# to GitHub Pages.
+#
+# IMPORTANT: In your repository settings, set Pages source to
+# "GitHub Actions" instead of the default branch-based deployment.
+
+name: Build and Deploy
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          bundler-cache: true
+
+      - name: Build Jekyll site
+        run: bundle exec jekyll build
+        env:
+          JEKYLL_ENV: production
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Python dependencies
+        run: pip install beautifulsoup4 html2text weasyprint
+
+      # WeasyPrint renders fonts from the system — install Ubuntu so the
+      # resume PDF matches what you see in the browser.
+      - name: Install fonts for PDF generation
+        run: sudo apt-get install -y fonts-ubuntu libpango-1.0-0 libpangocairo-1.0-0
+
+      - name: Generate markdown companion pages
+        run: python _scripts/generate_markdown.py
+
+      - name: Generate resume PDF
+        run: PYTHONWARNINGS="ignore::UserWarning:PIL.IcoImagePlugin" python3 -m weasyprint --base-url "file://$PWD/_site/resume-html/" _site/resume-html/index.html _site/nathan-contino-resume.pdf
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./_site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
