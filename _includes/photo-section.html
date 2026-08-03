@@ -1,0 +1,23 @@
+<section class="two-column{% if include.reverse %} reverse{% endif %}">
+  <div class="{{ include.container_class | default: 'hero-photo-container' }}">
+    {% if include.image_jxl %}
+    <picture>
+      <source srcset="{{ include.image_jxl }}" type="image/jxl" />
+      <img class="{{ include.img_class | default: 'hero-photo' }}"
+           alt="{{ include.alt }}"
+           src="{{ include.src }}"
+           height="{{ include.height | default: '500px' }}"
+           {% if include.fetchpriority %}fetchpriority="{{ include.fetchpriority }}"{% endif %} />
+    </picture>
+    {% else %}
+    <img class="{{ include.img_class | default: 'hero-photo' }}"
+         alt="{{ include.alt }}"
+         src="{{ include.src }}"
+         height="{{ include.height | default: '500px' }}"
+         {% if include.fetchpriority %}fetchpriority="{{ include.fetchpriority }}"{% endif %} />
+    {% endif %}
+  </div>
+  <div class="hero-accompaniment">
+    {{ include.content | markdownify }}
+  </div>
+</section>

@@ -780,3 +780,33 @@ blog-date::after {
   td:nth-of-type(3):before { content: "Date"; }
   td:nth-of-type(4):before { content: "Notes"; }
 }
+.page-title-row {
+  display: flex;
+  align-items: flex-end;
+  gap: 0.5em;
+}
+
+.page-title-row h1 {
+  flex: 1;
+  min-width: 0;
+}
+
+.md-page-link {
+  flex-shrink: 0;
+  border: 1px solid var(--main);
+  padding: 1px 6px;
+  background-color: var(--bg);
+  display: grid;
+  place-items: center;
+  text-align: center;
+  transform: skewX(30deg);
+  font-family: var(--mono-font);
+  font-size: .75rem;
+  text-decoration: none;
+  color: var(--main);
+  margin-bottom: 23px;
+}
+
+.md-page-link span {
+  transform: skewX(-30deg);
+}

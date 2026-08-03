@@ -24,6 +24,9 @@
     <meta name="keywords" content="lambda, latitudinarians, disquisitions, adventure, blog, nathan contino, adventure blog, nathan, contino, nathan contino">
     <meta name="description" content="{% if page.excerpt %} {{ page.excerpt | normalize_whitespace | replace: '</li> </ul>', '' | replace: '</li>', ';' | strip_html }} {% else %} {{ site.description }} {% endif %}">
     <title>{{ page.title | strip_html }}</title>
+    {% assign _md_url = page.url | append: "index.md" %}
+    {% if page.url contains ".html" %}{% assign _md_url = page.url | replace: ".html", ".md" %}{% endif %}
+    <link rel="alternate" type="text/markdown" title="Page source (Markdown)" href="{{ _md_url }}">{%- assign _md_url = nil -%}
         <!-- stylesheet for site, frontloaded instead of in a separate file so we never get a 'flash' of unstyled content -->
     <style>
       {% include style.css %}
@@ -193,11 +196,10 @@
 
           <!-- used to load all actual content (about page, blog, resume, etc) -->
           <div class="content container">
-          	{% if page.title == "Lambda Latitudinarians by Nathan Contino" %}
-              <!-- no title display! -->
-            {% else %}
-              <H1>{{ page.title }}</H1>
-            {% endif %}
+              <div class="page-title-row">
+                <H1>{{ page.title }}</H1>
+                {% assign _md_url = page.url | append: "index.md" %}{% if page.url contains ".html" %}{% assign _md_url = page.url | replace: ".html", ".md" %}{% endif %}<a class="md-page-link" href="{{ _md_url }}" title="view this page as markdown"><span>[md]</span></a>{%- assign _md_url = nil -%}
+              </div>
             {% if page.date %}
               <span class="date">
                 <blockquote><i>{{ page.date | date: '%B %d, %Y' }}</i></blockquote>
