@@ -805,6 +805,7 @@ blog-date::after {
   text-decoration: none;
   color: var(--main);
   margin-bottom: 23px;
+  margin-right: 5px;
 }
 
 .md-page-link span {
