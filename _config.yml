@@ -31,9 +31,6 @@ include:
 - _images
 - _resources
 
-plugins_dir:
-  - jekyll-feed
-
 feed:
   categories:
     - blog

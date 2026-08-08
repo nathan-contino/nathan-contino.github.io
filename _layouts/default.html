@@ -27,12 +27,13 @@
     {% assign _md_url = page.url | append: "index.md" %}
     {% if page.url contains ".html" %}{% assign _md_url = page.url | replace: ".html", ".md" %}{% endif %}
     <link rel="alternate" type="text/markdown" title="Page source (Markdown)" href="{{ _md_url }}">{%- assign _md_url = nil -%}
-        <!-- stylesheet for site, frontloaded instead of in a separate file so we never get a 'flash' of unstyled content -->
-    <style>
+    <!-- stylesheet for site, frontloaded instead of in a separate file so we never get a 'flash' of unstyled content -->
+    <style type="text/css">
       {% include style.css %}
     </style>
+    {% feed_meta %}
     <!-- stylesheet for code blocks -- only needed on certain blog posts, and those posts are entirely usable without it -->
-    <style>
+    <style type="text/css">
       {% include code.css %}
     </style>
     <script>

@@ -26,7 +26,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
@@ -44,15 +44,12 @@ jobs:
           python-version: '3.12'
 
       - name: Install Python dependencies
-        run: pip install beautifulsoup4 html2text weasyprint
+        run: pip install weasyprint
 
       # WeasyPrint renders fonts from the system — install Ubuntu so the
       # resume PDF matches what you see in the browser.
       - name: Install fonts for PDF generation
         run: sudo apt-get install -y fonts-ubuntu libpango-1.0-0 libpangocairo-1.0-0
-
-      - name: Generate markdown companion pages
-        run: python _scripts/generate_markdown.py
 
       - name: Generate resume PDF
         run: PYTHONWARNINGS="ignore::UserWarning:PIL.IcoImagePlugin" python3 -m weasyprint --base-url "file://$PWD/_site/resume-html/" _site/resume-html/index.html _site/nathan-contino-resume.pdf

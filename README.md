@@ -41,7 +41,7 @@ PDF generation also requires WeasyPrint, which needs native system libraries (Pa
 brew install weasyprint
 ```
 
-On Linux (including the GitHub Actions runner), install via pip instead — the system libraries are either pre-installed or available via apt:
+On Linux (including the GitHub Actions runner), install via pip instead. The system libraries are either pre-installed or available via `apt`:
 
 ```console
 pip3 install weasyprint
@@ -55,7 +55,7 @@ pip3 install weasyprint
 make serve
 ```
 
-This runs the full build chain — Jekyll build, Markdown generation, resume PDF — then serves the result at `http://localhost:4000`. The server uses `--skip-initial-build` so it doesn't wipe the generated files on startup.
+Runs the full build chain (Jekyll, Markdown/PDF generation), then serves the result at `http://localhost:4000`. The server uses `--skip-initial-build` so it doesn't wipe the generated files on startup.
 
 Other useful targets:
 
@@ -72,7 +72,7 @@ Other useful targets:
 
 The site deploys automatically to GitHub Pages via GitHub Actions on every push to `main`. The workflow (`.github/workflows/deploy.yml`) runs the full build chain including Markdown generation and PDF creation, then deploys the output using `actions/deploy-pages`.
 
-The Pages source in repository settings must be set to **GitHub Actions** (not "Deploy from a branch") for this to work.
+The Pages source in repository settings must be set to **GitHub Actions** (not "Deploy from a branch").
 
 # images
 

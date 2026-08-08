@@ -1,0 +1,122 @@
+---
+---
+<?xml version="1.0" encoding="utf-8"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:atom="http://www.w3.org/2005/Atom">
+  <xsl:output method="html" version="1.0" encoding="UTF-8" indent="yes"/>
+  <xsl:template match="/atom:feed">
+    <html lang="en">
+      <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <title><xsl:value-of select="atom:title"/> (Web Feed)</title>
+        <style>
+          :root {
+            --db-light: 98.62% 0.014 84.58;
+            --db-dark: 40.05% 0.014 17.74;
+            --db-pink: 70.27% 0.192 13.7;
+            --db-blue: 62.78% 0.12 226;
+          }
+
+          * {
+            box-sizing: border-box;
+            font-family: sans-serif;
+            line-height: 1.4;
+            margin: 0;
+            padding: 0;
+          }
+
+          html {
+            background: oklch(var(--db-light));
+            color: oklch(var(--db-dark));
+          }
+
+          body {
+            padding: 1.5rem;
+          }
+
+          a {
+            color: oklch(var(--db-blue));
+          }
+
+          a:hover {
+            color: oklch(var(--db-pink));
+            text-decoration: none;
+          }
+
+          a:focus-visible {
+            color: oklch(var(--db-pink));
+            outline: 0.125rem solid oklch(var(--db-pink));
+            outline-offset: 0.125rem;
+          }
+
+          main,
+          header {
+            margin-block-end: 3rem;
+            margin-inline: auto;
+            max-inline-size: 80ch;
+          }
+
+          article {
+            margin-block-end: 3rem;
+          }
+
+          h1 {
+            font-size: 2.5rem;
+            line-height: 1.2;
+            margin-block: 1rem;
+          }
+
+          h2 {
+            font-size: 1.75rem;
+            margin-block: 2rem;
+          }
+
+          h3 {
+            font-size: 1.5rem;
+            margin-block: 1rem;
+          }
+
+          p {
+            font-size: 1.25rem;
+            margin-block-end: 1rem;
+          }
+
+          small {
+            font-size: 1rem;
+          }
+        </style>
+      </head>
+      <body>
+        <header>
+          <h1><xsl:value-of select="atom:title"/></h1>
+          <p><xsl:value-of select="atom:subtitle"/></p>
+          <p>
+            <small>
+              This is a web feed. You can subscribe by copying the URL into your feed reader. Visit the <a href="{atom:link[@rel='alternate']/@href}">main site</a>.
+            </small>
+          </p>
+        </header>
+        <main>
+          <h2>Recent Entries</h2>
+          <xsl:for-each select="atom:entry">
+            <article>
+              <h3>
+                <a href="{atom:link[@rel='alternate']/@href}">
+                  <xsl:value-of select="atom:title"/>
+                </a>
+              </h3>
+              <p>
+                <small>
+                  Published: <xsl:value-of select="atom:published | atom:updated"/>
+                </small>
+              </p>
+              <p>
+                <xsl:value-of select="atom:summary"/>
+              </p>
+            </article>
+          </xsl:for-each>
+        </main>
+      </body>
+    </html>
+  </xsl:template>
+</xsl:stylesheet>
