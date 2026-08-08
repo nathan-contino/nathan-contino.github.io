@@ -62,11 +62,14 @@ Other useful targets:
 | Command | What it does |
 |---|---|
 | `make build` | Jekyll build only |
-| `make markdown` | Jekyll build + generate `.md` companion pages |
-| `make pdf` | Jekyll build + Markdown + resume PDF |
-| `make all` | Everything (same as `make pdf`) |
 | `make serve` | Everything + local server |
 | `make clean` | Delete `_site/` |
+
+### build pdf
+
+```console
+PYTHONWARNINGS="ignore::UserWarning:PIL.IcoImagePlugin" python3 -m weasyprint --base-url "file://$PWD/_site/resume-html/" _site/resume-html/index.html _site/nathan-contino-resume.pdf
+```
 
 ## deployment
 
