@@ -33,7 +33,7 @@ body {
 }
 
 header {
-  position: sticky;
+  /*position: sticky; testing removing this to see if the ios notch looks less aggressively orange*/
   top: 0;
   z-index: 500;
 }
