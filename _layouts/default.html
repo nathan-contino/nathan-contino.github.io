@@ -11,7 +11,8 @@
     <link rel="me" href="https://mastodon.social/@ncontino"></link>
     <meta name="fediverse:creator" content="@ncontino@mastodon.social">
     <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#000000">
+    <meta name="theme-color" content="#000" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#000" media="(prefers-color-scheme: dark)">
     <meta property="og:type" content="website">
     <meta name="twitter:card" content="summary_large_image">
     <meta http-equiv="pragma" content="no-cache">
@@ -31,8 +32,9 @@
     <style type="text/css">
       {% include style.css %}
     </style>
-    {% feed_meta %}
-    <!-- stylesheet for code blocks -- only needed on certain blog posts, and those posts are entirely usable without it -->
+    <link type="application/atom+xml" rel="alternate" href="https://www.lambdalatitudinarians.org/feed/blog.xml" title="λ Latitudinarians Outside Blog">
+    <link type="application/atom+xml" rel="alternate" href="https://www.lambdalatitudinarians.org/feed/techblog.xml" title="λ Latitudinarians Tech Blog">
+    <link type="application/atom+xml" rel="alternate" href="https://www.lambdalatitudinarians.org/feed.xml" title="λ Latitudinarians (all posts)">
     <style type="text/css">
       {% include code.css %}
     </style>
