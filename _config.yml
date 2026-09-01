@@ -5,7 +5,6 @@ description: >
 author: Nathan Contino (ncontino[at]lambdalatitudinarians[dot]org)
 baseurl: /
 url: "https://www.lambdalatitudinarians.org"
-excerpt_separator: "<!-- readmore -->"
 permalink: pretty
 
 # timezone shenanigans
