@@ -95,7 +95,7 @@ Just before leaving the state forest, we spotted some people floating around in 
 
 {% include figure.html url="2026_08_30/25.webp" description="more swimming" %}
 
-{% include figure.html url="2026_08_30/26.webp" description="meg, a creature of the dark, dry new hampshire, fears the light and the water" %}
+{% include figure.html url="2026_08_30/26.webp" description="meg, a creature of the dark, fears the light and the water" %}
 
 Once recharged by the surprisingly warm waters of Ricker Pond and perhaps too much sun, we proceeded along the XVT. We were very impressed by the next few miles of trail -- since we last biked this stretch, Vermont has re-graveled and re-graded the entire surface (which developed a lot of washouts and boggy bits after the 2022 and 2023 flash floods), built new trailheads, installed way more signage, and even connected some of the trickier bits with new sections of trail on the existing (but previously ignored) right-of-way.
 
