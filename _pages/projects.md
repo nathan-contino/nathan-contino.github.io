@@ -16,23 +16,23 @@ Since I started using Astro at work, I've published a few handy Astro tools for 
 
 ### Widgets
 
-[CSS-based tabs](https://github.com/nathan-contino/astro-better-tabs)
+* [CSS-only tabs](https://github.com/nathan-contino/astro-better-tabs)
 
-[CSS-based docs sidebar](https://github.com/nathan-contino/astro-better-docs-sidebar)
+* [CSS-only documentation sidebar](https://github.com/nathan-contino/astro-better-docs-sidebar)
 
-[Render an 'On this page' Widget Using All Headers, Even Includes, Astro Files, HTML Content, and Generated Content](https://github.com/nathan-contino/astro-toc-smol)
+* [Render an 'On this page' widget using all headers, even included Markdown fragments, Astro components, HTML content, and generated content (does not use the quite limited `getHeaders()` Astro API, instead relying on the site AST)](https://github.com/nathan-contino/astro-toc-smol)
 
 ### Conveniences
 
-[Generate Markdown Pages](https://github.com/nathan-contino/astro-gen-markdown-pages)
+* [Generate Markdown pages and `llms.txt` indexes](https://github.com/nathan-contino/astro-gen-markdown-pages)
 
-[Render Mermaid Diagrams Server-side Without a Pseudo-Browser](https://github.com/nathan-contino/astro-mermaid-renderer-cli-smol)
+* [Render Mermaid diagrams server-side efficiently (without a local browser or playwright)](https://github.com/nathan-contino/astro-mermaid-renderer-cli-smol)
 
-[Check Internal Links](https://github.com/nathan-contino/astro-link-checker)
+* [Check internal links and images](https://github.com/nathan-contino/astro-link-checker)
 
 ### reStructuredText-inspired Tools
 
-[reStructuredText-style tables in Markdown](https://github.com/nathan-contino/astro-better-tables)
+* [reStructuredText-style tables in Markdown](https://github.com/nathan-contino/astro-better-tables)
 
-[reStructuredText-style refs in Astro Markdown](https://github.com/nathan-contino/astro-refs)
+* [reStructuredText-style refs in Astro Markdown](https://github.com/nathan-contino/astro-refs)
 
