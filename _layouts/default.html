@@ -208,7 +208,7 @@
                 <blockquote><i>{{ page.date | date: '%B %d, %Y' }}</i></blockquote>
               </span>
             {% endif %}
-            {{ content }}
+            {% include anchor_headings.html html=content anchorBody="#" anchorClass="anchor-link" %}
           </div>
 
 

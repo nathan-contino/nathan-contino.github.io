@@ -73,11 +73,17 @@ permalink: /resume-html/
 
 ***
 
-| Bluehawk: {::nomarkdown}<slap style="font-weight:100 !important;">markup processor that generates documentation examples</slap>{:/} | `2022` |
+| [Better Docs](https://www.lambdalatitudinarians.org/projects/#astro-plugins) | `2026` |
 | :--- | ---: |
 | _Typescript_ ||
 
-* CLI tool used to extract code examples from tests for use in documentation and tutorial repositories.
+* Plugins that make docs best practices easy in Astro.
+
+| [Bluehawk](https://www.npmjs.com/package/bluehawk)| `2022` |
+| :--- | ---: |
+| _Typescript_ ||
+
+* Markup processor for single-sourced tested documentation examples.
 
 # Skills & Interests
 
