@@ -81,7 +81,7 @@ Meanwhile, Meg and I were hard at work observing the local echinoderm population
 
 {% include figure.html url="2026_09_08/19.webp" description="hot echinoderms in your area" %}
 
-Thankfully our packing supplies included enough breakfast that we didn't have to resort to escargot.
+Thankfully our packed breakfast supplies included enough breakfast that we didn't have to resort to escargot.
 
 {% include figure.html url="2026_09_08/20.webp" description="breakfast: improvised edition" %}
 
@@ -107,9 +107,9 @@ As we continued our journey past the island of Eastern Ear, my friends were kind
 
 Or maybe they were just distracted by the local crustacean and echinoderm populations:
 
-{% include figure.html url="2026_09_08/28.webp" description="tiny crab, tiny crab, so tiny, so crab (to the tune of 'Land Down Under' by Men at Work" %}
+{% include figure.html url="2026_09_08/28.webp" description="tiny crab, tiny crab, so tiny, so crab (to the tune of 'Land Down Under' by Men at Work)" %}
 
-{% include figure.html url="2026_09_08/29.webp" description="orange snail, he's an orange snail (to the tune of 'Don't You Forget About Me' by Simple Minds" %}
+{% include figure.html url="2026_09_08/29.webp" description="orange snail, he's an orange snail (to the tune of 'Don't You Forget About Me' by Simple Minds)" %}
 
 We foraged our way up the West coast, enjoying the scenic views, but possibly enjoying the surprisingly ripe local raspberries and blackberries even more.
 
