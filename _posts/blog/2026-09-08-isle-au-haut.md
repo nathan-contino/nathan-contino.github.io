@@ -115,7 +115,7 @@ We foraged our way up the West coast, enjoying the scenic views, but possibly en
 
 {% include figure.html url="2026_09_08/31.webp" description="a small portion of our blackberry exposure" %}
 
-Sadly, Mam's leg is still recovering from ~Meg's 2025 sabotage~ a tragic 2025 see-sawing injury, so Smike opted out of visiting Duck Harbor Mountain. I'm stupid, so I climbed it in my Bedrock Sandals. Turned out OK, but I wouldn't recommend it to most people. The trail involves a good amount of scrambling and climbing, which was quite fun, but probably awfully risky with exposed toes.
+Sadly, Mam's leg is still recovering from ~~Meg's 2025 sabotage~~ a tragic 2025 see-sawing injury, so Smike opted out of visiting Duck Harbor Mountain. I'm stupid, so I climbed it in my Bedrock Sandals. Turned out OK, but I wouldn't recommend it to most people. The trail involves a good amount of scrambling and climbing, which was quite fun, but probably awfully risky with exposed toes.
 
 {% include figure.html url="2026_09_08/30.webp" description="if you thought this was us atop Duck Harbor Mountain, you thought wrong" %}
 
