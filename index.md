@@ -41,6 +41,17 @@ I mostly read RSS feeds instead of using social media.
 If you're interested in trying this out yourself, check out the [list of feeds that I follow](/_resources/nates-subscriptions.opml).
 And consider [subscribing to this site's RSS feed](/feed.xml).
 
+Some recent blog posts:
+
+
+{% for post in site.posts limit:3 %}
+* [{{ post.title }}]({{ post.url }})
+  > {{ post.date | date: '%B %d, %Y' }}
+
+  {{ post.excerpt }}
+{% endfor %}
+
+
 {% capture meg_content %}
 This is Meg, my travel companion.
 We often ride bikes together.
