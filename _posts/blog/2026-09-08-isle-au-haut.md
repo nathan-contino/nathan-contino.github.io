@@ -37,7 +37,7 @@ Eventually, we started walking to town. Just 4.5 miles of hiking trails, after a
 
 {% include figure.html url="2026_09_08/6.webp" description="a lovely property on the way to town" %}
 
-{% include figure.html url="2026_09_08/7.webp" description="we mostly hiked on the trails, but the last segment was more direct on the island's lone dirt road" %}
+{% include figure.html url="2026_09_08/7.webp" description="when all the little ants are marching, red and black antennae waving -- dave matthews buoy" %}
 
 I won't lie: it wasn't the most pleasant hike. Sure, the surroundings were gorgeous. Sure, the day was a perfect partly sunny blend of balmy sunny bits checkerboarded with cooling breezy shady stretches. Sure, we had great company, enough water for the day, water filters to refill from streams, and plenty of food and snacks to keep ourselves going. But we were also running on 5 hours of sleep, had our hopes dashed just as we started to get comfortable, and I didn't get any foamed milk. As they say, trying times.
 
