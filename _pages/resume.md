@@ -73,11 +73,11 @@ permalink: /resume-html/
 
 ***
 
-| [Better Docs](https://www.lambdalatitudinarians.org/projects/#astro-plugins) | `2026` |
+| [Better Static Sites (BSS)](https://better-static-sites.github.io/docs/) | `2026` |
 | :--- | ---: |
 | _Typescript_ ||
 
-* Plugins that make docs best practices easy in Astro.
+* A standard library of oft-needed documentation tools for static sites.
 
 | [Bluehawk](https://www.npmjs.com/package/bluehawk)| `2022` |
 | :--- | ---: |
