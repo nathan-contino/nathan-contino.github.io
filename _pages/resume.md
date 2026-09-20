@@ -73,7 +73,7 @@ permalink: /resume-html/
 
 ***
 
-| [Better Static Sites (BSS)](https://better-static-sites.github.io/docs/) | `2026` |
+| [Better Static Sites (BSS)](https://better-static-sites.github.io/) | `2026` |
 | :--- | ---: |
 | _Typescript_ ||
 
