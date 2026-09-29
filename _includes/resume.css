@@ -16,7 +16,6 @@ body {
   flex-direction: column;
 }
 
-/* Structural Header */
 .resume-header {
   display: flex;
   width: 100%;
@@ -49,7 +48,6 @@ body {
   color: inherit;
 }
 
-/* Resume Entries */
 .resume-entry {
   margin-bottom: 1.25rem;
 }
@@ -98,7 +96,6 @@ body {
   display: inline-block;
 }
 
-/* Typography & Base Elements */
 ul {
   margin-top: 0;
   padding-left: 2em;
@@ -128,7 +125,6 @@ h2 {
   font-weight: bold;
 }
 
-/* Print Styles Specifically Hardened for WeasyPrint Extraction */
 @media print {
   @page {
     size: letter;
@@ -138,12 +134,7 @@ h2 {
   body {
     padding: 0;
     font-size: 0.8rem;
-    display: block; /* WeasyPrint prefers block over flex on the body for reliable page breaking */
-  }
-
-  /* KILL THE ICONS. This stops WeasyPrint from inserting "R" and "B" garbage text */
-  .inline-icon {
-    display: none !important;
+    display: block; /* WeasyPrint prefers block over flex on the body for page breaking */
   }
   
   .name {
@@ -160,10 +151,10 @@ h2 {
 
   .resume-entry {
     margin-bottom: 0.75rem; 
-    page-break-inside: avoid; /* Keeps jobs from splitting across pages if it ever overflows */
+    page-break-inside: avoid; /* keeps job entry from splitting across pages if it ever overflows */
   }
 
-  /* Force WeasyPrint to acknowledge list items as distinct text blocks to prevent paragraph flattening */
+  /* force WeasyPrint to acknowledge list items as distinct text blocks to prevent paragraph flattening */
   ul {
     display: block;
     margin-bottom: 0.5rem;
