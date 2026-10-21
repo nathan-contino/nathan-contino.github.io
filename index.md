@@ -35,7 +35,7 @@ Not necessarily in that order.
 
 Check out my projects and writing on [GitHub](https://github.com/nathan-contino).
 Befriend me on [Mastodon](https://mastodon.social/@ncontino).
-Even better, contact me via email at [ncontino\[at\]lambdalatitudinarians\[dot\]org](mailto:ncontino[at]lambdalatitudinarians[dot]org).
+Even better, contact me via email at <code class="email-address">ncontino<span class="antispam">_no_spam_</span>[at]lambdalatitudinarians<span class="antispam">_reject_</span>[dot]org</code>.
 
 I mostly read RSS feeds instead of using social media.
 If you're interested in trying this out yourself, check out the [list of feeds that I follow](/_resources/nates-subscriptions.opml).

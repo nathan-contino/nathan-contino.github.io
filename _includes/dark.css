@@ -2,11 +2,11 @@
 --code-bg: #300A24;
 --accent: #5E2750;
 --headeraccent: #77216F;
---main: #5E2750;
+--main: #46183B;
 --mainalternative: #D24D15;
 --textcolor: black;
---code-textcolor: var(--mainalternative);
---mutedtextcolor: #333;
+--code-textcolor: #E65D1B;
+--mutedtextcolor: #282828;
 --highlightcolor: #3C0530;
 --hero: #D24D15;
 --menucolor: #8E6D55;

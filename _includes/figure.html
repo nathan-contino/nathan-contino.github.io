@@ -1,5 +1,16 @@
 {% assign include.width = | default: 0 %}
+{% assign popover_id = include.url | slugify | prepend: "lightbox-" %}
 <figure {% if include.width != 0 %} style="float:left; max-width: {{ include.width }}px !important;" {% endif %}>
-  <a href="{{ site.images }}{{ include.url }}" target="_blank" class="nohover"><img src="{{ site.thumbnails }}{{ include.url }}" alt="{{ include.description }}" height="500px" loading="lazy" {% if include.width != 0 %} style="max-width:{{ include.width }}px !important;" {% endif %}></a>
+  <button type="button" popovertarget="{{ popover_id }}" class="lightbox-trigger nohover" aria-label="Open image in lightbox">
+    <img src="{{ site.thumbnails }}{{ include.url }}" alt="{{ include.description }}" height="500px" loading="lazy" {% if include.width != 0 %} style="max-width:{{ include.width }}px !important;" {% endif %}>
+  </button>
   <figcaption {% if include.width != 0 %} style="max-width:{{ include.width }}px !important;" {% endif %}>{{ include.description }}</figcaption>
+  <div id="{{ popover_id }}" popover class="lightbox-modal">
+    <button type="button" class="lightbox-backdrop" popovertarget="{{ popover_id }}" popovertargetaction="hide" aria-label="Close image"></button>
+    <button type="button" class="lightbox-close" popovertarget="{{ popover_id }}" popovertargetaction="hide" aria-label="Close image">&times;</button>
+    <div class="lightbox-content">
+      <img src="{{ site.images }}{{ include.url }}" alt="{{ include.description }}" loading="lazy">
+      {% if include.description %}<div class="lightbox-caption">{{ include.description }}</div>{% endif %}
+    </div>
+  </div>
 </figure>
