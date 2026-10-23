@@ -48,6 +48,11 @@
   font-display: swap;
 }
 
+/* ridewithgps widget dark mode */
+iframe[src*="ridewithgps.com"] {
+  filter: invert(100%) hue-rotate(180deg) brightness(90%) contrast(90%);
+}
+
 /* theme switcher */
 .theme-toggle span {
   display: none;
