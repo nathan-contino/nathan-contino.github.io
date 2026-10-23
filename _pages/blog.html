@@ -7,15 +7,7 @@ permalink: /blog/
   <div class="blog-posts">
     {% for post in site.posts %}
       {% if post.categories contains "blog" %}
-        <slant>
-        <blog-date><div>{{ post.date | date: '%B %d, %Y' }}</div></blog-date>
-        </slant>
-        <div class="blog-post">
-          <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-          <p>
-          {{ post.excerpt }}
-          </p>
-        </div>
+        {% include post-card.html post=post %}
       {% endif %}
     {% endfor %}
   </div>

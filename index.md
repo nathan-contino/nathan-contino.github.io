@@ -45,10 +45,7 @@ Some recent blog posts:
 
 
 {% for post in site.posts limit:3 %}
-* [{{ post.title }}]({{ post.url }})
-  > {{ post.date | date: '%B %d, %Y' }}
-
-  {{ post.excerpt }}
+   {% include post-card.html post=post %}
 {% endfor %}
 
 

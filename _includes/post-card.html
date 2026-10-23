@@ -1,0 +1,11 @@
+<slant>
+  <blog-date>
+    <div><code>{{ include.post.date | date: '%B %d, %Y' }}</code></div>
+  </blog-date>
+</slant>
+<div class="blog-post">
+  <h2><a class="blog-title" href="{{ include.post.url }}">{{ include.post.title }}</a></h2>
+  <div class="blog-post-excerpt">
+    {{ include.post.excerpt }}
+  </div>
+</div>

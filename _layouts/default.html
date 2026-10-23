@@ -68,7 +68,7 @@
         }
 
         // finally, toggle the light option off or on the body to change the display of the theme
-        document.body.classList.toggle('light');
+        document.body.classList.toggle('dark');
       }
 
       // initialises the site theme display
@@ -83,7 +83,7 @@
         // if the user has already set the dark theme in a past visit, or the user prefers the dark theme, toggle to light theme
         if((theme !== null && theme === '🌚') || (theme === null && prefersDark())) {
           // toggles the theme from the default dark mode to the light version (which actually _shows_ by default to many users)
-          document.body.classList.toggle('light');
+          document.body.classList.toggle('dark');
         }
       }
     </script>
