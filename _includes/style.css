@@ -5,6 +5,10 @@
   {% include dark.css %}
 }
 
+/* the toggle marks body, so :has() carries the scheme to the root, which sets the page scrollbar and form controls */
+:root { color-scheme: light; }
+:root:has(body.dark) { color-scheme: dark; }
+
 /* ==========================================================================
    Bergoom Web Font Declarations
    ========================================================================== */
