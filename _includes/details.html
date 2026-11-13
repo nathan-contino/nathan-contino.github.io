@@ -1,0 +1,6 @@
+<details{% if include.open %} open{% endif %}>
+  <summary>{{ include.summary | markdownify | remove: '<p>' | remove: '</p>' }}</summary>
+  <div class="details-content">
+    {{ include.content | markdownify }}
+  </div>
+</details>
