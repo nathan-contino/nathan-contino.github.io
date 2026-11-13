@@ -171,7 +171,8 @@ Many reviews of recent Boox devices will tell you that they only last a few days
 
 In the olden days, you had to enable the Google Play Store on a Boox device manually. These days, US devices ship with the Google Play Store already enabled. It's nice for people who want to use the (horrible, privacy-invasive, ad-and-malware ridden) Google Play Store. It's terrible for battery life. Why?
 
-{% capture google_play_services %}
+<details markdown="block">
+<summary markdown="span">Google Play Services: twenty-year-old battery hog extraordinaire</summary>
 
 Google Play Services is a background service upon which the Google Play Store, Google's advertising business, and most Android in-app purchases, and notifications rely. On most Android devices, this background service that you never use directly _singlehandedly consumes more battery than every other app combined_. On an e-ink device with a battery-efficient screen and CPU, Google Play Services most likely consumes more battery than the screen! And the CPU! And all of your apps! _Combined!_
 
@@ -179,13 +180,13 @@ In the olden days, when nerds still tinkered and talked about their Android phon
 
 Not-so-fun fact: ever look at Android device battery sizes compared to iPhone battery sizes? At the same screen size, Android devices usually come with 10% more battery capacity than iPhones, even though the iPhones tend to get longer standby life. Why extra battery size, but worse standby? _Google Play Services_.
 
-{% endcapture %}
-
-{% include details.html summary="Google Play Services: twenty-year-old battery hog extraordinaire" content=google_play_services %}
+</details>
 
 You used to have to disable services and preinstalled apps with `adb` to get rid of potential spyware. Now you have to do it just to get reasonable ereader battery life.
 
-{% capture google_play_details %}
+<details markdown="block">
+<summary markdown="span">Disable Google Play</summary>
+
 1. Enable Developer Mode in Android Settings. Sadly, Boox makes it hard to access the Android Settings app, because they would rather have you use their apps. My recommendation?
 
    1. Use the big button on this page to [Download F-Droid](https://f-droid.org/).
@@ -231,9 +232,8 @@ You used to have to disable services and preinstalled apps with `adb` to get rid
    ```zsh
    adb shell 'for pkg in com.android.bips com.android.bluetoothmidiservice com.android.cameraextensions com.android.cts.ctsshim com.android.dreams.phototable com.android.emergency com.android.internal.display.cutout.emulation.corner com.android.internal.display.cutout.emulation.double com.android.internal.display.cutout.emulation.hole com.android.internal.display.cutout.emulation.tall com.android.internal.display.cutout.emulation.waterfall com.android.printservice.recommendation com.android.providers.blockednumber com.android.providers.contacts com.android.quicksearchbox com.android.smspush com.android.theme.font.notoserifsource com.android.vending com.google.android.apps.restore com.google.android.gms.location.history com.google.android.overlay.gmsconfig.common com.google.android.syncadapters.calendar com.google.android.syncadapters.contacts com.onyx.aiassistant com.onyx.android.production.test com.onyx.appmarket com.onyx.calculator com.onyx.clock com.onyx.dict com.onyx.easytransfer com.onyx.gallery com.onyx.mail com.onyx.musicplayer com.onyx.voicerecorder com.qualcomm.embms com.qualcomm.qti.seccamservice com.qualcomm.qti.server.qtiwifi com.qualcomm.qti.services.systemhelper com.qualcomm.qti.uim com.qualcomm.qti.uimGbaApp com.qualcomm.qti.xrcb com.qualcomm.qti.xrvd.service com.qualcomm.qtil.aptxui org.chromium.chrome; do echo "Removing $pkg..."; pm uninstall --user 0 "$pkg"; done'
    ```
-{% endcapture %}
 
-{% include details.html summary="Disable Google Play" content=google_play_details %}
+</details>
 
 ## Summary
 
