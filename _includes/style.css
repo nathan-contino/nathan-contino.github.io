@@ -316,6 +316,15 @@ figure {
   padding-bottom: 2em;
 }
 
+.lightbox-img {
+  background-image: var(--full-img);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 90vw;
+  height: 80vh;
+}
+
 figure img {
   height: 100%;
   width: 100%;
