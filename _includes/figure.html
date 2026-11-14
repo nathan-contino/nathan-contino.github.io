@@ -5,15 +5,14 @@
     <img src="{{ site.thumbnails }}{{ include.url }}" alt="{{ include.description }}" height="500px" loading="lazy" {% if fig_width != 0 %} style="max-width:{{ fig_width }}px !important;" {% endif %}>
   </button>
   <figcaption {% if fig_width != 0 %} style="max-width:{{ fig_width }}px !important;" {% endif %}>{{ include.description }}</figcaption>
+  <!-- lightbox-start -->
   <div id="{{ popover_id }}" popover class="lightbox-modal">
     <button type="button" class="lightbox-backdrop" popovertarget="{{ popover_id }}" popovertargetaction="hide" aria-label="Close image"></button>
     <button type="button" class="lightbox-close" popovertarget="{{ popover_id }}" popovertargetaction="hide" aria-label="Close image">&times;</button>
     <div class="lightbox-content">
-      <div class="lightbox-img">
-        <img src="{{ site.images }}{{ include.url }}"
-             alt="{{ include.description }}">
-      </div>
+      <img src="{{ site.images }}{{ include.url }}" alt="{{ include.description }}" loading="lazy">
       {% if include.description %}<div class="lightbox-caption">{{ include.description }}</div>{% endif %}
     </div>
   </div>
+  <!-- lightbox-end -->
 </figure>

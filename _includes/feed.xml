@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://w3.org">
+  <generator uri="https://jekyllrb.com" version="{{ jekyll.version }}">Jekyll</generator>
+  <link href="{{ page.url | absolute_url }}" rel="self" type="application/atom+xml" />
+  <link href="{{ '/' | absolute_url }}" rel="alternate" type="text/html" />
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <id>{{ page.url | absolute_url }}</id>
+  <title type="html">{{ site.title | smartify | xml_escape }}{% if include.category %} - {{ include.category | capitalize }}{% endif %}</title>
+  {% if site.description %}
+  <subtitle>{{ site.description | xml_escape }}</subtitle>
+  {% endif %}
+
+  {%- if include.category -%}
+    {%- assign feed_posts = site.categories[include.category] -%}
+  {%- else -%}
+    {%- assign feed_posts = site.posts -%}
+  {%- endif -%}
+  {%- assign post_limit = site.feed.posts_limit | default: 200 -%}
+
+  {% for post in feed_posts limit: post_limit %}
+  <entry>
+    <title type="html">{{ post.title | smartify | strip_html | normalize_whitespace | xml_escape }}</title>
+    <link href="{{ post.url | absolute_url }}" rel="alternate" type="text/html" title="{{ post.title | xml_escape }}" />
+    <published>{{ post.date | date_to_xmlschema }}</published>
+    <updated>{{ post.last_modified_at | default: post.date | date_to_xmlschema }}</updated>
+    <id>{{ post.id | absolute_url }}</id>
+    <content type="html" xml:base="{{ post.url | absolute_url }}">
+      {%- capture clean_content -%}
+        {%- assign parts = post.content | split: '<!-- lightbox-start -->' -%}
+        {%- for part in parts -%}
+          {%- if part contains '<!-- lightbox-end -->' -%}
+            {{ part | split: '<!-- lightbox-end -->' | last }}
+          {%- else -%}
+            {{ part }}
+          {%- endif -%}
+        {%- endfor -%}
+      {%- endcapture -%}
+      {{ clean_content | strip | xml_escape }}
+    </content>
+    {% if post.author %}
+    <author>
+      <name>{{ post.author | xml_escape }}</name>
+    </author>
+    {% endif %}
+    {% if post.excerpt %}
+    <summary type="html">{{ post.excerpt | strip_html | normalize_whitespace | xml_escape }}</summary>
+    {% endif %}
+  </entry>
+  {% endfor %}
+</feed>

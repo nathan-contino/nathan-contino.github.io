@@ -18,7 +18,6 @@ kramdown:
   typographic_symbols: { hellip: ... , mdash: --- , ndash: -- , laquo: "<<" , raquo: ">>" , laquo_space: "<< " , raquo_space: " >>" }
   smart_quotes: apos,apos,quot,quot
 plugins:
-  - jekyll-feed
   - jekyll-sitemap
 exclude:
   - Gemfile
