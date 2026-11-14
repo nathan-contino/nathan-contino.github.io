@@ -18,124 +18,69 @@ In 2025, Google killed the Pixel 4a.
 * The only way to fix this issue is custom ROMs, which Google has been gradually squeezing out of the ecosystem entirely thanks to services like the [Play Integrity API](https://developer.android.com/google/play/integrity/overview), which prevents essential apps like banking apps from working at all on custom ROMs. Remember: _most users lack the technical ability to install custom ROMs!_
 
 
-<details>
-<summary><strong>UPDATE</strong></summary>
 
+<details markdown="block">
+<summary markdown="span"> **UPDATE** </summary>
 
-<p>
 On 16 January 2025, my phone downloaded the update and prompted me to install it via a notification, despite disabling automatic update checks in Developer Options. As far as I know, there is no way to disable checks (and automatic downloads!) for this update. Without an option to disable the automatic update in the OS settings, you're stuck with the following options:
-</p>
 
+- Install a custom ROM, like GrapheneOS or LineageOS.
+- Continue using the stock software, but block the update at the DNS level with a pi.hole, nextDNS, or similar.
+- To block the updates, block the entire `googlezip.net` domain. Technically you can just block `ota.googlezip.net`, `ota-cache1.googlezip.net`, and `ota-cache2.googlezip.net`, but if you use nextDNS or pi.hole you can only block the whole domain.
 
-<ul>
-<li> install a custom ROM, like GrapheneOS or LineageOS</li>
-<li> continue using the stock software, but block the update at the DNS level with a pi.hole, nextDNS, or similar</li>
-<li> To block the updates, block the entire <code>googlezip.net</code> domain. Technically you can just block <code>ota.googlezip.net</code>, <code>ota-cache1.googlezip.net</code>, and <code>ota-cache2.googlezip.net</code>, but if you use nextDNS or pi.hole you can only block the whole domain.</li>
-</ul>
-
-
-<p>
-When your phone inevitably decides to install the update _anyway_ (because VPNs on Android <a href="https://mullvad.net/en/blog/2022/10/10/android-leaks-connectivity-check-traffic">leak traffic</a>), go to <strong>Settings</strong> > <strong>Apps</strong> > <strong>All Apps</strong> > <strong>Google Play Services</strong> > <strong>Storage and cache</strong> > <strong>Manage Space</strong> and click the <strong>Clear all data</strong> button to delete all data, including the update file. Fortunately, it seems that you at least have to click the notification to actually install the update!
-</p>
-
+When your phone inevitably decides to install the update _anyway_ (because VPNs on Android [leak traffic](https://mullvad.net/en/blog/2022/10/10/android-leaks-connectivity-check-traffic)), go to **Settings** > **Apps** > **All Apps** > **Google Play Services** > **Storage and cache** > **Manage Space** and click the **Clear all data** button to delete all data, including the update file. Fortunately, it seems that you at least have to click the notification to actually install the update!
 
 </details>
 
 
-<p>
-</p>
-
-<details>
-	<summary><strong>UPDATE<sup>UPDATE</sup></strong></summary>
 
 
-<p>
-Around 20 January 2025, Google took down <a href="https://www.androidcentral.com/phones/google-pixel-4as-old-firmware-is-gone-trapping-users-on-the-buggy-battery-update">all Pixel 4a firmware releases other than the recent release that destroys battery performance</a>.
-</p>
+<details markdown="block">
+<summary markdown="span"> **UPDATE<sup>UPDATE</sup>** </summary>
 
-<p>
+Around 20 January 2025, Google took down [all Pixel 4a firmware releases other than the recent release that destroys battery performance](https://www.androidcentral.com/phones/google-pixel-4as-old-firmware-is-gone-trapping-users-on-the-buggy-battery-update).
+
 At this point, I'm forced to conclude that some 4a batteries have catastrophically failed, exploding or burning down houses somewhere. Making this a massive CYA legal operation for Google. Of course, it all happened with only 48 hours of warning, next to no battery supplies, extremely limited geographical locations for battery replacements, poor communication, and plenty of people incurring $90 screen replacement costs for screens previously scratched or destroyed during battery replacement... in other words, Google borked this operation from the beginning.
-</p>
 
-<p>
-I just wish Google would offer a trade-in. Send me a refurbished Pixel 4a with a new, safe battery in the mail. I'll copy over my files and data from my current (old, unsafe battery) 4a. And then mail it back. Then Google can refurbish <em>my</em> Pixel 4a for someone else. No downtime required, and I'm sure they have a stockpile of refurbished phones somewhere for warranties and such. But currently my only battery replacement option is a mail-in one, and I <em>cannot</em> go without my phone for 7-10 business days when I need it for basic stuff like 2FA, let alone travel, music, podcasts, emergencies, etc.
-</p>
-
+I just wish Google would offer a trade-in. Send me a refurbished Pixel 4a with a new, safe battery in the mail. I'll copy over my files and data from my current (old, unsafe battery) 4a. And then mail it back. Then Google can refurbish _my_ Pixel 4a for someone else. No downtime required, and I'm sure they have a stockpile of refurbished phones somewhere for warranties and such. But currently my only battery replacement option is a mail-in one, and I _cannot_ go without my phone for 7-10 business days when I need it for basic stuff like 2FA, let alone travel, music, podcasts, emergencies, etc.
 
 </details>
 
-<p>
-</p>
+<details markdown="block">
+<summary markdown="span"> **UPDATE<sup>UPDATE<sup>UPDATE</sup></sup>** </summary>
 
-<details>
-	<summary><strong>UPDATE<sup>UPDATE<sup>UPDATE</sup></sup></strong></summary>
+29 January 2025, [marcan@treehouse.systems took a look at the kernels for the last two 4a firmwares](https://social.treehouse.systems/@marcan/113914172433692339). Turns out that this update does indeed cut battery capacity in half for impacted phones!
 
-
-<p>
-29 January 2025, <a href="https://social.treehouse.systems/@marcan/113914172433692339">marcan@treehouse.systems took a look at the kernels for the last two 4a firmwares</a>. Turns out that this update does indeed cut battery capacity in half for impacted phones!
-</p>
-
-<p>
 A couple of interesting takeaways:
-</p>
 
-<ul>
-	<li>
-		this commit was built on an engineer's machine, not the usual Android kernel buildsystem used for Pixel phones (likely because that buildsystem has removed support for the 4a)
-	</li>
-	<li>
-		there's no source for this update, so this kernel violates GPL
-	</li>
-	<li>
-		the new kernel was compiled without <a href="https://wiki.gentoo.org/wiki/LTO">Link Time Optimization</a>, which translates to a minimal performance hit for the new kernel
-	</li>
-	<li>
-		they lowered the maximum charge voltage from <strong>4.44 V to 3.95 V</strong> for one of the two known battery profiles for the 4a, so all of that battery now have a maximum capacity of not 3080mAh, but <strong>1539mAh</strong> (for reference, that's about the same battery capacity as the iPhone 5 had).
-	</li>
-</ul>
+- This commit was built on an engineer's machine, not the usual Android kernel buildsystem used for Pixel phones (likely because that buildsystem has removed support for the 4a).
+- There's no source for this update, so this kernel violates GPL.
+- The new kernel was compiled without [Link Time Optimization](https://wiki.gentoo.org/wiki/LTO), which translates to a minimal performance hit for the new kernel.
+- They lowered the maximum charge voltage from **4.44 V to 3.95 V** for one of the two known battery profiles for the 4a, so all of that battery now have a maximum capacity of not 3080mAh, but **1539mAh** (for reference, that's about the same battery capacity as the iPhone 5 had).
 
-<p>
 In case you're trying to replace your own battery because, like most people, you can't find one at repair stores, this quote is particularly relevant:
-</p>
 
-<blockquote>
-	You can tell which battery you have physically by the number next to the QR code. 8230015901 is ATL (good) and 8230020501 is LSN (bad). If you're replacing your battery, make sure it's ATL.
-</blockquote>
-
+> You can tell which battery you have physically by the number next to the QR code. 8230015901 is ATL (good) and 8230020501 is LSN (bad). If you're replacing your battery, make sure it's ATL.
 
 </details>
 
-<p>
-</p>
+<details markdown="block">
+<summary markdown="span"> **UPDATE<sup>UPDATE<sup>UPDATE<sup>UPDATE</sup></sup></sup>**</summary>
 
-<details>
-	<summary><strong>UPDATE<sup>UPDATE<sup>UPDATE<sup>UPDATE</sup></sup></sup></strong></summary>
+30 January 2025, [Google support reps seem to think un-updated phones like mine will be remotely factory reset with no warning today to force the update](https://old.reddit.com/r/Pixel4a/comments/1id6zw8/attention_google_customer_service_said_device/). The screenshotted support conversation reads:
 
+> We understand the battery issue that you're referring to right now. Each Impacted Devices and eligible customers must manually update their device's firmware once it is available in January 2025. If they don't update the firmware on January 30, 2025, the device will experience a factory reset and the customer will need to set up their device again.
+>
+> During that setup process, the new firmware will install on their device.
 
-<p>
-30 January 2025, <a href="https://old.reddit.com/r/Pixel4a/comments/1id6zw8/attention_google_customer_service_said_device/">Google support reps seem to think un-updated phones like mine will be remotely factory reset with no warning today to force the update</a>. The screenshotted support conversation reads:
-</p>
-
-<blockquote>
-We understand the battery issue that you're referring to right now. Each Impacted Devices and eligible customers must manually update their device's firmware once it is available in January 2025. If they don't update the firmware on January 30, 2025, the device will experience a factory reset and the customer will need to set up their device again.
-During that setup process, the new firmware will install on their device.
-</blockquote>
-
-<p>
 Let me remind you that this is far worse than the iPhone BatteryGate scandal, where Apple downclocked CPUs to keep underperforming older batteries from powering down the phone under heavy loads. Google has kneecapped completely workable phones without fessing up to the actual problem (which appears to be a very real risk of fires or explosion from the batteries, based on their aggressive stance). $50 reimbursement is only available in a few countries, and only through an exploitative third party that requires invasive personal data like your Social Security number. Their $100 discount has serious strings attached and takes weeks to become available. Batteries are out of stock at many repair places, and you might get charged $90 for a screen repair if they break it. And mail-in repair requires you to go without your phone for 2 weeks.
-</p>
 
-<p>
-<em>Oh, and they might just wipe my phone completely without warning because I had the audacity to try and preserve my battery life until I can take my phone into a repair store in person.</em>
-</p>
+_Oh, and they might just wipe my phone completely without warning because I had the audacity to try and preserve my battery life until I can take my phone into a repair store in person._
 
-<p>
 This sucks.
-</p>
-
-
 
 </details>
+
 
 Many of us use phones that are a couple of years out of date. As the phone industry insists on removing useful features while at the same time inflating new phones to a seeming minimum of $500, older phones have become increasingly attractive. Using an older phone is good for your wallet and good for the environment (the most environmentally-friendly phone purchase is no new phone purchase), but not good for security, since you likely miss out on OS security updates.
 
@@ -201,125 +146,124 @@ I don't know. Nobody seems to. All I know is that pretty much anybody who was ha
 
 And I don't think that's OK.
 
-<details><summary><strong>Full text of the "Pixel 4a Battery Performance Program" page, in case Google changes it:</strong></summary>
+<details markdown="block">
+<summary markdown="span">**Full text of the "Pixel 4a Battery Performance Program" page, in case Google changes it:**</summary>
 
-<blockquote>
-Pixel 4a Battery Performance Program
-<p></p>
-January 6, 2025
-<p></p>
-Summary of program
-<p></p>
-Google has determined that certain Pixel 4a phones require a software update to improve the stability of their battery’s performance. An automatic update to Android 13 will roll out to all Pixel 4a devices starting January 8, 2025. For some devices (“Impacted Devices”), the software update reduces available battery capacity and impacts charging performance. We want our customers to have the best possible experience with their products, so users of these Impacted Devices are eligible for an appeasement from Google. Not all Pixel 4a devices are impacted by the reduction in battery capacity and charging performance, therefore if your device is not impacted the battery will perform the same as before, and you will not be eligible for an appeasement. You can find out if your device is eligible here.
-Background
-<p></p>
-Pixel phones, like other smartphones on the market, use rechargeable lithium-ion batteries—and these batteries are consumable components that may experience performance, capacity, or runtime degradation as they are used. That’s why we recommend that you consider replacing your battery if you notice a decrease in your battery’s capacity or runtime. 
-Changes coming to your device's battery management
-<p></p>
-From January 8, 2025, Pixel 4a devices will receive an automatic software update to Android 13. After the software update is downloaded, your device will restart automatically to apply the update. For some devices (“Impacted Devices”), the update includes new battery management features to improve the stability of your battery’s performance, so the battery may last for shorter periods between charges. Users of Impacted Devices may also notice other changes, like reduced charging performance or changes to how the battery-level indicator on your phone shows your battery capacity. 
-<p></p>
-If you own a Pixel 4a, you can manually download the latest software update from January 8, 2025. Otherwise, the software update will be automatically downloaded to your device when the software is released and your device is charged and connected to the internet. 
-<p></p>
-Not all Pixel 4a devices will experience these changes, but we want to help affected users in this situation. Impacted Devices are eligible for an appeasement. You can check your appeasement eligibility here. The software update does not impact any other Pixel phone models, such as Pixel 4a 5G.
-Free battery replacement and other options for individual end-user owners of Impacted Devices
-<p></p>
-If your Pixel 4a is an Impacted Device, you may be eligible for a free battery replacement. You can visit our registration page to find a battery replacement option near you.
-<p></p>
-Battery replacement is available at walk-in repair centers in the United States, Canada, United Kingdom, Germany, Singapore, and India. Mail-in repair is also available for customers in the United States. Battery replacement is only available in eligible locations and while battery supplies last. For more details about eligibility, review criteria here.
-<p></p>
-If battery replacement is not convenient or you would like to explore other options, you can also visit our registration page to claim one of the other appeasement options:
-<p></p>
-<ul>
-<li> $50 USD (or local equivalent) payment. </li>
-<li> $100 USD (or local equivalent) Google hardware discount code applicable towards the purchase of another Pixel phone on the Google Store (as available). </li>
-</ul>
-<p></p>
-Terms and conditions
-<p></p>
-Individual end users will have one year from the initial software release on January 8, 2025 to register and make a choice of one of the three appeasement options, which may vary by country. After January 8, 2026, these appeasement options will no longer be available. Payment and Google hardware discount code amounts may vary based on the daily exchange rate, at the time of conversion. The final amount will be calculated using the exchange rate in effect at the time you select your appeasement option.
-<p></p>
-Note: Only some Pixel 4a devices are impacted by the reduced battery capacity and eligible for appeasements - you can check your eligibility here. 
-<p></p>
-The options above are available exclusively for individual end-user consumers of Impacted Devices only (retailers, wholesalers, or owners of bulk devices other than for personal use are not eligible) that were purchased by or on behalf of that individual consumer prior to January 6, 2025. There is one appeasement per device after eligibility is confirmed. Proof of ownership may be required when claiming your appeasement. Appeasement options may not be available in all countries, as required by law. 
-<p></p>
-This Pixel 4a Battery Performance Program provides rights separate to rights provided to you by statutory law in the country where you purchased the device. Those statutory rights are in addition to, and not instead of or restricted by, this program.
-<p></p>
-Additional details regarding this program are provided in the frequently asked questions below.
-<p></p>
-Frequently asked questions
-<p></p>
-What should I expect if my Pixel 4a battery has been impacted?  Can I continue to use my Pixel 4a?
-<p></p>
-Yes, you can continue to use your Pixel 4a as before. After the software update is applied, Impacted Devices will experience improved stability of battery performance, but battery capacity will be reduced, which may affect runtime. You may also notice other changes, like reduced charging performance or changes to how the battery-level indicator on your phone shows your battery capacity.
-<p></p>
-How do I know if I have Pixel 4a?
-<p></p>
-Find your phone model in Settings About phone Model. Remember that not all Pixel 4a devices are impacted by the battery health features and eligible for appeasement. You can confirm here if your device is impacted and if you are eligible for an appeasement option.
-<p></p>
-How do I claim my appeasement?
-<p></p>
-To claim an appeasement for your Impacted Device, visit our registration page to begin the process. After you complete the registration process, you’ll be given a list of available options for your country and estimated time for fulfillment. 
-<p></p>
-The options may vary depending on country, and will only be available for individual end users until January 8, 2026. Terms and conditions apply.
-<p></p>
-How do I obtain a battery replacement?
-<p></p>
-If you choose to request one free battery replacement, eligible Pixel 4a devices can be taken to walk-in repair centers in the United States, Canada, United Kingdom, Germany, Singapore and India. Visit our registration page and after selecting the Repair option, you can find a service location near you. We recommend that you contact the walk-in repair location ahead of time and schedule an appointment. If you are in the United States, mail-in repair may also be available. We will send you a special box for mail-in repair if your device qualifies. Battery replacement is only available at eligible locations and only while battery supplies last.
-<p></p>
-For more information and to register for a battery replacement, visit our registration page.
-<p></p>
-About the battery replacement program
-<p></p>
-The battery replacement program provides one free battery replacement for eligible Pixel 4a devices following an initial eligibility check and physical inspection of your device. Initial eligibility is determined based on whether the phone is an Impacted Device. To find out if your Pixel 4a phone is eligible visit our registration page. 
-<p></p>
-If your Pixel 4a is eligible and you registered for a battery replacement, you can choose mail-in repair in the United States only, or take it to a walk-in repair location in the United States, Canada, United Kingdom, Germany, Singapore, and India. For more information on our repair partners, visit our registration page. 
-<p></p>
-Even if an Impacted Device is eligible for a free battery replacement, upon receipt, a physical inspection of your phone is conducted before starting the repair to verify that the phone is in suitable condition for repair. 
-<p></p>
-Important: If your Pixel 4a device exhibits other forms of damage, like liquid damage, exposure to sharp objects, or excessive force, it may not qualify for a free battery replacement. If your phone has out-of-warranty damage, such as display or coverglass cracks, then there may be a fee to repair your phone. Before we start any repairs, we'll provide a cost estimate. You then have the option to proceed with the repair or have your device returned to you.
-<p></p>
-If your Impacted Device is not eligible for the free battery replacement program following physical inspection, you will be redirected to select a different appeasement option.
-<p></p>
-Battery replacement doesn't extend the standard warranty coverage of your Pixel 4a. Your warranty will expire on the date it was originally set to expire, regardless of the battery replacement.
-<p></p>
-Tip: Before you bring in your phone or mail-in for repair, back up your data.
-<p></p>
-I have a Pixel 4a that I am no longer using, can I get the appeasement offer?
-<p></p>
-Yes, appeasement options are available for individual end-user owners of Impacted Devices (subject to terms and conditions).
-<p></p>
-Can I take my Pixel 4a device back to the carrier or retailer where I bought it? 
-<p></p>
-No. The appeasement options are offered by Google directly to individual end-user owners of Impacted Devices. To claim an appeasement, visit our registration page to begin the process. 
-<p></p>
-My Pixel 4a is working normally. Do I need to stop using it?
-<p></p>
-You do not need to stop using your Pixel 4a. Your device will receive the software update from January 8, 2025, or you can manually download the update. 
-<p></p>
-I haven’t had any issues with my Pixel 4a. Can I take it on a plane or put it in my checked luggage?
-<p></p>
-Follow local transportation guidance as usual. In general, rechargeable lithium-ion batteries are allowed in carry-on baggage but are prohibited from checked luggage. Please see the FAA’s PackSafe for Passengers webpage for more information.
-<p></p>
-Can I purchase a new Pixel 4a?
-<p></p>
-Google is no longer selling Pixel 4a, but you can review our current Pixel portfolio here. 
-<p></p>
-How do I dispose of my Pixel 4a if I can't return it?
-<p></p>
-Dispose of your phone, battery, and any accessories in accordance with local regulations. Don't dispose of them in normal household waste. Improper disposal may lead to fire, explosion, and/or other hazards. Don't open, crush, heat above 45°C (113°F), or incinerate. For more information on recycling your phone, visit g.co/pixel/recycle.
-<p></p>
-What happens to my Pixel 4a after I take the payment or Google hardware discount code appeasement offer? Can I still use it?
-<p></p>
-You will not be required to return your device. You can continue to use your Pixel 4a or you can dispose of it responsibly. For more information on recycling your phone, visit g.co/pixel/recycle.
-<p></p>
-Is it safe to charge my Pixel 4a?
-<p></p>
-Yes, you can continue to charge your Pixel 4a as before. As with all devices, use best practices for battery health and charging. Place your device in a well-ventilated area when charging or in-use. You can find additional safety-related information here or on your Pixel 4a at Settings About phone Safety & regulatory manual. 
-<p></p>
-Can I continue to request mail-in repairs for my device in the future?
-<p></p>
-Impacted Devices that qualify and receive a battery replacement will be able to request future mail-in repair service where available. If an Impacted Device claims an appeasement other than a battery replacement, that device will not qualify for future mail-in repair service but can still receive other non-mail in repair services where available.
-</blockquote>
-
+> **Pixel 4a Battery Performance Program**
+>
+> January 6, 2025
+>
+> **Summary of program**
+>
+> Google has determined that certain Pixel 4a phones require a software update to improve the stability of their battery’s performance. An automatic update to Android 13 will roll out to all Pixel 4a devices starting January 8, 2025. For some devices (“Impacted Devices”), the software update reduces available battery capacity and impacts charging performance. We want our customers to have the best possible experience with their products, so users of these Impacted Devices are eligible for an appeasement from Google. Not all Pixel 4a devices are impacted by the reduction in battery capacity and charging performance, therefore if your device is not impacted the battery will perform the same as before, and you will not be eligible for an appeasement. You can find out if your device is eligible here.
+>
+> **Background**
+>
+> Pixel phones, like other smartphones on the market, use rechargeable lithium-ion batteries—and these batteries are consumable components that may experience performance, capacity, or runtime degradation as they are used. That’s why we recommend that you consider replacing your battery if you notice a decrease in your battery’s capacity or runtime.
+>
+> **Changes coming to your device's battery management**
+>
+> From January 8, 2025, Pixel 4a devices will receive an automatic software update to Android 13. After the software update is downloaded, your device will restart automatically to apply the update. For some devices (“Impacted Devices”), the update includes new battery management features to improve the stability of your battery’s performance, so the battery may last for shorter periods between charges. Users of Impacted Devices may also notice other changes, like reduced charging performance or changes to how the battery-level indicator on your phone shows your battery capacity.
+>
+> If you own a Pixel 4a, you can manually download the latest software update from January 8, 2025. Otherwise, the software update will be automatically downloaded to your device when the software is released and your device is charged and connected to the internet.
+>
+> Not all Pixel 4a devices will experience these changes, but we want to help affected users in this situation. Impacted Devices are eligible for an appeasement. You can check your appeasement eligibility here. The software update does not impact any other Pixel phone models, such as Pixel 4a 5G.
+>
+> **Free battery replacement and other options for individual end-user owners of Impacted Devices**
+>
+> If your Pixel 4a is an Impacted Device, you may be eligible for a free battery replacement. You can visit our registration page to find a battery replacement option near you.
+>
+> Battery replacement is available at walk-in repair centers in the United States, Canada, United Kingdom, Germany, Singapore, and India. Mail-in repair is also available for customers in the United States. Battery replacement is only available in eligible locations and while battery supplies last. For more details about eligibility, review criteria here.
+>
+> If battery replacement is not convenient or you would like to explore other options, you can also visit our registration page to claim one of the other appeasement options:
+>
+> - $50 USD (or local equivalent) payment.
+> - $100 USD (or local equivalent) Google hardware discount code applicable towards the purchase of another Pixel phone on the Google Store (as available).
+>
+> **Terms and conditions**
+>
+> Individual end users will have one year from the initial software release on January 8, 2025 to register and make a choice of one of the three appeasement options, which may vary by country. After January 8, 2026, these appeasement options will no longer be available. Payment and Google hardware discount code amounts may vary based on the daily exchange rate, at the time of conversion. The final amount will be calculated using the exchange rate in effect at the time you select your appeasement option.
+>
+> Note: Only some Pixel 4a devices are impacted by the reduced battery capacity and eligible for appeasements - you can check your eligibility here.
+>
+> The options above are available exclusively for individual end-user consumers of Impacted Devices only (retailers, wholesalers, or owners of bulk devices other than for personal use are not eligible) that were purchased by or on behalf of that individual consumer prior to January 6, 2025. There is one appeasement per device after eligibility is confirmed. Proof of ownership may be required when claiming your appeasement. Appeasement options may not be available in all countries, as required by law.
+>
+> This Pixel 4a Battery Performance Program provides rights separate to rights provided to you by statutory law in the country where you purchased the device. Those statutory rights are in addition to, and not instead of or restricted by, this program.
+>
+> Additional details regarding this program are provided in the frequently asked questions below.
+>
+> **Frequently asked questions**
+>
+> **What should I expect if my Pixel 4a battery has been impacted? Can I continue to use my Pixel 4a?**
+>
+> Yes, you can continue to use your Pixel 4a as before. After the software update is applied, Impacted Devices will experience improved stability of battery performance, but battery capacity will be reduced, which may affect runtime. You may also notice other changes, like reduced charging performance or changes to how the battery-level indicator on your phone shows your battery capacity.
+>
+> **How do I know if I have Pixel 4a?**
+>
+> Find your phone model in Settings About phone Model. Remember that not all Pixel 4a devices are impacted by the battery health features and eligible for appeasement. You can confirm here if your device is impacted and if you are eligible for an appeasement option.
+>
+> **How do I claim my appeasement?**
+>
+> To claim an appeasement for your Impacted Device, visit our registration page to begin the process. After you complete the registration process, you’ll be given a list of available options for your country and estimated time for fulfillment.
+>
+> The options may vary depending on country, and will only be available for individual end users until January 8, 2026. Terms and conditions apply.
+>
+> **How do I obtain a battery replacement?**
+>
+> If you choose to request one free battery replacement, eligible Pixel 4a devices can be taken to walk-in repair centers in the United States, Canada, United Kingdom, Germany, Singapore and India. Visit our registration page and after selecting the Repair option, you can find a service location near you. We recommend that you contact the walk-in repair location ahead of time and schedule an appointment. If you are in the United States, mail-in repair may also be available. We will send you a special box for mail-in repair if your device qualifies. Battery replacement is only available at eligible locations and only while battery supplies last.
+>
+> For more information and to register for a battery replacement, visit our registration page.
+>
+> **About the battery replacement program**
+>
+> The battery replacement program provides one free battery replacement for eligible Pixel 4a devices following an initial eligibility check and physical inspection of your device. Initial eligibility is determined based on whether the phone is an Impacted Device. To find out if your Pixel 4a phone is eligible visit our registration page.
+>
+> If your Pixel 4a is eligible and you registered for a battery replacement, you can choose mail-in repair in the United States only, or take it to a walk-in repair location in the United States, Canada, United Kingdom, Germany, Singapore, and India. For more information on our repair partners, visit our registration page.
+>
+> Even if an Impacted Device is eligible for a free battery replacement, upon receipt, a physical inspection of your phone is conducted before starting the repair to verify that the phone is in suitable condition for repair.
+>
+> Important: If your Pixel 4a device exhibits other forms of damage, like liquid damage, exposure to sharp objects, or excessive force, it may not qualify for a free battery replacement. If your phone has out-of-warranty damage, such as display or coverglass cracks, then there may be a fee to repair your phone. Before we start any repairs, we'll provide a cost estimate. You then have the option to proceed with the repair or have your device returned to you.
+>
+> If your Impacted Device is not eligible for the free battery replacement program following physical inspection, you will be redirected to select a different appeasement option.
+>
+> Battery replacement doesn't extend the standard warranty coverage of your Pixel 4a. Your warranty will expire on the date it was originally set to expire, regardless of the battery replacement.
+>
+> Tip: Before you bring in your phone or mail-in for repair, back up your data.
+>
+> **I have a Pixel 4a that I am no longer using, can I get the appeasement offer?**
+>
+> Yes, appeasement options are available for individual end-user owners of Impacted Devices (subject to terms and conditions).
+>
+> **Can I take my Pixel 4a device back to the carrier or retailer where I bought it?**
+>
+> No. The appeasement options are offered by Google directly to individual end-user owners of Impacted Devices. To claim an appeasement, visit our registration page to begin the process.
+>
+> **My Pixel 4a is working normally. Do I need to stop using it?**
+>
+> You do not need to stop using your Pixel 4a. Your device will receive the software update from January 8, 2025, or you can manually download the update.
+>
+> **I haven’t had any issues with my Pixel 4a. Can I take it on a plane or put it in my checked luggage?**
+>
+> Follow local transportation guidance as usual. In general, rechargeable lithium-ion batteries are allowed in carry-on baggage but are prohibited from checked luggage. Please see the FAA’s PackSafe for Passengers webpage for more information.
+>
+> **Can I purchase a new Pixel 4a?**
+>
+> Google is no longer selling Pixel 4a, but you can review our current Pixel portfolio here.
+>
+> **How do I dispose of my Pixel 4a if I can't return it?**
+>
+> Dispose of your phone, battery, and any accessories in accordance with local regulations. Don't dispose of them in normal household waste. Improper disposal may lead to fire, explosion, and/or other hazards. Don't open, crush, heat above 45°C (113°F), or incinerate. For more information on recycling your phone, visit g.co/pixel/recycle.
+>
+> **What happens to my Pixel 4a after I take the payment or Google hardware discount code appeasement offer? Can I still use it?**
+>
+> You will not be required to return your device. You can continue to use your Pixel 4a or you can dispose of it responsibly. For more information on recycling your phone, visit g.co/pixel/recycle.
+>
+> **Is it safe to charge my Pixel 4a?**
+>
+> Yes, you can continue to charge your Pixel 4a as before. As with all devices, use best practices for battery health and charging. Place your device in a well-ventilated area when charging or in-use. You can find additional safety-related information here or on your Pixel 4a at Settings About phone Safety & regulatory manual.
+>
+> **Can I continue to request mail-in repairs for my device in the future?**
+>
+> Impacted Devices that qualify and receive a battery replacement will be able to request future mail-in repair service where available. If an Impacted Device claims an appeasement other than a battery replacement, that device will not qualify for future mail-in repair service but can still receive other non-mail in repair services where available.
 
 </details>
