@@ -38,7 +38,7 @@ Befriend me on [Mastodon](https://mastodon.social/@ncontino).
 Even better, contact me via email at <code class="email-address">ncontino<span class="antispam">_no_spam_</span>[at]lambdalatitudinarians<span class="antispam">_reject_</span>[dot]org</code>.
 
 I mostly read RSS feeds instead of using social media.
-If you're interested in trying this out yourself, check out the [feeds](/follows.opml) and [podcasts](/periklyne.opml) that I follow.
+If you're interested in trying this out yourself, check out the [feeds](/blogroll.opml) and [podcasts](/podroll.opml) that I follow.
 And consider [subscribing to this site's RSS feed](/feed.xml).
 
 Some recent blog posts:
