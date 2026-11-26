@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<opml version="1.0">
+	<head>
+		<title>Pocket Casts Feeds</title>
+	</head>
+	<body>
+		<outline text="feeds">
+			<outline text="Making Coffee with Lucia Solis" type="rss" xmlUrl="https://rss.buzzsprout.com/604165.rss" />
+			<outline type="rss" text="Fireside Cast" xmlUrl="https://feeds.soundcloud.com/users/soundcloud:users:235710678/sounds.rss" />
+			<outline xmlUrl="https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/7ef1c941-6c96-4b0b-9cd2-af8d016a1a2a/f8d65180-fe03-4c94-9ada-af8e01026e24/podcast.rss" type="rss" text="Svetlana! Svetlana!" />
+			<outline type="rss" text="99% Invisible" xmlUrl="https://feeds.simplecast.com/BqbsxVfO" />
+			<outline text="Upzoned" type="rss" xmlUrl="https://feed.podbean.com/upzoned.strongtowns.org/feed.xml" />
+			<outline text="Twenty Thousand Hertz" xmlUrl="https://feed.20k.org" type="rss" />
+			<outline type="rss" text="Switched on Pop" xmlUrl="https://feeds.megaphone.fm/switchedonpop" />
+			<outline text="The War on Cars" type="rss" xmlUrl="https://rss.libsyn.com/shows/132228/destinations/807818.xml" />
+			<outline xmlUrl="https://api.riverside.fm/hosting/sKjhmj6O.rss" type="rss" text="The Radavist Podcast" />
+			<outline text="In Defense of Plants Podcast" xmlUrl="https://rss.art19.com/in-defense-of-plants" type="rss" />
+			<outline type="rss" xmlUrl="https://relay.fm/designed/feed" text="Designed in California" />
+			<outline text="The Prancing Pony Podcast" xmlUrl="https://feeds.megaphone.fm/GLSS5091652151" type="rss" />
+			<outline text="Nice Try!" xmlUrl="https://feeds.megaphone.fm/nicetry" type="rss" />
+			<outline xmlUrl="https://feeds.simplecast.com/jZLi00b4" type="rss" text="What Trump Can Teach Us About Con Law" />
+			<outline xmlUrl="https://rss.buzzsprout.com/1004689.rss" type="rss" text="Tech Won&apos;t Save Us" />
+			<outline type="rss" text="Song Exploder" xmlUrl="http://feed.songexploder.net/SongExploder" />
+			<outline text="The Weekly Show with Jon Stewart" type="rss" xmlUrl="https://feeds.megaphone.fm/BVLLC2163264914" />
+			<outline type="rss" xmlUrl="https://catskull.net/podcasts/feed.xml" text="Interrobang with Dave DeGraw" />
+			<outline xmlUrl="https://podcasts.vpr.net/brave-little-state" text="Brave Little State" type="rss" />
+			<outline text="Cortex" xmlUrl="https://relay.fm/cortex/feed" type="rss" />
+			<outline type="rss" text="Really Specific Stories" xmlUrl="https://www.rsspod.net/rss" />
+			<outline type="rss" text="Bandsplain" xmlUrl="https://feeds.megaphone.fm/GLT3365274141" />
+			<outline text="Filter Stories - Coffee Documentaries" type="rss" xmlUrl="https://feeds.captivate.fm/filter-stories/" />
+			<outline type="rss" xmlUrl="https://anchor.fm/s/8e14ecc0/podcast/rss" text="Outside the Search Bar" />
+			<outline xmlUrl="https://rss.buzzsprout.com/2040953.rss" type="rss" text="If Books Could Kill" />
+			<outline type="rss" text="Vermont Edition" xmlUrl="https://podcasts.vpr.net/vermont-edition" />
+			<outline xmlUrl="https://rss.art19.com/the-urbanist-agenda" type="rss" text="The Urbanist Agenda" />
+			<outline text="Big Biology" xmlUrl="https://api.substack.com/feed/podcast/120946.rss" type="rss" />
+			<outline xmlUrl="https://www.thisamericanlife.org/podcast/rss.xml" type="rss" text="This American Life" />
+			<outline text="Articles of Interest" type="rss" xmlUrl="http://feeds.99percentinvisible.org/articlesofinterestpodcast" />
+			<outline type="rss" text="Articles of Interest" xmlUrl="https://feed.articlesofinterest.club/" />
+			<outline text="The Climate Denier&apos;s Playbook" xmlUrl="https://rss.art19.com/the-climate-deniers-playbook" type="rss" />
+			<outline xmlUrl="https://cdn.atp.fm/rss/public?wtvryzdm" text="Accidental Tech Podcast" type="rss" />
+			<outline type="rss" text="Hypercritical" xmlUrl="https://feeds.fireside.fm/hypercritical/rss" />
+			<outline type="rss" text="The Vermont Conversation with David Goodman" xmlUrl="https://feeds.blubrry.com/feeds/vermontconversation.xml" />
+			<outline text="PODCAST-19: FiveThirtyEight on the Novel Coronavirus" type="rss" xmlUrl="https://rss.libsyn.com/shows/503303/destinations/4310713.xml" />
+			<outline type="rss" text="The Strong Towns Podcast" xmlUrl="https://feed.podbean.com/podcast.strongtowns.org/feed.xml" />
+			<outline type="rss" text="Radiolab" xmlUrl="https://feeds.simplecast.com/EmVW7VGp" />
+			<outline text="Magical &amp; Revolutionary" xmlUrl="https://magicalandrevolutionary.com/feed.xml" type="rss" />
+			<outline text="The History of English Podcast" type="rss" xmlUrl="https://historyofenglishpodcast.com/feed/podcast/" />
+			<outline text="Organized Money" type="rss" xmlUrl="https://rss.buzzsprout.com/2412334.rss" />
+		</outline>
+	</body>
+</opml>
